@@ -1,19 +1,163 @@
 {
- "label": "SYNTHETIC FIXTURES. Invented values for behavioural edge cases. Never mix with real observations or cite as evidence.",
- "nearby_same_brand_branches": [{"id": 11, "pt": [50.0000, 26.0000]}, {"id": 12, "pt": [50.0030, 26.0000]}],
- "record_between_branches": [50.0015, 26.0000],
+ "label": "SYNTHETIC FIXTURES. Invented values for behavioural edge cases. Never mix with real observations or cite as evidence. v2 (27 Sep) adds regression cases from Sol's review of 468c1cc.",
+ "nearby_same_brand_branches": [
+  {
+   "id": 11,
+   "pt": [
+    50.0,
+    26.0
+   ]
+  },
+  {
+   "id": 12,
+   "pt": [
+    50.003,
+    26.0
+   ]
+  }
+ ],
+ "record_between_branches": [
+  50.0015,
+  26.0
+ ],
  "prices": {
-  "exact_boundary": [{"amount": 150, "unit": "per_person", "kind": "displayed"}],
-  "per_person_vs_total_unknown_party": [{"amount": 120, "unit": "per_person", "kind": "displayed"}],
-  "conflict_straddling": [{"amount": 140, "unit": "per_person", "kind": "displayed"}, {"amount": 160, "unit": "per_person", "kind": "displayed"}]
+  "exact_boundary": [
+   {
+    "amount": 150,
+    "unit": "per_person",
+    "kind": "displayed"
+   }
+  ],
+  "per_person_vs_total_unknown_party": [
+   {
+    "amount": 120,
+    "unit": "per_person",
+    "kind": "displayed"
+   }
+  ],
+  "conflict_straddling": [
+   {
+    "amount": 140,
+    "unit": "per_person",
+    "kind": "displayed"
+   },
+   {
+    "amount": 160,
+    "unit": "per_person",
+    "kind": "displayed"
+   }
+  ]
  },
  "hours": {
-  "regular": {"kind": "regular", "valid_from": "2026-01-01", "valid_to": "2026-12-31", "open": "16:00", "close": "22:00", "scope_clear": true},
-  "exception_short": {"kind": "exception", "valid_from": "2026-10-02", "valid_to": "2026-10-02", "open": "16:00", "close": "19:00", "scope_clear": true},
-  "ambiguous_scope": {"kind": "regular", "valid_from": "2026-01-01", "valid_to": "2026-12-31", "open": "16:00", "close": "21:00", "scope_clear": false}
+  "regular": {
+   "kind": "regular",
+   "valid_from": "2026-01-01",
+   "valid_to": "2026-12-31",
+   "open": "16:00",
+   "close": "22:00",
+   "scope_clear": true,
+   "utc_offset": "+03:00"
+  },
+  "exception_short": {
+   "kind": "exception",
+   "valid_from": "2026-10-02",
+   "valid_to": "2026-10-02",
+   "open": "16:00",
+   "close": "19:00",
+   "scope_clear": true,
+   "utc_offset": "+03:00"
+  },
+  "ambiguous_scope": {
+   "kind": "regular",
+   "valid_from": "2026-01-01",
+   "valid_to": "2026-12-31",
+   "open": "16:00",
+   "close": "21:00",
+   "scope_clear": false,
+   "utc_offset": "+03:00"
+  },
+  "overnight_regular": {
+   "kind": "regular",
+   "valid_from": "2026-01-01",
+   "valid_to": "2026-12-31",
+   "open": "18:00",
+   "close": "02:00",
+   "scope_clear": true,
+   "utc_offset": "+03:00"
+  },
+  "regular_from_2_oct_only": {
+   "kind": "regular",
+   "valid_from": "2026-10-02",
+   "valid_to": "2026-12-31",
+   "open": "16:00",
+   "close": "22:00",
+   "scope_clear": true,
+   "utc_offset": "+03:00"
+  }
  },
  "slots": [
-  {"start": "2026-10-01T19:00:00+03:00", "end": "2026-10-01T20:00:00+03:00", "status": "Booked"},
-  {"start": "2026-10-01T23:30:00+03:00", "end": "2026-10-02T00:30:00+03:00", "status": "Available"}
- ]
+  {
+   "start": "2026-10-01T19:00:00+03:00",
+   "end": "2026-10-01T20:00:00+03:00",
+   "status": "Booked"
+  },
+  {
+   "start": "2026-10-01T23:30:00+03:00",
+   "end": "2026-10-02T00:30:00+03:00",
+   "status": "Available"
+  }
+ ],
+ "policy_parameters": {
+  "max_quote_age_s": 900,
+  "note": "SYNTHETIC policy parameter for tests only. Not a measured or recommended production refresh interval."
+ },
+ "unrelated_business_beside_branch": {
+  "branch": {
+   "id": 21,
+   "pt": [
+    50.0,
+    26.0
+   ]
+  },
+  "record": {
+   "pt": [
+    50.00004,
+    26.0
+   ],
+   "name": "Al Noor Pharmacy",
+   "websites": [
+    "https://example.invalid/pharmacy"
+   ]
+  },
+  "operator": {
+   "names": [
+    "Escape The Room"
+   ],
+   "domains": [
+    "escapetheroomsa.com"
+   ]
+  }
+ },
+ "return_trip_case": {
+  "slot": {
+   "start": "2026-10-01T19:00:00+03:00",
+   "end": "2026-10-01T19:55:00+03:00",
+   "status": "Available"
+  },
+  "depart": "2026-10-01T18:40:00+03:00",
+  "deadline": "2026-10-01T20:00:00+03:00",
+  "outbound_s": 600,
+  "return_s": 600,
+  "buffer_before_s": 0,
+  "buffer_after_s": 0
+ },
+ "stale_booked": {
+  "observed_at": "2026-10-01T09:00:00+03:00",
+  "query_at": "2026-10-01T18:00:00+03:00",
+  "slot": {
+   "start": "2026-10-01T19:00:00+03:00",
+   "end": "2026-10-01T20:00:00+03:00",
+   "status": "Booked"
+  }
+ }
 }

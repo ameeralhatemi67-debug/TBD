@@ -1,30 +1,130 @@
 {
- "label": "REAL OBSERVATIONS, TRANSFERRED. Observed by Sol via direct HTTP on 2026-09-27 (R02.2 manifests). Not fetched by this agent. Not a licensed feed. Historical snapshot, not current availability.",
+ "label": "REAL OBSERVATIONS, TRANSFERRED. Observed by Sol via direct HTTP on 2026-09-27 (R02.2 manifests). Not fetched by this agent. Not a licensed feed. Historical snapshot, not current availability. v2 (27 Sep): slot list marked incomplete; record names/websites added from the R02 Overture extract.",
  "escape_branches": [
-  {"id": 1, "name": "Al Khobar 1", "pt": [50.1945561, 26.3055142], "src": "transferred:R02.2:escape_branches"},
-  {"id": 2, "name": "Al Riyadh", "pt": [46.6269246, 24.7589698], "src": "transferred:R02.2:escape_branches"},
-  {"id": 3, "name": "Al Khobar 2 (Escape The Room+)", "pt": null, "note": "short map link not resolved to coordinates", "src": "transferred:R02.2:escape_branches"}
+  {
+   "id": 1,
+   "name": "Al Khobar 1",
+   "pt": [
+    50.1945561,
+    26.3055142
+   ],
+   "src": "transferred:R02.2:escape_branches"
+  },
+  {
+   "id": 2,
+   "name": "Al Riyadh",
+   "pt": [
+    46.6269246,
+    24.7589698
+   ],
+   "src": "transferred:R02.2:escape_branches"
+  },
+  {
+   "id": 3,
+   "name": "Al Khobar 2 (Escape The Room+)",
+   "pt": null,
+   "note": "short map link not resolved to coordinates",
+   "src": "transferred:R02.2:escape_branches"
+  }
  ],
  "overture_records": [
-  {"id": "b4fdc657-c04d-44df-a47c-8edd7a87cc53", "pt": [50.1945387, 26.30550071], "src": "R02_evidence/eastern_overture.json"},
-  {"id": "8a251b82-db6d-467b-9a28-98eda645b656", "pt": [50.105872, 26.291182], "src": "R02_evidence/eastern_overture.json"}
+  {
+   "id": "b4fdc657-c04d-44df-a47c-8edd7a87cc53",
+   "pt": [
+    50.1945387,
+    26.30550071
+   ],
+   "src": "R02_evidence/eastern_overture.json",
+   "name": "Escape the Room | سكيب روم الخبر",
+   "websites": [
+    "http://www.escapetheroomsa.com/"
+   ]
+  },
+  {
+   "id": "8a251b82-db6d-467b-9a28-98eda645b656",
+   "pt": [
+    50.105872,
+    26.291182
+   ],
+   "src": "R02_evidence/eastern_overture.json",
+   "name": "Escape The Room",
+   "websites": [
+    "https://reach.link/escapetheroomsa"
+   ]
+  }
  ],
- "room_1": {"branchId": 1, "minPlayers": 2, "maxPlayers": 8, "duration_min": 60, "src": "transferred:R02.2:escape_rooms1"},
- "slot_observation": {
-  "observed_at_utc": "2026-09-27T12:01:26Z", "party": 4, "src": "transferred:R02.2:escape_slots4",
-  "slots": [
-   {"start": "2026-09-27T18:15:00+03:00", "end": "2026-09-27T19:15:00+03:00", "status": "Available", "amount": 384.0, "unit": "party_total", "kind": "displayed"},
-   {"start": "2026-09-27T19:30:00+03:00", "end": "2026-09-27T20:30:00+03:00", "status": "unknown", "note": "from R02.2 section 7 report text; not in the committed projection"}
-  ]
+ "room_1": {
+  "branchId": 1,
+  "minPlayers": 2,
+  "maxPlayers": 8,
+  "duration_min": 60,
+  "src": "transferred:R02.2:escape_rooms1"
  },
- "route_origin_to_branch1_s": {"value": 149, "src": "transferred:R02.2:route_demo", "note": "OSRM demo model output; traffic, parking, entrance unverified"},
+ "slot_observation": {
+  "observed_at_utc": "2026-09-27T12:01:26Z",
+  "party": 4,
+  "src": "transferred:R02.2:escape_slots4",
+  "slots": [
+   {
+    "start": "2026-09-27T18:15:00+03:00",
+    "end": "2026-09-27T19:15:00+03:00",
+    "status": "Available",
+    "amount": 384.0,
+    "unit": "party_total",
+    "kind": "displayed"
+   },
+   {
+    "start": "2026-09-27T19:30:00+03:00",
+    "end": "2026-09-27T20:30:00+03:00",
+    "status": "unknown",
+    "note": "from R02.2 section 7 report text; not in the committed projection"
+   }
+  ],
+  "response_ok": true,
+  "complete": false,
+  "completeness_note": "Sol's response returned 10 slots (9 Available, 1 Booked). Only two are in this fixture: the 18:15 example from the committed projection and the 19:30 session from R02.2 section 7 report text. The fixture is ABBREVIATED and must not be treated as complete inventory."
+ },
+ "route_origin_to_branch1_s": {
+  "value": 149,
+  "src": "transferred:R02.2:route_demo",
+  "note": "OSRM demo model output; traffic, parking, entrance unverified"
+ },
  "scitech_adult_halls_price": [
-  {"channel": "body", "value": 20, "src": "transferred:R02.2:scitech_price_ar"},
-  {"channel": "metadata", "value": 23, "src": "transferred:R02.2:scitech_price_ar"}
+  {
+   "channel": "body",
+   "value": 20,
+   "src": "transferred:R02.2:scitech_price_ar"
+  },
+  {
+   "channel": "metadata",
+   "value": 23,
+   "src": "transferred:R02.2:scitech_price_ar"
+  }
  ],
  "scitech_exception_end": [
-  {"channel": "lang:ar", "value": "22:00", "src": "transferred:R02.2:scitech_hours_ar"},
-  {"channel": "lang:en", "value": "23:00", "src": "transferred:R02.2:scitech_hours_en"}
+  {
+   "channel": "lang:ar",
+   "value": "22:00",
+   "src": "transferred:R02.2:scitech_hours_ar"
+  },
+  {
+   "channel": "lang:en",
+   "value": "23:00",
+   "src": "transferred:R02.2:scitech_hours_en"
+  }
  ],
- "app_shell_ids": ["escape_main", "escape_room_khobar"]
+ "app_shell_ids": [
+  "escape_main",
+  "escape_room_khobar"
+ ],
+ "operator": {
+  "names": [
+   "Escape The Room",
+   "سكيب روم"
+  ],
+  "domains": [
+   "escapetheroomsa.com"
+  ],
+  "src": "operator brand as listed by transferred:R02.2:escape_branches; domain from observed URLs"
+ }
 }

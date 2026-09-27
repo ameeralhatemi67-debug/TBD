@@ -1,5 +1,6 @@
-"""Consistency check for Phase B evidence. Verifies structure only, not real-world truth."""
-import json, collections
+"""Consistency check for the HISTORICAL Phase B (v1) evidence. Verifies structure only, not real-world truth,
+and not agreement with R04 v0.2 (see check_case_pass_v2.py). Exits nonzero on failure (added 27 Sep 2026)."""
+import json, collections, sys
 from pathlib import Path
 P = Path(__file__).resolve().parent
 o = json.loads((P / 'case_outcomes.json').read_text(encoding='utf-8'))
@@ -17,3 +18,4 @@ prac = [v for c in o['cases'] for k, v in c['constraints'].items() if k not in C
 checks['practical_hard_constraints'] = {'total': len(prac), 'supported_any': sum(v.startswith('supported') for v in prac)}
 checks['checks_pass'] =checks['denominator_12'] and checks['classes_valid'] and ok_supported and sum(dist.values()) == 12
 print(json.dumps(checks, indent=1))
+sys.exit(0 if checks['checks_pass'] else 1)
