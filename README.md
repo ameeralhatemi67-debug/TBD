@@ -12,6 +12,7 @@ The project is in concept development. There is no application yet. Research uti
 4. [R01: source rights and economics](R01_Source_Rights_and_Economics.md)
 5. [R01.2: automation-first correction](R01.2_Automation_First_Data_Strategy_and_Architecture_Correction.md)
 6. [R02: automated coverage and feasibility audit](R02_Automated_Coverage_and_Feasibility_Audit.md)
+7. [Project start review](PROJECT_START_REVIEW.md): evidence re-check, budget status, and the locked next experiment
 
 R01.2 corrects the operating-model assumptions in R01. R02 supplies bounded measurements, not proof that the product or launch geography is validated. Follow the revised research numbering in the later reports rather than v0.1's original numbering.
 
