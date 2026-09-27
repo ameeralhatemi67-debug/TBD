@@ -127,15 +127,18 @@ def main():
 def run(pass_name, run_date, reqs, prev, out, priv):
     shell = app_shell_hash(); manifest = {'run': out.name, 'pass': pass_name, 'run_date_riyadh': run_date,
         'plan_sha256': hashlib.sha256((HERE / 'plan.json').read_bytes()).hexdigest(), 'rights_state': PLAN['rights_state'],
-        'resolved_rooms': prev, 'requests': [], 'stopped': None}
+        'resolved_rooms': prev, 'requests': [], 'stopped': None, 'finished': False}
     obs, derived = {}, {}
     # the 40-attempt ceiling is per date across passes: count attempts already made today
-    attempts = sum(len(json.loads(m.read_text(encoding='utf-8'))['requests'])
+    attempts = sum(sum('attempt' in r for r in json.loads(m.read_text(encoding='utf-8'))['requests'])
                    for m in (HERE / 'runs').glob(f'{run_date}_*/manifest.json') if m.parent != out)
     manifest['prior_attempts_same_date'] = attempts
+    (out / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding='utf-8')
     host_fail, last_hit = {}, {}
     queue = list(reqs)
     while queue:
+        if attempts >= L['max_attempts_per_date']:
+            manifest['stopped'] = 'attempt limit reached'; break
         rid, kind, url = queue.pop(0)
         host = urlparse(url).hostname
         if host_fail.get(host, 0) >= L['stop_host_after_failures']:
@@ -155,6 +158,7 @@ def run(pass_name, run_date, reqs, prev, out, priv):
                    'server_date': headers.get('Date'), 'last_modified': headers.get('Last-Modified')}
             if body: (priv / f'{rid}.a{attempt}.body').write_bytes(body)
             manifest['requests'].append(rec)
+            (out / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding='utf-8')
             if status in L['stop_all_on_status']:
                 manifest['stopped'] = f'access denial or rate-limit signal (HTTP {status}) on {host}'; queue = []; break
             retryable = status is None or (status is not None and status >= 500)
@@ -167,6 +171,7 @@ def run(pass_name, run_date, reqs, prev, out, priv):
         if rid == 'escape_rooms_b3' and data is not None and prev is None:
             prev = resolve_rooms(obs); manifest['resolved_rooms'] = prev
             queue += plan_requests('slots', run_date, [prev['branch1_second'], prev['branch3']]) if prev else []
+    manifest['finished'] = True
     (out / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding='utf-8')
     (out / 'observations.json').write_text(json.dumps({'label': 'FACTUAL PROJECTIONS of operator/provider responses; research only; rights unresolved', **obs}, ensure_ascii=False, indent=1), encoding='utf-8')
     (out / 'derived.json').write_text(json.dumps({'label': 'DERIVED CALCULATIONS, not operator statements', **derived}, ensure_ascii=False, indent=1), encoding='utf-8')
@@ -189,7 +194,7 @@ def project(rid, kind, data, body, obs, derived, rec):
     elif kind == 'slots':
         comp, basis = inventory_completeness(data)
         slots = [{'startTime': s.get('startTime'), 'endTime': s.get('endTime'), 'status': s.get('status'),
-                  'slot_id': s.get('id'), 'amount': (s.get('price') or {}).get('amount'), 'currency': (s.get('price') or {}).get('currency')}
+                  'slot_id': s.get('eventId', s.get('id')), 'amount': (s.get('price') or {}).get('amount'), 'currency': (s.get('price') or {}).get('currency')}
                  for s in data['slots']]
         obs[rid] = {'observed_utc': rec['observed_utc'], 'completeness': comp, 'completeness_basis': basis, 'slots': slots}
         party = int(rid.split('_p')[1].split('_')[0])
@@ -230,6 +235,30 @@ def selftest():
     t('no booking/hold/checkout/login paths planned', any(re.search(r'book|hold|checkout|login|payment|reserve', u, re.I) for _, _, u in reqs), False)
     t('rights state carried as unresolved', PLAN['rights_state'].startswith('UNRESOLVED'), True)
     t('app shell hash available from R02.2 manifest', bool(app_shell_hash()), True)
+    # Synthetic regressions. No network requests or real observations are produced.
+    from tempfile import TemporaryDirectory
+    from unittest.mock import patch
+    from contextlib import redirect_stdout
+    from io import StringIO
+    projected, calculated = {}, {}
+    project('slots_r1_p4_2026-10-17', 'slots', {'slots': [
+        {'eventId': 'session-123', 'startTime': 'a', 'endTime': 'b', 'status': 'Available'}
+    ]}, b'', projected, calculated, {'observed_utc': 'synthetic'})
+    t('API eventId retained for repeat comparison', projected['slots_r1_p4_2026-10-17']['slots'][0]['slot_id'], 'session-123')
+    with TemporaryDirectory() as tmp:
+        temp = Path(tmp); (temp / 'plan.json').write_text('{}', encoding='utf-8')
+        out = temp / 'runs' / '2099-01-01_full'; out.mkdir(parents=True)
+        private = temp / 'private'; private.mkdir()
+        with patch.dict(globals(), {'HERE': temp}), patch.dict(L, {'max_attempts_per_date': 1}), \
+             patch(__name__ + '.fetch', return_value=(200, b'[{"id": 1, "name": "synthetic"}]', {}, None)) as network, \
+             redirect_stdout(StringIO()):
+            run('full', '2099-01-01', [('first', 'branches', 'https://example.invalid/one'),
+                                     ('second', 'branches', 'https://example.invalid/two')], None, out, private)
+        recorded = json.loads((out / 'observations.json').read_text(encoding='utf-8'))
+        manifest = json.loads((out / 'manifest.json').read_text(encoding='utf-8'))
+        t('request cap makes only one mocked call', network.call_count, 1)
+        t('request cap does not relabel previous response', 'second' in recorded, False)
+        t('request cap recorded with completed execution', (manifest['stopped'], manifest['finished']), ('attempt limit reached', True))
     for n, okk, g, w in checks: print(('PASS ' if okk else 'FAIL ') + n + ('' if okk else f' got={g} want={w}'))
     n = sum(c[1] for c in checks); print(f'{n}/{len(checks)} selftests pass (offline; no network)')
     return sys.exit(0 if n == len(checks) else 1)

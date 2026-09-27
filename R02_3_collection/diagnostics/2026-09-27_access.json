@@ -1,0 +1,13 @@
+{
+  "label": "OUT-OF-PROTOCOL transport diagnostic only; not D1; does not resolve rooms",
+  "observed_utc": "2026-09-27T20:17:38.803668+00:00",
+  "observed_riyadh": "2026-09-27T23:17:38.803668+03:00",
+  "url": "https://api.escapetheroomsa.com/api/branches",
+  "attempts": 1,
+  "status": 200,
+  "classification": "valid_json",
+  "error": null,
+  "bytes": 1015,
+  "sha256": "5b58086cc472c140c46003cf5c4305dd7dc92e9767f3d31be87f9bed78b1cecb",
+  "rights_state": "UNRESOLVED. Technical access and robots rules do not establish permission for ongoing product reuse (R04 v0.2 s9). Observations are research-only; not publication-eligible."
+}
