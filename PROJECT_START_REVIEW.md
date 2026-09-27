@@ -550,3 +550,63 @@ Figures below are session list-price telemetry, not billing.
 - Reported cumulative at batch start: **$13.75**. The previous batch was therefore **$6.11 actual vs $3.5–5 estimated**; I under-counted cache reads of a ~450k-token context.
 - This batch is estimated at $4.5–6.5.
 - See the final report for reconciliation against the owner's $86 baseline.
+
+---
+
+## 14. Checkpoint, 27 Sep 2026 (20:05 UTC): collection prepared, not executed
+
+**No new external observation occurred.** One diagnostic request to `api.escapetheroomsa.com/api/branches` at 20:05 UTC got no connection (same egress restriction as before). No further attempts were made. All existing evidence snapshots are unchanged.
+
+**Prepared:**
+- [`R02_3_collection/plan.json`](R02_3_collection/plan.json), fixed before any results:
+  - Escape The Room branches 1 and 3. Room 1 is fixed. The second branch-1 room and the branch-3 room follow the "lowest ID" rule, resolved on the first run and reused after.
+  - Scitech AR hours, EN hours and price page; Sparky's locations; an Ithra access check; 2 OSRM legs.
+  - Repeated sessions on **2026-10-15 and 2026-10-17** for parties of 2 and 4. These dates stay in the future across the observation windows (D1 28 Sep–3 Oct; D2 a Fri/Sat by 10 Oct; D3 ≥ D1+5 and by 13 Oct).
+  - Live cases **L01–L05** with explicit anchors. C01–C12 remain historical replay only.
+  - Limits: 40 attempts per date **across passes**, 2 s host spacing, at most one retry on timeout or 5xx, a stop on 401/403/429.
+  - The rights state is carried as **UNRESOLVED**.
+- [`R02_3_collection/collect_run.py`](R02_3_collection/collect_run.py): a portable Python standard-library adaptation of Sol's PowerShell collector.
+  - Writes `runs/<Riyadh-date>_<pass>/` and refuses to overwrite.
+  - Records UTC and Asia/Riyadh times, URL, IDs, party, date, status and errors.
+  - Classifies each response as valid, HTML shell, error body, malformed, unsupported schema or retrieval error.
+  - Records slot inventory completeness as **unknown unless shown otherwise**, with the basis.
+  - Keeps observations, derived values and raw bodies separate; raw bodies stay local and git-ignored.
+  - GET requests only. `--selftest` gives **17/17** offline checks. One real bug was caught and fixed along the way: a `404` body parsed as JSON.
+- [`R00_Pilot_Execution_Kit.md`](R00_Pilot_Execution_Kit.md): screener, recruitment draft (not sent), consent introduction with optional recording and screen sharing, a 30–40 minute two-task script, prompts, an observation sheet, and a synthesis table with support/weaken/change rules. Concept reaction is kept separate from task evidence.
+
+**No case outcome changed.** The v3 pass stands, the harness gives 45/45, and the case-pass check exits 0.
+
+**Five questions the next evidence can answer, kept separate:**
+
+| Question | Answered by | Cannot be answered by |
+|---|---|---|
+| 1. Can the same source path be accessed repeatedly? | The 3-date runs (manifest classifications) | Long-term reliability; three dates is a small sample |
+| 2. Do responses contain usable, correctly scoped fields? | Run projections (IDs, party, date, completeness basis) | Coverage of other operators |
+| 3. Can our rules evaluate them without false feasibility? | Harness on L01–L05 inputs | Correctness beyond these inputs |
+| 4. Is ongoing reuse permitted? | **Only** operator permission or source-specific legal review | Any run, robots file or offline test |
+| 5. Does the information reduce real users' decision effort? | **Only** observed sessions (pilot kit, then R09 with and without an evidence card) | Offline tests; concept reactions |
+
+No production freshness interval can come from three dates.
+
+### Handoff to Sol (exact)
+
+Start from branch `claude/gifted-davinci-wv2qnj` at or after this checkpoint's commit.
+
+1. `python R02_3_collection/collect_run.py --selftest` must exit 0.
+2. `python R02_3_collection/collect_run.py --dry-run` should list 15 requests, plus up to 8 after the room rule resolves.
+3. **D1 (a weekday, 28 Sep–3 Oct), morning:** `python R02_3_collection/collect_run.py --pass full`. It writes `R02_3_collection/runs/<D1>_full/{manifest,observations,derived}.json`. Raw bodies go to `.local_source_checks/R02_3/<D1>_full/` (do not commit these).
+4. **D1, at least 2 h before 18:00 Riyadh:** `--pass slots` writes `runs/<D1>_slots/`. The shared 40-attempt ceiling per date is enforced from earlier manifests.
+5. Repeat steps 3–4 on **D2** (a Fri or Sat by 10 Oct) and **D3** (at least 5 days after D1, by 13 Oct).
+6. After each run, check:
+   - `manifest.json` `stopped` is null, or states a denial or limit reason;
+   - `prior_attempts_same_date` plus the number of requests is at most 40;
+   - a non-`valid_json` classification is reported as such, never as a cancellation;
+   - `resolved_rooms` is identical across runs.
+7. Commit only `R02_3_collection/runs/`. Do not commit `.local_source_checks/`.
+
+If a run stops on 403 or 429, stop that source for the date and report it.
+
+**Smallest next tasks:**
+- **Sol:** step 3 on D1, and push the run directory.
+- **Opus:** after a run is pushed, evaluate L01–L05 with the harness from the run projections and write a short R02.3 note. Budget about $3.
+- **Owner:** send the recruitment message (kit §2) to about 12 candidates, so that 8 complete sessions. Decide whether to send the §12.6 operator requests.
