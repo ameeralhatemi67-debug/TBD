@@ -1,0 +1,257 @@
+{
+ "version": "v2",
+ "date": "2026-09-27 (evening)",
+ "policy": "R04 v0.2",
+ "supersedes": null,
+ "note": "New versioned pass over the same 12 locked cases, anchors and denominator. The original R02.1 pass (case_outcomes.json) is kept unchanged and must not be edited.",
+ "v1_file": "case_outcomes.json",
+ "v1_sha256": "c1499c6adf4a655e13f30934626fd06d79ac77b093202cfb108f0c8c566ffd9a",
+ "provenance": "Evidence marked 'transferred:R02.2:<id>' was observed by another researcher (Sol) through direct HTTP on 27 Sep 2026 11:58-12:03 UTC, per R02_2_evidence manifests. It was not fetched by this project's agent, whose network was blocked.",
+ "columns": [
+  "factual_support",
+  "rights_state",
+  "remaining_uncertainty",
+  "query_satisfied"
+ ],
+ "no_aggregate_score": "The columns are deliberately not combined into a success rate.",
+ "cases": [
+  {
+   "id": "C01",
+   "query": "A museum near Khobar tonight, under 50 SAR each",
+   "candidate": "Scitech",
+   "factual_support": {
+    "museum": "supported (open-data category + operator identity)",
+    "open_tonight_18_23": "unknown: only an expired 23-24 Sep exception and an ambiguous-scope Friday line observed; no ordinary Sunday hours",
+    "price_lt_50_each": "supported for this threshold only: adult halls body 20 vs metadata 23 (conflict recorded); both < 50"
+   },
+   "evidence": [
+    "transferred:R02.2:scitech_price_ar",
+    "transferred:R02.2:scitech_hours_ar",
+    "transferred:R02.2:scitech_hours_en"
+   ],
+   "rights_state": "no reuse grant found; not publication-eligible (R04 v0.2 s9)",
+   "remaining_uncertainty": [
+    "ordinary Sunday hours",
+    "which price representation is current",
+    "travel (Scitech open-data location conflict; no route measured to Scitech)"
+   ],
+   "query_satisfied": "no (hours unknown); at most an unverified lead",
+   "v1_primary": "supported_qualified_shortlist"
+  },
+  {
+   "id": "C02",
+   "query": "Four of us, something active indoors tonight, under 150 SAR each",
+   "candidate": "Escape The Room branch 1, room 1 (The Prison)",
+   "factual_support": {
+    "group_4": "supported (room 1: 2-8 players)",
+    "indoor": "supported as disclosed category inference",
+    "open_tonight": "supported as historical quote only: 9 of 10 slots Available as of 2026-09-27T12:01:26Z (e.g. 18:15-19:15 +03:00)",
+    "price_lt_150_each": "supported as derived: displayed party total 384 SAR / 4 = 96; final payable fees not verified"
+   },
+   "evidence": [
+    "transferred:R02.2:escape_branches",
+    "transferred:R02.2:escape_rooms1",
+    "transferred:R02.2:escape_slots4",
+    "transferred:R02.2:escape_room_client"
+   ],
+   "rights_state": "public site data path; robots allow is not a licence; no reuse grant; not publication-eligible",
+   "remaining_uncertainty": [
+    "current availability (quote is historical)",
+    "final payable amount",
+    "whether an escape room meets 'active' (soft)"
+   ],
+   "query_satisfied": "satisfied at observation time only (historical quote); not current availability",
+   "v1_primary": "missing_facts"
+  },
+  {
+   "id": "C03",
+   "query": "Got 90 minutes before dinner at 19:30 back at the origin, something cultural",
+   "candidate": "Scitech",
+   "factual_support": {
+    "window_18_1930_door_to_door": "unknown: Scitech hours, visit duration and travel legs unknown"
+   },
+   "evidence": [
+    "transferred:R02.2:scitech_hours_ar",
+    "transferred:R02.2:scitech_hours_en"
+   ],
+   "rights_state": "n/a (no supported fact)",
+   "remaining_uncertainty": [
+    "hours",
+    "visit duration",
+    "both travel legs"
+   ],
+   "query_satisfied": "no",
+   "v1_primary": "missing_facts"
+  },
+  {
+   "id": "C04",
+   "query": "Four of us want an escape room tonight without booking ahead",
+   "candidate": "Escape The Room branch 1, room 1",
+   "factual_support": {
+    "escape_room": "supported",
+    "group_4": "supported",
+    "open_tonight": "supported as historical quote only",
+    "no_advance_booking": "unknown and blocking: FAQ recommends advance booking; an online same-day slot is not walk-in acceptance"
+   },
+   "evidence": [
+    "transferred:R02.2:escape_faq",
+    "transferred:R02.2:escape_slots4"
+   ],
+   "rights_state": "not publication-eligible",
+   "remaining_uncertainty": [
+    "walk-in acceptance",
+    "clarify: 'without booking' = walk-in, or same-day booking acceptable?"
+   ],
+   "query_satisfied": "no under walk-in reading; would be satisfied-at-observation-time only under a same-day-booking reading (ambiguity, not a pass)",
+   "v1_primary": "missing_facts"
+  },
+  {
+   "id": "C05",
+   "query": "Family with kids aged 6 and 9, indoors this weekend, under 300 SAR total",
+   "candidate": "Scitech; Escape The Room room 1 considered",
+   "factual_support": {
+    "ages_6_9_admitted": "unknown: Scitech has a child price row but no age band; room 1 age fields 8-80 suggest a 6-year-old is outside, field meaning unverified",
+    "weekend_open": "unknown: Scitech Friday line has ambiguous scope; no weekend slot observed for room 1",
+    "total_lt_300": "unknown: number of adults not stated (missing user context)"
+   },
+   "evidence": [
+    "transferred:R02.2:scitech_price_ar",
+    "transferred:R02.2:escape_rooms1"
+   ],
+   "rights_state": "not publication-eligible",
+   "remaining_uncertainty": [
+    "number of adults",
+    "child price age band",
+    "room age-field meaning",
+    "weekend hours"
+   ],
+   "query_satisfied": "no",
+   "v1_primary": "missing_user_context"
+  },
+  {
+   "id": "C06",
+   "query": "Something to do this weekend that isn't food and isn't the mall",
+   "candidate": "Scitech",
+   "factual_support": {
+    "not_food": "supported (category)",
+    "not_in_mall": "unknown (no containment relation observed)",
+    "weekend_open": "unknown (ambiguous Friday line)"
+   },
+   "evidence": [
+    "transferred:R02.2:scitech_hours_ar"
+   ],
+   "rights_state": "n/a",
+   "remaining_uncertainty": [
+    "mall containment",
+    "weekend hours"
+   ],
+   "query_satisfied": "no",
+   "v1_primary": "missing_facts"
+  },
+  {
+   "id": "C07",
+   "query": "Any exhibition still running this weekend around Dhahran?",
+   "candidate": null,
+   "factual_support": {
+    "exhibition_occurrence_2_3_Oct": "unknown: Ithra visit and terms requests timed out in the R02.2 environment too"
+   },
+   "evidence": [
+    "transferred:R02.2:ithra_visit",
+    "transferred:R02.2:ithra_terms"
+   ],
+   "rights_state": "Ithra terms not re-verified",
+   "remaining_uncertainty": [
+    "programme data"
+   ],
+   "query_satisfied": "no (source-access failure, not evidence of no exhibition)",
+   "v1_primary": "source_access_failure"
+  },
+  {
+   "id": "C08",
+   "query": "Solo, about an hour, a quiet indoor cultural stop after 21:00 tonight",
+   "candidate": "Scitech",
+   "factual_support": {
+    "open_21_for_60min": "unknown: no ordinary Sunday hours or last entry"
+   },
+   "evidence": [
+    "transferred:R02.2:scitech_hours_ar"
+   ],
+   "rights_state": "n/a",
+   "remaining_uncertainty": [
+    "hours",
+    "last entry"
+   ],
+   "query_satisfied": "no",
+   "v1_primary": "missing_facts"
+  },
+  {
+   "id": "C09",
+   "query": "Two of us, a workshop we can join this Thursday evening",
+   "candidate": null,
+   "factual_support": {
+    "workshop_occurrence_1_Oct": "unknown: no occurrence inventory recovered"
+   },
+   "evidence": [],
+   "rights_state": "n/a",
+   "remaining_uncertainty": [
+    "occurrence source"
+   ],
+   "query_satisfied": "no (data coverage failure, not absence of workshops)",
+   "v1_primary": "no_candidates"
+  },
+  {
+   "id": "C10",
+   "query": "Somewhere new to me in Khobar this weekend, not a cafe",
+   "candidate": "any non-cafe candidate",
+   "factual_support": {
+    "not_cafe": "supported (category)",
+    "new_to_user": "unknown: needs user history (never inferred)"
+   },
+   "evidence": [],
+   "rights_state": "n/a",
+   "remaining_uncertainty": [
+    "visit history"
+   ],
+   "query_satisfied": "no (missing user context)",
+   "v1_primary": "missing_user_context"
+  },
+  {
+   "id": "C11",
+   "query": "Wheelchair-accessible museum open this Saturday",
+   "candidate": "Ithra Museum Galleries / Scitech",
+   "factual_support": {
+    "wheelchair": "unknown: R02.1's Ithra statement was a search summary (channel C6), not admissible under R04 v0.2",
+    "open_saturday": "unknown"
+   },
+   "evidence": [],
+   "rights_state": "n/a",
+   "remaining_uncertainty": [
+    "site-specific access",
+    "Saturday hours"
+   ],
+   "query_satisfied": "no",
+   "v1_primary": "missing_facts"
+  },
+  {
+   "id": "C12",
+   "query": "Starting 18:30 tonight, something we can finish by 20:00 within a 15-minute drive",
+   "candidate": "Escape The Room branch 1, room 1",
+   "factual_support": {
+    "drive_le_15_min": "supported as a model estimate only: OSRM demo outbound 149 s, return 196.9 s; traffic, parking and entrance unverified",
+    "start_ge_1830_finish_le_2000": "contradicted for room 1 on 27 Sep: the 18:15 session starts before departure; the next session 19:30-20:30 (R02.2 s7 report text) ends after 20:00"
+   },
+   "evidence": [
+    "transferred:R02.2:route_demo",
+    "transferred:R02.2:route_demo_return",
+    "transferred:R02.2:escape_slots4"
+   ],
+   "rights_state": "OSRM demo is non-commercial research use; slot data not publication-eligible",
+   "remaining_uncertainty": [
+    "other rooms and venues not evaluated (do not generalise)",
+    "19:30 slot is from R02.2 report text, not the committed projection"
+   ],
+   "query_satisfied": "no for room 1 (known failure); unknown for all other candidates",
+   "v1_primary": "missing_facts"
+  }
+ ]
+}

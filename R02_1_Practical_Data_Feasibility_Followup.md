@@ -7,6 +7,8 @@
 
 Labels: **Measured** (recomputed from retained files), **Index evidence** (a search tool's summary of indexed pages, with unknown index date), **Observed R02** (a page observation recorded in R02 on 26 Sep), **Documented**, **Interpretation**, **Hypothesis**.
 
+> **Later evidence (27 Sep, evening).** [R02.2](R02_2_Source_Access_Recovery_and_Review.md), by another researcher (Sol) in an environment with network access, retrieved Scitech and Escape The Room directly. It found a public branch/room/slot data path and two Khobar branches, and measured a demo route. Several conclusions below are corrected in place with dated notes, and the case outcomes are re-evaluated in a [versioned pass](R02_1_evidence/case_outcomes_v2_2026-09-27.json) (see [PROJECT_START_REVIEW §12](PROJECT_START_REVIEW.md#12-follow-up-27-sep-evening-after-r022)). The original R02.1 records are kept unchanged.
+
 ## 1. Answer in brief
 
 1. **Access.** This research environment's egress policy blocks all four operator domains, both from the container and through the page-fetch tool. No page was retrieved live, robots.txt could not be read, and no repeat retrieval was possible. This says nothing about the operators; it is a property of this environment.
@@ -70,10 +72,10 @@ States: **S** = supported (index evidence, weak provenance), **U** = unknown, **
 | Age / group rule | Child price exists, age band U | S: recommended 12+, under-12s accompanied. Group 2–6 for most rooms, 4–6 for one. |
 | Booking rule | S: no prior reservation needed for visits | S: online, phone or in person. Walk-in availability U. |
 | Occurrences / sessions | A showtimes page exists; times U | An appointments page exists; slots U |
-| Branch identity | Single site. Open-data location conflicts (§6). | **S: branch-specific URLs exist** (e.g. `/rooms/the-prison-khobar/`, `khobar.` subdomain) |
+| Branch identity | Single site. Open-data location conflicts (§6). | **S: branch-specific URLs exist** (e.g. `/rooms/the-prison-khobar/`, `khobar.` subdomain). *[Corrected 27 Sep, R02.2: the old room URL returns the homepage app shell, and the `khobar.` subdomain failed DNS. Branch identity comes from operator IDs; there are two Khobar branches.]* |
 | Accessibility | U | U |
 
-**This corrects R02 §9 and §11 (interpretation).** R02 read `/rooms/the-prison/`, the Riyadh variant, and found a Riyadh room above a Khobar footer. The operator also publishes **Khobar-specific room URLs**. The branch ambiguity is therefore partly an artefact of which URL was read. It is resolvable at URL level, provided the parser keys offerings to branch-specific URLs, not to the domain. R02's lesson, that a page-level address extractor is unsafe, still holds.
+*[Superseded 27 Sep by R02.2 §5: the URL-level resolution below is incomplete. The old room URL now serves the homepage app shell. Branch and room identity come from the operator's branch and room IDs, and the operator has two Khobar branches.]* **This corrects R02 §9 and §11 (interpretation).** R02 read `/rooms/the-prison/`, the Riyadh variant, and found a Riyadh room above a Khobar footer. The operator also publishes **Khobar-specific room URLs**. The branch ambiguity is therefore partly an artefact of which URL was read. It is resolvable at URL level, provided the parser keys offerings to branch-specific URLs, not to the domain. R02's lesson, that a page-level address extractor is unsafe, still holds.
 
 ## 6. Candidate supply and identity: measured in the retained Eastern extract
 
@@ -83,7 +85,7 @@ States: **S** = supported (index evidence, weak provenance), **U** = unknown, **
 
 Most of these are Meta-origin rows. This was a single annotator with no ground truth, and the Arabic names need a native-speaker check.
 
-The 9 plausible records represent about **six distinct cultural destinations**: Scitech, the Ithra complex, the Tea Museum, Dawi Gallery, the Saudi Aramco Oil Exhibit (public access unclear) and Oil Well 7. R02's "154 culture/heritage" count for E, and any density claim based on it, **overstates cultural supply substantially**.
+*[Corrected 27 Sep, R02.2: the following is a name-screening result from one annotator. It does not measure real cultural supply.]* The 9 plausible records represent about **six distinct cultural destinations**: Scitech, the Ithra complex, the Tea Museum, Dawi Gallery, the Saudi Aramco Oil Exhibit (public access unclear) and Oil Well 7. R02's "154 culture/heritage" count for E, and any density claim based on it, **overstates cultural supply substantially**.
 
 **Activity pool.** 38 records: cinemas, bowling, escape rooms, amusement and arcade. A few are obvious noise, such as a running track, a landscaping company and a football club. Activity supply is spread across roughly 25 operators.
 
@@ -95,7 +97,7 @@ The 9 plausible records represent about **six distinct cultural destinations**: 
 | Ithra | Cultural centre, Museum Galleries, Children's Museum and Theatre within about 100 m. A Foursquare `KACWC` record about 0.5 km away. An AllThePlaces `library` record about **3 km** away. An adjacent chocolatier named "Legend Ithra". | 0.02–3.1 km | Parent/child sub-venues and a displaced duplicate. The "Ithra" name also matches unrelated businesses. |
 | Escape The Room | Meta record (0.99, operator URL) and Foursquare record (0.77, link aggregator) | **8.99 km** | Either a second site or a displaced or stale duplicate. The operator's index shows one Khobar address. Unresolved. |
 
-**Interpretation.** In this area the cultural family is **operator-concentrated**: Ithra and Scitech account for most real cultural options. Two or three operator relationships could therefore cover most cultural decisions here. That makes R01.2's Model B much more plausible for culture than for activities, where the long tail of about 25 operators remains. It is also the most useful input for R01's partnership strategy (§30).
+*[Corrected 27 Sep, R02.2: this is a hypothesis. A category-filtered, name-screened sample cannot establish the share of cultural decisions a few operators cover.]* **Interpretation.** In this area the cultural family is **operator-concentrated**: Ithra and Scitech account for most real cultural options. Two or three operator relationships could therefore cover most cultural decisions here. That makes R01.2's Model B much more plausible for culture than for activities, where the long tail of about 25 operators remains. It is also the most useful input for R01's partnership strategy (§30).
 
 ## 7. The 12 locked cases
 

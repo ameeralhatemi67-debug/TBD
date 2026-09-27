@@ -2,7 +2,7 @@
 
 **Date:** 27 September 2026
 **Inputs:** [R00 §8–9 and §25 corpus](R00_User_Decision_Study.md#25-100-query-corpus), [v0.2 §8 and §19](Product_Technical_Concept_Architecture_Review_v0.2.md#8-intent-understanding), [R02 §13–14](R02_Automated_Coverage_and_Feasibility_Audit.md#13-query-level-feasibility-diagnostics), [R02.1 §7](R02_1_Practical_Data_Feasibility_Followup.md#7-the-12-locked-cases), [R04 §3–4](R04_Trust_and_Freshness_Policy.md#3-constraint-states-and-how-results-use-them)
-**Status:** Seed only.
+**Status:** Seed only (v0.2, revised 27 Sep 2026 after [R02.2](R02_2_Source_Access_Recovery_and_Review.md); see §6, change log).
 - All annotations are **analyst judgments** by one annotator. They are not user data, and the queries are synthetic (R00 §3).
 - Arabic renderings are **analyst drafts that need a native speaker's review**.
 - **No engine exists, and nothing here claims any system passes these cases.**
@@ -13,11 +13,11 @@ This is a trimmed version of v0.2 §8, keeping only the fields the 24 seed queri
 
 | Field | Content | Why needed (example) |
 |---|---|---|
-| `origin` | Point or area, with source (user / device / default) and precision | "near me" vs "near KAFD" vs "around my hotel" (hotel unknown) |
+| `origin` | Point or area, with source (user / device / explicit fixture) and precision. **Never invented:** if missing, it is recorded in `missing[]`, and travel constraints stay unknown or the user is asked. The fixed synthetic origin is valid **only** for F01–F12. *[Revised 27 Sep, R02.2]* | "near me" vs "near KAFD" vs "around my hotel" (hotel unknown) |
 | `mode` | Car / walk / transit / unknown | "15 minutes driving" vs "half an hour walk" |
 | `window` | Start, end or deadline, date anchor, timezone, and whether travel is included | "90 minutes before dinner at 19:30" is a **door-to-door** budget |
 | `party` | Size, ages, needs, **only as stated** | "four of us", "kids 6 and 9", "my parents … without much walking" |
-| `hard[]` | Field, operator, value, **blocking vs qualifiable** (R04 §4), and the user's phrase | "under 150 each" gives price ≤150, unit per person, blocking if unknown |
+| `hard[]` | Field, operator, value, **blocking vs lead-eligible** (R04 §4), and the user's phrase | "under 150 each" gives price **< 150** (strict), unit per person. A value exactly 150 is a boundary ambiguity. "At most 150" would be ≤. *[Revised 27 Sep, R02.2]* |
 | `soft[]` | Concept, direction, strength, and the user's phrase | quiet, romantic, not too expensive |
 | `exclude[]` | Category, containment or entity, with scope | "not the mall" is a containment exclusion (R03 §4). "Not dinner" is a category. |
 | `history` | Only user-supplied or consented visit history | "new to me" and "not the same five places" **cannot be inferred** |
@@ -42,8 +42,8 @@ Abbreviations: **B** = blocking when unknown, **Q** = qualifiable (R04 §4).
 
 | ID | Query (English) | Hard constraints | Soft | Missing or ambiguous | Clarify? | Acceptable uncertainty | Evaluation criteria |
 |---|---|---|---|---|---|---|---|
-| F01 | A museum near Khobar tonight, under 50 SAR each | museum (category); open in 18–23 window (B if no hours claim, else Q); price ≤50 per person (Q if the offering price exists) | near | Travel mode | No, default car and show it | Special-hours notice unchecked; travel unmeasured | Scitech-type candidate only with an E1–E3 hours claim. No exhibition claim invented. |
-| F02 | Four of us, something active indoors tonight, under 150 SAR each | group of 4 (B); indoor (E5 allowed, disclosed); open tonight (B/Q); ≤150 per person (B if unknown) | active | "Active" breadth | No | None on price or group | Cinemas are not "active" (relevance). Price unknown must not pass. |
+| F01 | A museum near Khobar tonight, under 50 SAR each | museum (category); open in 18–23 window (B if no hours claim, else Q); price **< 50** per person (strict; lead-eligible if unknown) *[Revised 27 Sep, R02.2]* | near | Travel mode | No, default car and show it | Special-hours notice unchecked; travel unmeasured | Scitech-type candidate only with an E1–E3 hours claim. No exhibition claim invented. |
+| F02 | Four of us, something active indoors tonight, under 150 SAR each | group of 4 (B); indoor (E5 allowed, disclosed); open tonight (B/Q); **< 150** per person (strict; lead-eligible if unknown, never satisfied) *[Revised 27 Sep, R02.2]* | active | "Active" breadth | No | None on price or group | Cinemas are not "active" (relevance). Price unknown must not pass. |
 | F03 | Got 90 minutes before dinner at 19:30 back here, something cultural | total 18:00–19:30 door-to-door (B); cultural | — | Visit duration; mode | Default car, show it | None on the window | Needs duration plus both legs. A venue open 16–22 alone must not pass. |
 | F04 | Four of us want an escape room tonight without booking ahead | escape room; group 4 (B); no advance booking (B); open tonight (B) | — | "Without booking" = walk-in or same-day | **Ask**, or show both readings | None on the booking rule | Expected answer: no supported result, plus "call for a same-night slot". Any "walk-in available" is a false-feasibility failure. |
 | F05 | Family with kids aged 6 and 9, indoors this weekend, under 300 SAR total | ages 6 and 9 admitted (B); indoor; weekend open (Q); total ≤300 (B) | fun | **Number of adults** | **Ask** (it changes the total) | Price child-band unknown only with a caveat | An escape room (12+ recommended) must be flagged, not silently offered. |
@@ -106,6 +106,7 @@ Report these separately, never as one score:
 | **Honest empty answers** | Cases whose correct outcome has no supported result (F04, F07, F09, F12 today) | States which constraint caused scarcity. Offers one labeled relaxation. |
 | **Residual checks per result** | Results shown | Lists what the user must still verify. Fewer is better **only if** false feasibility stays at zero. |
 | **Useful-candidate presence** | Cases with any supported or qualifiable candidate | Requires human judgment of usefulness: a separate annotator, with ratings recorded. |
+| **Three separate outcomes per case** *[added 27 Sep, R02.2]* | All cases | Research support per hard constraint, publication eligibility (rights), and **complete-query satisfaction** are reported in separate columns and never combined into one rate. |
 | **Language robustness** | Arabic and mixed variants | The same intent as the English version, once native-speaker-validated. |
 
 User benefit (fewer checks, faster confident choice) can only be measured in R00/R09 sessions. It is not a property of this seed.
@@ -116,3 +117,14 @@ User benefit (fewer checks, faster confident choice) can only be measured in R00
 - Ground-truth eligible-result labels. These need E1–E3 evidence per candidate (R04), which R02.1 could not obtain.
 - A native-speaker review of the Arabic drafts.
 - Coverage of D02, D03 and D12 areas with data. Only E and, partly, J have audited extracts.
+
+## 6. Change log
+
+**v0.2, 27 Sep 2026 (after R02.2):**
+- "Under X" is strict (< X), with equality recorded as a boundary ambiguity. "At most X" is ≤ X. Applied to F01, F02 and the `hard[]` definition. Other rows using "≤" for "under" (F05 "under 300 total") follow the same rule.
+- Origins are never invented. The fixed synthetic origin applies only to F01–F12.
+- "Qualifiable" is replaced by "lead-eligible". An unknown hard constraint is never satisfied (R04 v0.2 §4).
+- Evaluation criteria (§4) now score **research support, publication eligibility and query satisfaction separately** (see the [v2 case pass](R02_1_evidence/case_outcomes_v2_2026-09-27.json)).
+- The held-out caveat is unchanged: those queries are unannotated, not unseen.
+
+**v0.1 (same day):** see git history (`ae983a8`).

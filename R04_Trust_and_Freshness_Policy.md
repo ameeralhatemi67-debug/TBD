@@ -1,136 +1,198 @@
-# R04: Trust and freshness policy (provisional)
+# R04: Trust and freshness policy (provisional, v0.2)
 
-**Date:** 27 September 2026
-**Inputs:** [R01 §25–26](R01_Source_Rights_and_Economics.md#25-provenance--rights-metadata), [R01.2 §2.3–2.4, §7, §12](R01.2_Automation_First_Data_Strategy_and_Architecture_Correction.md), [R02 §8, §12, §14](R02_Automated_Coverage_and_Feasibility_Audit.md#14-revise-the-automation-coverage-metric), [R02.1](R02_1_Practical_Data_Feasibility_Followup.md), [R03](R03_Domain_and_Identity_Model.md)
-**Status:** Provisional policy. It covers what a result may claim, from which evidence, for which date. It sets **no numeric confidence probabilities and no universal refresh intervals**; none has been measured. Every rule is tied to a concrete example.
+**Dates:** v0.1 on 27 September 2026 (morning). **v0.2 revised on 27 September 2026 (evening)** after [R02.2](R02_2_Source_Access_Recovery_and_Review.md) (see §12, change log).
+**Inputs:** [R01 §25–26](R01_Source_Rights_and_Economics.md#25-provenance--rights-metadata), [R01.2 §2.3–2.4, §12](R01.2_Automation_First_Data_Strategy_and_Architecture_Correction.md), [R02 §12, §14](R02_Automated_Coverage_and_Feasibility_Audit.md#14-revise-the-automation-coverage-metric), [R02.1](R02_1_Practical_Data_Feasibility_Followup.md), [R02.2](R02_2_Source_Access_Recovery_and_Review.md), [R03](R03_Domain_and_Identity_Model.md)
+**Status:** Provisional policy. It covers what a result may claim, from which evidence, for which date. It sets **no numeric confidence probabilities and no universal refresh intervals**. Statements about rights are **source-specific findings or labeled project policy**, not general legal conclusions.
 
-## 1. Seven dimensions of a claim, kept separate
+## 1. Dimensions of a claim, kept separate
 
 | Dimension | Question | Example from the evidence |
 |---|---|---|
-| **Provenance** | Who asserted it, through what channel, and with what transformation? | Scitech hours came through a search-index summary, not a page we retrieved (R02.1 §4). |
-| **Observation time** | When did we (or the channel) see it? | R02 read Scitech's hours page on 26 Sep. The index date is unknown. |
-| **Valid time** | For which dates or times does the fact apply? | The Scitech National Day exception applies 23–24 Sep only. Diriyah free access ends 30 Sep (R02 §12). |
-| **Freshness** | Is the observation recent enough, **for this field and this query date**? | A two-month-old regular-hours claim may be usable for a museum. A two-month-old occurrence claim is not. |
-| **Confidence** | How strongly does the evidence support the claim? | Ordinal evidence tiers (§2), not a decimal. Source "confidence 0.77" is not a claim confidence (R02 §8). |
-| **Rights** | What may we store, display, index or transform? | Ithra terms restrict reproduction. Scitech and Escape The Room rights are unknown (R02.1 §4). |
-| **Conflict** | Do credible claims disagree? | Diriyah visit page vs FAQ hours (R02 §12). IMAX price 46.00 vs 28.75 across two index summaries (R02.1 §5). |
+| **Evidence authority** | Is the asserting party in a position to know this fact? | Escape The Room's own API is authoritative for its own slots. A blog is not. |
+| **Extraction channel** | How did the value reach us, and how faithfully? | Scitech page body vs the same page's description metadata. A search summary. |
+| **Fact scope** | Which concept, branch, offering, party size and language does it apply to? | Room 1 at branch 1, four players. Not "Escape The Room". |
+| **Observation time** | When was it observed, and by whom? | Sol's HTTP request at 12:01:26 UTC on 27 Sep (transferred to this project). |
+| **Valid time** | For which dates or times does the fact apply? | Scitech National Day exception, 23–24 Sep only. |
+| **Freshness** | Is the observation recent enough for this field and this query date? | A slot response goes stale within minutes. A room's player range is slower-changing. |
+| **Conflict** | Do admissible observations disagree? | Scitech price: body 20 vs metadata 23 (adult halls). AR vs EN exception end 22:00 vs 23:00. |
+| **Rights** | What may we store, display, index or transform? | No reuse grant found for Scitech or Escape The Room. A robots allow rule is not a licence. |
+| **Publication eligibility** | May this claim appear in a product result? | Derived from the rows above plus project policy (§9). |
 
-A claim can score well on one dimension and badly on another. Diriyah's first-party page is authoritative but conflicts with its own FAQ. A retrieval made today of a stale page is **new observation time, not new valid time**.
+**Research support** (is the fact supported for this query?) and **publication eligibility** (may a product show it?) are separate outputs. A third output is **whether the complete query is satisfied**, which needs every hard constraint. None of the three may be merged into a single success rate.
 
-## 2. Evidence tiers
+## 2. Evidence authority and extraction channel
 
-Tiers are ordinal. They do not represent probabilities.
+### Authority (per fact type)
 
-| Tier | Source type | Example | May support a hard constraint? |
-|---|---|---|---|
-| **E1** | Operator-authorised feed, agreement or verified operator submission | None obtained yet | Yes, within its valid time |
-| **E2** | First-party page or structured data retrieved by us, timestamped, where retrieval and display are permitted | None yet; blocked in this environment (R02.1) | Yes, within valid time, if no E1/E2 conflict |
-| **E3** | First-party page observed by a researcher, or a licensed open dataset field | R02's Scitech and teamLab page readings. OSM `opening_hours` (26 of 353). | Only as **qualified**: "per operator page as of <date>" |
-| **E4** | Third-party copy, aggregator, search-index summary, social post | R02.1 index summaries | **Never.** It can prompt a check or a refresh only. |
-| **E5** | Inference from category or name | "Escape room ⇒ indoor"; "museum ⇒ cultural" | Only for low-risk constraints (indoor for an escape room), always disclosed; never for accessibility, age, booking or price |
-
-The index-summary conflict in R02.1 (two IMAX prices within minutes) is the reason E4 can never support a hard constraint.
-
-## 3. Constraint states and how results use them
-
-For each (candidate, hard constraint, query window) the state is one of the four from R02 §14:
-
-| State | Meaning | Result behaviour |
+| Class | Meaning | Examples |
 |---|---|---|
-| **Supported** | E1–E3 claim, valid for the requested time, no unresolved conflict at E1–E3 | May be stated. E3 is stated as "per operator page, seen <date>". |
-| **Contradicted** | E1–E3 claim shows the constraint fails (closed then, over budget, age not permitted) | **Known failure.** Exclude, and optionally explain ("closes 22:00, before your window"). |
-| **Unknown** | No usable claim, or only E4 | **Unverified feasibility.** Never shown as a fit. See §4. |
-| **Conflict** | Two E1–E3 claims disagree on something that decides the constraint | Treated as unknown for pass/fail. Show both and name the sources. |
+| **A1** | The operator itself: its website, API, official social account or submission | Escape The Room branches/rooms/slots API. Scitech hours page. An operator's own cancellation post. |
+| **A2** | A provider the operator authorises for this fact type | A licensed ticketing or booking provider, for inventory and price |
+| **A3** | An official body for the facts it governs | A licensed government dataset field |
+| **A4** | An independent third party | Directories, blogs, open POI datasets used for hours (OSM `opening_hours`) |
+| **A5** | Untraceable | Generated summaries whose source cannot be established |
 
-**Known failure is not unverified feasibility.** "Scitech closes at 22:00 (E3)" makes C08 (a one-hour visit from 21:00) at best unknown, because last entry is unknown. It would be *contradicted* only if a claim said entry ends before 21:00. Missing information is never recorded as a failure in coverage analysis, and never as a pass in recommendations (R02 §14).
+### Channel fidelity
 
-## 4. When unknown may appear, and when it blocks
-
-Each hard constraint is **blocking** or **qualifiable** when unknown.
-
-| Constraint type | Unknown is… | Rationale and example |
+| Class | Channel | Notes |
 |---|---|---|
-| Explicit accessibility need (wheelchair, step-free) | **Blocking** from the main list. It may appear only in a separate "not confirmed" section when the user allows it. | An overclaim is severe (R00 §9, v0.2 §20). C11: Ithra's centre-level assistance statement is inherited as qualified (§6), not as a pass. |
-| Age or eligibility for a stated party | **Blocking** unless the user relaxes it | C05: no age rule found for Scitech; a child price existing ≠ a 6-year-old admitted. |
-| "No advance booking" or walk-in | **Blocking** | C04: in-person booking offered ≠ walk-in slot tonight. |
-| Hard travel ceiling ("15 min max", "don't send me across Riyadh") | **Blocking** when strict, qualifiable when phrased as "nearby" | C12: no routing, so all unknown. A straight-line distance may be shown **labeled as straight-line**, never as minutes. |
-| Open in the window (regular hours) | **Qualifiable** when a regular-hours claim exists and no exception is known for the date; **blocking** when no hours claim exists at all | C01: "open until 22:00 per operator page seen <date>; special-hours notices not checked". |
-| Last entry or duration fit for a tight window | **Qualifiable**, shown as the main residual check | C03, C08 |
-| Budget | **Qualifiable** when the price exists but the unit is ambiguous; **blocking** when no price is known and the budget is strict | C02 (Escape The Room price unknown, so blocking under "under 150 each"). |
-| Occurrence exists ("exhibition this weekend", "workshop Thursday") | **Blocking.** Without an occurrence claim there is no candidate. | C07, C09: say "we could not find dated programme information" and link the organiser. This is not "nothing is on". |
-| Soft preferences (quiet, new, romantic) | Not a constraint; affects ranking and explanation only | C08 "quiet", C10 "new to me" (needs user history, never inferred). |
+| **C1** | Direct structured response (API/JSON), hashed | R02.2 Escape The Room endpoints |
+| **C2** | Direct page body (visible content), hashed | R02.2 Scitech hours pages |
+| **C3** | Page metadata (description or social tags) | Can diverge from the visible body (Scitech price). Admissible only when consistent with C1/C2 or when no body value exists, and then as a conflict-prone value. |
+| **C4** | Alternate-language version | Can diverge (Scitech exception end). Each language is a separate observation. |
+| **C5** | Researcher reading or notes, including observations **transferred from another researcher** with provenance | R02 page readings. R02.2 observations used by this project are C1/C2 **as recorded by Sol**, labeled "transferred". |
+| **C6** | Search-index or model-generated summary | Can only prompt a check. Cannot support a fact (R02.1's IMAX figures). |
 
-Results are ordered in tiers. First, all hard constraints supported. Then candidates with qualifiable unknowns, each naming its residual checks. Blocked candidates are omitted unless the user asks. An empty tier must say which constraint caused the scarcity (v0.2 §7).
+**Research support for a hard constraint requires all of:**
+- authority A1–A3 for that fact type;
+- channel C1, C2 or C5 (C3/C4 only when consistent with a C1/C2 value);
+- matching scope;
+- a valid time covering the query;
+- no unresolved conflict among admissible observations.
+
+A4 can support low-stakes, slow facts only, such as opening hours for a café, and is always labeled. It never supports accessibility, age eligibility, booking rules or capacity. A5/C6 never supports anything.
+
+This corrects v0.1, which put "aggregator" and "social post" into one never-supporting tier with generated summaries. An operator's own social post (A1) and a licensed booking provider (A2) can be authoritative. An untraceable summary cannot.
+
+## 3. Constraint states
+
+For each (candidate, hard constraint, query window):
+
+| State | Meaning |
+|---|---|
+| **Supported** | Meets §2's research-support rule |
+| **Contradicted** | An admissible observation shows the constraint fails. **Known failure.** |
+| **Unknown** | No admissible observation (only C6, out-of-scope or out-of-date values). **Unverified feasibility.** |
+| **Conflict** | Admissible observations disagree on something that decides the constraint. For pass/fail, treated as unknown. |
+
+Missing information is never recorded as failure in coverage analysis, and never as a pass in recommendations (R02 §14).
+
+## 4. Hard constraints stay hard
+
+**A query is satisfied only when every hard constraint is supported.** An unknown hard constraint is never satisfied, whatever warning accompanies it.
+
+Results fall into three groups:
+
+1. **Fits.** All hard constraints are supported (research support), plus a separate publication decision.
+2. **Unverified leads.** Some hard constraints are unknown and none is contradicted. They are shown **only as an explicit, labeled relaxation**, in a separate section naming each unknown. They are never counted as matches.
+3. **Excluded.** Contradicted constraints, and unknowns of a *blocking* type unless the user explicitly relaxes that constraint.
+
+| Constraint type | Unknown is… | Note |
+|---|---|---|
+| Accessibility need, age eligibility for a stated party, "no advance booking", strict travel ceiling | **Blocking** (not even a lead unless relaxed) | An overclaim is severe (R00 §9) |
+| Open in window, last entry, duration fit, budget, occurrence exists | **Lead-eligible** when nothing is contradicted | Still **not satisfied** |
+
+**Price unit and boundary.**
+- A strict budget is satisfied only if the price's unit matches the phrase ("each" vs "total"), the party composition is known, and the comparison passes (§6a).
+- **"Under X"** is strict (< X) by default. Because colloquial usage may mean ≤, a value exactly equal to X is recorded as a **boundary ambiguity**, not a pass.
+- **"At most / max / up to X"** is inclusive (≤ X).
+- A derived per-person share (total ÷ party size) may be used for "each" only when labeled as derived. Unverified final fees keep a residual caveat.
+
+**Duration and deadline.** An unknown duration cannot satisfy "finish by" or a "90 minutes total" window.
 
 ## 5. Provenance and copied facts
 
-- Record the **lineage** of each claim: the original asserting party and each copying channel. A fact on the operator page, copied to a tourism portal and then to a blog, is **one lineage**.
-- **Corroboration counts independent lineages.** Three websites repeating the operator's hours do not raise the tier above the operator's own claim. If the copies are stale versions, they show up as a conflict with the operator's current claim, and the operator wins **only if** it is E1–E2 and newer in valid time.
-- Search-index summaries and LLM summaries are channels. They add no lineage and can introduce errors (R02.1 IMAX example).
-- **Unknown lineage defaults to the same lineage.** Pages with identical wording or figures, and no stated independent check, do not corroborate each other. (Added after the stress test in PROJECT_START_REVIEW §11.)
+- Record **lineage**: the original asserting party and each copying channel. The operator's figure, copied to a portal and a blog, is one lineage.
+- Corroboration counts **demonstrably independent** lineages.
+- **Unknown lineage earns no independence bonus.** It is not assumed to be the same lineage either; it simply doesn't count toward corroboration. *(Corrects v0.1, which asserted shared lineage.)*
+- Search and generated summaries are channels (C6). They add no lineage and can introduce errors.
 
-## 6. Scope and inheritance (uses R03)
+## 6. Scope and containment
 
-- A claim applies to the concept it was made about. Operator-level claims (brand, head-office phone) do **not** become branch hours.
-- A complex-level claim is inherited by a contained site **only as qualified**. "Ithra centre: wheelchair assistance via information desks" becomes "reported for the Ithra centre as a whole" on the Museum Galleries.
-- District hours are never inherited as tenant hours (R02 Q15).
-- A claim attached to one of several records under a **location conflict** (Scitech's three records) may support opening or price constraints, but **no travel claim** until an access point is confirmed (R03 §5).
-- Offering claims attach to the branch-specific offering. A room page with branch-mixed cues produces a conflict claim (R02 §12).
+Containment (R03) is a **relationship, not an inheritance rule.** Each field has its own scope rule:
 
-## 6a. Price claims (added after the stress test in PROJECT_START_REVIEW §11)
+| Field | Parent → contained site | Operator → branch | Notes |
+|---|---|---|---|
+| Opening hours | Not inherited. The parent's hours may be shown labeled "centre hours". | Not inherited | Ithra Children's Museum closes earlier than the centre (index hint, C6). |
+| Accessibility assistance | Shown only as a **parent-scope claim**, labeled. Never a child eligibility claim. | Not inherited | Ithra's centre-level desk registration |
+| Price, duration, age, group | Offering-specific | Offering-specific | Room 1 values do not apply to other rooms |
+| Booking policy (FAQ) | — | Operator-scope unless branch-specific | "Advance booking recommended" (Escape The Room FAQ) is brand-wide guidance |
+| Location / access point | Never inherited | Never inherited | Location conflicts block travel claims (R03 §5) |
 
-A price claim is incomplete without its **unit and conditions**:
-- per person, per ticket type, per group or room, or per session;
-- the age band for child prices;
-- the group-size threshold (Scitech "groups 5+");
-- VAT and fees included or not;
-- the payment method, only where it blocks the user (Escape The Room "cash on site", E4).
+District hours are never tenant hours (R02 Q15).
 
-A budget constraint passes only when the price unit matches the user's phrasing ("each" vs "total") **and** the party composition is known. Otherwise it is qualifiable (unit ambiguous) or missing context (party unknown, R05 F05).
+### 6a. Price claims
 
-## 7. Valid time and exceptions
+A price claim needs:
+- a unit: per person, per ticket type, per party total, or per session;
+- conditions: age band, group threshold, VAT and fees;
+- a type: **displayed quote**, **derived value** or **final payable**.
 
-- Every schedule claim has a valid interval: regular pattern (open-ended until superseded), dated exception, or seasonal programme.
-- **Exceptions apply only inside their interval.** The Scitech National Day hours do not apply on 26 Sep or 27 Sep. The Diriyah free access announcement does not apply on 2–3 Oct.
-- Holiday-aware checks: for query dates on known holidays or seasons (National Day, Eid, Ramadan evening shifts), a regular-hours claim alone becomes **qualifiable with an explicit holiday caveat**, unless an exception claim for that date exists.
-- Future dates (e.g., next month) use regular claims only as "usual hours, not confirmed for your date".
-- Cancellation: a cancellation claim at E1–E3 contradicts the occurrence. Absence of a cancellation claim is **not** confirmation that it runs; an occurrence's status is only as fresh as its last observation.
+For example, the Escape The Room slot response gives a displayed party total of SAR 384 for four players (C1, A1, transferred). SAR 96 each is **derived**. The final payable amount is **not verified**, because no checkout was performed.
 
-## 8. Freshness: demand-driven, not a universal schedule
+### 6b. Representation conflicts and false successes
 
-No universal refresh intervals are set. None were measured, and repeat retrieval was impossible in R02.1. The policy is:
+| Pattern | Rule | Real example |
+|---|---|---|
+| Same-page metadata vs body | Separate observations. Conflict if they disagree. | Scitech `/p/24`: body adult halls 20 / IMAX 25 / combined 45 vs metadata 23 / 28.75 / 46 |
+| Language versions | Separate observations per language. Conflict if they disagree. | Scitech exception ends 22:00 (AR) vs 23:00 (EN) |
+| Column mapping | Keep the offering column. Never collapse columns to one "price". | Metadata's 28.75 and 46 belong to different columns; a summary mixed them |
+| Shared app shell | Identical content hash across different URLs ⇒ the page does not identify an offering | Escape The Room homepage and old room URL return identical hashes |
+| HTTP 200 with an error body | Status ≠ content | Scitech robots URL returns the text `404` with status 200 |
+| Expired notice on a fresh page | Observation time ≠ valid time | Scitech National Day notice seen on 27 Sep |
 
-1. A claim is **refreshed when it is decision-critical for a live query** and its observation is older than the **volatility bound of its class for that source**. Classes (slow, medium, fast, very fast) follow R01 §26 without numbers.
-2. Bounds are **set per source after measurement**: repeat retrievals across ordinary days, a weekend and one exception period, as R02 §15 requires. Until then, every E3 claim is displayed with its observation date.
-3. Stale beyond bound, and refresh impossible (blocked, rights) → downgrade to unknown for pass/fail, and keep it as a displayed hint only if rights allow.
-4. Occurrence and availability claims are never refreshed from caches older than their own status cadence. Live capacity stays at source (R01.2 §17).
+## 7. Valid time, exceptions and sessions
 
-## 9. Rights gating
+- Every schedule claim has a valid interval. **Exceptions apply only inside it.** Scitech's 23–24 Sep hours do not apply on 27 Sep, and nothing in them establishes ordinary Sunday hours.
+- An ambiguous line near an exception (Scitech's "Friday 16:00–21:00") is recorded with **ambiguous scope**. It is not applied to 2 Oct.
+- Holiday or seasonal query dates: a regular-hours claim alone becomes lead-eligible, with a holiday caveat.
+- **Slots:** keep explicit timestamps with offsets (`+03:00`). A query's business date ≠ each slot's calendar date (late slots cross midnight).
+- **Quote ≠ availability ≠ booking.**
+  - A slot response is a **historical quote observation at time T** ("available at T").
+  - Current availability needs a fresh observation at query time.
+  - "Booking-confirmed" needs a completed transaction. That is out of scope for research.
+- Cancellation: absence of a cancellation observation is not confirmation. Status is "as of <time>".
 
-- Rights are checked **before** a claim is stored, indexed, displayed or used in any derived text (R01 §37).
-- A claim with unknown rights may inform internal research and evaluation labels. It may **not** be displayed in a product result or used to generate a description.
-- Displaying a link to the official page is always allowed. It is the fallback for every unknown.
-- E4 content is never stored beyond the research log.
+## 8. Freshness: demand-driven, no universal schedule
 
-## 10. Examples applied end to end
+Refresh a claim when it is decision-critical for a live query and older than its class bound for that source. Classes are slow, medium, fast and very fast (R01 §26). **Bounds are set per source only after repeated observations on different dates**, which have not yet been made. Until then, show observation times. Slot quotes are very fast: stale for current-availability purposes almost immediately.
 
-| Example | Decision under this policy |
-|---|---|
-| Scitech tonight, halls ticket, 18:00–23:00 (C01) | Regular hours: **E4 only**. R02's page reading recorded the National Day exception and the no-booking statement, not regular hours. Price amounts: E4; R02 saw the per-offering price structure at E3 but did not record amounts. **Under this policy the hours constraint is unknown and blocking, because no E1–E3 hours claim exists.** The card may show only "check hours: <official link>". One E2/E3 observation of the regular-hours page would make it qualifiable. |
-| Scitech IMAX price | E4 conflict (46.00 vs 28.75). Unknown. Never shown. |
-| Scitech National Day hours on 27 Sep | Exception outside its valid time. Ignored. |
-| Diriyah At-Turaif hours, visit page vs FAQ (R02 Q05) | E3 conflict. Constraint "open at 10 Tuesday" is conflict, so unknown. Show both sources. |
-| Escape The Room, "four, no booking, tonight" (C04) | Group: E3/E4 supports four. No-booking: unknown and blocking. **Omitted from the main list.** Offered only as "call to ask for a same-night slot" if the user relaxes it. |
-| teamLab "90 minutes total" (R02 Q10) | Typical visit about 2 h (E3). Duration contradicts a full visit, which is a known failure for "complete visit". It may appear as an explicitly abbreviated visit only if the user accepts it. |
-| Ithra wheelchair at the Museum Galleries (C11) | Centre-level E4 (index) statement. Inherited qualified. Blocking for an explicit need, so shown in the "not confirmed" section with a phone number to call. |
-| JAX studio drop-in (R02 Q06) | District access ≠ studio access. JAX FAQ (E3) says studios generally do not accept casual visits outside announced sessions. The constraint is **contradicted** unless an occurrence claim exists. |
-| The same hours on the operator site and three blogs | One lineage. Tier set by the operator claim. |
-| Event cancelled after our last observation | Occurrence status is as of the last observation. Show "status last confirmed <time>". Never "happening". |
+## 9. Rights and publication: findings and project policy
+
+**Source-specific findings (R02.2 §9):**
+- Escape The Room's robots file has a wildcard allow rule for its host. Under RFC 9309, robots rules are not access authorisation, and they are not a reuse licence.
+- Scitech's robots URL returned no rules.
+- Neither operator's privacy text grants data reuse.
+- No terms of use were found for either. This does not prove that no terms or permission exist.
+- Ithra's terms page timed out on 27 Sep. R01 §14's earlier reading (reproduction restricted beyond personal non-commercial use) is not re-verified.
+
+**Project policy (conservative choice, not a legal conclusion):**
+1. Research use may record short factual observations with provenance. Full operator bodies are not redistributed (R02.2 boundary).
+2. **Product publication** of an operator's facts requires operator permission or a source-specific legal review. Until then, those facts are research-supported but **not publication-eligible**.
+3. Linking to an operator's official page is treated by the project as low-risk and used as the fallback. This is a project judgment; no universal legal rule is claimed.
+4. C6 content is kept only in research logs.
+
+## 10. Examples under v0.2
+
+| Example | Research support | Publication | Query satisfied? |
+|---|---|---|---|
+| Scitech adult halls price vs "under 50 each" (C01) | **Conflict** (20 body vs 23 metadata), but **both are below 50**, so the price constraint's outcome is the same either way. Treat it as supported **for this threshold only**, with the conflict recorded. | Not eligible (rights) | No: ordinary Sunday hours are unknown |
+| Scitech hours on Sun 27 Sep | Unknown. The only schedule observed is an expired exception plus an ambiguous Friday line. | — | — |
+| Escape The Room room 1, four players, 27 Sep, 18:15 (C02) | Group 2–8 supported. 60 min supported. Displayed total 384 ⇒ derived 96 each < 150, supported as derived. Available **as of 12:01 UTC**. | Not eligible (rights) | Only as a historical quote. "Active" is soft. Age not at issue. Final fees are unverified. |
+| Escape The Room "no advance booking" (C04) | The FAQ recommends advance booking. An online same-day slot ≠ walk-in. **Unknown**, and blocking. | — | No |
+| Room 1 for 18:30 departure, finish by 20:00 (C12) | 18:15 session starts before departure. The next session, 19:30–20:30, ends after the deadline. **Contradicted for this room on this date.** | — | No (for this room) |
+| Diriyah visit page vs FAQ hours | Conflict (A1 vs A1) | — | No |
+| JAX studio drop-in | Contradicted by the JAX FAQ (studios generally not open to casual visits outside sessions) | — | No |
 
 ## 11. Open items
 
-- Volatility bounds per source (needs repeat E2 retrieval: environment allowlist plus rights).
-- Whether users accept tiered results with qualifiable unknowns. This needs R00 observation sessions.
-- Display wording for qualified claims. That is an interface question, deferred.
-- Legal review of whether transient, per-query display of operator facts with a link is acceptable where no terms exist (Scitech, Escape The Room). This is **the** gating legal question for Model B (PROJECT_START_REVIEW §3).
+- Volatility bounds per source (needs observations on different dates).
+- Whether users accept "unverified leads" as a separate section (R00 sessions).
+- Source-specific legal review or operator permission for publication (§9).
+- Scitech's ordinary schedule (a new observation or operator answer).
+
+## 12. Change log
+
+**v0.2, 27 Sep 2026, after R02.2:**
+- Split the single E1–E5 ladder into authority (A1–A5), channel (C1–C6), scope, rights and publication eligibility (§1–2).
+- Operator social posts and licensed booking providers are no longer grouped with generated summaries.
+- Added representation-conflict and false-success rules (§6b).
+- Hard constraints: qualifiable unknowns are now "unverified leads", an explicit relaxation that is never satisfaction.
+- Strict "under" vs inclusive "at most" (§4).
+- Unknown lineage: no bonus, not assumed shared (§5).
+- Containment is not inheritance; per-field scope table (§6).
+- Quote vs availability vs booking (§7).
+- Replaced "displaying a link is always allowed" and similar blanket statements with source-specific findings plus labeled project policy (§9).
+- Examples updated with R02.2 evidence (§10).
+
+**v0.1 (same day):** the tiered E1–E5 policy, §6a price claims and the lineage default. Kept in git history (commits `ae983a8` and earlier).

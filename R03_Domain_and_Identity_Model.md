@@ -2,7 +2,7 @@
 
 **Date:** 27 September 2026
 **Inputs:** [v0.2 §5 and §12](Product_Technical_Concept_Architecture_Review_v0.2.md#5-domain-model), [R01 §25 and §37](R01_Source_Rights_and_Economics.md#37-architecture-consequences), [R01.2 §17](R01.2_Automation_First_Data_Strategy_and_Architecture_Correction.md), [R02 §9](R02_Automated_Coverage_and_Feasibility_Audit.md#9-identity-category-and-location-diagnostics), [R02.1 §5–6](R02_1_Practical_Data_Feasibility_Followup.md#6-candidate-supply-and-identity-measured-in-the-retained-eastern-extract)
-**Status:** Provisional. This is a conceptual model built from the actual cases. **It is not a database schema, migration or API.** The practical-data source dependency is still unresolved (R02.1), so the model must not assume any particular feed shape.
+**Status:** Provisional (v0.2, revised 27 Sep 2026 after [R02.2](R02_2_Source_Access_Recovery_and_Review.md); see §8, change log). This is a conceptual model built from the actual cases. **It is not a database schema, migration or API.** The practical-data source dependency is still unresolved (R02.1), so the model must not assume any particular feed shape.
 
 ## 1. Design goals, derived from observed failures
 
@@ -11,7 +11,7 @@
 | Three Scitech records up to 4 km apart, including the dome typed as a cinema (R02.1 §6) | One real destination may have several source records, and a sub-offering is not a separate venue. Location disagreement must be visible. |
 | A Riyadh room page with a Khobar footer, and Khobar-specific room URLs for the same room name (R02 §12, R02.1 §5) | The same offering name at two branches is two offerings. Facts attach to the branch-specific offering. |
 | Ithra: four sub-venues within 100 m, a copy 0.5 km away, an AllThePlaces record 3 km away, and a chocolatier named "Legend Ithra" (R02.1 §6) | Parent/child containment. Name similarity is never sufficient on its own. |
-| Two Escape The Room Khobar records 9 km apart (R02.1 §6) | "Same brand, same city" must stay undecided without branch evidence. |
+| The operator lists **two Khobar branches** (IDs 1 and 3). One Overture record is 2.3 m from branch 1's operator map point, and another is 9 km away (R02.2 §5). *[Revised 27 Sep, R02.2]* | Premature same-city merges are dangerous. Link records to operator branch IDs only with evidence. |
 | Nasseef House: Arabic/English variants and another museum record several hundred metres away (R02 §9) | Multilingual names as sets. No merge on translation alone. |
 | At-Turaif English record carries a third-party tour-guide URL (R02 §9) | A website on a source record is a claim with provenance, not an identity key. |
 | JAX: district access ≠ studio access (R02 §11) | Access rules attach to the specific site or offering, not to the container. |
@@ -30,7 +30,7 @@ Only concepts required by the actual cases are included.
 | **Offering** | A repeatable thing to do, with its own practical facts: gallery admission, IMAX film admission, an escape room at a branch, a workshop type. It is offered **at** one site (per-branch instance) or at a series of meeting points. | Scitech halls/dome/IMAX prices. "The Prison" at Khobar vs Riyadh. |
 | **Programme / series** | A named, dated grouping: an exhibition run, a festival, a season, a recurring market. It has a validity interval. It can span several sites. | C07, C09. Riyadh Season, Ithra programme. |
 | **Occurrence / session** | One dated instance with a start and end, a status, and possibly capacity: a show time, a workshop slot, a market day, a tour departure. It happens **at** a site or access point. | IMAX show times, escape-room slots, workshop sessions. |
-| **Source record** | One provider's record as received: an Overture ID, an FSQ ID, an OSM element, an operator page URL, a feed item. **It is never edited or deleted by identity decisions.** | All 13,764 R02 records. |
+| **Source record** | One provider's record as received: an Overture ID, an FSQ ID, an OSM element, an operator page or API response, a feed item. **Identity decisions never edit it.** Its retention follows source rights: where a licence, expiry, correction or deletion obligation requires removal, keep only permitted tombstone metadata (source, ID, dates, reason) so lineage and reversibility survive. *[Revised 27 Sep, R02.2]* | All 13,764 R02 records. |
 | **Claim** | One assertion about one field of one concept, with provenance, observation time, valid time, rights and state. See [R04](R04_Trust_and_Freshness_Policy.md). | Hours, prices, age rules, accessibility, category, website, location. |
 | **Identity link** | A reversible, evidenced decision relating source records to a concept: *describes*, *same as*, *different from*, *contained in*, *branch of*, *successor of*, *undecided*. | Merge/split handling. |
 | **Discovery item** | What a result shows: a site, offering or occurrence in a query context. It is not stored identity; it is derived. | Prevents a venue and its workshop appearing as unhelpful duplicates. |
@@ -59,8 +59,8 @@ All relationships carry validity intervals. A pop-up can be `contained_in` a caf
 |---|---|
 | **Museum and exhibition** | The museum is a site. Each exhibition is a programme with a run interval, offered at that site. Timed admissions are occurrences. "Museum open" does not imply "exhibition running" (C07). |
 | **Several activities in one venue** (Scitech halls, dome, IMAX) | One site with several offerings, each with its own price and schedule claims. The two "Science Dome" records **describe the dome offering or a contained site**. They are not separate destinations and never supply the complex's location. |
-| **Complex with sub-venues** (Ithra) | Complex site → contained sites (Museum Galleries, Children's Museum, Theatre). Centre-level claims such as "wheelchair assistance at information desks" attach to the complex and are **inherited only as qualified claims** by contained sites (R04 §6). |
-| **Chain with branches** (Escape The Room) | Operator → branch sites (Khobar, Riyadh). Offering "The Prison" exists **per branch**. Facts from `/rooms/the-prison-khobar/` attach only to the Khobar offering. A page mixing branch cues creates a **conflict claim**, not a Khobar fact. |
+| **Complex with sub-venues** (Ithra) | Complex site → contained sites (Museum Galleries, Children's Museum, Theatre). Centre-level claims such as "wheelchair assistance at information desks" attach to the complex. They may appear on a contained site only as a labeled **parent-scope claim**, never as the child's own eligibility claim (R04 §6). *[Revised 27 Sep, R02.2]* |
+| **Chain with branches** (Escape The Room) | Operator → branch sites with **operator IDs**: 1 Al Khobar 1, 2 Al Riyadh, 3 Al Khobar 2 ("Escape The Room+"). Rooms carry `branchId`. Room 1 "The Prison" (slug `the-prison-khobar`) belongs to branch 1. Facts attach through operator branch and room IDs, **not URL paths**: the old room URL now returns the homepage app shell (identical hash, R02.2 §5). Overture `b4fdc657…` has a **provisional** `describes` link to branch 1, 2.3 m from the operator map point (conditional point match; entrance unverified). Overture `8a251b82…` (9 km away) stays **undecided**; it is not assigned to branch 3 by name. A page mixing branch cues creates a conflict claim. *[Revised 27 Sep, R02.2]* |
 | **Separate nearby branches** (two cafés of one chain 300 m apart) | Two sites. Cannot-merge (§5). They share operator-level claims (brand, website) but not hours or location. |
 | **District vs tenant** (Boulevard, JAX, Bujairi) | The district is a site with its own access hours. Tenants are contained sites with their own hours and access rules. District hours never validate tenant hours (R02 Q15). |
 | **Festival** (Riyadh Season) | A programme with a season interval, including many occurrences at several sites and zones. Not a point. Not a single venue. |
@@ -74,10 +74,10 @@ All relationships carry validity intervals. A pop-up can be `contained_in` a caf
 
 ### Principles
 
-1. **Source records are immutable.** Identity is a separate, versioned layer of links. Splitting a wrong merge restores the prior links; no source data is lost.
+1. **Identity decisions never edit source records.** Identity is a separate, versioned layer of links, and splitting a wrong merge restores the prior links. Retaining the records themselves is governed by source rights and deletion obligations. A removed record leaves permitted tombstone metadata, so reversibility does not require keeping every payload forever. *[Revised 27 Sep, R02.2]*
 2. **Every link records** its type, evidence (signals and values), decider (rule or person), time, and confidence tier. Links can be superseded, never silently edited.
 3. **Default to undecided.** An undecided pair is shown as separate candidates with a duplicate warning suppressed only in presentation. Facts never flow across an undecided link.
-4. **Facts flow only across `same as` and, in qualified form, across `contained_in`** (R04 §6). They never flow across `branch of`, `different from` or `undecided`.
+4. **Facts flow automatically only across `same as`.** `contained_in` is a relationship, not an inheritance rule: each field has its own scope rule (R04 §6). Parent hours or accessibility assistance never become a child's eligibility claims. Nothing flows across `branch of`, `different from` or `undecided`. *[Revised 27 Sep, R02.2]*
 
 ### Signals (evidence, not rules)
 
@@ -93,7 +93,7 @@ Weak or misleading signals, shown by R02 and R02.1:
 
 | Pattern | Why dangerous | Example |
 |---|---|---|
-| Same brand, different locations | Wrong-branch hours or travel | Escape The Room records 9 km apart. Chain cafés. |
+| Same brand, same city, different locations | Wrong-branch hours, slots or travel | Escape The Room Khobar 1 vs Khobar 2 (operator IDs 1 and 3); Overture records 9 km apart. Chain cafés. *[Revised 27 Sep, R02.2]* |
 | Parent complex and contained venue | Children's Museum hours differ from the centre (closes two hours earlier per index evidence) | Ithra complex vs Children's Museum |
 | District and tenant | District open ≠ tenant open | Boulevard district vs café inside |
 | Host and pop-up | The pop-up expires, the host does not | Any pop-up in a café or bookstore |
@@ -126,3 +126,14 @@ Weak or misleading signals, shown by R02 and R02.1:
 - Automatic merge thresholds. These need a labeled match/non-match set. Proposed seed: the Scitech, Ithra, Escape The Room, Nasseef and At-Turaif groups, plus a random sample of close pairs from the 1,387 found within 100 m.
 - Whether culture-family candidate generation should drop `historic_site` (81 of 85 implausible nearby) or reclassify it. That is an R06 retrieval decision, pending labeled data.
 - Offering-level taxonomy (v0.2 §6). Deferred until R05 labels show which facets matter.
+
+## 8. Change log
+
+**v0.2, 27 Sep 2026 (after R02.2):**
+- Real two-Khobar-branch example with operator IDs and the conditional 2.3 m point match (§1, §4, §5).
+- URL paths are not offering identifiers when a site serves a shared app shell.
+- Source-record retention is subject to rights and deletion obligations, with tombstones.
+- Containment is a relationship, not fact inheritance (§5 principle 4).
+- A related correction lives in R02.1, not here: R02.1 §6's "about six cultural destinations" and "operator-concentrated" were name-screening results. They do **not** establish real cultural supply or the share of demand a few operators cover, and remain hypotheses.
+
+**v0.1 (same day):** first conceptual model; see git history (`ae983a8`).
