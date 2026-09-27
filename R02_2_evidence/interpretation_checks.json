@@ -1,0 +1,50 @@
+[
+  {
+    "id": "escape_privacy",
+    "requested_url": "https://api.escapetheroomsa.com/api/pages/privacy",
+    "started_utc": "2026-09-27T12:02:43.9783787Z",
+    "channel": "PowerShell Invoke-WebRequest, standard TLS validation",
+    "max_timeout_seconds": 20,
+    "status": 200,
+    "final_url": "https://api.escapetheroomsa.com/api/pages/privacy",
+    "content_type": "application/json; charset=utf-8",
+    "server_date": "Sun, 27 Sep 2026 12:02:44 GMT",
+    "last_modified": "",
+    "utf8_text_bytes": 493,
+    "sha256_utf8_decoded_content": "21c70d3dbb61b954bb7343cb23845924fdbf88bdd1bb363c4e65bfa8096d46bd",
+    "elapsed_seconds": 0.44,
+    "finished_utc": "2026-09-27T12:02:44.4248852Z"
+  },
+  {
+    "id": "escape_room_client",
+    "requested_url": "https://www.escapetheroomsa.com/assets/RoomDetail-B3labSzF.js",
+    "started_utc": "2026-09-27T12:02:44.4435957Z",
+    "channel": "PowerShell Invoke-WebRequest, standard TLS validation",
+    "max_timeout_seconds": 20,
+    "status": 200,
+    "final_url": "https://www.escapetheroomsa.com/assets/RoomDetail-B3labSzF.js",
+    "content_type": "application/javascript",
+    "server_date": "Sun, 27 Sep 2026 12:02:44 GMT",
+    "last_modified": "Thu, 17 Sep 2026 20:41:54 GMT",
+    "utf8_text_bytes": 32948,
+    "sha256_utf8_decoded_content": "f207811247caa11b58aba6ee3e4bc76843a824f23057920eadca337ed8c0f7d8",
+    "elapsed_seconds": 0.52,
+    "finished_utc": "2026-09-27T12:02:44.9614560Z"
+  },
+  {
+    "id": "route_demo_return",
+    "requested_url": "https://router.project-osrm.org/route/v1/driving/50.1945561,26.3055142;50.2,26.3?overview=false",
+    "started_utc": "2026-09-27T12:02:44.9638588Z",
+    "channel": "PowerShell Invoke-WebRequest, standard TLS validation",
+    "max_timeout_seconds": 20,
+    "status": 200,
+    "final_url": "https://router.project-osrm.org/route/v1/driving/50.1945561,26.3055142;50.2,26.3?overview=false",
+    "content_type": "application/json; charset=UTF-8",
+    "server_date": "Sun, 27 Sep 2026 12:02:45 GMT",
+    "last_modified": "",
+    "utf8_text_bytes": 582,
+    "sha256_utf8_decoded_content": "fce74bd9077b71ac2a3d97586dd7afc728447ea13e6f19f313a209f12b143499",
+    "elapsed_seconds": 0.33,
+    "finished_utc": "2026-09-27T12:02:45.2951085Z"
+  }
+]

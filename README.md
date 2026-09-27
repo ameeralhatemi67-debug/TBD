@@ -38,4 +38,6 @@ Third-party datasets retain their own licenses and attribution requirements. The
 
 ## Claude handoff
 
+The [R02.2 source-access recovery and review](R02_2_Source_Access_Recovery_and_Review.md) adds direct operator and routing observations to Opus's R02.1 work. See its [evidence notes](R02_2_evidence/README.md) and the [continuation prompt with $92 remaining](CLAUDE_CONTINUATION_AFTER_SOURCE_RECOVERY.md). Source reuse rights and longitudinal reliability remain unresolved.
+
 Use [the $100 research prompt](CLAUDE_100_DOLLAR_PROJECT_PROMPT.md) with this repository connected. It prioritizes the unresolved feasibility question, a provisional domain model, and a small evaluation set. It does not authorize application development or spending on external services.

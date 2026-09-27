@@ -1,0 +1,120 @@
+{
+  "purpose": "Bounded research observations, not a licensed production feed or booking guarantee.",
+  "formal_http_attempts": 22,
+  "http_200": 19,
+  "failed": 3,
+  "raw_local_hash_checks_pass": true,
+  "branches": [
+    {
+      "id": 1,
+      "name": "Al Khobar 1",
+      "area": "Al Hizam Al Akhdar – Khobar",
+      "mapUrl": "https://www.google.com/maps?q=26.3055142,50.1945561"
+    },
+    {
+      "id": 2,
+      "name": "Al Riyadh",
+      "area": "Riyadh – Al Aqiq",
+      "mapUrl": "https://www.google.com/maps?q=24.7589698,46.6269246"
+    },
+    {
+      "id": 3,
+      "name": "Al Khobar 2 (Escape The Room+)",
+      "area": "Turki street- Korniash  – Khobar",
+      "mapUrl": "https://maps.app.goo.gl/oV3hwnSwo5yjH7Ag9"
+    }
+  ],
+  "branch_1_room_count": 7,
+  "room_1": {
+    "id": 1,
+    "name": "THE PRISON",
+    "slug": "the-prison-khobar",
+    "branchId": 1,
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "duration": 60,
+    "ageRestrictionFrom": 8,
+    "ageRestrictionTo": 80,
+    "priceDisplayText": null
+  },
+  "availability_observation": {
+    "room_id": 1,
+    "players": 4,
+    "requested_date": "2026-09-27",
+    "slots_returned": 10,
+    "available": 9,
+    "booked": 1,
+    "example": {
+      "startTime": "2026-09-27T18:15:00.0000000+03:00",
+      "endTime": "2026-09-27T19:15:00.0000000+03:00",
+      "price": {
+        "amount": "384.00",
+        "currency": "SAR"
+      },
+      "status": "Available"
+    },
+    "displayed_group_total_sar": 384,
+    "derived_equal_share_sar": 96,
+    "unit_basis": "Public room-detail client uses selected slot amount as Your total is; no hold or checkout performed.",
+    "final_fees_tax_and_admission_not_verified": true,
+    "commercial_reuse_rights": "unresolved"
+  },
+  "route_observations": {
+    "source": "OSRM public demo; OpenStreetMap contributors; separate from owned place baseline",
+    "origin_lonlat": [
+      50.2,
+      26.3
+    ],
+    "target_operator_point_lonlat": [
+      50.1945561,
+      26.3055142
+    ],
+    "outbound_seconds": 149,
+    "outbound_meters": 1077.4,
+    "return_seconds": 196.9,
+    "return_meters": 1753.1,
+    "outbound_snaps_meters": [
+      8.756508355,
+      15.08901097
+    ],
+    "traffic_parking_accessibility_entrance_not_verified": true
+  },
+  "name_matched_overture_records": [
+    {
+      "overture_id": "93e0f816-e11c-4145-bc4a-d512670df025",
+      "name": "Enigma | Escape Room",
+      "lonlat": [
+        50.185375,
+        26.294783
+      ],
+      "meters_to_operator_branch_1_map_point_approx": 1505.5
+    },
+    {
+      "overture_id": "6b7af723-ccbb-4620-b580-246e05f3d0b9",
+      "name": "Enigma Escape Room",
+      "lonlat": [
+        50.185494,
+        26.306082
+      ],
+      "meters_to_operator_branch_1_map_point_approx": 906.5
+    },
+    {
+      "overture_id": "b4fdc657-c04d-44df-a47c-8edd7a87cc53",
+      "name": "Escape the Room | سكيب روم الخبر",
+      "lonlat": [
+        50.1945387,
+        26.30550071
+      ],
+      "meters_to_operator_branch_1_map_point_approx": 2.3
+    },
+    {
+      "overture_id": "8a251b82-db6d-467b-9a28-98eda645b656",
+      "name": "Escape The Room",
+      "lonlat": [
+        50.105872,
+        26.291182
+      ],
+      "meters_to_operator_branch_1_map_point_approx": 8993.7
+    }
+  ]
+}
