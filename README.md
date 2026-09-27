@@ -14,12 +14,17 @@ The project is in concept development. There is no application yet. Research uti
 6. [R02: automated coverage and feasibility audit](R02_Automated_Coverage_and_Feasibility_Audit.md)
 7. [Project start review](PROJECT_START_REVIEW.md): evidence re-check, budget status, and the locked next experiment
 8. [R02.1: practical-data feasibility follow-up](R02_1_Practical_Data_Feasibility_Followup.md)
+9. [R03: domain and identity model](R03_Domain_and_Identity_Model.md) (provisional)
+10. [R04: trust and freshness policy](R04_Trust_and_Freshness_Policy.md) (provisional)
+11. [R05: query intent and evaluation seed](R05_Query_Intent_and_Evaluation_Seed.md) (provisional)
 
 R01.2 corrects the operating-model assumptions in R01. R02 supplies bounded measurements, not proof that the product or launch geography is validated. Follow the revised research numbering in the later reports rather than v0.1's original numbering.
 
 ## Current findings
 
 R02 retrieved 13,764 source records across four Saudi sample rectangles and selected 1,379 potential discovery records by category. These are not verified distinct venues or decision-ready recommendations. The baseline lacks hours, prices, visit duration, booking rules, dated occurrences, and availability.
+
+R02.1 (27 Sep) could not demonstrate a practical-data path. Operator sites were unreachable from the research environment and reuse rights are unknown. It also found that nearby cultural supply is concentrated in a few operators whose open-data records are duplicated or misplaced. See [the project start review](PROJECT_START_REVIEW.md#11-final-handoff) for the handoff.
 
 The leading approach combines an open or owned place baseline with permitted practical-data enrichment, explicit uncertainty, and selective curation. The next dependency is a reliable practical-data path that reduces the user's remaining checks. User demand, low maintenance cost, and a launch geography remain unvalidated.
 

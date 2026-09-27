@@ -1,8 +1,8 @@
 # Project start review: evidence, budget, and next batch
 
 **Date:** 27 September 2026 (Asia/Riyadh)
-**Scope executed so far:** Section 1 intake and Section 3A evidence review of [the $100 project prompt](CLAUDE_100_DOLLAR_PROJECT_PROMPT.md).
-**Status:** **Stopped for a billing check** after the bounded intake, as the prompt requires (§2). Phases B–E have not started. Section 9 locks the proposed next batch so it can be run as soon as budget control is confirmed.
+**Scope executed:** all of Sections 1 and 3A–D of [the $100 project prompt](CLAUDE_100_DOLLAR_PROJECT_PROMPT.md).
+**Status:** Initial work complete. You confirmed on 27 Sep that work could proceed after the intake stop. Phases B–E then ran in one further turn. The final handoff is §10–11. The $20 reserve is untouched.
 
 Labels used: **Measured** (recomputed here from retained files), **Documented** (stated in a cited current source), **Interpretation**, **Hypothesis**, **Requires primary research**.
 
@@ -21,7 +21,7 @@ Labels used: **Measured** (recomputed here from retained files), **Documented** 
 | Is there a provider-enforced $100 cap I can set? | **No.** I have no access to billing settings, and a natural-language instruction does not enforce a cap. | — |
 | What stops spend beyond the credits? | For Pro/Max, **usage credits** (extra usage) let work continue past plan limits and are controlled at **claude.ai → Settings → Usage → Usage credits**. You can switch them off there or set a monthly spend limit. With usage credits off, exhausting the allowance should stop or throttle work instead of billing you. I could not verify your current setting. | [Claude Code costs: usage credits](https://code.claude.com/docs/en/costs#add-usage-credits-to-your-subscription) |
 
-**What I need from you before Phase B:**
+**What I needed before Phase B.** *Update 27 Sep:* you replied that about $2 had been used and asked me to proceed. The Usage-credits setting (item 1) was not explicitly confirmed, so it remains your control to check.
 
 1. Open **claude.ai → Settings → Usage**. Either confirm **Usage credits are off**, or set the **monthly spend limit** to the amount you are willing to risk beyond the promotional allowance.
 2. Confirm whether the "$100" is the promotional allowance shown there, or a self-imposed cap on a larger allowance. In the second case, my estimates are the only control, and I will stop at $80 by estimate.
@@ -35,10 +35,7 @@ Estimates use Opus 5.5 list prices and approximate token counts: about 20 model 
 |---|---:|---:|---:|---|---:|---:|---:|
 | 0. Billing Q&A (turn 1) | — | $0.35 | — | Session `cost_usd` (list-price estimate by Claude Code) | $0.35 | $79.65 | $20 |
 | A. Intake and focused evidence review (turn 2) | $10 | $3.03 (reported cumulative $3.38 minus turn 1) | — | Session `cost_usd`, read at start of turn 3 | $3.38 | $76.62 | $20 |
-| B. Practical-data feasibility (turn 3) | $25 | not yet reported | $1.5–2.5 | Token estimate at list price plus 9 searches | $4.9–5.9 | $74.1–75.1 | $20 |
-| C. R03/R04/R05 provisional artifacts | $25 | — | proposed $8–15 | Plan | — | — | $20 |
-| D. Stress tests and corrections | $10 | — | proposed $2–5 | Plan | — | — | $20 |
-| E. Synthesis, validation, and handoff | $10 | — | proposed $2–5 | Plan | — | — | $20 |
+| B–E. Practical data, R03–R05, stress tests, synthesis (turn 3) | $70 combined | not yet reported (telemetry lags a turn) | $4–6 | Token estimate: about 60 calls at about 230k average cached context ($0.20/MTok read), about 120k cache writes, about 55k output, 9 searches | $7.4–9.4 | $70.6–72.6 | $20 |
 
 Reconciliation rule: at the start of each phase I will read the session cost again, replace the estimate for the previous phase with the reported figure where it is available, and stop if cumulative spend (reported, or estimated if higher) is within $5 of $80.
 
@@ -224,18 +221,135 @@ Phase C (R03–R05) follows only after the Phase B result, per the prompt's prio
 
 ---
 
-## 10. Interim handoff (full version due at the end of Phase E)
+## 10. Stress tests and contradiction review (Phase D)
 
-1. **Decisions supported now:** keep the automation-first model (R01.2). Do not use a global confidence threshold (R02 §8, recount). Keep open identity separate from practical facts (R02 §22). Test one compact area rather than choosing a launch city (R02 §19).
-2. **Hypotheses to test:** the §6 assumptions 1–5. The §7 promise and what would falsify it.
-3. **Not established, and why:** user demand, frequency, and checking burden (no participants); practical-data rights (no permission requested); travel times (environment TLS failure, no keyed provider); maintenance cost (no operation over time).
-4. **Next experiment:** Phase B as specified in §9.
-5. **R06 retrieval architecture:** **not yet.** It depends on R05 labels and on the Phase B result for which fields exist.
-6. **Application implementation:** **not justified.** The binding uncertainties are data rights and user value, which code would not resolve.
-7. **Next five actions, in order:**
-   1. **You:** confirm budget control (§1).
-   2. **Agent:** Phase B.
-   3. **You:** decide whether to send the operator permission requests Phase B prepares.
-   4. **Real users:** run the R00 observation sessions using the §9 cases as vignettes.
-   5. **Agent:** R03–R05 on the Phase B evidence.
-8. **Files, checks, spend:** created this file and linked it from README. Checks as in §4. Spend is in §1: about $2.5–4.5 estimated, cumulative. The $20 reserve is untouched.
+### Model stress tests
+
+Each case from the prompt was run against [R03](R03_Domain_and_Identity_Model.md) and [R04](R04_Trust_and_Freshness_Policy.md).
+
+| Stress case | Evidence used | Handled by | Result |
+|---|---|---|---|
+| Separate nearby chain branches | Two Escape The Room Khobar records 9 km apart (R02.1 §6) | R03 §5 cannot-merge, and `undecided` blocks fact flow | **Holds.** Facts from `/rooms/…-khobar/` attach only to the branch concept. The second record stays undecided and gets no hours or travel claims. |
+| Venue hours vs activity slots | Scitech hours vs IMAX showtimes; escape room "open" vs a slot for four | R03 offering and occurrence; R04 §4 (no-booking and group are blocking) | **Holds.** C04 is omitted, not shown as "open tonight". |
+| Exception hours outside their valid date | Scitech National Day 23–24 Sep; Diriyah free access ends 30 Sep | R04 §7 | **Holds.** Exceptions are ignored outside their interval. |
+| Event cancellation | No cancellation source exists (R01 §18, R02.1) | R04 §7, §10 | **Holds conceptually** ("status as of <time>"). **No data path exists**, so occurrence cases stay blocked. |
+| Ambiguous price unit | Scitech adult/child/"group 5+" per-person prices; "under 300 total" with unknown adults | R04 §4 at first **(gap found)** | **Gap.** Price claims had no unit or conditions. Fixed: added [R04 §6a](R04_Trust_and_Freshness_Policy.md#6a-price-claims-added-after-the-stress-test-in-project_start_review-11). |
+| Unknown group availability | Escape The Room group 2–6, but no slot evidence | R04 §4 (blocking) | **Holds.** Capacity is never inferred from group-size rules. |
+| Missing accessibility evidence | Ithra centre-level statement (E4); Scitech unknown | R03 §4 containment; R04 §4, §6 | **Holds.** The centre-level claim is inherited only as qualified, and the need stays blocking. |
+| Same fact copied by several websites | Index summaries repeating operator figures; one produced a conflicting IMAX price | R04 §5 **(gap found)** | **Gap.** The rule did not say what to do when lineage cannot be established. Fixed: unknown lineage counts as the same lineage. |
+
+### Contradictions found across the artifacts, and how they were handled
+
+1. **R02.1 "supported (weak)" vs R04 tier E4.** Resolved in R04's favour. [R02.1 §8 reconciliation](R02_1_Practical_Data_Feasibility_Followup.md#8-consequences): 0 of 24 practical constraints are supported for product claims. The original tables are kept.
+2. **§7 falsifier (a) too weak.** Annotated in place (§7), pointing to R02.1 §8.
+3. **§9 promised raw captures with hashes.** This was impossible because of the egress block. Recorded in R02.1 §3 and §9. No substitute data was presented as a capture.
+4. **R02's "154 culture/heritage" in E vs R02.1's plausibility judgments.** R02.1 §6 records the overstatement (81 of 85 nearby `historic_site` implausible). R02 is not rewritten.
+5. **§6 assumption 4 ("identity adequate") now has evidence against it** for anchor operators (R02.1 §6). See §11.2.
+
+No contradiction was found between R03, R04 and R05 after the two R04 fixes. The residual unsupported-claim risk is the analyst name judgments (single annotator, non-native for Arabic), which are labeled wherever used.
+
+---
+
+## 11. Final handoff
+
+### 11.1 Decisions supported now, with evidence
+
+| Decision | Evidence |
+|---|---|
+| Keep automation-first; no routine manual verification | R01.2 §3, §31. Nothing in R02 or R02.1 argues otherwise. |
+| No global confidence threshold; calibrate by source and family | R02 §8. Recount §4: 614 of 941 removals are Meta-origin. |
+| Keep identity acquisition separate from practical-fact acquisition | R02 §22. R02.1 §5–6. |
+| **Search-index or LLM summaries are never a product evidence source** | R02.1 §5: IMAX price conflict. R04 §2 tier E4. |
+| Identity cleanup of anchor operators **before** attaching practical facts | R02.1 §6: Scitech records up to 4 km apart, Ithra and Escape The Room duplicates |
+| Culture candidate generation must not rely on `historic_site` in this area | R02.1 §6: 81 of 85 implausible (analyst judgment) |
+| Unknown ≠ false ≠ true; blocking vs qualifiable per constraint | R02 §14, R04 §3–4, stress tests §10 |
+| Use R03's site / offering / occurrence / containment model for any future data work | R03, stress tests §10 |
+
+### 11.2 Hypotheses worth testing, and what would overturn them
+
+| Hypothesis | Overturned if |
+|---|---|
+| **H-a. Culture in a compact area is operator-concentrated,** so 2–3 operator agreements cover most cultural decisions (R02.1 §6) | Ground-truth labeling finds many real cultural venues missing from the open data, or the plausible set is larger than about six destinations |
+| **H-b. Operators will permit fact retrieval or supply a simple feed** | Both drafted requests (R02.1 §9) are declined or unanswered after a reasonable follow-up |
+| **H-c. A qualified shortlist reduces remaining checks** vs participants' usual tools (R00 H2) | In observed sessions, checks per chosen outing and time to decision are not lower than the usual method, or Google Maps matches it |
+| **H-d. Residents face this decision often enough** (R00 H1) | A 4-week recall shows rare hard decisions or strong defaults |
+| **H-e. Activities need a booking-system path** for price, sessions and capacity, while culture can work from published operator facts | Activity operators publish price, hours and slots in retrievable form, or cultural operators turn out not to |
+
+### 11.3 What could not be established, and why
+
+| Item | Reason |
+|---|---|
+| Live or repeat first-party retrieval, freshness, latency | Environment egress policy blocked all operator domains (R02.1 §3) |
+| Permission to retrieve, retain or display for Scitech and Escape The Room | No terms found; robots.txt unreadable; operators not contacted (not authorised) |
+| Escape The Room price, hours and slots; Scitech duration, last entry and accessibility | Not in any accessible source |
+| Travel times | No permitted routing account; R02's demo servers failed on TLS |
+| Correct locations of anchors | No ground truth; records conflict |
+| User value, frequency, remaining checks | No participants (primary research) |
+| Maintenance and exception cost | Requires an operating period, not a one-session test |
+
+### 11.4 Precise next experiment
+
+**"Two-operator feasibility plus eight-person decision test", Khobar–Dhahran.**
+
+- **Users:** 8 residents who arranged a same-day or weekend outing in the past month, per the R00 §29 profile mix (at least 3 group organisers, 2 families, 1 solo/couple, 2 default-choosers). Directional, not representative.
+- **Area:** within about 12 km of the fixed origin (R02.1). Replace the origin with each participant's broad starting area.
+- **Categories:** culture (Scitech, the Ithra complex, plus about four other plausible venues) and indoor activity (escape rooms, bowling, one play centre).
+- **Inputs:**
+  - E2/E3 facts for Scitech and Escape The Room: permission, plus an allowlisted retrieval repeated on 3 dates, including one weekend.
+  - The R05 fixed cases, used as vignettes.
+  - A routing free tier for 20 origin–destination pairs.
+- **Measurements:**
+  - Per practical constraint, the share supported at E1–E3 (target denominator: the 24 R02.1 constraints, re-evaluated).
+  - Retrieval failures and changes between dates.
+  - Per participant task: checks made with their own tools, then with a static evidence card for the same case. Record remaining checks, time to a confident choice, choices made, and any false-feasibility observed.
+- **Proposed acceptance criteria** (for your judgment, not fixed):
+  - At least half of the practical constraints are supported at E1–E3 for the cultural cases.
+  - Zero false-feasibility claims.
+  - Median remaining checks with the card lower than with own tools for at least 5 of 8 participants.
+- **Cost dependencies:** agent time (roughly $5–10 at list price); a routing free tier ($0); participant incentives (unpriced, your decision); no data purchases.
+- **Stop conditions:**
+  - Both operators decline, or can't be reached after one follow-up: stop the data arm and reassess promise level (§7).
+  - Fewer than 5 participants recruitable: run as a pilot and report as such.
+  - Any false-feasibility claim: halt card use until the cause is fixed.
+
+### 11.5 Can R06 (retrieval architecture) proceed?
+
+**Only in a narrow, provisional form.**
+- **Can proceed now:** comparing candidate-generation rules on the retained extract. Examples: dropping or reclassifying `historic_site`, name-based rescue of misclassified venues (Bujairi, muvi), and containment extraction for "not the mall". Label about 200 records first (R03 §7).
+- **Must stay provisional:** any retrieval over practical facts, semantic/vector search (no labeled benefit), engine choice, and ranking (R07).
+
+### 11.6 Is application implementation justified?
+
+**No.**
+- The binding uncertainties are data permission (H-b), user benefit (H-c) and frequency (H-d). Software cannot resolve any of them.
+- R02.1 shows that under R04 no result today could carry a single supported practical fact.
+- A static evidence card for the §11.4 sessions can be produced as a document. That is not an application.
+- Revisit this once §11.4's acceptance criteria are met.
+
+### 11.7 Next five actions, in order
+
+1. **You (judgment, permission):** decide whether to send the two permission requests in [R02.1 §9](R02_1_Practical_Data_Feasibility_Followup.md#9-what-remains-unresolved-and-what-would-resolve-it). Adapt the sender identity. I have not contacted anyone.
+2. **You (account and settings access):** add the four operator domains to this environment's allowed network domains (environment settings → Network access), and optionally create a free routing account.
+3. **Agent:** rerun Phase B as E2 retrieval on 3 dates, fix the Scitech and Escape The Room identity with labeled evidence, and label about 200 candidate records for R03/R06.
+4. **Real users:** recruit and run the 8-person sessions (§11.4) using R00 §28–32 materials and R05 cases as vignettes.
+5. **Agent plus your judgment:** re-evaluate the promise (§7) against the acceptance criteria, then decide whether R06/R08 work is warranted.
+
+### 11.8 Files, checks, spending, reserve
+
+**Files created:**
+- `PROJECT_START_REVIEW.md`
+- `R02_1_Practical_Data_Feasibility_Followup.md`
+- `R02_1_evidence/`: `case_pools.py`, `case_pools.json`, `culture_name_judgments.json`, `source_observations.json`, `request_log.json`, `case_outcomes.json`, `check_phase_b.py`
+- `R03_Domain_and_Identity_Model.md`
+- `R04_Trust_and_Freshness_Policy.md`
+- `R05_Query_Intent_and_Evaluation_Seed.md`
+
+README links were updated. No existing report or evidence file was modified; `audit_validation.json` was restored after each validator run.
+
+**Checks:**
+- `R02_evidence/validate_audit.py` → `checks_pass: true`.
+- An independent recount of R02 figures (§4).
+- `R02_1_evidence/check_phase_b.py` → `checks_pass: true` (12 cases, valid classes, shortlist cases fully supported, practical tally 8 of 24 before the R04 reconciliation).
+- The eight stress tests in §10.
+
+**Spending:** reported $3.38 through turn 2, plus an estimated $4–6 for turn 3. **Estimated cumulative total: $7.4–9.4**, against the $80 initial-work ceiling. Reconcile against the session cost figure at your next message. **The $20 reserve is untouched**, and about $70 of the initial allocation is unused by design.

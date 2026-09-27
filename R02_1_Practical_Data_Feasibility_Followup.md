@@ -13,7 +13,7 @@ Labels: **Measured** (recomputed from retained files), **Index evidence** (a sea
 2. **What the index shows.** Search-index summaries confirm that the operators publish several decision-critical facts. For Scitech: regular hours, per-offering prices, and a no-reservation rule. For Escape The Room Khobar: players per room, duration, and age guidance. Neither shows Escape The Room's price, hours or sessions, nor Scitech's visit duration, last entry or accessibility.
 3. **The search layer adds its own errors.** Two searches minutes apart gave **different IMAX prices** (46.00 vs 28.75 SAR adult). A search summary cannot be used as an enrichment source.
 4. **Rights.** No permission to retrieve, retain or display was established for either operator. No terms-of-use page, feed, API or calendar was found. Ithra's terms remain restrictive (R01 §14).
-5. **Case results** (12 locked cases). **One** case had a candidate with every stated hard constraint supported, and only at weak index provenance. Of the 24 practical hard constraints across the cases, **8 were weakly supported, 0 contradicted, and 16 unknown**.
+5. **Case results** (12 locked cases). **One** case had a candidate with every stated hard constraint supported, and only at weak index provenance. Of the 24 practical hard constraints across the cases, **8 were weakly supported, 0 contradicted, and 16 unknown**. Under [R04](R04_Trust_and_Freshness_Policy.md)'s strict evidence tiers, **none** of these can support a product claim (see the reconciliation in §8).
 6. **Two new measured findings.**
    - The cultural candidate pool around Khobar is mostly noise: **81 of 85 `historic_site` records are implausible by name**.
    - The real cultural supply is concentrated in a handful of operators, and the anchor operators each have duplicated or displaced records.
@@ -135,6 +135,15 @@ No answer was presented as feasible. Unknown was never turned into a pass (C04, 
 5. **Occurrence cases (C07, C09) have no automated path at all** in this evidence. The "what's on" part of the product depends on Ithra-type programme access.
 
 **Correction to PROJECT_START_REVIEW §7, falsifier (a).** As written, the falsifier is too weak: category-level constraints are trivially "supported". It should count **practical** hard constraints only. On that measure the current evidence is 8 of 24 weakly supported and 0 strongly supported. That is below the proposed "about half" threshold, but it cannot yet falsify the promise, because the shortfall is caused by blocked access and unknown rights, not by facts proven unavailable. The review has been annotated with a pointer here; its original text is kept.
+
+### Reconciliation with R04 (added after R04 was drafted)
+
+R02.1 labels index-derived facts "supported (weak)". [R04 §2](R04_Trust_and_Freshness_Policy.md#2-evidence-tiers) classifies index summaries as tier **E4**, which can never support a hard constraint. Applying R04 strictly:
+- **0 of 24** practical hard constraints are supported.
+- **C01 moves from "supported qualified shortlist" to "missing facts"**, with index hints and a link-out.
+- The case distribution becomes: missing facts 8, missing user context 2, source-access failure 1, no candidates 1, supported 0.
+
+The tables above are kept as recorded, since they describe what the index suggested. **R04's strict reading is the one to use for product claims.** The practical-data path is therefore not demonstrated at any level that could appear in a result.
 
 ## 9. What remains unresolved, and what would resolve it
 
