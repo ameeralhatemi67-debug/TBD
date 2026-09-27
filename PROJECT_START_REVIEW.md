@@ -2,7 +2,7 @@
 
 **Date:** 27 September 2026 (Asia/Riyadh)
 **Scope executed:** all of Sections 1 and 3A–D of [the $100 project prompt](CLAUDE_100_DOLLAR_PROJECT_PROMPT.md).
-**Status:** Initial work complete. You confirmed on 27 Sep that work could proceed after the intake stop. Phases B–E then ran in one further turn. The final handoff is §10–11. The $20 reserve is untouched.
+**Status (revised 27 Sep, evening):** Documents delivered: this review, R02.1, R03–R05 and later R06. **Experiments actually executed:** the intake re-check, and a Phase B run that was blocked by the network. Its planned repeated first-party retrieval was **not** executed. Direct retrieval was later performed by another researcher (Sol) in [R02.2](R02_2_Source_Access_Recovery_and_Review.md), on one date only. Observations on different dates, operator permission and user sessions have **not** been executed. See §12. The $20 reserve is untouched.
 
 Labels used: **Measured** (recomputed here from retained files), **Documented** (stated in a cited current source), **Interpretation**, **Hypothesis**, **Requires primary research**.
 
@@ -269,7 +269,7 @@ No contradiction was found between R03, R04 and R05 after the two R04 fixes. The
 
 | Hypothesis | Overturned if |
 |---|---|
-| **H-a. Culture in a compact area is operator-concentrated,** so 2–3 operator agreements cover most cultural decisions (R02.1 §6) | Ground-truth labeling finds many real cultural venues missing from the open data, or the plausible set is larger than about six destinations |
+| *[27 Sep, R02.2: based on name screening only; it does not measure supply or demand share.]* **H-a. Culture in a compact area is operator-concentrated,** so 2–3 operator agreements cover most cultural decisions (R02.1 §6) | Ground-truth labeling finds many real cultural venues missing from the open data, or the plausible set is larger than about six destinations |
 | **H-b. Operators will permit fact retrieval or supply a simple feed** | Both drafted requests (R02.1 §9) are declined or unanswered after a reasonable follow-up |
 | **H-c. A qualified shortlist reduces remaining checks** vs participants' usual tools (R00 H2) | In observed sessions, checks per chosen outing and time to decision are not lower than the usual method, or Google Maps matches it |
 | **H-d. Residents face this decision often enough** (R00 H1) | A 4-week recall shows rare hard decisions or strong defaults |
@@ -353,3 +353,128 @@ README links were updated. No existing report or evidence file was modified; `au
 - The eight stress tests in §10.
 
 **Spending:** reported $3.38 through turn 2, plus an estimated $4–6 for turn 3. **Estimated cumulative total: $7.4–9.4**, against the $80 initial-work ceiling. Reconcile against the session cost figure at your next message. **The $20 reserve is untouched**, and about $70 of the initial allocation is unused by design.
+
+---
+
+## 12. Follow-up, 27 Sep (evening), after R02.2
+
+**Source of new evidence:** [R02.2](R02_2_Source_Access_Recovery_and_Review.md), by another researcher (Sol), on branch `codex/source-access-followup` at commit `276c418`. It was fast-forwarded into this branch with no conflicts; this branch had no newer work. Sol's observations are **transferred evidence**: this agent's network is still blocked (`api.escapetheroomsa.com` gave no connection at 16:56 UTC). Full operator bodies are kept outside the repository by Sol and were not seen here.
+
+### 12.1 What changed because of the new evidence
+
+| Before (R02.1 / R03–R05 v0.1) | Now |
+|---|---|
+| No activity price, hours or slot path found | Escape The Room publishes a branch → room → party/date **slot-quote path** through its public site (technical access only; no reuse grant) |
+| Khobar room URLs resolve branch ambiguity | **Wrong.** The old URL serves the homepage app shell. There are **two Khobar branches** (operator IDs 1 and 3). Overture `b4fdc657…` is 2.3 m from branch 1's point (provisional link). `8a251b82…` stays undecided. |
+| The IMAX price conflict came from search summaries | The Scitech page **itself** conflicts: body 20/25/45 vs metadata 23/28.75/46. The AR and EN exception end-times also differ. No ordinary Sunday hours were observed. |
+| "About six cultural destinations; 2–3 operators cover most" | A name-screening result and a hypothesis, not a measurement (notes added to R02.1 and §11.2) |
+| Travel unmeasured | Two OSRM demo routes measured: 149 s out, 196.9 s back (model output, non-commercial demo) |
+| R04 v0.1 single tier ladder; "qualifiable" unknowns; blanket legal lines | [R04 v0.2](R04_Trust_and_Freshness_Policy.md#12-change-log): authority × channel × scope × valid time × rights × publication. Unknown hard constraints are never satisfied. Strict "under". Representation-conflict and app-shell rules. Source-specific rights findings plus labeled project policy. |
+| R03 "source records immutable"; containment inheritance | [R03 v0.2](R03_Domain_and_Identity_Model.md#8-change-log): retention subject to rights (tombstones); operator branch and room IDs; containment is not inheritance |
+| R05 "under 150" = ≤150; default origins | [R05 v0.2](R05_Query_Intent_and_Evaluation_Seed.md#6-change-log): strict "under"; origins never invented; three separate outcome columns |
+
+### 12.2 Corrected case outcomes
+
+These come from the [v2 pass](R02_1_evidence/case_outcomes_v2_2026-09-27.json); the original [v1](R02_1_evidence/case_outcomes.json) is kept unchanged, verified by hash. Run `python R02_1_evidence/check_case_pass_v2.py` to check it.
+
+| Case | Research support (key constraints) | Publication | Query satisfied? | vs R02.1 |
+|---|---|---|---|---|
+| C01 | Price < 50: supported for this threshold (both 20 and 23 below). Sunday hours: **unknown** | Not eligible | **No** (hours) | Was "supported shortlist" (index): **downgraded** |
+| C02 | Group 4 ✓, 60 min ✓, derived SAR 96 each < 150 ✓, 18:15 slot available **as of 12:01 UTC** | Not eligible | **At observation time only**, as a historical quote | Was missing facts: **upgraded, time-bounded** |
+| C03 | Cultural duration, hours and travel unknown | — | No | Unchanged |
+| C04 | Slot quote ✓; "no advance booking" **unknown, blocking** (the FAQ recommends booking) | Not eligible | No (walk-in reading); ambiguity if same-day booking is acceptable | Refined |
+| C05 | Party count missing; room 1 age fields 8–80 (meaning unverified); Scitech child age band unknown | — | No | Refined |
+| C06 | Containment and weekend hours unknown | — | No | Unchanged |
+| C07 | Ithra timed out in Sol's environment too | — | No (access failure, not "no exhibitions") | Unchanged |
+| C08 | Hours and last entry unknown | — | No | Unchanged |
+| C09 | No occurrence inventory | — | No | Unchanged |
+| C10 | Needs user history | — | No | Unchanged |
+| C11 | R02.1's Ithra statement was a search summary: now inadmissible | — | No | **Downgraded** |
+| C12 | Drive ≤15 min: model estimate only. Room 1 sessions **contradict** the 18:30–20:00 window (18:15 too early; 19:30–20:30 too late) | — | **No, known failure for room 1 only**; other venues unevaluated | Was missing facts: **known failure** |
+
+**No aggregate success rate is given.** Research support, publication eligibility and query satisfaction are different outcomes. Remaining unknowns concentrate on Scitech's ordinary hours, cultural visit duration, current (not historical) availability, occurrences, containment, accessibility and user context.
+
+### 12.3 Offline checks performed
+
+| Check | Result | Does not prove |
+|---|---|---|
+| `R02_evidence/validate_audit.py` | Pass (file restored after run) | Real-world truth |
+| `R02_1_evidence/check_phase_b.py` | Pass: validates the **historical v1** structure only | That v1 matches R04 v0.2 (it does not; see v2) |
+| `R02_1_evidence/check_case_pass_v2.py` | Pass: v1 unchanged, 12 cases, evidence IDs exist in R02.2 manifests, no satisfaction without full support, no publication claimed | That Sol's observations are true now |
+| `R06_research_harness/check_harness.py` | 23/23 (12 real-transferred, 11 synthetic), plus 2 mutation sanity runs that each fail as expected | User value, current availability, rights, licensed integration, recall |
+
+Sol's `summarize_checks.py` needs private local bodies that are not in the repository, so it cannot be re-run here. This is as R02.2 states.
+
+### 12.4 Does the first promise need narrowing?
+
+**Yes, in one direction.**
+- The only research-supported fit so far is a **bookable activity with a party/date quote** (C02). Cultural cases fail on ordinary hours, duration and occurrences.
+- Proposed working promise (hypothesis): *"For a small group and a time window, show a few bookable indoor activities and cultural options. For each, state which party-specific facts (price for your group, session times, duration, age range) are confirmed by the operator, as of when, and what you must still check."*
+- The cultural side stays **discovery-with-caveats** until ordinary hours and duration evidence exist.
+- Do not promise current availability. Every slot claim carries its observation time.
+- This does not shrink the product into a booking site: mixed-type discovery remains, but feasibility claims are limited to where evidence exists.
+
+### 12.5 Smallest next evidence run
+
+- **What:** 3 operators (Escape The Room branch 1 and branch 3, Scitech, and one more bookable indoor operator in the area), repeated on **3 different dates** including one weekend, ≥2 query times per date.
+- **Scope:** only the fields the harness evaluates (branch/room IDs, party range, duration, slot quotes for 2 and 4 players, Scitech hours and price representations).
+- **Where:** a new dated evidence directory, with no full bodies published.
+- **Plus:** the 5 R05 fixed cases re-evaluated per date, and 10 routing pairs.
+
+**Acceptance criteria (proposed, your judgment):**
+- (a) Branch and room identifiers stable across dates.
+- (b) Slot-quote price per party size consistent or explainable.
+- (c) Quote age at query time recorded, with no stale quote used as current.
+- (d) Scitech's ordinary hours established by an admissible observation, or recorded as missing.
+- (e) Harness outcomes reproducible from the new observations.
+- (f) No publication until permission.
+
+**Who does what:**
+- Network access (allowlist `api.escapetheroomsa.com`, `www.escapetheroomsa.com`, `scitech.sa`, `router.project-osrm.org` in this environment, or Sol repeats the run): **owner**.
+- Collection script review and running on dates: **agent** (or Sol).
+- Operator permission: **owner**.
+- User sessions (R00 §28, 8 participants with the evidence card): **owner / real users**.
+
+**Cost:** agent time roughly $3–6 per date at list price. $0 in data or provider spend.
+
+### 12.6 Revised operator request drafts (not sent)
+
+These supersede the drafts in R02.1 §9, which wrongly framed the project as permanently non-commercial.
+
+**To Escape The Room:**
+> We are developing a discovery service that helps small groups choose an indoor outing that fits their time and budget. It is at the research stage now, and may become a commercial product. We would like **approved read-only access** to room, branch and slot information for your Khobar branches: room names, player range, duration, age range, price for a given party size, and session times with availability status.
+>
+> Could you tell us:
+> 1. whether you offer a partner or read-only feed, or permit use of your public site data for this purpose;
+> 2. what we may **store** (and for how long), **display** (with attribution and a booking link to you), and not do;
+> 3. acceptable **refresh limits** (requests per minute or day);
+> 4. how **changes and cancellations** are signalled, and how quickly we must reflect them;
+> 5. any fees or conditions.
+>
+> We would send users to your own booking flow, never take bookings ourselves, and remove data on request.
+
+**To Scitech:**
+> We are developing a discovery service, research stage now and potentially commercial later, that helps people choose a cultural outing that fits their time. We would like **approved read-only access** to your visiting hours (including dated exceptions), ticket prices by type, typical visit duration, and show times. Could you tell us:
+> 1. whether a feed exists (spreadsheet, calendar or JSON) or whether reading your public pages is acceptable;
+> 2. permitted **storage and display**, with attribution and links to you;
+> 3. **refresh limits**;
+> 4. how **changes** (special hours, cancellations) are announced;
+> 5. which of the price representations on your price page is current. The visible table and the page's description differ.
+
+### 12.7 Next three actions
+
+1. **Owner:** allowlist the four domains above in this environment's network settings, or ask Sol to repeat the dated run. Then authorise the next run (§12.5).
+2. **Owner:** decide whether to send the §12.6 requests. Adapt the sender identity and business description truthfully.
+3. **Agent (after 1):** run §12.5 on 3 dates, re-run the v2 pass and the harness on the new observations, and report against the acceptance criteria. In parallel, the **owner** recruits the 8 R00 participants.
+
+### 12.8 Spending for this batch
+
+Figures below are session list-price telemetry, not billing.
+- **Reported at batch start:** $7.64 cumulative (`get_session` `cost_usd`), matching the earlier $7.4–9.4 estimate.
+- **This batch (estimate):** $3.5–5.
+  - About 30 calls at about 400k cached context and $0.20/MTok read ≈ $2.4.
+  - About 70k cache writes ≈ $0.6.
+  - About 40k output ≈ $0.8.
+- **Estimated cumulative:** $11–12.5. That is below your $15 batch ceiling, and well inside the $72 initial-work allowance from your $92 baseline.
+- **Remaining by your baseline:** about $87–88.5 of the $92, and **the $20 reserve is intact.**
+- Reconcile against the reported figure at the next message, because telemetry lags one turn.

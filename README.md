@@ -17,6 +17,8 @@ The project is in concept development. There is no application yet. Research uti
 9. [R03: domain and identity model](R03_Domain_and_Identity_Model.md) (provisional)
 10. [R04: trust and freshness policy](R04_Trust_and_Freshness_Policy.md) (provisional)
 11. [R05: query intent and evaluation seed](R05_Query_Intent_and_Evaluation_Seed.md) (provisional)
+12. [R02.2: source-access recovery (Sol)](R02_2_Source_Access_Recovery_and_Review.md)
+13. [R06: retrieval and feasibility design](R06_Retrieval_and_Feasibility_Design.md) (bounded, with an [offline research harness](R06_research_harness/check_harness.py))
 
 R01.2 corrects the operating-model assumptions in R01. R02 supplies bounded measurements, not proof that the product or launch geography is validated. Follow the revised research numbering in the later reports rather than v0.1's original numbering.
 

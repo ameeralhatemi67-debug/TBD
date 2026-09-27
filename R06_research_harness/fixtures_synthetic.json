@@ -1,0 +1,19 @@
+{
+ "label": "SYNTHETIC FIXTURES. Invented values for behavioural edge cases. Never mix with real observations or cite as evidence.",
+ "nearby_same_brand_branches": [{"id": 11, "pt": [50.0000, 26.0000]}, {"id": 12, "pt": [50.0030, 26.0000]}],
+ "record_between_branches": [50.0015, 26.0000],
+ "prices": {
+  "exact_boundary": [{"amount": 150, "unit": "per_person", "kind": "displayed"}],
+  "per_person_vs_total_unknown_party": [{"amount": 120, "unit": "per_person", "kind": "displayed"}],
+  "conflict_straddling": [{"amount": 140, "unit": "per_person", "kind": "displayed"}, {"amount": 160, "unit": "per_person", "kind": "displayed"}]
+ },
+ "hours": {
+  "regular": {"kind": "regular", "valid_from": "2026-01-01", "valid_to": "2026-12-31", "open": "16:00", "close": "22:00", "scope_clear": true},
+  "exception_short": {"kind": "exception", "valid_from": "2026-10-02", "valid_to": "2026-10-02", "open": "16:00", "close": "19:00", "scope_clear": true},
+  "ambiguous_scope": {"kind": "regular", "valid_from": "2026-01-01", "valid_to": "2026-12-31", "open": "16:00", "close": "21:00", "scope_clear": false}
+ },
+ "slots": [
+  {"start": "2026-10-01T19:00:00+03:00", "end": "2026-10-01T20:00:00+03:00", "status": "Booked"},
+  {"start": "2026-10-01T23:30:00+03:00", "end": "2026-10-02T00:30:00+03:00", "status": "Available"}
+ ]
+}
