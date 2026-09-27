@@ -380,7 +380,7 @@ These come from the [v2 pass](R02_1_evidence/case_outcomes_v2_2026-09-27.json); 
 | Case | Research support (key constraints) | Publication | Query satisfied? | vs R02.1 |
 |---|---|---|---|---|
 | C01 | Price < 50: supported for this threshold (both 20 and 23 below). Sunday hours: **unknown** | Not eligible | **No** (hours) | Was "supported shortlist" (index): **downgraded** |
-| C02 | Group 4 ✓, 60 min ✓, derived SAR 96 each < 150 ✓, 18:15 slot available **as of 12:01 UTC** | Not eligible | **At observation time only**, as a historical quote | Was missing facts: **upgraded, time-bounded** |
+| C02 | Group 4 ✓, 60 min ✓, derived SAR 96 each < 150 ✓, 18:15 slot available **as of 12:01 UTC** | Not eligible | **At observation time only**, as a historical quote | Was missing facts: **upgraded, time-bounded** | *[Superseded by v3, 27 Sep night: see §13]*
 | C03 | Cultural duration, hours and travel unknown | — | No | Unchanged |
 | C04 | Slot quote ✓; "no advance booking" **unknown, blocking** (the FAQ recommends booking) | Not eligible | No (walk-in reading); ambiguity if same-day booking is acceptable | Refined |
 | C05 | Party count missing; room 1 age fields 8–80 (meaning unverified); Scitech child age band unknown | — | No | Refined |
@@ -390,7 +390,7 @@ These come from the [v2 pass](R02_1_evidence/case_outcomes_v2_2026-09-27.json); 
 | C09 | No occurrence inventory | — | No | Unchanged |
 | C10 | Needs user history | — | No | Unchanged |
 | C11 | R02.1's Ithra statement was a search summary: now inadmissible | — | No | **Downgraded** |
-| C12 | Drive ≤15 min: model estimate only. Room 1 sessions **contradict** the 18:30–20:00 window (18:15 too early; 19:30–20:30 too late) | — | **No, known failure for room 1 only**; other venues unevaluated | Was missing facts: **known failure** |
+| C12 | Drive ≤15 min: model estimate only. Room 1 sessions **contradict** the 18:30–20:00 window (18:15 too early; 19:30–20:30 too late) | — | **No, known failure for room 1 only**; other venues unevaluated | Was missing facts: **known failure** | *[Superseded by v3, 27 Sep night: see §13]*
 
 **No aggregate success rate is given.** Research support, publication eligibility and query satisfaction are different outcomes. Remaining unknowns concentrate on Scitech's ordinary hours, cultural visit duration, current (not historical) availability, occurrences, containment, accessibility and user context.
 
@@ -407,35 +407,77 @@ Sol's `summarize_checks.py` needs private local bodies that are not in the repos
 
 ### 12.4 Does the first promise need narrowing?
 
-**Yes, in one direction.**
-- The only research-supported fit so far is a **bookable activity with a party/date quote** (C02). Cultural cases fail on ordinary hours, duration and occurrences.
-- Proposed working promise (hypothesis): *"For a small group and a time window, show a few bookable indoor activities and cultural options. For each, state which party-specific facts (price for your group, session times, duration, age range) are confirmed by the operator, as of when, and what you must still check."*
-- The cultural side stays **discovery-with-caveats** until ordinary hours and duration evidence exist.
-- Do not promise current availability. Every slot claim carries its observation time.
-- This does not shrink the product into a booking site: mixed-type discovery remains, but feasibility claims are limited to where evidence exists.
+*[Revised 27 Sep night after Sol's review. The earlier text treated one operator's quote as pointing to a "bookable activities" promise. That was an over-inference.]*
 
-### 12.5 Smallest next evidence run
+**Yes, but in its claims, not its market.**
+- Feasibility claims are limited to offerings where admissible evidence exists (R04 v0.2). Today that is one room at one operator, for one historical date.
+- One operator exposing useful data does **not** show that bookable activities are the best market or the users' main need. R00 H1–H4 are untested.
+- Working promise (hypothesis):
 
-- **What:** 3 operators (Escape The Room branch 1 and branch 3, Scitech, and one more bookable indoor operator in the area), repeated on **3 different dates** including one weekend, ≥2 query times per date.
-- **Scope:** only the fields the harness evaluates (branch/room IDs, party range, duration, slot quotes for 2 and 4 players, Scitech hours and price representations).
-- **Where:** a new dated evidence directory, with no full bodies published.
-- **Plus:** the 5 R05 fixed cases re-evaluated per date, and 10 routing pairs.
+  > *"For a small group and a time window, show a few different options. For each, say which practical facts an operator source confirms and as of when, what is still unverified, and what you must check yourself."*
+
+- Never claim current availability or an all-in price from a historical displayed quote.
+- Cultural options stay **discovery with caveats** until ordinary hours and visit-duration evidence exist.
+
+### 12.5 Next evidence run (refined 27 Sep night)
+
+**Fixed sources.** No substitutions after results are seen.
+
+| Source | What | Why |
+|---|---|---|
+| Escape The Room branch 1 | Rooms list; room 1 plus the lowest-ID other room | C02, C04, C05, C12. Branch-1 identity link exists. |
+| Escape The Room branch 3 | Rooms list; its lowest-ID room | Second Khobar branch. Tests branch separation and whether its point can be resolved. |
+| Scitech | Arabic hours, English hours, Arabic price page | C01, C05, C08. Body/metadata and language conflicts. |
+| Sparky's | Branch locations page | Branch hours without price. A second activity-operator shape. |
+| Ithra | One access attempt per date | C07 and C11 access only |
+| OSRM demo | ≤10 origin–branch pairs per date, both directions | C12-type legs; model output only |
+
+**Cases revisited:** C01, C02, C04, C05, C08, C12 (and C07/C11 access only). The others need occurrence data, user context or accessibility evidence that these sources do not provide. Their v3 outcomes stand.
+
+**Dates.** Three genuinely different dates: D1 a weekday, D2 a Friday or Saturday, D3 a weekday at least 5 days after D1. Two query times per date: morning, and about 2 hours before the evening window.
+
+**Repeated future sessions.** At D1, record room 1 and room X slots for **D2 and D3** (party sizes 2 and 4). Re-query **the same session start times** at every later query time. Record each session's status sequence (Available / Booked / missing) and price. This studies change in availability; it does not measure a refresh interval.
+
+**Definitions (per request or observation):**
+
+| Term | Meaning |
+|---|---|
+| Access success | HTTP 200, content not an app shell (hash check), expected structure parses |
+| Usable data | Required field present, in scope (branch, room, date, party), admissible authority and channel (R04 §2) |
+| Factual conflict | Two admissible observations disagree: body vs metadata, AR vs EN, or an "immutable" field such as duration changing between dates |
+| Unknown feasibility | Any harness `unknown_*` state, including incomplete inventory |
+| Human intervention required | Undecided identity, a conflict affecting a hard constraint, a changed response shape, or unclear scope (e.g. Scitech's Friday line) |
+
+**Limits:**
+- At most 40 requests per date.
+- At least 2 s between requests to the same host, and at most 1 request/s to OSRM.
+- One retry after at least 30 s, and only on timeout or 5xx. No retry on 4xx. Stop a host after its second failure.
+- Listed URLs only: no crawling, no login, no booking, hold or checkout.
+- Full bodies stay local. Only hashes and small factual projections are committed, in a new dated directory.
+
+**What it can establish:** whether identifiers and fields are stable across three dates; concrete examples of session-status changes; whether page conflicts persist; and harness behaviour on real inputs, including complete-inventory flags.
+
+**What it cannot establish:** long-term reliability, a refresh interval, coverage across operators, user value, or permission to publish.
 
 **Acceptance criteria (proposed, your judgment):**
-- (a) Branch and room identifiers stable across dates.
-- (b) Slot-quote price per party size consistent or explainable.
-- (c) Quote age at query time recorded, with no stale quote used as current.
+- (a) Branch and room IDs stable across dates.
+- (b) Slot price per party size consistent, or the difference explained.
+- (c) Every availability statement carries its observation time, and no stale quote is used as current.
 - (d) Scitech's ordinary hours established by an admissible observation, or recorded as missing.
-- (e) Harness outcomes reproducible from the new observations.
-- (f) No publication until permission.
+- (e) Complete inventory recorded as complete only when the whole response is retained as a projection.
+- (f) Harness outcomes reproducible.
+- (g) No publication before permission.
 
-**Who does what:**
-- Network access (allowlist `api.escapetheroomsa.com`, `www.escapetheroomsa.com`, `scitech.sa`, `router.project-osrm.org` in this environment, or Sol repeats the run): **owner**.
-- Collection script review and running on dates: **agent** (or Sol).
-- Operator permission: **owner**.
-- User sessions (R00 §28, 8 participants with the evidence card): **owner / real users**.
+**Dependencies, kept separate:**
 
-**Cost:** agent time roughly $3–6 per date at list price. $0 in data or provider spend.
+| Type | What | Who |
+|---|---|---|
+| Agent work | Collection-list review, the three-date run, projections, harness re-run, report | Agent (or Sol) |
+| Source access | Allowlist `api.escapetheroomsa.com`, `www.escapetheroomsa.com`, `scitech.sa`, `sa.sparkysme.com`, `www.ithra.com`, `router.project-osrm.org` in this environment, or Sol runs it | Owner |
+| Operator permission | Needed before any publication, not for bounded research observation | Owner decides whether to send §12.6 |
+| Real-user research | 8-person directional pilot (R00 §28–32) using the evidence card. It checks usefulness signals and does **not** validate the market. | Owner / participants |
+
+**Cost:** roughly $3–6 of agent time per date at list price, which may run higher given context size (see §13). No data or provider spend.
 
 ### 12.6 Revised operator request drafts (not sent)
 
@@ -465,7 +507,7 @@ These supersede the drafts in R02.1 §9, which wrongly framed the project as per
 
 1. **Owner:** allowlist the four domains above in this environment's network settings, or ask Sol to repeat the dated run. Then authorise the next run (§12.5).
 2. **Owner:** decide whether to send the §12.6 requests. Adapt the sender identity and business description truthfully.
-3. **Agent (after 1):** run §12.5 on 3 dates, re-run the v2 pass and the harness on the new observations, and report against the acceptance criteria. In parallel, the **owner** recruits the 8 R00 participants.
+3. **Agent (after 1):** run §12.5 on 3 dates, re-run the case pass (now v3) and the harness on the new observations, and report against the acceptance criteria. In parallel, the **owner** recruits the 8 R00 participants.
 
 ### 12.8 Spending for this batch
 
@@ -478,3 +520,33 @@ Figures below are session list-price telemetry, not billing.
 - **Estimated cumulative:** $11–12.5. That is below your $15 batch ceiling, and well inside the $72 initial-work allowance from your $92 baseline.
 - **Remaining by your baseline:** about $87–88.5 of the $92, and **the $20 reserve is intact.**
 - Reconcile against the reported figure at the next message, because telemetry lags one turn.
+
+---
+
+## 13. Batch record, 27 Sep (night): harness defects found by Sol at `468c1cc`
+
+| Defect | Correction |
+|---|---|
+| A. `session_fit([])` gave a known failure | An empty or partial inventory gives `unknown_inventory_incomplete`. A failed response gives `unknown_inventory_unavailable`. Only a complete, applicable inventory can give `contradicted_no_fitting_session`. The transferred slot fixture is marked **incomplete**. |
+| B. Return travel ignored | Deadline kinds are `activity_end` and `back_at_origin`, with outbound and return legs and before/after buffers. Unknown values stay unknown: a session is contradicted only if it fails even with zero for every unknown. |
+| C. Hours compared by clock time only | Dated, timezone-aware intervals with overnight openings and per-date exceptions. A missing claim on any date that could contain the visit gives unknown. |
+| D. Stale "Booked" became a rejection | Quote age applies to every capacity status. Timing (immutable) is judged separately from status (volatile). Impossible observation times are rejected. The 900 s limit is a **synthetic test parameter**. |
+| E. Distance alone linked records | A link needs one nearby located branch **plus** name or domain corroboration. Otherwise `candidate_only_no_corroboration` or `undecided`. Unlocated branches keep distant brand records undecided. |
+| F. CRLF false mismatch, and exit 0 on failure | Case-pass preservation uses a normalized-text hash (policy documented in the checker), with self-tests. Raw-source exact-byte hashes in `R02_evidence/validate_audit.py` are unchanged. My checkers now exit 1 on failure. `query_satisfied` returns `not_evaluated` when required constraints are missing or not supplied, and `yes_no_hard_constraints` only for an explicit no-constraint query. |
+
+**Tests:**
+- `R06_research_harness/check_harness.py`: **45/45** (13 REAL transferred, 32 SYNTH, including 10 regression and 6 input-validation checks).
+- `check_case_pass_v2.py`: passes (v1 and v2 preserved; v3 rules hold). An exact LF→CRLF copy passes; a one-character tamper exits 1.
+- `check_phase_b.py`: historical v1 structure only.
+- `R02_evidence/validate_audit.py` still always exits 0 (original tool, not modified). Inspect its `checks_pass`.
+
+**Changed conclusions:** see the [v3 case pass](R02_1_evidence/case_outcomes_v3_2026-09-27.json).
+- **C02:** supports a historical displayed quote plus group, duration and session timing. **Not** all-in affordability (final charges unverified). Whether an escape room counts as "active" is unresolved. Query satisfaction is **not established**.
+- **C12:** room 1's observed sessions fail individually. Room-level no-fit rests on R02.2's report text, because the committed projection is not complete inventory.
+- All other cases are unchanged.
+- §12.2's rows for C02 and C12 are superseded by v3.
+
+**Spending:**
+- Reported cumulative at batch start: **$13.75**. The previous batch was therefore **$6.11 actual vs $3.5–5 estimated**; I under-counted cache reads of a ~450k-token context.
+- This batch is estimated at $4.5–6.5.
+- See the final report for reconciliation against the owner's $86 baseline.

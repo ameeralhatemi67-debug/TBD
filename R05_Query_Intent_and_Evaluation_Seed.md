@@ -17,7 +17,7 @@ This is a trimmed version of v0.2 §8, keeping only the fields the 24 seed queri
 | `mode` | Car / walk / transit / unknown | "15 minutes driving" vs "half an hour walk" |
 | `window` | Start, end or deadline, date anchor, timezone, and whether travel is included | "90 minutes before dinner at 19:30" is a **door-to-door** budget |
 | `party` | Size, ages, needs, **only as stated** | "four of us", "kids 6 and 9", "my parents … without much walking" |
-| `hard[]` | Field, operator, value, **blocking vs lead-eligible** (R04 §4), and the user's phrase | "under 150 each" gives price **< 150** (strict), unit per person. A value exactly 150 is a boundary ambiguity. "At most 150" would be ≤. *[Revised 27 Sep, R02.2]* |
+| `hard[]` | Field, operator, value, **blocking vs lead-eligible** (R04 §4), and the user's phrase | "under 150 each" gives price **< 150** (strict), unit per person. While the phrase is unresolved, a value exactly 150 is a boundary ambiguity. If the user confirms a strict meaning, equality fails (contradicted). "At most 150" would be ≤. *[Revised 27 Sep, R02.2]* |
 | `soft[]` | Concept, direction, strength, and the user's phrase | quiet, romantic, not too expensive |
 | `exclude[]` | Category, containment or entity, with scope | "not the mall" is a containment exclusion (R03 §4). "Not dinner" is a category. |
 | `history` | Only user-supplied or consented visit history | "new to me" and "not the same five places" **cannot be inferred** |
@@ -36,39 +36,39 @@ This is a trimmed version of v0.2 §8, keeping only the fields the 24 seed queri
 
 **Area and time anchors.** The 12 fixed cases (F01–F12 = R02.1 C01–C12) use area E and the synthetic origin (50.200, 26.300). D0 is Sunday 27 Sep 2026, "tonight" is 18:00–23:00, the weekend is 2–3 Oct, and Thursday is 1 Oct. The 12 development queries (Dxx) keep R00's original place and time. Their areas outside E are marked, because no data audit exists there.
 
-Abbreviations: **B** = blocking when unknown, **Q** = qualifiable (R04 §4).
+Abbreviations: **B** = blocking when unknown; **L** = lead-eligible when unknown, i.e. shown only as an explicitly unverified lead and **never satisfied** (R04 v0.2 §4). *[Revised 27 Sep night: replaces the older "Q = qualifiable".]*
 
 ### 2.1 Fixed feasibility cases (evidence-evaluated in R02.1)
 
 | ID | Query (English) | Hard constraints | Soft | Missing or ambiguous | Clarify? | Acceptable uncertainty | Evaluation criteria |
 |---|---|---|---|---|---|---|---|
-| F01 | A museum near Khobar tonight, under 50 SAR each | museum (category); open in 18–23 window (B if no hours claim, else Q); price **< 50** per person (strict; lead-eligible if unknown) *[Revised 27 Sep, R02.2]* | near | Travel mode | No, default car and show it | Special-hours notice unchecked; travel unmeasured | Scitech-type candidate only with an E1–E3 hours claim. No exhibition claim invented. |
-| F02 | Four of us, something active indoors tonight, under 150 SAR each | group of 4 (B); indoor (E5 allowed, disclosed); open tonight (B/Q); **< 150** per person (strict; lead-eligible if unknown, never satisfied) *[Revised 27 Sep, R02.2]* | active | "Active" breadth | No | None on price or group | Cinemas are not "active" (relevance). Price unknown must not pass. |
+| F01 | A museum near Khobar tonight, under 50 SAR each | museum (category); open in 18–23 window (B if no hours claim, else L); price **< 50** per person (strict; lead-eligible if unknown) *[Revised 27 Sep, R02.2]* | near | Travel mode | No, default car and show it | Special-hours notice unchecked; travel unmeasured | Scitech-type candidate only with an admissible hours claim (R04 v0.2 §2). No exhibition claim invented. |
+| F02 | Four of us, something active indoors tonight, under 150 SAR each | group of 4 (B); indoor (category inference allowed, disclosed (R04 v0.2 §2)); open tonight (B/L); **< 150** per person (strict; lead-eligible if unknown, never satisfied) *[Revised 27 Sep, R02.2]* | active | "Active" breadth | No | None on price or group | Cinemas are not "active" (relevance). Price unknown must not pass. |
 | F03 | Got 90 minutes before dinner at 19:30 back here, something cultural | total 18:00–19:30 door-to-door (B); cultural | — | Visit duration; mode | Default car, show it | None on the window | Needs duration plus both legs. A venue open 16–22 alone must not pass. |
 | F04 | Four of us want an escape room tonight without booking ahead | escape room; group 4 (B); no advance booking (B); open tonight (B) | — | "Without booking" = walk-in or same-day | **Ask**, or show both readings | None on the booking rule | Expected answer: no supported result, plus "call for a same-night slot". Any "walk-in available" is a false-feasibility failure. |
-| F05 | Family with kids aged 6 and 9, indoors this weekend, under 300 SAR total | ages 6 and 9 admitted (B); indoor; weekend open (Q); total ≤300 (B) | fun | **Number of adults** | **Ask** (it changes the total) | Price child-band unknown only with a caveat | An escape room (12+ recommended) must be flagged, not silently offered. |
-| F06 | Something to do this weekend that isn't food and isn't the mall | not food (category); not inside a mall (containment, B); weekend open (Q) | — | "Mall" = inside a mall, or a mall itself | No, use containment | Containment unknown ⇒ not "not a mall" | Mall-contained cinemas and arcades excluded, or flagged "containment unknown". |
+| F05 | Family with kids aged 6 and 9, indoors this weekend, under 300 SAR total | ages 6 and 9 admitted (B); indoor; weekend open (L); total **< 300** (unresolved "under": equality is a boundary ambiguity) (B) | fun | **Number of adults** | **Ask** (it changes the total) | Price child-band unknown only with a caveat | An escape room (12+ recommended) must be flagged, not silently offered. |
+| F06 | Something to do this weekend that isn't food and isn't the mall | not food (category); not inside a mall (containment, B); weekend open (L) | — | "Mall" = inside a mall, or a mall itself | No, use containment | Containment unknown ⇒ not "not a mall" | Mall-contained cinemas and arcades excluded, or flagged "containment unknown". |
 | F07 | Any exhibition still running this weekend around Dhahran? | exhibition occurrence overlapping 2–3 Oct (B) | — | "Still running" = run end ≥ date | No | None | With no occurrence data: an honest "no programme data" plus organiser link. A museum listing alone is a failure. |
-| F08 | Solo, about an hour, a quiet indoor cultural stop after 21:00 tonight | open from 21:00 for ≈60 min, i.e. last entry (B/Q); indoor cultural | quiet | Last entry | No | Quietness unknown is fine | A venue closing at 22:00 with unknown last entry is "may fit, check last entry", never "fits". |
+| F08 | Solo, about an hour, a quiet indoor cultural stop after 21:00 tonight | open from 21:00 for ≈60 min, i.e. last entry (B/L); indoor cultural | quiet | Last entry | No | Quietness unknown is fine | A venue closing at 22:00 with unknown last entry is "may fit, check last entry", never "fits". |
 | F09 | Two of us, a workshop we can join this Thursday evening | workshop occurrence 1 Oct evening (B); registration open for 2 (B) | — | Topic | No | None on the occurrence | With no data: say so. Venues with "workshop" in the name ≠ a Thursday session. |
-| F10 | Somewhere new to me in Khobar this weekend, not a café | not café; weekend open (Q) | **new to me** (needs history) | Visit history | Ask, or default to "not in your saved list" if one exists | Novelty unverifiable without history | Must not claim "new to you". May say "less commonly listed" only with evidence. |
-| F11 | Wheelchair-accessible museum open this Saturday | wheelchair access at the specific site (B); open Saturday (Q) | — | Specific access needs | Optional | None on access | A centre-level statement must be shown as qualified. No accessibility claim from category. |
+| F10 | Somewhere new to me in Khobar this weekend, not a café | not café; weekend open (L) | **new to me** (needs history) | Visit history | Ask, or default to "not in your saved list" if one exists | Novelty unverifiable without history | Must not claim "new to you". May say "less commonly listed" only with evidence. |
+| F11 | Wheelchair-accessible museum open this Saturday | wheelchair access at the specific site (B); open Saturday (L) | — | Specific access needs | Optional | None on access | A centre-level statement must be shown as qualified. No accessibility claim from category. |
 | F12 | Starting 18:30 tonight, something we can finish by 20:00 within a 15-minute drive | drive ≤15 min (B); start 18:30, finish 20:00 incl. travel (B) | — | Party | No | None on travel | With no routing: no supported result. A straight-line distance may not be expressed as minutes. |
 
 ### 2.2 Development queries (from R00 §25, not yet evaluated against data)
 
 | ID | R00 # | Query | Area (audit status) | Hard | Soft | Missing / ambiguous | Clarify? | Evaluation criteria |
 |---|---|---|---|---|---|---|---|---|
-| D01 | 007 | anything open and interesting | origin | open now (B/Q) | interesting | Time = now; mode | Default now plus visible radius | Only E1–E3 open-now claims pass. Variety across types. |
+| D01 | 007 | anything open and interesting | origin | open now (B/L) | interesting | Time = now; mode | Default now plus visible radius | Only admissible open-now claims (R04 v0.2 §2) pass. Variety across types. |
 | D02 | 022 | 90 mins near KAFD, no food | Riyadh KAFD (**not audited**) | total ≤90 min (B); not food | near | Start time; visit vs total | Ask if visit vs total changes results | Door-to-door budget, as F03. |
 | D03 | 024 | don't send me across Riyadh, 20 min max | Riyadh (not audited) | travel ≤20 min (B) | — | Origin, mode, time | Default car and now, shown | Routing required. Radius ≠ minutes. |
 | D04 | 037 | can we do pottery without booking weeks ahead | origin | pottery; short notice (B) | creative | "Weeks ahead" = same week OK? | Show the interpretation | Session and lead-time claim needed. A studio's existence alone fails. |
-| D05 | 040 | something for a rainy evening, not cinema | origin | sheltered (B); not cinema | interesting | Date; the word "rainy" may be hypothetical | No | Cinemas excluded. Indoor by disclosed E5 acceptable. |
+| D05 | 040 | something for a rainy evening, not cinema | origin | sheltered (B); not cinema | interesting | Date; the word "rainy" may be hypothetical | No | Cinemas excluded. Indoor by disclosed category inference acceptable. |
 | D06 | 046 | is the art thing at Ithra still on | Ithra, Dhahran (E) | named programme run includes today (B) | — | **Which** exhibition | **Ask**, or list current Ithra programmes | Resolve the referent. Never answer "yes" from venue hours. |
-| D07 | 055 | can a five-year-old do this workshop | referent | age 5 admitted (B) | — | Workshop identity | Ask for the referent | Only an E1–E3 age rule answers. Otherwise "not stated, check with organiser". |
-| D08 | 057 | free place to go with family after Maghrib | origin | price = 0 (B); family access; open after Maghrib (B/Q) | — | Date; Maghrib time depends on date and location | Compute Maghrib for the date, show it | "Free" requires an explicit free claim; unknown price ≠ free (v0.2 §19 row 4). |
-| D09 | 061 | date idea tonight that's not dinner | origin | not dinner/restaurant; tonight open (Q) | romantic, interesting | Budget, mode | No | Restaurants excluded. The mood match is explained from evidence, not invented. |
-| D10 | 074 | good bookshop I can browse late | origin | bookstore; open late (B/Q) | good, browsable | "Late" cutoff | Default 22:00, shown | OSM had hours for 3 bookstores (R02 §10). Tests E3 open data with the ODbL boundary. |
+| D07 | 055 | can a five-year-old do this workshop | referent | age 5 admitted (B) | — | Workshop identity | Ask for the referent | Only an admissible operator age rule (R04 v0.2 §2) answers. Otherwise "not stated, check with organiser". |
+| D08 | 057 | free place to go with family after Maghrib | origin | price = 0 (B); family access; open after Maghrib (B/L) | — | Date; Maghrib time depends on date and location | Compute Maghrib for the date, show it | "Free" requires an explicit free claim; unknown price ≠ free (v0.2 §19 row 4). |
+| D09 | 061 | date idea tonight that's not dinner | origin | not dinner/restaurant; tonight open (L) | romantic, interesting | Budget, mode | No | Restaurants excluded. The mood match is explained from evidence, not invented. |
+| D10 | 074 | good bookshop I can browse late | origin | bookstore; open late (B/L) | good, browsable | "Late" cutoff | Default 22:00, shown | OSM had hours for 3 bookstores (R02 §10). Tests A4 open data (hours only, labeled) with the ODbL boundary. |
 | D11 | 087 | don't give me the same five places | origin | exclude the user's previously shown or visited set | novelty | Which five: needs session or history | Use session memory if consented, otherwise ask | Must not fabricate history. Diversity measured against the prior list. |
 | D12 | 092 | in Jeddah for the weekend, things near Al Balad | Al-Balad J (audited in R02) | weekend dates; near Al-Balad | variety | Visitor vs resident; hotel | No | Mix of heritage, museum and activity. Heat and outdoor caveat for afternoon. teamLab duration disclosed. |
 
@@ -105,7 +105,7 @@ Report these separately, never as one score:
 | **Outcome class correctness** | All cases | Matches the R02.1 classes, or the class re-evaluated with new evidence: supported / missing facts / missing context / access failure / no candidates / violation. |
 | **Honest empty answers** | Cases whose correct outcome has no supported result (F04, F07, F09, F12 today) | States which constraint caused scarcity. Offers one labeled relaxation. |
 | **Residual checks per result** | Results shown | Lists what the user must still verify. Fewer is better **only if** false feasibility stays at zero. |
-| **Useful-candidate presence** | Cases with any supported or qualifiable candidate | Requires human judgment of usefulness: a separate annotator, with ratings recorded. |
+| **Useful-candidate presence** | Cases with any supported or lead-eligible candidate | Requires human judgment of usefulness: a separate annotator, with ratings recorded. |
 | **Three separate outcomes per case** *[added 27 Sep, R02.2]* | All cases | Research support per hard constraint, publication eligibility (rights), and **complete-query satisfaction** are reported in separate columns and never combined into one rate. |
 | **Language robustness** | Arabic and mixed variants | The same intent as the English version, once native-speaker-validated. |
 
@@ -114,7 +114,7 @@ User benefit (fewer checks, faster confident choice) can only be measured in R00
 ## 5. What is missing from this seed
 
 - Real user phrasing. All queries are synthetic.
-- Ground-truth eligible-result labels. These need E1–E3 evidence per candidate (R04), which R02.1 could not obtain.
+- Ground-truth eligible-result labels. These need admissible evidence per candidate (R04 v0.2 §2). R02.1 could not obtain it; R02.2 supplied some, transferred.
 - A native-speaker review of the Arabic drafts.
 - Coverage of D02, D03 and D12 areas with data. Only E and, partly, J have audited extracts.
 
@@ -128,3 +128,11 @@ User benefit (fewer checks, faster confident choice) can only be measured in R00
 - The held-out caveat is unchanged: those queries are unannotated, not unseen.
 
 **v0.1 (same day):** see git history (`ae983a8`).
+
+**v0.3, 27 Sep 2026 (night), after Sol's review of `468c1cc`:**
+- Removed the remaining E1–E5 and "qualifiable" references. They now point to R04 v0.2's admissibility rules and the lead-eligible (L) marking.
+- Made strict and inclusive comparisons consistent:
+  - an unresolved "under X" compares strictly, and equality is a boundary ambiguity;
+  - an explicitly confirmed strict meaning makes equality a failure;
+  - "at most / max / within X" is inclusive (≤), which applies to F12, D02 and D03.
+- F05 now uses a strict total.

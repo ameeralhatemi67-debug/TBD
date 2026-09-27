@@ -84,7 +84,7 @@ Results fall into three groups:
 
 **Price unit and boundary.**
 - A strict budget is satisfied only if the price's unit matches the phrase ("each" vs "total"), the party composition is known, and the comparison passes (§6a).
-- **"Under X"** is strict (< X) by default. Because colloquial usage may mean ≤, a value exactly equal to X is recorded as a **boundary ambiguity**, not a pass.
+- **"Under X"** is strict (< X) by default. Because colloquial usage may mean ≤, while the phrase is **unresolved** a value exactly equal to X is a **boundary ambiguity**, not a pass. **Once the user confirms the strict meaning, equality is a failure (contradicted).** *[Clarified 27 Sep night]*
 - **"At most / max / up to X"** is inclusive (≤ X).
 - A derived per-person share (total ÷ party size) may be used for "each" only when labeled as derived. Unverified final fees keep a residual caveat.
 
@@ -194,5 +194,16 @@ Refresh a claim when it is decision-critical for a live query and older than its
 - Quote vs availability vs booking (§7).
 - Replaced "displaying a link is always allowed" and similar blanket statements with source-specific findings plus labeled project policy (§9).
 - Examples updated with R02.2 evidence (§10).
+
+**v0.2.1, 27 Sep 2026 (night), after Sol's review of harness `468c1cc`:**
+- §4: resolved-strict vs unresolved "under" (above).
+- The harness now implements these rules:
+  - Inventory completeness: an empty or partial slot list is not a known failure.
+  - Deadline meaning (activity end vs back at origin), with required return legs and buffers. Missing values stay unknown, never zero.
+  - Dated and overnight opening intervals.
+  - Freshness applies to every capacity status. A stale "Booked" is not current unavailability.
+  - Distance alone never establishes branch identity; corroboration is required.
+
+  See [R06 §6](R06_Retrieval_and_Feasibility_Design.md#6-change-log).
 
 **v0.1 (same day):** the tiered E1–E5 policy, §6a price claims and the lineage default. Kept in git history (commits `ae983a8` and earlier).

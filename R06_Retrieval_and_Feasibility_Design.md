@@ -21,8 +21,8 @@
 
 | Step | What the evidence says | Design decision | Still open |
 |---|---|---|---|
-| 2 Discovery | Culture categories are noisy: 81 of 85 nearby `historic_site` names were judged implausible (single annotator). Real venues sit under other labels (Bujairi as `shopping`, muvi as `shopping_mall`). | Category filter plus a name/alias rescue list, and **drop `historic_site` from default culture retrieval until labeled data says otherwise**. Measure false positives and negatives on a labeled sample. | Recall is unknown: no independent venue inventory exists. |
-| 3 Identity | Escape The Room has **two Khobar branches**. One Overture record is 2.3 m from branch 1's operator point; another is 9 km away. Scitech has 3 records up to 4 km apart. | A provisional link needs exactly one operator branch within a small radius. Otherwise **undecided**, with no fact flow (R03 §5). Operator branch and room IDs, not URLs, identify offerings (app shell). | Entrances; branch 3 has no resolved point. |
+| 2 Discovery | Culture categories are noisy: 81 of 85 nearby `historic_site` names were judged implausible (single annotator). Real venues sit under other labels (Bujairi as `shopping`, muvi as `shopping_mall`). | Category filter plus a name/alias rescue list. **Excluding `historic_site` is a retrieval experiment, not a settled rule.** It carries a recall risk: real heritage places such as Oil Well 7 fall under that label. Compare runs with and without it on a labeled sample, measuring false positives and negatives. *[Revised 27 Sep night]* | Recall is unknown: no independent venue inventory exists. |
+| 3 Identity | Escape The Room has **two Khobar branches**. One Overture record is 2.3 m from branch 1's operator point; another is 9 km away. Scitech has 3 records up to 4 km apart. | Distance only proposes candidates. A provisional link needs exactly one located operator branch within a small radius **and** corroborating identity evidence (name or operator domain). Distance alone gives `candidate_only_no_corroboration`; branches without coordinates keep brand-matching distant records **undecided** (R03 §5). *[Revised 27 Sep night]* Operator branch and room IDs, not URLs, identify offerings (app shell). | Entrances; branch 3 has no resolved point. |
 | 4 Evidence | Operator API (C1) supplies room, party size, duration and slot quotes. Scitech's page body and metadata disagree, and its AR and EN pages disagree. | Keep each channel as a separate observation. Conflicts decide nothing. Search summaries are never evidence. | Refresh cadence per source (needs observations on different dates). |
 | 5 Evaluation | Room 1 fits four; SAR 384 party total gives a derived SAR 96 each; the 18:15 slot is a quote. For C12 the room's sessions miss the window. | Deterministic rules in the harness: strict "under", unit reconciliation, exception intervals, session timing, quote age. | Duration and last entry for cultural venues. |
 | 6–7 Shortlist | The fixed cases produce at most one research-supported fit, and only as a historical quote (C02). | Never pad the list with leads presented as fits. Report which constraint caused scarcity. | Whether users accept a separate "unverified leads" section (R00 sessions). |
@@ -32,10 +32,10 @@
 
 ## 2. Offline research harness
 
-[`R06_research_harness/check_harness.py`](R06_research_harness/check_harness.py) runs 23 checks with the standard library only.
+[`R06_research_harness/check_harness.py`](R06_research_harness/check_harness.py) runs **45 checks** (v2, 27 Sep night; see §6) with the standard library only.
 
-- **12 REAL checks** use observations **transferred from R02.2**, collected by Sol, not this agent: branch linking, the C02 derived price, C12 session failure, quote ageing, the Scitech body/metadata and AR/EN conflicts, and app-shell detection from manifest hashes.
-- **11 SYNTH checks** use clearly labeled invented fixtures ([`fixtures_synthetic.json`](R06_research_harness/fixtures_synthetic.json)): nearby same-brand branches, the strict "under" boundary vs inclusive "at most", unit mismatch with unknown party, straddling conflicts, exception date scope, ambiguous-scope hours, booked slots, midnight-crossing slots, and leads ≠ matches.
+- **13 REAL checks** use observations **transferred from R02.2**, collected by Sol, not this agent: branch linking, the C02 derived price, C12 session failure, quote ageing, the Scitech body/metadata and AR/EN conflicts, and app-shell detection from manifest hashes.
+- **32 SYNTH checks** use clearly labeled invented fixtures ([`fixtures_synthetic.json`](R06_research_harness/fixtures_synthetic.json)): nearby same-brand branches, the strict "under" boundary vs inclusive "at most", unit mismatch with unknown party, straddling conflicts, exception date scope, ambiguous-scope hours, booked slots, midnight-crossing slots, and leads ≠ matches.
 - Mutation sanity check (scratch copy, not committed): disabling the boundary rule or the quote-age rule each produces exactly one failing check.
 
 **What passing does not prove:**
@@ -59,7 +59,7 @@ The harness tests decision rules on fixed inputs, nothing more.
 | Mixed venue vs activity comparison | Separate searches | Shortlist across types | That users compare across types at all (R00 H3) |
 | Trust | Implicit | Explicit supported / unknown / conflict | That explicit uncertainty increases, not decreases, willingness to choose |
 
-**Net:** the specialized value is concentrated in **party/date/time-window feasibility for bookable offerings**, and possibly conflict surfacing. For open-ended cultural discovery, Maps/Search currently looks stronger on coverage. A first product that cannot beat Maps on the feasibility step for a few operators has no advantage.
+**Net** *[revised 27 Sep night]***:** the evidence so far shows that party/date/time feasibility is **checkable** for one bookable operator whose public site exposes slot quotes. That does **not** show bookable activities are the best market or the users' main need (R00 H1–H4 untested), and one operator is not a category. The candidate specialized value is feasibility checking where evidence exists, plus conflict surfacing. For open-ended cultural discovery, Maps/Search currently looks stronger on coverage. A first product that cannot beat Maps on the feasibility step for a few operators has no advantage.
 
 ## 4. What must stay provisional
 
@@ -72,3 +72,15 @@ The harness tests decision rules on fixed inputs, nothing more.
 ## 5. Smallest next evidence run
 
 Specified in [PROJECT_START_REVIEW §12](PROJECT_START_REVIEW.md#12-follow-up-27-sep-evening-after-r022), with acceptance criteria and owner/agent split.
+
+## 6. Change log
+
+**27 Sep 2026 (night), after Sol's review of `468c1cc`.** Harness v2 fixes six demonstrated defects:
+- **(A)** An empty or partial inventory is no longer a known failure (`unknown_inventory_incomplete` / `unavailable`). Only complete, applicable inventory can give `contradicted_no_fitting_session`. The transferred slot fixture is marked incomplete.
+- **(B)** Deadlines are `activity_end` or `back_at_origin`. Outbound and return legs and buffers are included, and unknown values stay unknown.
+- **(C)** Hours are evaluated as dated, timezone-aware intervals, with overnight openings and per-date exceptions.
+- **(D)** Quote age applies to every status, so a stale "Booked" is unknown. Impossible observation times are rejected. The 900 s age limit is a **synthetic test parameter**.
+- **(E)** Branch links need corroboration beyond distance.
+- **(F)** Case-pass preservation uses a normalized-text hash, all checkers exit nonzero on failure, and `query_satisfied` refuses to report satisfaction for an unsupplied constraint set.
+
+Input validation now covers party size, time ordering, comparison operators and timezone-aware datetimes. The harness has **45 checks: 13 REAL (transferred) and 32 SYNTH**. §1's `historic_site` exclusion and the "Net" assessment were revised as marked.
