@@ -1,0 +1,249 @@
+{
+  "al_balad": {
+    "all_rows": 1796,
+    "candidate": {
+      "n": 84,
+      "families": {
+        "culture": 44,
+        "local_stop": 38,
+        "activity": 2
+      },
+      "name": 84,
+      "websites": 32,
+      "phones": 37,
+      "socials": 79,
+      "freeform_address": 59,
+      "operating_status": {
+        "missing": 84
+      },
+      "source": {
+        "meta": 76,
+        "Microsoft": 2,
+        "Foursquare": 6
+      },
+      "licenses": {
+        "CDLA-Permissive-2.0": 78,
+        "Apache-2.0": 6
+      }
+    },
+    "confidence_screened": {
+      "n": 15,
+      "families": {
+        "local_stop": 8,
+        "culture": 7
+      },
+      "name": 15,
+      "websites": 8,
+      "phones": 7,
+      "socials": 13,
+      "freeform_address": 12,
+      "operating_status": {
+        "missing": 15
+      },
+      "source": {
+        "Microsoft": 2,
+        "meta": 13
+      },
+      "licenses": {
+        "CDLA-Permissive-2.0": 15
+      }
+    },
+    "confidence_sensitivity": {
+      "0": 84,
+      "0.7": 38,
+      "0.8": 15,
+      "0.9": 3
+    },
+    "taxonomy_missing": 178,
+    "near_same_name_pairs": 0
+  },
+  "boulevard": {
+    "all_rows": 1247,
+    "candidate": {
+      "n": 195,
+      "families": {
+        "culture": 17,
+        "local_stop": 162,
+        "activity": 16
+      },
+      "name": 195,
+      "websites": 100,
+      "phones": 122,
+      "socials": 156,
+      "freeform_address": 157,
+      "operating_status": {
+        "missing": 195
+      },
+      "source": {
+        "meta": 110,
+        "Microsoft": 22,
+        "Foursquare": 59,
+        "AllThePlaces": 4
+      },
+      "licenses": {
+        "CDLA-Permissive-2.0": 132,
+        "Apache-2.0": 59,
+        "CC0-1.0": 4
+      }
+    },
+    "confidence_screened": {
+      "n": 62,
+      "families": {
+        "local_stop": 54,
+        "activity": 6,
+        "culture": 2
+      },
+      "name": 62,
+      "websites": 41,
+      "phones": 49,
+      "socials": 37,
+      "freeform_address": 58,
+      "operating_status": {
+        "missing": 62
+      },
+      "source": {
+        "Microsoft": 22,
+        "meta": 36,
+        "AllThePlaces": 4
+      },
+      "licenses": {
+        "CDLA-Permissive-2.0": 58,
+        "CC0-1.0": 4
+      }
+    },
+    "confidence_sensitivity": {
+      "0": 195,
+      "0.7": 139,
+      "0.8": 62,
+      "0.9": 24
+    },
+    "taxonomy_missing": 46,
+    "near_same_name_pairs": 0
+  },
+  "diriyah": {
+    "all_rows": 255,
+    "candidate": {
+      "n": 44,
+      "families": {
+        "local_stop": 31,
+        "activity": 4,
+        "culture": 9
+      },
+      "name": 44,
+      "websites": 21,
+      "phones": 21,
+      "socials": 34,
+      "freeform_address": 31,
+      "operating_status": {
+        "missing": 44
+      },
+      "source": {
+        "meta": 27,
+        "Microsoft": 4,
+        "Foursquare": 12,
+        "AllThePlaces": 1
+      },
+      "licenses": {
+        "CDLA-Permissive-2.0": 31,
+        "Apache-2.0": 12,
+        "CC0-1.0": 1
+      }
+    },
+    "confidence_screened": {
+      "n": 14,
+      "families": {
+        "local_stop": 11,
+        "activity": 1,
+        "culture": 2
+      },
+      "name": 14,
+      "websites": 10,
+      "phones": 11,
+      "socials": 9,
+      "freeform_address": 12,
+      "operating_status": {
+        "missing": 14
+      },
+      "source": {
+        "meta": 9,
+        "Microsoft": 4,
+        "AllThePlaces": 1
+      },
+      "licenses": {
+        "CDLA-Permissive-2.0": 13,
+        "CC0-1.0": 1
+      }
+    },
+    "confidence_sensitivity": {
+      "0": 44,
+      "0.7": 29,
+      "0.8": 14,
+      "0.9": 9
+    },
+    "taxonomy_missing": 6,
+    "near_same_name_pairs": 0
+  },
+  "eastern": {
+    "all_rows": 10466,
+    "candidate": {
+      "n": 1056,
+      "families": {
+        "activity": 61,
+        "culture": 154,
+        "local_stop": 841
+      },
+      "name": 1056,
+      "websites": 509,
+      "phones": 638,
+      "socials": 866,
+      "freeform_address": 842,
+      "operating_status": {
+        "missing": 1056
+      },
+      "source": {
+        "meta": 683,
+        "Foursquare": 250,
+        "Microsoft": 111,
+        "AllThePlaces": 12
+      },
+      "licenses": {
+        "CDLA-Permissive-2.0": 794,
+        "Apache-2.0": 250,
+        "CC0-1.0": 12
+      }
+    },
+    "confidence_screened": {
+      "n": 347,
+      "families": {
+        "activity": 17,
+        "culture": 23,
+        "local_stop": 307
+      },
+      "name": 347,
+      "websites": 235,
+      "phones": 289,
+      "socials": 228,
+      "freeform_address": 334,
+      "operating_status": {
+        "missing": 347
+      },
+      "source": {
+        "meta": 224,
+        "Microsoft": 111,
+        "AllThePlaces": 12
+      },
+      "licenses": {
+        "CDLA-Permissive-2.0": 335,
+        "CC0-1.0": 12
+      }
+    },
+    "confidence_sensitivity": {
+      "0": 1056,
+      "0.7": 718,
+      "0.8": 347,
+      "0.9": 184
+    },
+    "taxonomy_missing": 341,
+    "near_same_name_pairs": 0
+  }
+}

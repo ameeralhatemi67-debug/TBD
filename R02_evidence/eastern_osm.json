@@ -1,0 +1,4337 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-05-31T22:37:44Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 440632085,
+  "lat": 26.3038153,
+  "lon": 50.1299663,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Bowling Alley",
+    "source": "Local knowlege",
+    "sport": "10pin"
+  }
+},
+{
+  "type": "node",
+  "id": 440632232,
+  "lat": 26.3037769,
+  "lon": 50.1294599,
+  "tags": {
+    "amenity": "cinema",
+    "name": "Recreation Theater"
+  }
+},
+{
+  "type": "node",
+  "id": 445371552,
+  "lat": 26.2859899,
+  "lon": 50.1126822,
+  "tags": {
+    "addr:housenumber": "510",
+    "addr:street": "Jana Court",
+    "amenity": "cafe",
+    "name": "ZOYA COFFEE"
+  }
+},
+{
+  "type": "node",
+  "id": 1217587468,
+  "lat": 26.4624412,
+  "lon": 50.1143542,
+  "tags": {
+    "addr:city": "Dammam",
+    "addr:housenumber": "32411",
+    "addr:postcode": "32411",
+    "addr:street": "طريق الملك عبدالله",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop;juice;breakfast",
+    "drive_through": "yes",
+    "name": "Mantorose Cafe",
+    "name:ar": "مقهى مانتوروز",
+    "opening_hours": "24/7",
+    "outdoor_seating": "yes",
+    "phone": "+9966559353338",
+    "website": "https://mantorose.com.sa/"
+  }
+},
+{
+  "type": "node",
+  "id": 1305620958,
+  "lat": 26.4669014,
+  "lon": 50.1140091,
+  "tags": {
+    "tourism": "theme_park"
+  }
+},
+{
+  "type": "node",
+  "id": 1330402052,
+  "lat": 26.4587630,
+  "lon": 50.0890652,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 1330402057,
+  "lat": 26.4494409,
+  "lon": 50.0883834,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 1489446593,
+  "lat": 26.3011680,
+  "lon": 50.2039880,
+  "tags": {
+    "amenity": "arts_centre",
+    "name": "Me"
+  }
+},
+{
+  "type": "node",
+  "id": 1768317666,
+  "lat": 26.2906503,
+  "lon": 50.1806431,
+  "tags": {
+    "shop": "gift",
+    "source": "field observation 28 may 2012"
+  }
+},
+{
+  "type": "node",
+  "id": 1768317667,
+  "lat": 26.2905638,
+  "lon": 50.1801818,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "various",
+    "source": "field observation 28 may 2012"
+  }
+},
+{
+  "type": "node",
+  "id": 1768317668,
+  "lat": 26.2918719,
+  "lon": 50.1815336,
+  "tags": {
+    "shop": "books",
+    "source": "field observation 28 may 2012"
+  }
+},
+{
+  "type": "node",
+  "id": 2141547495,
+  "lat": 26.3042259,
+  "lon": 50.1302076,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 2141568824,
+  "lat": 26.3153436,
+  "lon": 50.1313771,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cinnabon/ Seattles Best Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 2141582854,
+  "lat": 26.3344702,
+  "lon": 50.1226867,
+  "tags": {
+    "name": "Saudi Aramco Exhibit",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 2141590698,
+  "lat": 26.3255660,
+  "lon": 50.1107884,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Joffreys"
+  }
+},
+{
+  "type": "node",
+  "id": 2141594012,
+  "lat": 26.3288355,
+  "lon": 50.1096082,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Joffreys"
+  }
+},
+{
+  "type": "node",
+  "id": 2638021558,
+  "lat": 26.2914540,
+  "lon": 50.1823605,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Sado Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 2638024675,
+  "lat": 26.2929942,
+  "lon": 50.1788029,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Sado Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 4085371434,
+  "lat": 26.2918625,
+  "lon": 50.1782604,
+  "tags": {
+    "addr:city": "Khobar",
+    "addr:housenumber": "144",
+    "addr:postcode": "133",
+    "addr:street": "King Fahd Street",
+    "description": "Neighborhood Park",
+    "leisure": "park",
+    "name": "Khair Park"
+  }
+},
+{
+  "type": "node",
+  "id": 4101408090,
+  "lat": 26.2933307,
+  "lon": 50.2193325,
+  "tags": {
+    "addr:street": "Prince Turkey Street",
+    "brand": "مكتبة جرير",
+    "brand:ar": "مكتبة جرير",
+    "brand:en": "Jarir Bookstore",
+    "brand:wikidata": "Q6160243",
+    "brand:wikipedia": "ar:شركة جریر للتسویق",
+    "name": "مكتبة جرير",
+    "name:ar": "مكتبة جرير",
+    "name:en": "Jarir Bookstore",
+    "opening_hours": "Sa-Th 09:00-23:00; Fr 04:00-23:00",
+    "phone": "+966920000089",
+    "shop": "books",
+    "website": "https://www.jarir.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4112420594,
+  "lat": 26.4125480,
+  "lon": 50.0708322,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "ستاربكس",
+    "brand:ar": "ستاربكس",
+    "brand:en": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "ar:ستاربكس",
+    "cuisine": "coffee_shop",
+    "name": "ستاربكس",
+    "name:ar": "ستاربكس",
+    "name:en": "Starbucks",
+    "official_name": "ستاربكس كافية",
+    "official_name:ar": "ستاربكس كافية",
+    "official_name:en": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4119589189,
+  "lat": 26.4124243,
+  "lon": 50.0710399,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "ستاربكس",
+    "brand:ar": "ستاربكس",
+    "brand:en": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "ar:ستاربكس",
+    "cuisine": "coffee_shop",
+    "name": "ستاربكس",
+    "name:ar": "ستاربكس",
+    "name:en": "Starbucks",
+    "official_name": "ستاربكس كافية",
+    "official_name:ar": "ستاربكس كافية",
+    "official_name:en": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4140016717,
+  "lat": 26.4227484,
+  "lon": 50.0971122,
+  "tags": {
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 4165511091,
+  "lat": 26.3357566,
+  "lon": 50.0742649,
+  "tags": {
+    "name": "al shalawi dammam",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 4224983089,
+  "lat": 26.3070533,
+  "lon": 50.2101118,
+  "tags": {
+    "addr:street": "King Fahd bin Abdelaziz Road",
+    "amenity": "cafe",
+    "name": "SN Cafe (Social Network)"
+  }
+},
+{
+  "type": "node",
+  "id": 4257607994,
+  "lat": 26.4283241,
+  "lon": 50.0966168,
+  "tags": {
+    "name": "Bait shawaya dammam",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 4263082289,
+  "lat": 26.4209670,
+  "lon": 50.1093852,
+  "tags": {
+    "name": "Khalid sahb",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 4305589389,
+  "lat": 26.2882515,
+  "lon": 50.2183043,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Joffreys Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 4306210595,
+  "lat": 26.4555158,
+  "lon": 50.1213443,
+  "tags": {
+    "amenity": "cafe",
+    "name": "jofrys cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 4306242091,
+  "lat": 26.4539347,
+  "lon": 50.1205844,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Starbucks",
+    "opening_hours": "Mo-Su 06:00-22:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4331204389,
+  "lat": 26.2838621,
+  "lon": 50.2053574,
+  "tags": {
+    "leisure": "park",
+    "name": "Prince Ibn Jalawy Park"
+  }
+},
+{
+  "type": "node",
+  "id": 4359345792,
+  "lat": 26.4400017,
+  "lon": 50.0776415,
+  "tags": {
+    "name": "صالون إيليت",
+    "name:ar": "صالون إيليت",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 4383658498,
+  "lat": 26.3224053,
+  "lon": 50.1915381,
+  "tags": {
+    "name": "الشركه ألعربيه الحديثه للإنشاءات الحديثه",
+    "name:ar": "الشركه ألعربيه الحديثه للإنشاءات الحديثه",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 4423100789,
+  "lat": 26.4360953,
+  "lon": 50.1000639,
+  "tags": {
+    "amenity": "cafe",
+    "name:ar": "الخرطوم"
+  }
+},
+{
+  "type": "node",
+  "id": 4441172394,
+  "lat": 26.4105221,
+  "lon": 50.1034215,
+  "tags": {
+    "amenity": "cafe",
+    "name": "جوفريز",
+    "name:en": "joffreys"
+  }
+},
+{
+  "type": "node",
+  "id": 4459567490,
+  "lat": 26.4246643,
+  "lon": 50.1144503,
+  "tags": {
+    "name": "Malik",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 4459918689,
+  "lat": 26.4391125,
+  "lon": 50.1178451,
+  "tags": {
+    "name": "BAZY DAMMAM",
+    "name:ar": "BAZY DAMMAM",
+    "name:it": "Bazy Dammam",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 4460558189,
+  "lat": 26.2854236,
+  "lon": 50.1895178,
+  "tags": {
+    "name:en": "Al-Nijra Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 4460648202,
+  "lat": 26.2846972,
+  "lon": 50.1899166,
+  "tags": {
+    "name:en": "Al Jameah Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 4547853394,
+  "lat": 26.3778155,
+  "lon": 50.1163821,
+  "tags": {
+    "name": "bigots",
+    "name:ar": "bigots",
+    "name:en": "bogs",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 4866111134,
+  "lat": 26.3041968,
+  "lon": 50.1681210,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Vergnano"
+  }
+},
+{
+  "type": "node",
+  "id": 4866111135,
+  "lat": 26.3051456,
+  "lon": 50.1673189,
+  "tags": {
+    "name:en": "Fossil",
+    "shop": "gift"
+  }
+},
+{
+  "type": "node",
+  "id": 4866111226,
+  "lat": 26.3063030,
+  "lon": 50.1679134,
+  "tags": {
+    "shop": "gift"
+  }
+},
+{
+  "type": "node",
+  "id": 4866111529,
+  "lat": 26.3052533,
+  "lon": 50.1673240,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Costa",
+    "brand:wikidata": "Q608845",
+    "brand:wikipedia": "en:Costa Coffee",
+    "cuisine": "coffee_shop",
+    "name": "Costa",
+    "name:en": "Costa",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4866112522,
+  "lat": 26.3074594,
+  "lon": 50.1686720,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Coffee Bean"
+  }
+},
+{
+  "type": "node",
+  "id": 4874771027,
+  "lat": 26.3041059,
+  "lon": 50.1706580,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Simit Sarayi Bakery Cafe'"
+  }
+},
+{
+  "type": "node",
+  "id": 4874771030,
+  "lat": 26.3042047,
+  "lon": 50.1707086,
+  "tags": {
+    "name:en": "Ziddy",
+    "shop": "gift"
+  }
+},
+{
+  "type": "node",
+  "id": 4874771033,
+  "lat": 26.3042719,
+  "lon": 50.1703799,
+  "tags": {
+    "name:en": "Guven",
+    "shop": "gift"
+  }
+},
+{
+  "type": "node",
+  "id": 4874771054,
+  "lat": 26.3080026,
+  "lon": 50.1697775,
+  "tags": {
+    "name:en": "Obekan Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 4874777221,
+  "lat": 26.3042859,
+  "lon": 50.1707583,
+  "tags": {
+    "name:en": "Karaka",
+    "shop": "gift"
+  }
+},
+{
+  "type": "node",
+  "id": 4874777226,
+  "lat": 26.3041079,
+  "lon": 50.1700612,
+  "tags": {
+    "name:en": "Sparky's",
+    "tourism": "theme_park"
+  }
+},
+{
+  "type": "node",
+  "id": 4874777321,
+  "lat": 26.3045538,
+  "lon": 50.1703237,
+  "tags": {
+    "name:en": "Candylicious",
+    "shop": "gift"
+  }
+},
+{
+  "type": "node",
+  "id": 4876669321,
+  "lat": 26.4509591,
+  "lon": 50.1064509,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Lobbaw Dogga"
+  }
+},
+{
+  "type": "node",
+  "id": 4880479721,
+  "lat": 26.3100243,
+  "lon": 50.1691529,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Costa",
+    "brand:wikidata": "Q608845",
+    "brand:wikipedia": "en:Costa Coffee",
+    "cuisine": "coffee_shop",
+    "name": "Costa",
+    "name:en": "Costa Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4891801025,
+  "lat": 26.2931275,
+  "lon": 50.1812142,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Cinnzeo"
+  }
+},
+{
+  "type": "node",
+  "id": 4891801026,
+  "lat": 26.2928998,
+  "lon": 50.1811157,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Doughnuts & Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 4905648924,
+  "lat": 26.2932317,
+  "lon": 50.1812789,
+  "tags": {
+    "name:en": "Dnp Nutrition",
+    "shop": "gift"
+  }
+},
+{
+  "type": "node",
+  "id": 4905980322,
+  "lat": 26.3231814,
+  "lon": 50.1800736,
+  "tags": {
+    "name:en": "Amazonworld3",
+    "shop": "gift"
+  }
+},
+{
+  "type": "node",
+  "id": 4905980323,
+  "lat": 26.3231800,
+  "lon": 50.1799933,
+  "tags": {
+    "shop": "gift"
+  }
+},
+{
+  "type": "node",
+  "id": 4905980331,
+  "lat": 26.3427420,
+  "lon": 50.1819236,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Dallat",
+    "name:en": "Dallat"
+  }
+},
+{
+  "type": "node",
+  "id": 4905980343,
+  "lat": 26.3416301,
+  "lon": 50.1978299,
+  "tags": {
+    "name:en": "KTM",
+    "shop": "gift"
+  }
+},
+{
+  "type": "node",
+  "id": 4906007222,
+  "lat": 26.3227139,
+  "lon": 50.1797233,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Barncafe'"
+  }
+},
+{
+  "type": "node",
+  "id": 4906007824,
+  "lat": 26.3441598,
+  "lon": 50.1852583,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Bistro"
+  }
+},
+{
+  "type": "node",
+  "id": 4906015129,
+  "lat": 26.3044715,
+  "lon": 50.1993031,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "ستاربكس",
+    "brand:ar": "ستاربكس",
+    "brand:en": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "name": "ستاربكس",
+    "name:ar": "ستاربكس",
+    "name:en": "Starbucks",
+    "official_name": "ستاربكس كافية",
+    "official_name:ar": "ستاربكس كافية",
+    "official_name:en": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4906015227,
+  "lat": 26.3205926,
+  "lon": 50.2078502,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Joffrey's"
+  }
+},
+{
+  "type": "node",
+  "id": 4906015248,
+  "lat": 26.3055201,
+  "lon": 50.1942273,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Cafe' Barbera"
+  }
+},
+{
+  "type": "node",
+  "id": 4906015723,
+  "lat": 26.3204659,
+  "lon": 50.2079157,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Sado"
+  }
+},
+{
+  "type": "node",
+  "id": 4906015732,
+  "lat": 26.3048748,
+  "lon": 50.1968721,
+  "tags": {
+    "name:en": "Baja",
+    "shop": "gift"
+  }
+},
+{
+  "type": "node",
+  "id": 4906015736,
+  "lat": 26.3055571,
+  "lon": 50.1940122,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Big Chefs"
+  }
+},
+{
+  "type": "node",
+  "id": 5203596761,
+  "lat": 26.2836465,
+  "lon": 50.1972202,
+  "tags": {
+    "addr:street": "Dhahran Road",
+    "amenity": "fast_food",
+    "brand": "كرسبي كريم",
+    "brand:ar": "كرسبي كريم",
+    "brand:en": "Krispy Krem",
+    "brand:wikidata": "Q1192805",
+    "brand:wikipedia": "en:Krispy Kreme",
+    "cuisine": "donut",
+    "name": "كرسبي كريم",
+    "name:ar": "كرسبي كريم",
+    "name:en": "Krispy Krem",
+    "shop": "coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5322094422,
+  "lat": 26.2942904,
+  "lon": 50.2215413,
+  "tags": {
+    "artwork_type": "statue",
+    "material": "stone",
+    "name": "Stone Statue - Khobar Corniche Saudi Flags",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 5322105163,
+  "lat": 26.2944186,
+  "lon": 50.2221650,
+  "tags": {
+    "name": "Khobar Corniche Main Entrance - North Tower",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 5322105234,
+  "lat": 26.2942233,
+  "lon": 50.2217060,
+  "tags": {
+    "name": "Khobar Corniche Main Entrance - South Tower",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 5755914710,
+  "lat": 26.4583884,
+  "lon": 50.0930925,
+  "tags": {
+    "addr:street": "Al Khaleej Road",
+    "description": "Electronics and Bookstore",
+    "name": "مكتبة جرير",
+    "name:en": "Jarir Bookstore",
+    "opening_hours": "Mo-Th, Sa, Su 09:00-23:00; Fr 16:00-23:00",
+    "phone": "+966 9200 00089",
+    "shop": "books",
+    "website": "https://www.jarir.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5824227283,
+  "lat": 26.3812785,
+  "lon": 50.1820822,
+  "tags": {
+    "leisure": "park",
+    "name": "Assafa Community Park"
+  }
+},
+{
+  "type": "node",
+  "id": 5824239479,
+  "lat": 26.3794022,
+  "lon": 50.1820117,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Costa Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 6351741687,
+  "lat": 26.2909843,
+  "lon": 50.1309575,
+  "tags": {
+    "name": "نقطة تسليم.153",
+    "name:en": "DPC.153",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6351741688,
+  "lat": 26.3041373,
+  "lon": 50.1140120,
+  "tags": {
+    "name": "نقطة تسليم.174",
+    "name:en": "DPC.174",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6352376086,
+  "lat": 26.3166116,
+  "lon": 50.0991629,
+  "tags": {
+    "name": "نقطة تسليم 881",
+    "name:en": "DPC.881",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6352385086,
+  "lat": 26.3130525,
+  "lon": 50.1171468,
+  "tags": {
+    "name": "نقطة تسليم 146",
+    "name:en": "DPC.146",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6376231085,
+  "lat": 26.3076171,
+  "lon": 50.0965346,
+  "tags": {
+    "name": "نقطة تسليم 266",
+    "name:en": "DPC.266",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6407205586,
+  "lat": 26.3045647,
+  "lon": 50.1148648,
+  "tags": {
+    "name": "نقطة تسليم.945",
+    "name:en": "DPC.954",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6407205587,
+  "lat": 26.3045616,
+  "lon": 50.1152208,
+  "tags": {
+    "name": "نقطة تسليم.168",
+    "name:en": "DPC.168",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6420171694,
+  "lat": 26.3111141,
+  "lon": 50.0963292,
+  "tags": {
+    "name": "نقطة تسليم.941",
+    "name:en": "DPC.941",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6425317294,
+  "lat": 26.3588481,
+  "lon": 50.2059669,
+  "tags": {
+    "addr:city": "Ar Rakah Al Janubiyah",
+    "addr:housenumber": "4783",
+    "addr:postcode": "34226",
+    "addr:street": "ابن الشوكاني",
+    "leisure": "park",
+    "name": "حديقة غرناطة",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 6481596093,
+  "lat": 26.3128659,
+  "lon": 50.1040604,
+  "tags": {
+    "name": "نقطة تسليم.981",
+    "name:en": "DPC.981",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6485430747,
+  "lat": 26.2852746,
+  "lon": 50.2223336,
+  "tags": {
+    "amenity": "cafe",
+    "name": "دربي كافيه",
+    "name:en": "Derby"
+  }
+},
+{
+  "type": "node",
+  "id": 6789112284,
+  "lat": 26.3052817,
+  "lon": 50.1959335,
+  "tags": {
+    "addr:city": "الخبر",
+    "addr:street": "Tabari St.",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "no",
+    "name": "Kiara Coffee",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6938718096,
+  "lat": 26.4094000,
+  "lon": 50.1097908,
+  "tags": {
+    "addr:city": "Dammam",
+    "addr:postcode": "32252",
+    "addr:street": "Al Khaleej Road",
+    "description": "Electronics and Bookstore",
+    "name": "Jarir Bookstore | مكتبة جرير",
+    "name:en": "Jarir Bookstore",
+    "opening_hours": "Mo-Th, Sa, Su 09:00-23:00; Fr 16:00-23:00",
+    "operator": "Jarir Bookstore",
+    "phone": "+966 9200 00089",
+    "shop": "books",
+    "website": "https://www.jarir.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 7835200106,
+  "lat": 26.3342973,
+  "lon": 50.1889178,
+  "tags": {
+    "addr:city": "Khobar",
+    "addr:housenumber": "3299",
+    "addr:postcode": "34434",
+    "addr:street": "Prince Sultan Road",
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "cuisine": "coffee;cafe",
+    "delivery": "yes",
+    "email": "info@revivalcoffee.sa",
+    "name": "REVIVAL",
+    "opening_hours": "24/7",
+    "outdoor_seating": "yes",
+    "phone": "+966560900747"
+  }
+},
+{
+  "type": "node",
+  "id": 7875545143,
+  "lat": 26.3178410,
+  "lon": 50.2230920,
+  "tags": {
+    "amenity": "cafe",
+    "cafe": "coffee",
+    "name": "Crafter"
+  }
+},
+{
+  "type": "node",
+  "id": 7936818600,
+  "lat": 26.3644115,
+  "lon": 50.0955797,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 8035775658,
+  "lat": 26.3078121,
+  "lon": 50.1701227,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "no",
+    "name": "Blue islnad Waffle & Sweets",
+    "opening_hours": "10:00-22:00"
+  }
+},
+{
+  "type": "node",
+  "id": 8202992419,
+  "lat": 26.2888910,
+  "lon": 50.2155415,
+  "tags": {
+    "name": "باجة",
+    "name:en": "Baja",
+    "shop": "coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 8691014370,
+  "lat": 26.3028518,
+  "lon": 50.2219812,
+  "tags": {
+    "amenity": "cafe",
+    "contact:phone": "+966 50 679 5999",
+    "contact:website": "https://ww.chemistrycoffeesa.com",
+    "name": "Chemistry"
+  }
+},
+{
+  "type": "node",
+  "id": 8691017777,
+  "lat": 26.3037047,
+  "lon": 50.2224131,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Caffe Vergnano 1882"
+  }
+},
+{
+  "type": "node",
+  "id": 8691031854,
+  "lat": 26.3030633,
+  "lon": 50.2223183,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Godiva Belgium 1926"
+  }
+},
+{
+  "type": "node",
+  "id": 8691047267,
+  "lat": 26.3049334,
+  "lon": 50.2225432,
+  "tags": {
+    "amenity": "cafe",
+    "breakfast": "yes",
+    "name": "Five Elephants",
+    "opening_hours": "Not-So 06:00-23:00"
+  }
+},
+{
+  "type": "node",
+  "id": 8708073069,
+  "lat": 26.3098653,
+  "lon": 50.1694659,
+  "tags": {
+    "addr:city": "Dhahran",
+    "addr:postcode": "34455",
+    "addr:street": "Prince Faisal bin Fahed Road",
+    "branch": "| مكتبة جرير",
+    "brand": "مكتبة جرير",
+    "brand:ar": "مكتبة جرير",
+    "brand:en": "Jarir Bookstore",
+    "brand:wikidata": "Q6160243",
+    "brand:wikipedia": "ar:شركة جریر للتسویق",
+    "name": "مكتبة جرير",
+    "name:ar": "مكتبة جرير",
+    "name:en": "Jarir Bookstore",
+    "operator": "مكتبة جرير",
+    "phone": "+966920000089",
+    "shop": "books",
+    "website": "https://www.jarir.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 8711234401,
+  "lat": 26.3740635,
+  "lon": 50.1281252,
+  "tags": {
+    "addr:city": "Dammam",
+    "addr:postcode": "34242",
+    "addr:street": "Al Muntazah",
+    "leisure": "park",
+    "name": "منتزه ارامكو البيئي 2",
+    "name:en": "Aramco Environmental Park 2",
+    "operator": "Saudi Aramco"
+  }
+},
+{
+  "type": "node",
+  "id": 8753187763,
+  "lat": 26.3076042,
+  "lon": 50.2316613,
+  "tags": {
+    "addr:city": "Al Khobar",
+    "addr:postcode": "34413",
+    "addr:street": "Al Corniche",
+    "man_made": "water_tower",
+    "name": "Khobar Water Tower",
+    "tourism": "attraction",
+    "wikimedia_commons": "File:Al khobar water tower.JPG"
+  }
+},
+{
+  "type": "node",
+  "id": 8779890037,
+  "lat": 26.4568159,
+  "lon": 50.1307542,
+  "tags": {
+    "amenity": "cafe",
+    "name": "السيف لاونج"
+  }
+},
+{
+  "type": "node",
+  "id": 9357940386,
+  "lat": 26.4586775,
+  "lon": 50.0927567,
+  "tags": {
+    "addr:city": "dammam",
+    "addr:postcode": "32423",
+    "addr:street": "طريق الخليج",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "email": "info@corecoffeecompany.com",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Core Coffee & Roastery",
+    "opening_hours": "Mo-Su 06:00-11:59",
+    "outdoor_seating": "yes",
+    "phone": "+9668001228222",
+    "website": "https://corecoffee.co/"
+  }
+},
+{
+  "type": "node",
+  "id": 9373666629,
+  "lat": 26.2834483,
+  "lon": 50.2197572,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "ستاربكس",
+    "brand:ar": "ستاربكس",
+    "brand:en": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "ar:ستاربكس",
+    "cuisine": "coffee_shop",
+    "name": "ستاربكس",
+    "name:ar": "ستاربكس",
+    "name:en": "Starbucks",
+    "official_name": "ستاربكس كافية",
+    "official_name:ar": "ستاربكس كافية",
+    "official_name:en": "Starbucks Coffee",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9374160278,
+  "lat": 26.3247054,
+  "lon": 50.2278259,
+  "tags": {
+    "addr:street": "Corniche Road",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Dervt Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 9383440805,
+  "lat": 26.2893743,
+  "lon": 50.1019363,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Jebel Heights Swimming Pool",
+    "sport": "swimming"
+  }
+},
+{
+  "type": "node",
+  "id": 9452911458,
+  "lat": 26.2822100,
+  "lon": 50.2218788,
+  "tags": {
+    "addr:city": "Al Khobar",
+    "addr:housenumber": "6536",
+    "addr:postcode": "31952",
+    "addr:street": "Prince Turki Street",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop;ice_cream;thai",
+    "name": "Cay Cafe",
+    "name:en": "Cay Cafe",
+    "phone": "+966533350708"
+  }
+},
+{
+  "type": "node",
+  "id": 9565164907,
+  "lat": 26.4586931,
+  "lon": 50.0852868,
+  "tags": {
+    "addr:city": "Dammam",
+    "addr:housenumber": "شارع الخليج",
+    "addr:postcode": "32423",
+    "addr:street": "Khaleej Rd, Az Zuhur",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop;roastry;محمصة;قهوة",
+    "internet_access": "yes",
+    "internet_access:fee": "customers",
+    "name": "UMQ Coffee 2.2 قهوة عمق",
+    "opening_hours": "Su-We 06:00-23:00 Th 06:00-23:59 Sa 09:00-23:00",
+    "outdoor_seating": "yes",
+    "phone": "966550444171",
+    "takeaway": "yes",
+    "website": "https://umqcoffee.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9590031009,
+  "lat": 26.3036305,
+  "lon": 50.1694797,
+  "tags": {
+    "amenity": "cafe",
+    "name": "ZOYA COFEE"
+  }
+},
+{
+  "type": "node",
+  "id": 9676968637,
+  "lat": 26.2899165,
+  "lon": 50.1008594,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Shrq Coffee Roasters",
+    "opening_hours": "PH,Mo-Su 08:00-21:00"
+  }
+},
+{
+  "type": "node",
+  "id": 9707037888,
+  "lat": 26.2816604,
+  "lon": 50.2224602,
+  "tags": {
+    "addr:city": "Al Khobar",
+    "addr:postcode": "31952",
+    "addr:street": "شارع الأمير تركي",
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "brand": "mantorose",
+    "capacity": "60",
+    "internet_access": "no",
+    "name": "mantorose cafe",
+    "opening_hours": "24/7",
+    "outdoor_seating": "yes",
+    "phone": "+92920024123",
+    "website": "https://mantorose.com.sa"
+  }
+},
+{
+  "type": "node",
+  "id": 9906998256,
+  "lat": 26.3322661,
+  "lon": 50.1616558,
+  "tags": {
+    "amenity": "cafe",
+    "drive_through": "yes",
+    "name": "derby cafe",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 9906998257,
+  "lat": 26.3322492,
+  "lon": 50.1611930,
+  "tags": {
+    "amenity": "cafe",
+    "name": "spark cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 9906998262,
+  "lat": 26.3304104,
+  "lon": 50.1618237,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "كافيه كيان",
+    "name:en": "KYAN coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 9907059692,
+  "lat": 26.3305874,
+  "lon": 50.1625676,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10305569859,
+  "lat": 26.3200245,
+  "lon": 50.2169472,
+  "tags": {
+    "addr:city": "khobar",
+    "addr:housenumber": "7284",
+    "addr:postcode": "34422",
+    "addr:street": "طريق الملك فيصل",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "internet_access:ssid": "Equal",
+    "name": "EQUAL",
+    "opening_hours": "24/7",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10809180349,
+  "lat": 26.4586771,
+  "lon": 50.0835167,
+  "tags": {
+    "addr:city": "Dammam",
+    "addr:housenumber": "الزهور",
+    "addr:postcode": "32211",
+    "addr:street": "طريق الخليج العربي",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "مقهي نغم الليالي",
+    "phone": "0504999155"
+  }
+},
+{
+  "type": "node",
+  "id": 11085992364,
+  "lat": 26.2831863,
+  "lon": 50.2195506,
+  "tags": {
+    "addr:city": "Al Khobar",
+    "addr:postcode": "34414",
+    "addr:street": "Prince Turki Street",
+    "amenity": "cinema",
+    "name": "AMC Ajdan Walk 9"
+  }
+},
+{
+  "type": "node",
+  "id": 11086118619,
+  "lat": 26.3060000,
+  "lon": 50.1714506,
+  "tags": {
+    "addr:city": "Dhahran",
+    "amenity": "cinema",
+    "name": "Muvi Mall of Dhahran"
+  }
+},
+{
+  "type": "node",
+  "id": 11110476296,
+  "lat": 26.3354083,
+  "lon": 50.1311567,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "ستاربكس",
+    "brand:ar": "ستاربكس",
+    "brand:en": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "ستاربكس",
+    "name:ar": "ستاربكس",
+    "name:en": "Starbucks",
+    "official_name": "ستاربكس كافية",
+    "official_name:ar": "ستاربكس كافية",
+    "official_name:en": "Starbucks Coffee",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11711158949,
+  "lat": 26.3549416,
+  "lon": 50.2090153,
+  "tags": {
+    "brand": "مكتبة جرير",
+    "brand:ar": "مكتبة جرير",
+    "brand:en": "Jarir Bookstore",
+    "brand:wikidata": "Q6160243",
+    "name": "مكتبة جرير",
+    "name:ar": "مكتبة جرير",
+    "name:en": "Jarir Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 11711159418,
+  "lat": 26.3691446,
+  "lon": 50.2386948,
+  "tags": {
+    "addr:city": "Alkhobar",
+    "addr:street": "Corniche Road",
+    "name": "Seven theme Park",
+    "note": "Under Construction",
+    "tourism": "theme_park"
+  }
+},
+{
+  "type": "node",
+  "id": 12019999383,
+  "lat": 26.4475644,
+  "lon": 50.1162963,
+  "tags": {
+    "addr:city": "الدمام",
+    "addr:housenumber": "3971",
+    "addr:postcode": "32415",
+    "leisure": "park",
+    "name": "حديقة الأماني"
+  }
+},
+{
+  "type": "node",
+  "id": 12311932801,
+  "lat": 26.2983672,
+  "lon": 50.2101080,
+  "tags": {
+    "addr:postcode": "34426",
+    "addr:street": "Prince Fawaz Street",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "name:en": "Dear Diary"
+  }
+},
+{
+  "type": "node",
+  "id": 12312810701,
+  "lat": 26.2979340,
+  "lon": 50.2100262,
+  "tags": {
+    "addr:housenumber": "8079",
+    "addr:street": "22nd Street",
+    "amenity": "cafe",
+    "name:en": "Khobar 101"
+  }
+},
+{
+  "type": "node",
+  "id": 12318807452,
+  "lat": 26.2883340,
+  "lon": 50.2161377,
+  "tags": {
+    "addr:city": "Al Khubar Ash Shamaliyah",
+    "addr:street": "10th Street",
+    "amenity": "cafe",
+    "brand": "ستاربكس",
+    "brand:ar": "ستاربكس",
+    "brand:en": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "name": "ستاربكس",
+    "name:ar": "ستاربكس",
+    "name:en": "Starbucks",
+    "official_name": "ستاربكس كافية",
+    "official_name:ar": "ستاربكس كافية",
+    "official_name:en": "Starbucks Coffee",
+    "opening_hours": "Mo-Su 06:00-02:00",
+    "outdoor_seating": "yes",
+    "takeaway": "yes",
+    "website": "https://www.starbucks.sa/"
+  }
+},
+{
+  "type": "node",
+  "id": 12456094852,
+  "lat": 26.4418350,
+  "lon": 50.1216758,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-12-27",
+    "name": "Al Aker Sweets"
+  }
+},
+{
+  "type": "node",
+  "id": 12456094853,
+  "lat": 26.4419515,
+  "lon": 50.1203209,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-12-27",
+    "name": "Al Shallal Pastry"
+  }
+},
+{
+  "type": "node",
+  "id": 12456094855,
+  "lat": 26.4418080,
+  "lon": 50.1203028,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2024-12-27",
+    "name": "The Cake House"
+  }
+},
+{
+  "type": "node",
+  "id": 12799847562,
+  "lat": 26.3287063,
+  "lon": 50.1819723,
+  "tags": {
+    "amenity": "cafe",
+    "instagram": "https://www.instagram.com/urthcaffesaudi",
+    "name": "Urth Caffe",
+    "name:ar": "إيرث كافيه",
+    "opening_hours": "Mo-Su 07:00-01:00",
+    "phone": "+966 9200 07498",
+    "website": "https://www.urthcaffe.sa/welcome/index"
+  }
+},
+{
+  "type": "node",
+  "id": 12799847565,
+  "lat": 26.3173424,
+  "lon": 50.2035622,
+  "tags": {
+    "amenity": "cafe",
+    "instagram": "https://www.instagram.com/urthcaffesaudi",
+    "name": "Urth Caffe",
+    "name:ar": "إيرث كافيه",
+    "opening_hours": "Mo-Su 07:00-01:00",
+    "phone": "+966 9200 07498",
+    "website": "https://www.urthcaffe.sa/welcome/index"
+  }
+},
+{
+  "type": "node",
+  "id": 12877819712,
+  "lat": 26.3303256,
+  "lon": 50.2117880,
+  "tags": {
+    "leisure": "park",
+    "name": "Rawabi Park"
+  }
+},
+{
+  "type": "node",
+  "id": 13180255601,
+  "lat": 26.2950351,
+  "lon": 50.2207775,
+  "tags": {
+    "addr:postcode": "34425",
+    "addr:street": "20th Street",
+    "name": "هاف مليون",
+    "name:en": "Half Million",
+    "opening_hours": "24/7",
+    "shop": "coffee",
+    "website": "http://halfm.sa/"
+  }
+},
+{
+  "type": "node",
+  "id": 13272452645,
+  "lat": 26.3142268,
+  "lon": 50.1395722,
+  "tags": {
+    "leisure": "park",
+    "name": "Park"
+  }
+},
+{
+  "type": "node",
+  "id": 13272452655,
+  "lat": 26.3021933,
+  "lon": 50.1455783,
+  "tags": {
+    "leisure": "park",
+    "name": "Rawdha Park, KFUPM"
+  }
+},
+{
+  "type": "node",
+  "id": 13272452659,
+  "lat": 26.2988589,
+  "lon": 50.1488655,
+  "tags": {
+    "leisure": "park",
+    "name": "park"
+  }
+},
+{
+  "type": "node",
+  "id": 13272452660,
+  "lat": 26.2979737,
+  "lon": 50.1545379,
+  "tags": {
+    "leisure": "park",
+    "name": "حديقة الفردوس"
+  }
+},
+{
+  "type": "node",
+  "id": 13413169202,
+  "lat": 26.4552373,
+  "lon": 50.1137560,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Starbucks"
+  }
+},
+{
+  "type": "node",
+  "id": 13413170302,
+  "lat": 26.4536914,
+  "lon": 50.1061883,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Alkarak"
+  }
+},
+{
+  "type": "node",
+  "id": 13417370901,
+  "lat": 26.4473346,
+  "lon": 50.1025085,
+  "tags": {
+    "name:en": "Entrance Dammam Souq",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 13417407901,
+  "lat": 26.4453938,
+  "lon": 50.1028989,
+  "tags": {
+    "name:en": "Dammam Souq",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 13516738656,
+  "lat": 26.3024204,
+  "lon": 50.2096662,
+  "tags": {
+    "name": "rocket",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "way",
+  "id": 37282389,
+  "center": {
+    "lat": 26.2862856,
+    "lon": 50.1074967
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Rahima Park"
+  }
+},
+{
+  "type": "way",
+  "id": 37360045,
+  "center": {
+    "lat": 26.3017325,
+    "lon": 50.1377017
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "3rd Street Pool",
+    "sport": "swimming"
+  }
+},
+{
+  "type": "way",
+  "id": 37360453,
+  "center": {
+    "lat": 26.3011516,
+    "lon": 50.1372897
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "3rd Street Tennis Courts",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 37372149,
+  "center": {
+    "lat": 26.2906876,
+    "lon": 50.1054352
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Dhahran Hills Pools & Gym",
+    "sport_1": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 37793691,
+  "center": {
+    "lat": 26.2958585,
+    "lon": 50.1059767
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 37815415,
+  "center": {
+    "lat": 26.2923979,
+    "lon": 50.1028730
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 38066349,
+  "center": {
+    "lat": 26.2942077,
+    "lon": 50.1309588
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Lava Circle Park"
+  }
+},
+{
+  "type": "way",
+  "id": 69141551,
+  "center": {
+    "lat": 26.4029264,
+    "lon": 50.1277897
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 69141569,
+  "center": {
+    "lat": 26.3993526,
+    "lon": 50.1264334
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 69142108,
+  "center": {
+    "lat": 26.3913898,
+    "lon": 50.1215348
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 69145701,
+  "center": {
+    "lat": 26.4233125,
+    "lon": 50.1107997
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 69145742,
+  "center": {
+    "lat": 26.4227672,
+    "lon": 50.1168062
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 69314246,
+  "center": {
+    "lat": 26.4086308,
+    "lon": 50.1177069
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 69314252,
+  "center": {
+    "lat": 26.4078588,
+    "lon": 50.1141242
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 69314253,
+  "center": {
+    "lat": 26.4039308,
+    "lon": 50.1134560
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 69323552,
+  "center": {
+    "lat": 26.3670490,
+    "lon": 50.1395595
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 69323553,
+  "center": {
+    "lat": 26.3605738,
+    "lon": 50.1391653
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 97442804,
+  "center": {
+    "lat": 26.2860226,
+    "lon": 50.2210430
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "South Courniche park walkway"
+  }
+},
+{
+  "type": "way",
+  "id": 204686076,
+  "center": {
+    "lat": 26.4546206,
+    "lon": 50.1193395
+  },
+  "tags": {
+    "brand": "مكتبة جرير",
+    "brand:ar": "مكتبة جرير",
+    "brand:en": "Jarir Bookstore",
+    "brand:wikidata": "Q6160243",
+    "brand:wikipedia": "ar:شركة جریر للتسویق",
+    "name": "مكتبة جرير",
+    "name:ar": "مكتبة جرير",
+    "name:en": "Jarir Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "way",
+  "id": 221551947,
+  "center": {
+    "lat": 26.3648416,
+    "lon": 50.1909922
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 221551948,
+  "center": {
+    "lat": 26.3660711,
+    "lon": 50.1868562
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 221551949,
+  "center": {
+    "lat": 26.3673098,
+    "lon": 50.1933450
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 228234746,
+  "center": {
+    "lat": 26.3044828,
+    "lon": 50.1292491
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "King's Road Park"
+  }
+},
+{
+  "type": "way",
+  "id": 248191657,
+  "center": {
+    "lat": 26.4628461,
+    "lon": 50.1051791
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Corniche"
+  }
+},
+{
+  "type": "way",
+  "id": 335846793,
+  "center": {
+    "lat": 26.3673187,
+    "lon": 50.2033155
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 335868024,
+  "center": {
+    "lat": 26.3022691,
+    "lon": 50.1922713
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 372738232,
+  "center": {
+    "lat": 26.3687125,
+    "lon": 50.0758364
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 427227612,
+  "center": {
+    "lat": 26.2911428,
+    "lon": 50.1054808
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Dhahran Hills Snack Bar"
+  }
+},
+{
+  "type": "way",
+  "id": 440334678,
+  "center": {
+    "lat": 26.2906090,
+    "lon": 50.1106987
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Nariya Lane Park"
+  }
+},
+{
+  "type": "way",
+  "id": 440383461,
+  "center": {
+    "lat": 26.2911431,
+    "lon": 50.1094770
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 461347200,
+  "center": {
+    "lat": 26.3014404,
+    "lon": 50.1383468
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "soccer field"
+  }
+},
+{
+  "type": "way",
+  "id": 461348416,
+  "center": {
+    "lat": 26.3054939,
+    "lon": 50.1301124
+  },
+  "tags": {
+    "description": "small park area",
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 461348619,
+  "center": {
+    "lat": 26.2993391,
+    "lon": 50.1373469
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 461348733,
+  "center": {
+    "lat": 26.2978450,
+    "lon": 50.1346068
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 461352183,
+  "center": {
+    "lat": 26.2978099,
+    "lon": 50.1076381
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 461352661,
+  "center": {
+    "lat": 26.3013890,
+    "lon": 50.1267727
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 510228179,
+  "center": {
+    "lat": 26.2906424,
+    "lon": 50.2190967
+  },
+  "tags": {
+    "brand": "مكتبة جرير",
+    "brand:ar": "مكتبة جرير",
+    "brand:en": "Jarir Bookstore",
+    "brand:wikidata": "Q6160243",
+    "brand:wikipedia": "ar:شركة جریر للتسویق",
+    "building": "yes",
+    "name": "مكتبة جرير",
+    "name:ar": "مكتبة جرير",
+    "name:en": "Jarir Bookstore",
+    "shop": "books"
+  }
+},
+{
+  "type": "way",
+  "id": 550007387,
+  "center": {
+    "lat": 26.3696507,
+    "lon": 50.0910011
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 552516475,
+  "center": {
+    "lat": 26.4503326,
+    "lon": 50.1144989
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "حديقة النزهة"
+  }
+},
+{
+  "type": "way",
+  "id": 559858727,
+  "center": {
+    "lat": 26.2843549,
+    "lon": 50.2204840
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Copper Chadni Cascade Waterfalls"
+  }
+},
+{
+  "type": "way",
+  "id": 559864361,
+  "center": {
+    "lat": 26.2820446,
+    "lon": 50.2067941
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "GCC Monument Park",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 559864512,
+  "center": {
+    "lat": 26.2831781,
+    "lon": 50.2055117
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Khobar Park"
+  }
+},
+{
+  "type": "way",
+  "id": 559864560,
+  "center": {
+    "lat": 26.2828843,
+    "lon": 50.2036768
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 559865115,
+  "center": {
+    "lat": 26.2835331,
+    "lon": 50.2033775
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Ramada Park"
+  }
+},
+{
+  "type": "way",
+  "id": 563692365,
+  "center": {
+    "lat": 26.2942268,
+    "lon": 50.2241352
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Khobar Corniche Seawalk"
+  }
+},
+{
+  "type": "way",
+  "id": 576069754,
+  "center": {
+    "lat": 26.3373672,
+    "lon": 50.1377586
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "حديقة الياقوت",
+    "name:ar": "حديقة الياقوت"
+  }
+},
+{
+  "type": "way",
+  "id": 576069769,
+  "center": {
+    "lat": 26.3370303,
+    "lon": 50.1358126
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "حديقة الربيع",
+    "name:en": "Rabea Park"
+  }
+},
+{
+  "type": "way",
+  "id": 576069775,
+  "center": {
+    "lat": 26.3315969,
+    "lon": 50.1427403
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "حديقة اللؤلؤ",
+    "name:en": "Lulu Park"
+  }
+},
+{
+  "type": "way",
+  "id": 576069776,
+  "center": {
+    "lat": 26.3437203,
+    "lon": 50.1451282
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "حديقة الأصيل",
+    "name:en": "Asseel Park"
+  }
+},
+{
+  "type": "way",
+  "id": 576069792,
+  "center": {
+    "lat": 26.3426019,
+    "lon": 50.1448831
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Kawthar Street Park"
+  }
+},
+{
+  "type": "way",
+  "id": 583976296,
+  "center": {
+    "lat": 26.2898347,
+    "lon": 50.1803543
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Rashid Front Entrance Park"
+  }
+},
+{
+  "type": "way",
+  "id": 583976297,
+  "center": {
+    "lat": 26.2992255,
+    "lon": 50.1776532
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Ulaya Mousqe Park"
+  }
+},
+{
+  "type": "way",
+  "id": 583986517,
+  "center": {
+    "lat": 26.2843075,
+    "lon": 50.2203446
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Small park next to cooper"
+  }
+},
+{
+  "type": "way",
+  "id": 585770707,
+  "center": {
+    "lat": 26.3409191,
+    "lon": 50.1410015
+  },
+  "tags": {
+    "addr:housenumber": "4621",
+    "leisure": "park",
+    "name": "حديقة الأريج",
+    "name:en": "Areej Park"
+  }
+},
+{
+  "type": "way",
+  "id": 586711210,
+  "center": {
+    "lat": 26.3314514,
+    "lon": 50.1428670
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Green Zone"
+  }
+},
+{
+  "type": "way",
+  "id": 588671201,
+  "center": {
+    "lat": 26.3307091,
+    "lon": 50.1540012
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 588671202,
+  "center": {
+    "lat": 26.3289876,
+    "lon": 50.1529109
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "حديقة زرقاء اليمامة",
+    "name:en": "Zarqaa Al Yamama Park"
+  }
+},
+{
+  "type": "way",
+  "id": 589457883,
+  "center": {
+    "lat": 26.3266163,
+    "lon": 50.1484353
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 589672394,
+  "center": {
+    "lat": 26.3483659,
+    "lon": 50.1504940
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Qusour District Park"
+  }
+},
+{
+  "type": "way",
+  "id": 590870442,
+  "center": {
+    "lat": 26.3401181,
+    "lon": 50.1383984
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Olaya Street Park"
+  }
+},
+{
+  "type": "way",
+  "id": 591559304,
+  "center": {
+    "lat": 26.3308712,
+    "lon": 50.1597579
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "حديقة الشباب",
+    "name:en": "Doha Youth Park"
+  }
+},
+{
+  "type": "way",
+  "id": 591763474,
+  "center": {
+    "lat": 26.3359456,
+    "lon": 50.1647604
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Zuhoor Park"
+  }
+},
+{
+  "type": "way",
+  "id": 604655511,
+  "center": {
+    "lat": 26.3330942,
+    "lon": 50.1649231
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "ملعب الميدان",
+    "name:en": "Maydan Field"
+  }
+},
+{
+  "type": "way",
+  "id": 604655514,
+  "center": {
+    "lat": 26.3308978,
+    "lon": 50.1687121
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Triangle Park"
+  }
+},
+{
+  "type": "way",
+  "id": 604655515,
+  "center": {
+    "lat": 26.3382740,
+    "lon": 50.1689439
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Lotus Park"
+  }
+},
+{
+  "type": "way",
+  "id": 604655516,
+  "center": {
+    "lat": 26.3424488,
+    "lon": 50.1652909
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "حديقة الأسيل",
+    "name:en": "Aseel Park - Doha"
+  }
+},
+{
+  "type": "way",
+  "id": 604655517,
+  "center": {
+    "lat": 26.3403780,
+    "lon": 50.1570704
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Nada Park"
+  }
+},
+{
+  "type": "way",
+  "id": 604655518,
+  "center": {
+    "lat": 26.3383442,
+    "lon": 50.1552138
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 604655519,
+  "center": {
+    "lat": 26.3363667,
+    "lon": 50.1720985
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 612750656,
+  "center": {
+    "lat": 26.3005153,
+    "lon": 50.1857229
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 612750657,
+  "center": {
+    "lat": 26.3024535,
+    "lon": 50.1856166
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 612750658,
+  "center": {
+    "lat": 26.3025008,
+    "lon": 50.1819074
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 612750659,
+  "center": {
+    "lat": 26.3088894,
+    "lon": 50.1751701
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 612750660,
+  "center": {
+    "lat": 26.3384171,
+    "lon": 50.1840325
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 631883225,
+  "center": {
+    "lat": 26.4043629,
+    "lon": 50.1197399
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 632601942,
+  "center": {
+    "lat": 26.4170614,
+    "lon": 50.1055889
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 632601944,
+  "center": {
+    "lat": 26.4034469,
+    "lon": 50.0975602
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 633110622,
+  "center": {
+    "lat": 26.3626324,
+    "lon": 50.1948772
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Al Raka Hidden Park"
+  }
+},
+{
+  "type": "way",
+  "id": 633112046,
+  "center": {
+    "lat": 26.3588823,
+    "lon": 50.2060410
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "حديقة غرناطة",
+    "name:en": "Granada Park"
+  }
+},
+{
+  "type": "way",
+  "id": 648551254,
+  "center": {
+    "lat": 26.4148668,
+    "lon": 50.1234618
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 659868703,
+  "center": {
+    "lat": 26.3408428,
+    "lon": 50.1390231
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 684819874,
+  "center": {
+    "lat": 26.3444317,
+    "lon": 50.1986343
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 684819875,
+  "center": {
+    "lat": 26.3406200,
+    "lon": 50.2013501
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 686169205,
+  "center": {
+    "lat": 26.3057436,
+    "lon": 50.2279268
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Prince Faisal bin Fahad Corniche walking park"
+  }
+},
+{
+  "type": "way",
+  "id": 686330295,
+  "center": {
+    "lat": 26.3174964,
+    "lon": 50.1699729
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "حديقة السليمانية",
+    "name:en": "Alsulaimanyah Family Park"
+  }
+},
+{
+  "type": "way",
+  "id": 688842742,
+  "center": {
+    "lat": 26.3007891,
+    "lon": 50.2270622
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 690413553,
+  "center": {
+    "lat": 26.3024137,
+    "lon": 50.2212229
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 691010162,
+  "center": {
+    "lat": 26.2978831,
+    "lon": 50.1667415
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 691545023,
+  "center": {
+    "lat": 26.3443674,
+    "lon": 50.2030744
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 692391321,
+  "center": {
+    "lat": 26.2886986,
+    "lon": 50.0951108
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "As Sarawat Park"
+  }
+},
+{
+  "type": "way",
+  "id": 692391322,
+  "center": {
+    "lat": 26.2903674,
+    "lon": 50.0970904
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Badr Park"
+  }
+},
+{
+  "type": "way",
+  "id": 692391323,
+  "center": {
+    "lat": 26.2921280,
+    "lon": 50.0932473
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 692391324,
+  "center": {
+    "lat": 26.2990406,
+    "lon": 50.1032102
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Najd Park"
+  }
+},
+{
+  "type": "way",
+  "id": 692391325,
+  "center": {
+    "lat": 26.3069888,
+    "lon": 50.1286951
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Area of Lights Park"
+  }
+},
+{
+  "type": "way",
+  "id": 692420746,
+  "center": {
+    "lat": 26.3303279,
+    "lon": 50.2118031
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 692890144,
+  "center": {
+    "lat": 26.3520670,
+    "lon": 50.1888706
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "حديقة المعيبد"
+  }
+},
+{
+  "type": "way",
+  "id": 693642390,
+  "center": {
+    "lat": 26.3521390,
+    "lon": 50.1365551
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 693642391,
+  "center": {
+    "lat": 26.3535004,
+    "lon": 50.1382705
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 693642392,
+  "center": {
+    "lat": 26.3550109,
+    "lon": 50.1367999
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 693642393,
+  "center": {
+    "lat": 26.3536755,
+    "lon": 50.1350853
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 694104855,
+  "center": {
+    "lat": 26.3177935,
+    "lon": 50.2271228
+  },
+  "tags": {
+    "landuse": "grass",
+    "leisure": "park",
+    "name": "حديقة النورس"
+  }
+},
+{
+  "type": "way",
+  "id": 694104856,
+  "center": {
+    "lat": 26.3166828,
+    "lon": 50.2245049
+  },
+  "tags": {
+    "landuse": "grass",
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 694104857,
+  "center": {
+    "lat": 26.3139058,
+    "lon": 50.2208706
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 697245654,
+  "center": {
+    "lat": 26.4048869,
+    "lon": 50.1957891
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 697245655,
+  "center": {
+    "lat": 26.4080745,
+    "lon": 50.2010983
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 698923948,
+  "center": {
+    "lat": 26.3990946,
+    "lon": 50.1944101
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "ref": "S5",
+    "sport": "swimming"
+  }
+},
+{
+  "type": "way",
+  "id": 698923949,
+  "center": {
+    "lat": 26.3982453,
+    "lon": 50.1947102
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "ref": "S5",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 699137165,
+  "center": {
+    "lat": 26.3701198,
+    "lon": 50.2043840
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "مدينة الأمير سعود بن جلوي الرياضية",
+    "name:en": "Prince Saud bin Jalawi Stadium"
+  }
+},
+{
+  "type": "way",
+  "id": 699516538,
+  "center": {
+    "lat": 26.3684298,
+    "lon": 50.1305800
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 699518175,
+  "center": {
+    "lat": 26.3612264,
+    "lon": 50.1308506
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 699518238,
+  "center": {
+    "lat": 26.3643518,
+    "lon": 50.1278727
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 701462032,
+  "center": {
+    "lat": 26.3155549,
+    "lon": 50.1302981
+  },
+  "tags": {
+    "amenity": "cinema",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 702250563,
+  "center": {
+    "lat": 26.3495252,
+    "lon": 50.1081403
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 704993382,
+  "center": {
+    "lat": 26.3140684,
+    "lon": 50.1182113
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 704999342,
+  "center": {
+    "lat": 26.3148359,
+    "lon": 50.1185191
+  },
+  "tags": {
+    "amenity": "parking",
+    "leisure": "park",
+    "parking": "surface"
+  }
+},
+{
+  "type": "way",
+  "id": 706827629,
+  "center": {
+    "lat": 26.3783814,
+    "lon": 50.1277319
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 708083576,
+  "center": {
+    "lat": 26.4278156,
+    "lon": 50.0865419
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 708341594,
+  "center": {
+    "lat": 26.3962555,
+    "lon": 50.1109645
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "ساحة الحزم"
+  }
+},
+{
+  "type": "way",
+  "id": 711880050,
+  "center": {
+    "lat": 26.3359446,
+    "lon": 50.1201220
+  },
+  "tags": {
+    "amenity": "arts_centre",
+    "building": "yes",
+    "name": "اثراء مدينة الملك عبدالعزيز الثقافيه",
+    "name:en": "King Abdulaziz Center for World Culture (Ithra)"
+  }
+},
+{
+  "type": "way",
+  "id": 711880051,
+  "center": {
+    "lat": 26.3358145,
+    "lon": 50.1203511
+  },
+  "tags": {
+    "amenity": "arts_centre",
+    "building": "yes",
+    "name": "اثراء مدينة الملك عبدالعزيز الثقافيه",
+    "name:en": "King Abdulaziz Center for World Culture (Ithra)"
+  }
+},
+{
+  "type": "way",
+  "id": 711880052,
+  "center": {
+    "lat": 26.3354108,
+    "lon": 50.1205876
+  },
+  "tags": {
+    "amenity": "arts_centre",
+    "building": "yes",
+    "name": "اثراء مدينة الملك عبدالعزيز الثقافيه",
+    "name:en": "King Abdulaziz Center for World Culture (Ithra)",
+    "wikidata": "Q124432910"
+  }
+},
+{
+  "type": "way",
+  "id": 711880053,
+  "center": {
+    "lat": 26.3358252,
+    "lon": 50.1205868
+  },
+  "tags": {
+    "amenity": "arts_centre",
+    "building": "yes",
+    "name": "اثراء مدينة الملك عبدالعزيز الثقافيه",
+    "name:en": "King Abdulaziz Center for World Culture (Ithra)"
+  }
+},
+{
+  "type": "way",
+  "id": 711880054,
+  "center": {
+    "lat": 26.3362308,
+    "lon": 50.1210369
+  },
+  "tags": {
+    "amenity": "arts_centre",
+    "building": "yes",
+    "name": "اثراء مدينة الملك عبدالعزيز الثقافيه",
+    "name:en": "King Abdulaziz Center for World Culture (Ithra)"
+  }
+},
+{
+  "type": "way",
+  "id": 712275265,
+  "center": {
+    "lat": 26.3390072,
+    "lon": 50.1906109
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Qurtoba Park"
+  }
+},
+{
+  "type": "way",
+  "id": 718364765,
+  "center": {
+    "lat": 26.4485788,
+    "lon": 50.0793283
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 724171068,
+  "center": {
+    "lat": 26.4576296,
+    "lon": 50.1107770
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 726001627,
+  "center": {
+    "lat": 26.4203507,
+    "lon": 50.1195880
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "King Fahad Park"
+  }
+},
+{
+  "type": "way",
+  "id": 726001628,
+  "center": {
+    "lat": 26.4196683,
+    "lon": 50.0719853
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 728277347,
+  "center": {
+    "lat": 26.3123783,
+    "lon": 50.1660196
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 728277348,
+  "center": {
+    "lat": 26.3178522,
+    "lon": 50.1730771
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "حديقة العبير"
+  }
+},
+{
+  "type": "way",
+  "id": 728277349,
+  "center": {
+    "lat": 26.3173640,
+    "lon": 50.1664279
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "حديقة المروج"
+  }
+},
+{
+  "type": "way",
+  "id": 728277350,
+  "center": {
+    "lat": 26.3175372,
+    "lon": 50.1586978
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 728277351,
+  "center": {
+    "lat": 26.3188835,
+    "lon": 50.1595696
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "حديقة الاسيل"
+  }
+},
+{
+  "type": "way",
+  "id": 728277352,
+  "center": {
+    "lat": 26.3157724,
+    "lon": 50.1602776
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 728277353,
+  "center": {
+    "lat": 26.3200628,
+    "lon": 50.1556777
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 728277354,
+  "center": {
+    "lat": 26.3209595,
+    "lon": 50.1593764
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 730041794,
+  "center": {
+    "lat": 26.4284478,
+    "lon": 50.1313583
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 745236164,
+  "center": {
+    "lat": 26.3246987,
+    "lon": 50.1639595
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 745236167,
+  "center": {
+    "lat": 26.3131785,
+    "lon": 50.1809492
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 745236169,
+  "center": {
+    "lat": 26.3124259,
+    "lon": 50.1916697
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 745236171,
+  "center": {
+    "lat": 26.3094506,
+    "lon": 50.2067923
+  },
+  "tags": {
+    "family": "only",
+    "leisure": "park",
+    "name": "حديقة التميمي",
+    "name:en": "tamimi park"
+  }
+},
+{
+  "type": "way",
+  "id": 776280170,
+  "center": {
+    "lat": 26.4089806,
+    "lon": 50.1684425
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 786371912,
+  "center": {
+    "lat": 26.3038443,
+    "lon": 50.2129190
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 786371920,
+  "center": {
+    "lat": 26.3015180,
+    "lon": 50.2252398
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 792244438,
+  "center": {
+    "lat": 26.4230776,
+    "lon": 50.0861618
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 792244439,
+  "center": {
+    "lat": 26.4034594,
+    "lon": 50.0810343
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 792244440,
+  "center": {
+    "lat": 26.4087241,
+    "lon": 50.0763830
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 793633990,
+  "center": {
+    "lat": 26.3868690,
+    "lon": 50.1244255
+  },
+  "tags": {
+    "name": "مدينة الكوبرا الترفيهية",
+    "name:en": "Cobra Park Dammam",
+    "tourism": "theme_park"
+  }
+},
+{
+  "type": "way",
+  "id": 816308953,
+  "center": {
+    "lat": 26.3026449,
+    "lon": 50.2219391
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building:part": "yes",
+    "cuisine": "coffee_shop",
+    "internet_access": "yes",
+    "name": "Scene Cafe and Lounge",
+    "opening_hours": "08:00-22:00",
+    "opening_hours:covid19": "restricted",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 846838426,
+  "center": {
+    "lat": 26.3979480,
+    "lon": 50.1820383
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 846933742,
+  "center": {
+    "lat": 26.3987214,
+    "lon": 50.1945820
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "S5 Sports Hall 2",
+    "ref": "S5"
+  }
+},
+{
+  "type": "way",
+  "id": 847007558,
+  "center": {
+    "lat": 26.4564513,
+    "lon": 50.0901267
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 847014317,
+  "center": {
+    "lat": 26.4698272,
+    "lon": 50.0911985
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 847014323,
+  "center": {
+    "lat": 26.4620330,
+    "lon": 50.0871198
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 850758631,
+  "center": {
+    "lat": 26.3695233,
+    "lon": 50.0983513
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 850758639,
+  "center": {
+    "lat": 26.3714597,
+    "lon": 50.0957609
+  },
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 850775693,
+  "center": {
+    "lat": 26.3623340,
+    "lon": 50.0937177
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Hada Park"
+  }
+},
+{
+  "type": "way",
+  "id": 875154204,
+  "center": {
+    "lat": 26.3812115,
+    "lon": 50.1827846
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Assafa community park"
+  }
+},
+{
+  "type": "way",
+  "id": 902639353,
+  "center": {
+    "lat": 26.3033288,
+    "lon": 50.2237964
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 927713165,
+  "center": {
+    "lat": 26.3003613,
+    "lon": 50.1035993
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Hawta Park"
+  }
+},
+{
+  "type": "way",
+  "id": 931314818,
+  "center": {
+    "lat": 26.2931728,
+    "lon": 50.0956851
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Tehama Park"
+  }
+},
+{
+  "type": "way",
+  "id": 931713592,
+  "center": {
+    "lat": 26.2970864,
+    "lon": 50.1002752
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Nafud Park"
+  }
+},
+{
+  "type": "way",
+  "id": 931785754,
+  "center": {
+    "lat": 26.2926723,
+    "lon": 50.0971518
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Rabigh Park"
+  }
+},
+{
+  "type": "way",
+  "id": 952639281,
+  "center": {
+    "lat": 26.2966441,
+    "lon": 50.1650185
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 952639282,
+  "center": {
+    "lat": 26.2982317,
+    "lon": 50.1634442
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 952639283,
+  "center": {
+    "lat": 26.2992736,
+    "lon": 50.1653649
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 952639371,
+  "center": {
+    "lat": 26.2813917,
+    "lon": 50.2074067
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 983372310,
+  "center": {
+    "lat": 26.3629964,
+    "lon": 50.1032606
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 983910664,
+  "center": {
+    "lat": 26.3625394,
+    "lon": 50.1027248
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 1016304668,
+  "center": {
+    "lat": 26.2834457,
+    "lon": 50.2196738
+  },
+  "tags": {
+    "amenity": "cafe",
+    "brand": "ستاربكس",
+    "brand:ar": "ستاربكس",
+    "brand:en": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "ar:ستاربكس",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "name": "ستاربكس",
+    "name:ar": "ستاربكس",
+    "name:en": "Starbucks",
+    "official_name": "ستاربكس كافية",
+    "official_name:ar": "ستاربكس كافية",
+    "official_name:en": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1016378065,
+  "center": {
+    "lat": 26.3247227,
+    "lon": 50.2277905
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "name": "Derby Coffee"
+  }
+},
+{
+  "type": "way",
+  "id": 1017320889,
+  "center": {
+    "lat": 26.2894085,
+    "lon": 50.1019931
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Jebel Heights Swimming Pool",
+    "sport": "swimming"
+  }
+},
+{
+  "type": "way",
+  "id": 1026913461,
+  "center": {
+    "lat": 26.2903839,
+    "lon": 50.1007046
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 1040727516,
+  "center": {
+    "lat": 26.3052461,
+    "lon": 50.1292423
+  },
+  "tags": {
+    "amenity": "cafe",
+    "branch": "Ibis Ave",
+    "brand": "ستاربكس",
+    "brand:ar": "ستاربكس",
+    "brand:en": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "ar:ستاربكس",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "name": "ستاربكس",
+    "name:ar": "ستاربكس",
+    "name:en": "Starbucks",
+    "official_name": "ستاربكس كافية",
+    "official_name:ar": "ستاربكس كافية",
+    "official_name:en": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1043081430,
+  "center": {
+    "lat": 26.2792873,
+    "lon": 50.1148314
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Dammam Blvd. Park"
+  }
+},
+{
+  "type": "way",
+  "id": 1043324902,
+  "center": {
+    "lat": 26.3339135,
+    "lon": 50.1302651
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 1043324903,
+  "center": {
+    "lat": 26.3315968,
+    "lon": 50.1303236
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 1043324904,
+  "center": {
+    "lat": 26.3296367,
+    "lon": 50.1317218
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 1043324905,
+  "center": {
+    "lat": 26.3300650,
+    "lon": 50.1343059
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 1043324906,
+  "center": {
+    "lat": 26.3293305,
+    "lon": 50.1297596
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 1043324907,
+  "center": {
+    "lat": 26.3273028,
+    "lon": 50.1297738
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 1049865246,
+  "center": {
+    "lat": 26.3045223,
+    "lon": 50.1303760
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "amusement_arcade",
+    "name": "King's Road Game Room"
+  }
+},
+{
+  "type": "way",
+  "id": 1062260338,
+  "center": {
+    "lat": 26.3374376,
+    "lon": 50.2017572
+  },
+  "tags": {
+    "addr:city": "Khobar",
+    "addr:postcode": "34611",
+    "addr:street": "Prince Sultan Road",
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "مقهى سُلاف",
+    "opening_hours": "Mo-Su 15:00-23:00",
+    "website": "https://www.instagram.com/soulaf_coffee/?hl=en"
+  }
+},
+{
+  "type": "way",
+  "id": 1068756985,
+  "center": {
+    "lat": 26.3440728,
+    "lon": 50.1259555
+  },
+  "tags": {
+    "addr:street": "Tabari Street",
+    "leisure": "park",
+    "name": "aramco envirnmental park",
+    "opening_hours": "24/7",
+    "operator": "aramco"
+  }
+},
+{
+  "type": "way",
+  "id": 1068932825,
+  "center": {
+    "lat": 26.3450192,
+    "lon": 50.1290774
+  },
+  "tags": {
+    "addr:city": "dharhan",
+    "leisure": "park",
+    "name": "sawsan park",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "way",
+  "id": 1068932826,
+  "center": {
+    "lat": 26.3468576,
+    "lon": 50.1286566
+  },
+  "tags": {
+    "addr:city": "dharhan",
+    "addr:street": "22 (A) Street",
+    "leisure": "park",
+    "name": "Reef park",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "way",
+  "id": 1068932828,
+  "center": {
+    "lat": 26.3455199,
+    "lon": 50.1314693
+  },
+  "tags": {
+    "addr:city": "dharhan",
+    "leisure": "park",
+    "name": "Raihan park"
+  }
+},
+{
+  "type": "way",
+  "id": 1068932830,
+  "center": {
+    "lat": 26.3428353,
+    "lon": 50.1300317
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Al Jam"
+  }
+},
+{
+  "type": "way",
+  "id": 1071211413,
+  "center": {
+    "lat": 26.3476370,
+    "lon": 50.1338393
+  },
+  "tags": {
+    "addr:city": "dharhan",
+    "leisure": "park",
+    "name": "jasmine park",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "way",
+  "id": 1071211415,
+  "center": {
+    "lat": 26.3440802,
+    "lon": 50.1368721
+  },
+  "tags": {
+    "addr:city": "dharhan",
+    "leisure": "park",
+    "name": "shatha park",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "way",
+  "id": 1119576587,
+  "center": {
+    "lat": 26.3927969,
+    "lon": 50.1288115
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "منتزة أرامكو البيئي 3"
+  }
+},
+{
+  "type": "way",
+  "id": 1135280215,
+  "center": {
+    "lat": 26.4419114,
+    "lon": 50.0983373
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 1138284966,
+  "center": {
+    "lat": 26.3283654,
+    "lon": 50.1504613
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 1138284967,
+  "center": {
+    "lat": 26.3279808,
+    "lon": 50.1509631
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 1138284968,
+  "center": {
+    "lat": 26.3273450,
+    "lon": 50.1503477
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 1183713065,
+  "center": {
+    "lat": 26.3961348,
+    "lon": 50.1263271
+  },
+  "tags": {
+    "amenity": "theatre",
+    "theatre:type": "open_air"
+  }
+},
+{
+  "type": "way",
+  "id": 1183726438,
+  "center": {
+    "lat": 26.3863843,
+    "lon": 50.1262369
+  },
+  "tags": {
+    "brand": "Mahara",
+    "building": "yes",
+    "club": "sport",
+    "contact:email": "info@mahara.com.sa",
+    "contact:phone": "0596666038",
+    "leisure": "sports_centre",
+    "name": "Mahara Karting",
+    "sport": "karting;soft play;trampolining",
+    "website": "https://mahara.com.sa/"
+  }
+},
+{
+  "type": "way",
+  "id": 1238920053,
+  "center": {
+    "lat": 26.3228272,
+    "lon": 50.2183851
+  },
+  "tags": {
+    "addr:city": "Khobar",
+    "addr:postcode": "34412",
+    "addr:street": "Prince Turki Street",
+    "amenity": "cafe",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "internet_access": "no",
+    "name": "White Mountain",
+    "opening_hours": "Mo-Su 08:00-12:00",
+    "outdoor_seating": "yes",
+    "smoking": "no",
+    "source": "microsoft/BuildingFootprints"
+  }
+},
+{
+  "type": "way",
+  "id": 1239114233,
+  "center": {
+    "lat": 26.3008027,
+    "lon": 50.2007749
+  },
+  "tags": {
+    "addr:street": "Prince Humud Street",
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "فيلوسي.فيلوسي",
+    "name:en": "Viloci Lounge",
+    "source": "microsoft/BuildingFootprints"
+  }
+},
+{
+  "type": "way",
+  "id": 1241391292,
+  "center": {
+    "lat": 26.3711810,
+    "lon": 50.1409135
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 1297325192,
+  "center": {
+    "lat": 26.4475623,
+    "lon": 50.1163756
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 1326506533,
+  "center": {
+    "lat": 26.3284720,
+    "lon": 50.1731068
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 1377020529,
+  "center": {
+    "lat": 26.2985312,
+    "lon": 50.1489723
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 1380295931,
+  "center": {
+    "lat": 26.3944477,
+    "lon": 50.0978379
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "ساحة الجامعيين"
+  }
+},
+{
+  "type": "way",
+  "id": 1449998505,
+  "center": {
+    "lat": 26.2990738,
+    "lon": 50.2139038
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 1474526620,
+  "center": {
+    "lat": 26.2884084,
+    "lon": 50.1439226
+  },
+  "tags": {
+    "man_made": "geoglyph",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "way",
+  "id": 1498954046,
+  "center": {
+    "lat": 26.4006668,
+    "lon": 50.2290739
+  },
+  "tags": {
+    "area": "yes",
+    "artwork_type": "sculpture",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "relation",
+  "id": 8170579,
+  "center": {
+    "lat": 26.3309650,
+    "lon": 50.1483513
+  },
+  "tags": {
+    "addr:city": "Dhahran",
+    "addr:street": "Prince Sultan Bin Abdulaziz Road",
+    "leisure": "park",
+    "name": "متنزه الدانة العام",
+    "name:en": "Dana Public Park",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 8333659,
+  "center": {
+    "lat": 26.3296059,
+    "lon": 50.1605913
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "حديقة العائلة",
+    "name:en": "Doha Family Park",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 12587763,
+  "center": {
+    "lat": 26.2981428,
+    "lon": 50.1072244
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Hills Park",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 15999678,
+  "center": {
+    "lat": 26.3931417,
+    "lon": 50.1243824
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "منتزه الملك فهد",
+    "name:en": "King Fahd Park",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}

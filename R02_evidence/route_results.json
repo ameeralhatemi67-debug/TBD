@@ -1,0 +1,306 @@
+[
+  {
+    "area": "eastern",
+    "mode": "car",
+    "url": "https://routing.openstreetmap.de/routed-car/table/v1/driving/50.200000,26.300000;50.120619,26.335921;50.227749,26.319205;50.194539,26.305501?sources=0&destinations=1;2;3&annotations=duration,distance",
+    "origin": [
+      50.2,
+      26.3
+    ],
+    "targets": [
+      {
+        "id": "5edcb8c0-d1d9-4ee9-bf5c-38e43cad59de",
+        "name": "Ithra Museum Galleries",
+        "coordinates": [
+          50.1206188,
+          26.33592079
+        ]
+      },
+      {
+        "id": "98ea1d61-7290-4533-bafa-e844a503d48f",
+        "name": "Scitech",
+        "coordinates": [
+          50.22774906,
+          26.3192048
+        ]
+      },
+      {
+        "id": "b4fdc657-c04d-44df-a47c-8edd7a87cc53",
+        "name": "Escape the Room | سكيب روم الخبر",
+        "coordinates": [
+          50.1945387,
+          26.30550071
+        ]
+      }
+    ],
+    "timestamp_utc": "2026-09-26T10:21:47.302493+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+    "seconds": 0.266
+  },
+  {
+    "area": "eastern",
+    "mode": "foot",
+    "url": "https://routing.openstreetmap.de/routed-foot/table/v1/driving/50.200000,26.300000;50.120619,26.335921;50.227749,26.319205;50.194539,26.305501?sources=0&destinations=1;2;3&annotations=duration,distance",
+    "origin": [
+      50.2,
+      26.3
+    ],
+    "targets": [
+      {
+        "id": "5edcb8c0-d1d9-4ee9-bf5c-38e43cad59de",
+        "name": "Ithra Museum Galleries",
+        "coordinates": [
+          50.1206188,
+          26.33592079
+        ]
+      },
+      {
+        "id": "98ea1d61-7290-4533-bafa-e844a503d48f",
+        "name": "Scitech",
+        "coordinates": [
+          50.22774906,
+          26.3192048
+        ]
+      },
+      {
+        "id": "b4fdc657-c04d-44df-a47c-8edd7a87cc53",
+        "name": "Escape the Room | سكيب روم الخبر",
+        "coordinates": [
+          50.1945387,
+          26.30550071
+        ]
+      }
+    ],
+    "timestamp_utc": "2026-09-26T10:21:48.681632+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+    "seconds": 0.234
+  },
+  {
+    "area": "diriyah",
+    "mode": "car",
+    "url": "https://routing.openstreetmap.de/routed-car/table/v1/driving/46.579000,24.738000;46.575980,24.734361;46.578265,24.736716;46.574182,24.736233?sources=0&destinations=1;2;3&annotations=duration,distance",
+    "origin": [
+      46.579,
+      24.738
+    ],
+    "targets": [
+      {
+        "id": "bbabefa5-f1cb-41c9-87b2-fa5db98dbead",
+        "name": "At-Turaif Historical District",
+        "coordinates": [
+          46.575979596099565,
+          24.734360961698762
+        ]
+      },
+      {
+        "id": "e268a49d-22bc-4f8a-8aae-cdeb93d3ea9e",
+        "name": "Bujairi Terrace",
+        "coordinates": [
+          46.578265428543,
+          24.736715845756
+        ]
+      },
+      {
+        "id": "196c0f45-a92f-40aa-a0c3-54c72802f097",
+        "name": "Al Bujairi Heritage Park",
+        "coordinates": [
+          46.57418158,
+          24.73623348
+        ]
+      }
+    ],
+    "timestamp_utc": "2026-09-26T10:21:50.032813+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+    "seconds": 0.234
+  },
+  {
+    "area": "diriyah",
+    "mode": "foot",
+    "url": "https://routing.openstreetmap.de/routed-foot/table/v1/driving/46.579000,24.738000;46.575980,24.734361;46.578265,24.736716;46.574182,24.736233?sources=0&destinations=1;2;3&annotations=duration,distance",
+    "origin": [
+      46.579,
+      24.738
+    ],
+    "targets": [
+      {
+        "id": "bbabefa5-f1cb-41c9-87b2-fa5db98dbead",
+        "name": "At-Turaif Historical District",
+        "coordinates": [
+          46.575979596099565,
+          24.734360961698762
+        ]
+      },
+      {
+        "id": "e268a49d-22bc-4f8a-8aae-cdeb93d3ea9e",
+        "name": "Bujairi Terrace",
+        "coordinates": [
+          46.578265428543,
+          24.736715845756
+        ]
+      },
+      {
+        "id": "196c0f45-a92f-40aa-a0c3-54c72802f097",
+        "name": "Al Bujairi Heritage Park",
+        "coordinates": [
+          46.57418158,
+          24.73623348
+        ]
+      }
+    ],
+    "timestamp_utc": "2026-09-26T10:21:51.355803+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+    "seconds": 0.219
+  },
+  {
+    "area": "al_balad",
+    "mode": "car",
+    "url": "https://routing.openstreetmap.de/routed-car/table/v1/driving/39.184000,21.488000;39.183004,21.494839;39.183116,21.483077;39.187535,21.484198?sources=0&destinations=1;2;3&annotations=duration,distance",
+    "origin": [
+      39.184,
+      21.488
+    ],
+    "targets": [
+      {
+        "id": "e7803308-ae1b-4a19-82c2-1fff5007b122",
+        "name": "TeamLab Borderless Museum",
+        "coordinates": [
+          39.183004,
+          21.494839
+        ]
+      },
+      {
+        "id": "bb4bc78b-dbc3-4eee-b576-f4840a89c36d",
+        "name": "Red Sea Museum",
+        "coordinates": [
+          39.183116,
+          21.483077
+        ]
+      },
+      {
+        "id": "0f5dd241-fc90-4da9-9c74-74a18140220a",
+        "name": "Nasseef House",
+        "coordinates": [
+          39.187535297677826,
+          21.484197907799217
+        ]
+      }
+    ],
+    "timestamp_utc": "2026-09-26T10:21:52.739870+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+    "seconds": 0.218
+  },
+  {
+    "area": "al_balad",
+    "mode": "foot",
+    "url": "https://routing.openstreetmap.de/routed-foot/table/v1/driving/39.184000,21.488000;39.183004,21.494839;39.183116,21.483077;39.187535,21.484198?sources=0&destinations=1;2;3&annotations=duration,distance",
+    "origin": [
+      39.184,
+      21.488
+    ],
+    "targets": [
+      {
+        "id": "e7803308-ae1b-4a19-82c2-1fff5007b122",
+        "name": "TeamLab Borderless Museum",
+        "coordinates": [
+          39.183004,
+          21.494839
+        ]
+      },
+      {
+        "id": "bb4bc78b-dbc3-4eee-b576-f4840a89c36d",
+        "name": "Red Sea Museum",
+        "coordinates": [
+          39.183116,
+          21.483077
+        ]
+      },
+      {
+        "id": "0f5dd241-fc90-4da9-9c74-74a18140220a",
+        "name": "Nasseef House",
+        "coordinates": [
+          39.187535297677826,
+          21.484197907799217
+        ]
+      }
+    ],
+    "timestamp_utc": "2026-09-26T10:21:54.058563+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+    "seconds": 0.25
+  },
+  {
+    "area": "boulevard",
+    "mode": "car",
+    "url": "https://routing.openstreetmap.de/routed-car/table/v1/driving/46.608000,24.767000;46.597261,24.759328;46.604015,24.763609;46.604261,24.767236?sources=0&destinations=1;2;3&annotations=duration,distance",
+    "origin": [
+      46.608,
+      24.767
+    ],
+    "targets": [
+      {
+        "id": "6c08ad20-6369-47a1-b7c4-1606b62cb068",
+        "name": "Doos Karting",
+        "coordinates": [
+          46.59726108,
+          24.75932792
+        ]
+      },
+      {
+        "id": "d3221d77-d202-49f2-836a-df949f630e56",
+        "name": "muvi Cinemas | موڤي سينما",
+        "coordinates": [
+          46.604015,
+          24.763609
+        ]
+      },
+      {
+        "id": "ae23ae28-4886-4e1b-bf6c-827b1f1ef509",
+        "name": "The Coffeeholics Boulevard",
+        "coordinates": [
+          46.604261,
+          24.767236
+        ]
+      }
+    ],
+    "timestamp_utc": "2026-09-26T10:21:55.432361+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+    "seconds": 0.219
+  },
+  {
+    "area": "boulevard",
+    "mode": "foot",
+    "url": "https://routing.openstreetmap.de/routed-foot/table/v1/driving/46.608000,24.767000;46.597261,24.759328;46.604015,24.763609;46.604261,24.767236?sources=0&destinations=1;2;3&annotations=duration,distance",
+    "origin": [
+      46.608,
+      24.767
+    ],
+    "targets": [
+      {
+        "id": "6c08ad20-6369-47a1-b7c4-1606b62cb068",
+        "name": "Doos Karting",
+        "coordinates": [
+          46.59726108,
+          24.75932792
+        ]
+      },
+      {
+        "id": "d3221d77-d202-49f2-836a-df949f630e56",
+        "name": "muvi Cinemas | موڤي سينما",
+        "coordinates": [
+          46.604015,
+          24.763609
+        ]
+      },
+      {
+        "id": "ae23ae28-4886-4e1b-bf6c-827b1f1ef509",
+        "name": "The Coffeeholics Boulevard",
+        "coordinates": [
+          46.604261,
+          24.767236
+        ]
+      }
+    ],
+    "timestamp_utc": "2026-09-26T10:21:56.755260+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+    "seconds": 0.235
+  }
+]

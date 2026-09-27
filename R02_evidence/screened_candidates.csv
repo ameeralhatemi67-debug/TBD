@@ -1,0 +1,439 @@
+﻿area,id,name,family,category,confidence,longitude,latitude,websites,phones,operating_status,source
+al_balad,aa9b4e72-1c81-4b20-803a-1d5aa96bcc6d,Dunkin' - دانكن,local_stop,coffee_shop,0.85,39.1752698,21.49778195,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+al_balad,6e7b7bac-ccaa-4645-8868-d27a4e8fe5a7,3 Bears Speciality Coffee,local_stop,coffee_shop,0.937415498495102,39.18479,21.501593,"[""http://3earscoffee.com""]","[""+966566037274""]",,meta
+al_balad,3c10765e-9190-4f45-92b7-208c69624f93,Albar Towers,culture,historic_site,0.8038272261619568,39.18505117,21.50164114,null,null,,meta
+al_balad,6ee4cd9f-6eaf-48d1-980b-9a09aa976093,Spenta Cafe,local_stop,cafe,0.8100807666778564,39.183525,21.484602,"[""http://www.spentacafe.com/""]","[""+966126448527""]",,meta
+al_balad,ce486ba4-a580-4927-af88-347695b00bc0,Dunkin' - دانكن,local_stop,coffee_shop,0.85,39.18133545,21.48730469,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+al_balad,469f4d5d-39f8-41d1-88f1-bb11ec0b829f,Jadecafe_ksa,local_stop,cafe,0.9037187099456787,39.182816629984245,21.48178241868177,"[""http://www.jadecafeksa.com/""]",null,,meta
+al_balad,09cd45f2-c32f-47af-ba87-c35d4ccee562,مقهى السكرية,local_stop,cafe,0.8034525513648987,39.1820864,21.47564984,null,null,,meta
+al_balad,e8781a41-a632-4fed-8c00-0225076b7edd,Divan's Memories Cafe,local_stop,cafe,0.8141099214553833,39.18343987,21.48383298,null,"[""+966545452729""]",,meta
+al_balad,fff00711-33af-46b1-bbf9-216200493280,بيت آل نصيف,culture,history_museum,0.8404384851455688,39.187519107323,21.484220088184,null,null,,meta
+al_balad,71fc39ee-d691-4d64-a816-80c54a19ff12,Qishla of Jeddah,culture,castle,0.8025010824203491,39.188611,21.490833,"[""http://tr.wikipedia.org/wiki/Cidde_Redif_K%31%5Flas%31""]",null,,meta
+al_balad,4d7274e7-cbae-4780-8266-a509d96f2db9,Alhodaif Museum,culture,museum,0.8491945862770081,39.18715331,21.48813202,"[""http://baitalhodaif.business.site/""]","[""+966541333413""]",,meta
+al_balad,c6e35044-c358-4309-9fe4-984a8e4b19c7,بيت عبدالله عمر متبولي,culture,historic_site,0.9372283285856247,39.18698489999877,21.484441100000023,"[""http://www.matbouli.com""]","[""+966126983888""]",,meta
+al_balad,064d67b2-f1af-43ab-9f06-f3111008a3aa,المدينة التاريخية,culture,historic_site,0.8014379739761353,39.186505929805,21.489085886565,null,null,,meta
+al_balad,11cbc3c1-d4df-40dc-8704-5905cc04a9cd,Bin Ladin Plaza   بن لادن بلازا,local_stop,cafe,0.8817638158798218,39.1943414789435,21.498773779828156,null,null,,meta
+al_balad,4c7a01cf-837a-451d-aaff-8f5cd51f00af,"Al-Balad, Jeddah",culture,historic_site,0.8227896094322205,39.2,21.4833,null,null,,meta
+boulevard,ad8d5ae5-7801-41be-a990-a15b413064ed,كاريبو كوفي - Caribou Coffee,local_stop,coffee_shop,0.85,46.634515,24.794936,"[""https://cariboucoffee.safr.com.sa/""]","[""0595480593""]",,Microsoft
+boulevard,0d47e490-9453-452f-b9ec-ad626651ea60,Dunkin' - دانكن,local_stop,coffee_shop,0.85,46.6323128,24.7949683,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+boulevard,6727b794-50c0-4308-9012-e9c21f0742bd,Ayan Lounge,local_stop,coffee_shop,0.9540477395057678,46.63299502,24.79811361,"[""http://ayanhotels.com/""]","[""+966114870853""]",,meta
+boulevard,432ef2d0-c720-46df-a287-2c8b308424eb,Dunkin - دانكن,local_stop,coffee_shop,0.85,46.6270488,24.7999161,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+boulevard,3cb70475-10ef-4532-bef5-0a8a857ed5c8,AMC Al Kahair 9,activity,movie_theater,0.9715255498886108,46.61227662,24.79044371,"[""http://www.amccinemas.com""]",null,,meta
+boulevard,1e0e1ec5-977b-4079-b03a-e4d2808ea06c,Alajlan Art Gallery,culture,art_gallery,0.8684806823730469,46.61238845,24.7875793,null,"[""+966542188482""]",,meta
+boulevard,4350aa2a-73ed-4a9c-973c-14b2156acdd2,العجلان ريڤيرا 34,local_stop,cafe,0.85,46.617223,24.7890371,"[""https://alajlaninvest.com/""]","[""920033158""]",,Microsoft
+boulevard,051e32dc-1baf-4dd4-9a9f-75e270c8b2fa,Bayat Cafe,local_stop,cafe,0.8484426140785217,46.61889884,24.78914184,null,"[""+966500310149""]",,meta
+boulevard,e338cb9c-6f1b-4e84-9ba8-5470747c782c,Le Gout Lounge and Coffee,local_stop,cafe,0.8219459056854248,46.63412858,24.78529064,null,"[""+966533130123""]",,meta
+boulevard,e6a3ff49-cd3d-4589-a019-608a272ded9c,زي كافيه,local_stop,cafe,0.875400185585022,46.63435154,24.78536142,null,"[""+966569757575""]",,meta
+boulevard,5452edf7-a1f2-4063-97ff-e992d73c2909,North Coffee,local_stop,coffee_shop,0.9606847763061523,46.634982,24.784925,null,null,,meta
+boulevard,6f39a8da-6316-4a55-9828-2aad0d2f1b5e,GOOD FOOD coffee and bakery riyadh,local_stop,coffee_shop,0.8545923233032227,46.6137,24.786376,"[""https://qrco.de/bcaOtK""]",null,,meta
+boulevard,1513b1d8-30b3-4cf4-988d-f5182a0862e4,PicooloCafe,local_stop,cafe,0.99185919880867,46.616075,24.780994,"[""http://Picoolo.sa/""]","[""+966565599555""]",,meta
+boulevard,0e7d4856-90b5-4170-b018-7e26f0ff6ab4,Coltura del Cafe,local_stop,cafe,0.9602203416824341,46.59894237,24.78078006,null,"[""+966557080026""]",,meta
+boulevard,dea25383-7302-4666-98be-a152ddedae8d,الماسة السوداء,activity,pool_billiards,0.8477453589439392,46.598682539017,24.780921658244,null,null,,meta
+boulevard,b34d831f-5c16-4ca9-a5bc-5d1ced6c3d00,"Al Aqiq First Park, Al Aqiq | dr.CAFE COFFEE | Manual Brew",local_stop,coffee_shop,0.8,46.62595347,24.78166254,null,null,,AllThePlaces
+boulevard,1f17a709-d51e-4a05-a657-13f69925400d,العجلان ريفييرا 25,local_stop,cafe,0.85,46.6314375,24.7804375,"[""https://alajlaninvest.com/""]","[""920033158""]",,Microsoft
+boulevard,2b1d19a0-e693-40c1-a3f7-b53d88e377a4,Mawten Zaman Coffee,local_stop,cafe,0.8940254336595536,46.625593,24.772137,null,"[""+966114993021""]",,meta
+boulevard,d83fafdc-7560-424f-bb37-4ed25b2ac591,Starbucks,local_stop,coffee_shop,0.9971298557519913,46.62591868,24.77230461,"[""https://locations.starbucks.sa/directory/riyadh/prince-mohammed-ibn-salman-road-drive-thru?utm_source=FB&utm_medium=Yext&y_source=1_NTI0ODUwOTgtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966115101555""]",,meta
+boulevard,5e897b76-1562-4dff-99df-ff738be3195e,ستاربوكس,local_stop,coffee_shop,0.85,46.625871,24.772391,"[""https://locations.starbucks.sa/directory/riyadh/prince-mohammed-ibn-salman-road-drive-thru?utm_source=ExtNet&utm_medium=Yext&y_source=1_NTI0ODUwOTgtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0115101555""]",,Microsoft
+boulevard,060f7dce-a0a3-4487-962f-7212e3bddba7,4 Twins Coffee & Sweet,local_stop,coffee_shop,0.9674472415447235,46.621181,24.770634,"[""http://www.4twins.com.sa""]","[""+966533306923""]",,meta
+boulevard,466e9210-3bc2-41e9-8da6-788fc0046e4e,Mugs Avenue,local_stop,cafe,0.831680417060852,46.62061868,24.77132565,"[""http://www.mugs.sa""]","[""+966501831001""]",,meta
+boulevard,acb9ead6-de35-42d7-af28-0ed7ca1c5d46,Arabica,local_stop,coffee_shop,0.9909389501810074,46.622011,24.766846,"[""http://arabica.coffee/""]","[""+966554461520""]",,meta
+boulevard,9301702d-d474-4adf-b9b5-1bae911085b9,Half Million,local_stop,coffee_shop,0.85,46.604588,24.766459,"[""http://halfm.sa/""]","[""""]",,Microsoft
+boulevard,daa19c82-dcbb-47c8-a1bb-f874498e6ff0,Dunkin' - دانكن,local_stop,coffee_shop,0.85,46.589972,24.768506,"[""https://www.dunkinksa.com/""]","[""0547712982""]",,Microsoft
+boulevard,afaebd6a-55be-49e5-88ab-21d74799b30c,Starbucks,local_stop,coffee_shop,0.9999507505834102,46.60555886,24.76812695,"[""https://locations.starbucks.sa/directory/riyadh/riyadh-boulevard-2?utm_source=FB&utm_medium=Yext&y_source=1_NTI5OTYwNTEtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966115111884""]",,meta
+boulevard,4d529f4b-7515-4aab-908a-82dc6b114f8f,McCafe,local_stop,coffee_shop,0.85,46.605086,24.768486,"[""https://www.mcdonalds.com/sa/ar-sa/riyadh.html""]","[""8001212345""]",,Microsoft
+boulevard,f84db7dc-7a4a-485d-bf97-bbe0c73f851c,Dunkin - دانكن,local_stop,coffee_shop,0.85,46.60382924173355,24.76899834083477,"[""https://www.dunkinksa.com/""]","[""0544730615""]",,Microsoft
+boulevard,fd0ed750-d372-4cab-a969-b49e223fdc67,Dunkin' - دانكن,local_stop,coffee_shop,0.85,46.61162186,24.76940155,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+boulevard,407f1e02-be1b-4bc7-b0b3-2a032c47fa1b,Dunkin' - دانكن,local_stop,coffee_shop,0.85,46.63016129,24.77414513,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+boulevard,4d710a8b-bc25-4bac-a9a1-ac01fbfc0fd4,Joe & The Juice,local_stop,coffee_shop,0.8,46.6307,24.775,null,null,,AllThePlaces
+boulevard,09937d08-f127-4785-9ccc-14ce7e5ba759,Half Million,local_stop,coffee_shop,0.9655,46.618437,24.775925,"[""http://halfm.sa/""]","[""920014022""]",,Microsoft
+boulevard,1426efd9-983f-41f4-bd02-44a424e9b961,McDonald’s,local_stop,coffee_shop,0.9655,46.617812,24.77525,"[""https://www.mcdonalds.com/sa/ar-sa/riyadh.html""]","[""8001212345""]",,Microsoft
+boulevard,82d38c1a-ad8e-4c9a-8305-41f1c6df0e03,Dunkin' - دانكن,local_stop,coffee_shop,0.85,46.598511,24.775985,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+boulevard,f0cb6a6d-1176-4429-a279-1ced688af123,ستاربوكس,local_stop,coffee_shop,0.97,46.599216,24.777513,"[""https://locations.starbucks.sa/directory/riyadh/boulevard-world-spain-zone?utm_source=ExtNet&utm_medium=Yext&y_source=1_MTAyODk4MTE1NS00ODMtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D""]","[""""]",,Microsoft
+boulevard,fc0993f4-3552-4511-bc73-e4982213294d,Roberto Cavali Cafe At Riyadh Park,local_stop,cafe,0.8715294003486633,46.630739,24.756197,null,null,,meta
+boulevard,ac81774e-b746-483b-92b2-d792dd013076,L'ETO Riyadh Park Mall,local_stop,cafe,0.9953461962938309,46.630219848594,24.756246641674,"[""http://letocaffe.com/""]","[""+966539197697""]",,meta
+boulevard,b45d8d1e-25c4-46fe-bcf8-276628a13ada,ستاربوكس,local_stop,coffee_shop,0.97,46.6308096,24.75602651,"[""https://locations.starbucks.sa/directory/riyadh/riyadh-park-near-cheese-cake-factory?utm_source=ExtNet&utm_medium=Yext&y_source=1_MTU0ODA4MjQtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0115101592""]",,Microsoft
+boulevard,41e7a8c5-20c0-4ec4-89de-e5ef07e2d6a9,Secret Garden,local_stop,cafe,0.9281519651412964,46.62965651,24.75576557,null,"[""+966114028882""]",,meta
+boulevard,54e211d7-9ed9-4635-96e0-f7e28bf9a5bd,Chocomelt.ksa,local_stop,coffee_shop,0.9296265840530396,46.629995,24.756652,null,"[""+966556778208""]",,meta
+boulevard,ff1b77d5-8dea-460e-9add-cdd8d8a298e7,Chunk Social,local_stop,cafe,0.9489399856328964,46.62987360391139,24.756411786844705,null,"[""+966920001382""]",,meta
+boulevard,dcb48844-6234-40f6-a362-29d4bc1e88fe,Molten Chocolate Cafe,local_stop,cafe,0.8527668118476868,46.630575,24.756359,null,null,,meta
+boulevard,dca92be1-c6af-43eb-a08c-665eea187c34,papparoti,local_stop,coffee_shop,0.8368311524391174,46.63073397,24.75637445,null,"[""+966566987611""]",,meta
+boulevard,f43460d5-6aa4-4a10-884c-3d37b56e8b24,Imax,activity,movie_theater,0.8693874478340149,46.62941820134572,24.757954607824832,null,null,,meta
+boulevard,aa70b011-1b2c-4f8e-a987-327aa0857c0f,Kahvemania,local_stop,coffee_shop,0.8748909398913384,46.629029,24.757248,"[""http://kahvemania.sa""]","[""+966569496864""]",,meta
+boulevard,ce2318a8-9030-4821-a276-8e18ec9c74d4,Starbucks,local_stop,coffee_shop,0.9989607511758805,46.62881594,24.75733663,"[""https://locations.starbucks.sa/directory/riyadh/riyadh-park-near-debenhams?utm_source=FB&utm_medium=Yext&y_source=1_MTU0Nzg2MDYtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966115101592""]",,meta
+boulevard,f62eefc1-feec-45c9-8642-00750dd84872,ستاربوكس,local_stop,coffee_shop,0.85,46.6288127,24.7573345,"[""https://locations.starbucks.sa/directory/riyadh/riyadh-park-near-debenhams?utm_source=ExtNet&utm_medium=Yext&y_source=1_MTU0Nzg2MDYtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0115200423""]",,Microsoft
+boulevard,0ae5452a-f5b9-4465-aac6-4e57fde85ac0,Museum of Illusions - Riyadh,culture,museum,0.9318797588348389,46.62981575445945,24.75752999230444,"[""https://museumofillusions.sa/""]","[""+966112630523""]",,meta
+boulevard,7ecb65b5-74af-4abe-a5f1-2cd74c50dee7,Yalla Bowling,activity,bowling_alley,0.848950982093811,46.63002641,24.75823898,null,null,,meta
+boulevard,8f08f6a7-335f-43c7-8d79-02455a1423d7,VOX Cinemas KSA ڤوكس سينما السعودية,activity,movie_theater,0.9841017717123032,46.629337398334,24.757976991802,"[""http://voxcinemas.info/2r1rGbv""]",null,,meta
+boulevard,c09c1495-5e38-4525-944b-fd965347b9c8,DH Lounge,local_stop,cafe,0.8270841836929321,46.606333134032,24.758574328635,null,"[""+966501565108""]",,meta
+boulevard,a2346a85-50c3-4a5d-9644-73ad5f0daf71,Joe & The Juice,local_stop,coffee_shop,0.8,46.5927958,24.758077,null,null,,AllThePlaces
+boulevard,6c08ad20-6369-47a1-b7c4-1606b62cb068,Doos Karting,activity,go_kart_club,0.9954510432481766,46.59726108,24.75932792,"[""https://malahi.com/booking""]","[""+966552221394""]",,meta
+boulevard,02dc897a-9ad4-4b57-9e99-3434db29e7a1,Dunkin' - دانكن,local_stop,coffee_shop,0.85,46.604374,24.766119,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+boulevard,b143758e-9e5f-49c1-9704-2e0bb41f537a,Zodiac Garden - زودياك جاردن,local_stop,cafe,0.9632487434148789,46.603116,24.766199,"[""http://www.zodiaccuisine.com/""]","[""+966531060000""]",,meta
+boulevard,f611ecf0-0d08-47c5-849e-0c44036f8ad5,The Coffee Address | عنوان القهوة,local_stop,coffee_shop,0.9655,46.622666,24.765827,"[""http://addresscafe.sa/""]","[""0590003100""]",,Microsoft
+boulevard,27dce1d1-5947-4cd5-8540-3a588ea68bbf,Feels Riyadh,local_stop,cafe,0.8820550441741943,46.62303301,24.76402156,"[""https://www.instagram.com/wearefeels.sa""]","[""+966560462964""]",,meta
+boulevard,a76d6fed-93ba-4d70-aabc-eeda97ec55e2,Dunkin' - دانكن,local_stop,coffee_shop,0.85,46.62665176,24.76335526,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+boulevard,312f12f7-1458-4b02-aaa9-097281497f45,Dunkin - دانكن,local_stop,coffee_shop,0.85,46.6256889656067,24.76205193221501,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+boulevard,a276be20-66cb-4746-84d3-31797c341f46,ستاربكس,local_stop,coffee_shop,0.8840807020664215,46.6238678,24.7628448,"[""https://locations.starbucks.sa/riyadh/oxygen-gym""]",null,,AllThePlaces
+boulevard,a5382771-c7ad-4823-be9c-a2b84d8945ad,COSMO Hittin,local_stop,coffee_shop,0.9713807570934295,46.6045473,24.76055984,"[""https://cosmocafe.co/ar""]","[""+966920014024""]",,meta
+boulevard,59f9b9b5-fbb9-465f-97e7-8a950a693ff5,Lock,local_stop,coffee_shop,0.8160198330879211,46.604391,24.760526,null,"[""+966596784717""]",,meta
+diriyah,0dac751a-73a4-405c-ad1e-5f7f734728e5,كاريبو كوفي - Caribou Coffee,local_stop,coffee_shop,0.9969747115969658,46.58435961,24.75344457,"[""http://www.cariboucoffee.com/""]","[""+966594959663""]",,meta
+diriyah,77924399-bf68-483b-a43e-f77c61861df9,Dunkin' - دانكن,local_stop,coffee_shop,0.9655,46.5844,24.753169,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+diriyah,575b1c6e-af72-4aee-8746-8db43c217a93,The Coffee Address | عنوان القهوة,local_stop,cafe,0.9915006641745567,46.578173,24.752743,"[""https://addresscafe.sa/""]","[""0590003100""]",,Microsoft
+diriyah,b9e389cc-6f00-40d4-bc98-14dc38f24489,Starbucks,local_stop,coffee_shop,0.9999248659431934,46.58390131,24.75218408,"[""https://locations.starbucks.sa/directory/riyadh/al-thager-plaza-jarir?utm_source=FB&utm_medium=Yext&y_source=1_MTU0ODA4NzgtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966115115518""]",,meta
+diriyah,b8035098-e451-4fe6-b8f9-3ebaf8698736,Chuck E. Cheese's,activity,arcade,0.9844635403156281,46.584483,24.752265,"[""http://www.chuckecheeses-sa.com""]","[""+966114102802""]",,meta
+diriyah,8aac8cf9-bcb1-48df-bfb3-ea81230c3e95,Refill Coffee,local_stop,coffee_shop,0.9563412648439408,46.572976112366,24.751371717995,"[""http://www.refillcoffeesa.com/""]","[""+966556640505""]",,meta
+diriyah,5e4a81ed-378a-467e-bdf6-667740b7d16d,Dunkin - دانكن,local_stop,coffee_shop,0.9984049187839031,46.570354,24.747583,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+diriyah,d70c569a-8389-4689-8f1d-2cfa6ddff52c,Gulf Spring,local_stop,cafe,0.8913614749908447,46.56469861,24.74333273,null,"[""+966557070172""]",,meta
+diriyah,d74bf8b2-c9c6-4d82-89b7-050cd0c61e97,Face/Off Cafe /نبع الدرعيه,local_stop,coffee_shop,0.9178106808662414,46.564855,24.743273,null,null,,meta
+diriyah,4435885a-e5d6-4e94-a7fe-a56c1a95a3a9,Joe & The Juice,local_stop,coffee_shop,0.8,46.57994,24.733775,null,null,,AllThePlaces
+diriyah,27220d59-65a2-4f5d-99e7-12b40c0d0393,At-Turaif Welcome Center,culture,museum,0.8293688297271729,46.57623488,24.73435233,"[""http://whc.unesco.org/en/list/1329""]","[""+966920002622""]",,meta
+diriyah,b46f4df5-c4c9-4874-ad97-66ae37803aca,حي الطريف,culture,historic_site,0.8026628494262695,46.5755555556,24.7333333333,null,null,,meta
+diriyah,1d50053d-1686-4d60-83a5-8b1222af3a72,Collective Africa,local_stop,gift_shop,0.85,46.5747641,24.7365116,"[""https://www.collectiveafrica.com/""]","[""920013585""]",,Microsoft
+diriyah,c7baa838-f90e-4a7c-958b-cbacd6dea969,Brunch & Cake Under The Tree,local_stop,cafe,0.9920719909667969,46.5750025,24.7366249,"[""http://www.brunchandcake.com/""]","[""+966920013257""]",,meta
+eastern,57837b5b-89f0-4ad2-90f9-f193ae7af049,امباير سينما,activity,movie_theater,0.9571369940042496,50.181021,26.292982,"[""https://empirecinemas.com""]",null,,meta
+eastern,e94131b9-632f-41b0-9161-3f7bd6395fec,AlRashid Residence Towers,culture,historic_site,0.9224262833595276,50.17779398,26.29169992,"[""http://www.alrashidrt.com/""]","[""+966599256998""]",,meta
+eastern,eeeaa07c-f8be-4c62-8f7e-1696ba5b7592,Barzan_Cafe,local_stop,cafe,0.8782052993774414,50.18058762161102,26.291677087635083,null,"[""+966138933801""]",,meta
+eastern,35240ae4-96b8-44a0-ab85-5019ee35be55,Sado cafe,local_stop,coffee_shop,0.8105453848838806,50.18176264,26.29193074,null,null,,meta
+eastern,c68b3201-8bb8-4be1-889f-f0608a4d4a27,Bisket Cafe,local_stop,cafe,0.9674077033996582,50.21677508,26.29145898,null,"[""+966507666918""]",,meta
+eastern,5853dfd7-9cf9-4eaf-abc7-3a90e36d63e1,Costas,local_stop,coffee_shop,0.9062299132347107,50.220140648537,26.291556860857,null,null,,meta
+eastern,ce2d4648-5c22-4c58-a93a-a7ba80d4283b,Segafredo,local_stop,cafe,0.9684105777740478,50.21994692,26.29145018,"[""http://www.segafredo.it/""]","[""+966581050987""]",,meta
+eastern,dda9ae8a-9546-4cd3-a555-ff563558a0f7,Rose Coffee and Restaurant,local_stop,coffee_shop,0.8335951566696167,50.21851887130138,26.292571194374773,null,null,,meta
+eastern,39526a79-e066-4ede-83c7-9120f1ecc367,ZOYA,local_stop,cafe,0.8893232941627502,50.21472289005264,26.292432372103928,"[""http://www.Zoyacoffee.com/""]",null,,meta
+eastern,9e34d4af-1a7f-42fa-9523-ebfb884c5bd9,ستاربوكس,local_stop,coffee_shop,0.85,50.2186588,26.2938949,"[""https://locations.starbucks.sa/directory/al-khobar/al-mana-medical-tower-2-7680-prince-musaid-street?utm_source=ExtNet&utm_medium=Yext&y_source=1_MjU0NzIzMjctNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678760""]",,Microsoft
+eastern,c8325e65-2638-4764-b28d-98ab94565aee,Starbucks,local_stop,coffee_shop,0.9829180485010147,50.21888774,26.29405535,"[""https://locations.starbucks.sa/directory/al-khobar/al-mana-medical-tower-2-7680-prince-musaid-street""]","[""+966115111992""]",,meta
+eastern,5612612e-cae7-4e0e-9575-0ac362abf8d5,Seven Degrees Cafe,local_stop,coffee_shop,0.9827411603927613,50.220087190973445,26.29571781385357,null,"[""+966542660420""]",,meta
+eastern,79ae9f4f-2b59-47ef-b390-bf9429895b2b,صهوه شاي بخار,local_stop,tea_room,0.8149207830429077,50.2192993,26.29778133,null,"[""+966555874040""]",,meta
+eastern,ba8a14df-0173-4bb6-b693-294a6a6fc185,Villa Hotel Apartments Al Khobar,culture,historic_site,0.8627750277519226,50.17141672,26.29708212,null,"[""+966138955450""]",,meta
+eastern,e4b9eeb3-b53a-45eb-8947-8c2f763101f5,Tim Hortons,local_stop,coffee_shop,0.85,50.182025,26.295037,"[""https://timhortonsgcc.com/""]","[""0566949563""]",,Microsoft
+eastern,a85ae27d-dba7-4ffe-a89e-8177c8fd0fc2,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.17247772,26.29522514,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,aeaa98a8-3a42-4465-b7bd-a143c939eb1b,Saraya Al Olaya,culture,historic_site,0.9171462059020996,50.17091968,26.30043098,"[""http://villasaraya.com/""]","[""+966555095550""]",,meta
+eastern,8d0275d9-d2ab-411c-ad50-6126de28da70,Van Houtte Cafe,local_stop,cafe,0.9751264309883118,50.1722622,26.30057894,null,"[""+966138320209""]",,meta
+eastern,e41d7f4c-c9ac-45e1-afe3-ba777a97741d,Joe & The Juice,local_stop,coffee_shop,0.8,50.1810955,26.3000535,null,null,,AllThePlaces
+eastern,cb9da8fd-0863-4a34-931e-0d607822f44f,Tea Time Ksa,local_stop,tea_room,0.9852291095256805,50.19844142,26.29962732,"[""http://teatime-saudi.com/""]",null,,meta
+eastern,d50ee1d1-c9fb-436a-84e9-5925f0afacf8,Tim Hortons,local_stop,coffee_shop,0.9921856611967087,50.18157873,26.29930441,null,"[""+966590310646""]",,meta
+eastern,f422ce07-5aea-4905-bcf2-b8c9a4744fa5,ستاربوكس,local_stop,coffee_shop,0.9655,50.188823,26.299474,"[""https://locations.starbucks.sa/directory/al-khobar/edu-hospital?utm_source=ExtNet&utm_medium=Yext&y_source=1_MTU0Nzg4NDgtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678550""]",,Microsoft
+eastern,c1151ea2-0706-4c93-b262-536afd062ad9,Mantorose Cafe | مانتوروز كافيه,local_stop,cafe,0.85,50.181188,26.2984369,"[""http://mantorose.com.sa/""]","[""920024123""]",,Microsoft
+eastern,2e3ead67-d0d8-46c8-acd3-a2ac76ad3c72,The Coffeze,local_stop,cafe,0.9486692041158676,50.19793121,26.29863556,null,"[""+966505628885""]",,meta
+eastern,84da8aba-3848-4d8a-99f3-897ebdeb9a89,Blé Café,local_stop,coffee_shop,0.9054030829668045,50.21969173,26.29883334,null,"[""+966536832783""]",,meta
+eastern,22bf7bd6-7a8a-4d5c-bce3-aa40ec7dba1e,Sensations Coffee and Co,local_stop,cafe,0.9929954475164413,50.22023616,26.29984279,null,"[""+966504940404""]",,meta
+eastern,3dc0bc9a-3802-4af2-a049-2126a6114742,Royal Coffee,local_stop,coffee_shop,0.8736482262611389,50.21251352765435,26.300428987717467,"[""http://www.alsuroor.com/""]","[""+966138655596""]",,meta
+eastern,e9f906dd-3ac9-453e-836f-430b1f17bc88,Pastel Café,local_stop,cafe,0.9835950434207916,50.21819459,26.30110525,"[""https://www.pastel-sa.com/""]","[""+966138694524""]",,meta
+eastern,e3470910-1d00-4320-953a-220bfc2e1619,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.211578,26.302257,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,9f48b516-fc3c-4ef2-a911-43c9adf73b14,لارك,local_stop,coffee_shop,0.8479609489440918,50.214295170303,26.302479621232,null,null,,meta
+eastern,ab0043ca-6bbd-4c38-89ba-81bcb9122a8e,Le Café,local_stop,cafe,0.8159253001213074,50.22204177857535,26.3030384983685,"[""https://www.movenpick.com/en/middle-east/saudi-arabia/al-khobar/hotel-al-khobar/restaurants/restaurants/""]","[""+966595156668""]",,meta
+eastern,2a741652-9426-4c3b-bb62-2f6a6cb07286,C H E M I S T R Y,local_stop,coffee_shop,0.914066731929779,50.222010809659,26.302930600332,"[""http://www.chemistrycoffeesa.com""]",null,,meta
+eastern,a35edb1a-2813-4e46-89ec-d43379581532,Motive Cafe,local_stop,coffee_shop,0.9654965996742249,50.22353181,26.30360119,"[""http://instagram.com/motive.sa""]","[""+966550444864""]",,meta
+eastern,18f74e38-d55b-4a05-95e2-8238e0510441,Equalcoffeehub,local_stop,coffee_shop,0.8820281624794006,50.223248004913,26.303302711324,"[""http://equal.coffee/""]","[""+966554000254""]",,meta
+eastern,ed048c52-c84d-4545-9247-ead212447f21,تولوم,local_stop,coffee_shop,0.9557583552598954,50.22342,26.303709,null,"[""+966506696967""]",,meta
+eastern,8794f909-ba10-4b7a-b3b7-ce4ae96c3507,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.217621,26.304044,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,c2839f8f-ae43-43d3-a037-365ed69b2e1d,Rateel Cafe,local_stop,cafe,0.8837485313415527,50.21111873200125,26.304694410878717,"[""https://g.page/rateel""]","[""+966564342883""]",,meta
+eastern,a3e9203d-e016-4650-8a7c-0ff7dbf63d7a,Starbucks,local_stop,coffee_shop,0.9998432070553303,50.19924669,26.3044599,"[""https://locations.starbucks.sa/directory/al-khobar/prince-faisal?utm_source=FB&utm_medium=Yext&y_source=1_MTU0ODA2NDAtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+96638876509""]",,meta
+eastern,7a4627ba-7057-4735-851c-3ab71cfa4e65,Awan Co,culture,historic_site,0.8220223188400269,50.17594912,26.30435984,null,null,,meta
+eastern,e818d448-eb15-4e94-92f9-427bae2e7bcf,ستاربوكس,local_stop,coffee_shop,0.9591436713933945,50.170722,26.3039558,"[""""]","[""0136678750""]",,Microsoft
+eastern,4ca1d497-2241-451c-9b00-5b98efd601aa,كاريبو كوفي - Caribou Coffee,local_stop,coffee_shop,0.997632720142603,50.20294796,26.30391345,"[""http://www.cariboucoffee.com/""]","[""+966594891292""]",,meta
+eastern,f7017797-df69-4b8d-8501-80c852dfc2c1,Almajed For Oud,local_stop,cafe,0.85,50.204773,26.303752,"[""https://sa.almajed4oud.com/""]","[""920020088""]",,Microsoft
+eastern,82229610-ae9a-4943-af0c-fcb4fa8b0bbb,Espressolab Saudi Arabia,local_stop,coffee_shop,0.8273960947990417,50.20619,26.30345,null,null,,meta
+eastern,e1916e09-dbb8-481e-8a2c-315803d42584,جبنيز,local_stop,coffee_shop,0.8557346692681312,50.20249576,26.30336464,null,"[""+966138994408""]",,meta
+eastern,75183234-4392-4864-80da-72e01e0aa4e7,ستاربوكس,local_stop,coffee_shop,0.9786102512478828,50.2073061,26.3027951,"[""https://locations.starbucks.sa/directory/khobar/ora-fuel-station-drive-thru?y_source=1_MTAwMDk2MjgwOC00ODMtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D""]","[""0138064226""]",,Microsoft
+eastern,2cc8fbc7-aa5d-4da8-8746-26187ed0c458,"Prince Faisal Bin Fahad Road, Al khobar Al Shamaliya | dr.CAFE COFFEE",local_stop,coffee_shop,0.8,50.2099227905273,26.3024005889893,null,null,,AllThePlaces
+eastern,d7ec4de9-9764-4a3a-b147-d8c68716c5fe,Grambon,local_stop,coffee_shop,0.8120154142379761,50.2097963,26.3015112,null,null,,meta
+eastern,a1a4a875-caff-4a95-8609-a6ac3a4787a4,شاي ابو سيف العليا,local_stop,tea_room,0.8911660373210907,50.18075698,26.30189336,null,"[""+966547848222""]",,meta
+eastern,f573019f-2e5a-484c-bd07-0bbdd339b571,ستاربوكس,local_stop,coffee_shop,0.9655,50.177419,26.3020116,"[""https://locations.starbucks.sa/directory/al-khobar/21-st-olaya-drive-thru?y_source=1_NjM2OTQ2ODItNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678563""]",,Microsoft
+eastern,d83f0543-942c-4524-b11d-491a09dc5962,Qaf Coffee Roasters,local_stop,cafe,0.9897083282470703,50.17755278,26.30244885,"[""http://www.qafcoffee.com/""]","[""+966537702228""]",,meta
+eastern,e2254336-fd1a-489c-a079-b0e1cb167c98,"Procare Hospital, Al Khobar | dr.CAFE COFFEE",local_stop,coffee_shop,0.8,50.1737594604492,26.3027572631836,null,null,,AllThePlaces
+eastern,debc8efb-2660-4d51-a79d-bd18ca4c9253,Lily Cafe and Flowers,local_stop,coffee_shop,0.9331108510494233,50.17805658,26.30281083,null,"[""+966504510022""]",,meta
+eastern,19324a61-71ba-4c5c-be5f-8374033f08df,Starbucks,local_stop,coffee_shop,0.9939008951187134,50.12930549,26.30518926,"[""https://locations.starbucks.sa/directory/dhahran/aramco-camp?utm_source=FB&utm_medium=Yext&y_source=1_MTU0ODE0OTgtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966138913662""]",,meta
+eastern,a1eb354d-4bcb-452a-8e52-0eb89bf50489,ستاربوكس,local_stop,coffee_shop,0.9931,50.1293103,26.3052517,"[""https://locations.starbucks.sa/directory/dhahran/aramco-camp?utm_source=ExtNet&utm_medium=Yext&y_source=1_MTU0ODE0OTgtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0138913662""]",,Microsoft
+eastern,da994e92-45c3-487f-ba64-6884e032e94a,Starbucks,local_stop,coffee_shop,0.99836266040802,50.17068959,26.30670914,"[""https://locations.starbucks.sa/directory/dhahran/mall-of-dhahran?utm_source=FB&utm_medium=Yext&y_source=1_Mjk0NjI2OTgtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966136678544""]",,meta
+eastern,140e7744-3ecc-46f0-9165-640c03b0d517,موڤي سينما,activity,movie_theater,0.9972876114845276,50.170572651942884,26.30679889748732,"[""http://muvicinemas.com""]",null,,meta
+eastern,1dbbe45e-f209-459d-9921-db31ccffae63,Black Swan Cafe,local_stop,coffee_shop,0.9038470387458801,50.1761399,26.30808,"[""https://blackswan.store/""]","[""+966564707700""]",,meta
+eastern,5c787fad-4d5c-4c98-a7eb-c85e5073b314,لينور كافيه,local_stop,coffee_shop,0.8469674587249756,50.177462,26.308108,null,"[""+966501190164""]",,meta
+eastern,bd658caa-7599-486b-83b8-e9665d994601,ستاربوكس,local_stop,coffee_shop,0.97,50.183436,26.306161,"[""https://locations.starbucks.sa/directory/al-khobar/al-khobar-city-walk?utm_source=ExtNet&utm_medium=Yext&y_source=1_Mjk0NjI2ODUtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678545""]",,Microsoft
+eastern,c9820b73-96a0-4d2a-bf3d-39d2ad76fece,Starbucks,local_stop,coffee_shop,0.9980974966287612,50.18347103,26.30633075,"[""https://locations.starbucks.sa/directory/al-khobar/al-khobar-city-walk?utm_source=FB&utm_medium=Yext&y_source=1_Mjk0NjI2ODUtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966136678545""]",,meta
+eastern,dc23af71-46cc-458d-a0e5-fe15c335dbcd,الرحلة التالية لاونج Next Flight Lounge,local_stop,coffee_shop,0.8112379312515259,50.17507321,26.30623203,"[""https://www.instagram.com/nextfligh/""]","[""+966552188876""]",,meta
+eastern,2e6eb8e8-039a-4531-baad-9fdc9d1ce0e1,Muvi Suites,activity,movie_theater,0.8534888029098511,50.171065,26.306383,null,null,,meta
+eastern,7b58ab64-d7f4-4681-8971-9ebb6a7dab6b,ستاربوكس,local_stop,coffee_shop,0.85,50.171009,26.306509,"[""https://locations.starbucks.sa/directory/dhahran/mall-of-dhahran?utm_source=ExtNet&utm_medium=Yext&y_source=1_Mjk0NjI2OTgtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678544""]",,Microsoft
+eastern,ae839185-f83f-4f89-bac5-265032863dfd,Tim Hortons,local_stop,coffee_shop,0.994339770078659,50.17200357,26.30557478,null,"[""+966566901870""]",,meta
+eastern,5c226220-e254-489c-a50f-21e7ff2faef2,سينبون,local_stop,cafe,0.85,50.168163,26.304946,"[""https://cinnabon-ksa.com/""]","[""0556665786""]",,Microsoft
+eastern,d0f914e4-6672-43e8-b29f-870967039222,Coffee Dunyasi,local_stop,coffee_shop,0.8576692938804626,50.17145937,26.30514431,null,"[""+966502406194""]",,meta
+eastern,b4fdc657-c04d-44df-a47c-8edd7a87cc53,Escape the Room | سكيب روم الخبر,activity,escape_room,0.9916597181558608,50.1945387,26.30550071,"[""http://www.escapetheroomsa.com/""]","[""+966920031446""]",,meta
+eastern,4e2f3a6c-8ee3-4e40-ba3b-ee16b960a70a,Abnormalspecialitycoffee,local_stop,coffee_shop,0.8372387290000916,50.195658,26.305135,null,"[""+966537566000""]",,meta
+eastern,c27d8c43-0805-44e5-a47f-057daa7ed5c6,Balancd Coffee,local_stop,cafe,0.9646509343385696,50.21714039,26.30500727,"[""http://www.balance.coffee""]",null,,meta
+eastern,ab29ccee-3d8c-4db8-aed1-c99ef3fc5176,هارت اوف خبر كافيه,local_stop,coffee_shop,0.9556918662786484,50.2245228,26.307048,null,"[""+966544990085""]",,meta
+eastern,b9950c2c-ef84-4a10-a87f-0360b5c00cb2,بوند كافيه,local_stop,coffee_shop,0.966893230676651,50.224208,26.30751,null,"[""+966505805999""]",,meta
+eastern,ea0b7923-28fe-43ef-8627-ccc57f883027,هوبرا,local_stop,coffee_shop,0.9543065923452377,50.214528,26.309078,null,"[""+966530880888""]",,meta
+eastern,070bd13c-8354-46c1-b431-81cd7a8d56ac,DownTown Complex,culture,historic_site,0.9171311855316162,50.216036547671,26.310318416329,"[""http://www.amlakint.com/""]","[""+966552009666""]",,meta
+eastern,df4e774f-7c01-418f-9b3d-83e661eba3d3,Starbucks,local_stop,coffee_shop,0.9918171805143357,50.21291418,26.31051403,"[""https://locations.starbucks.sa/directory/al-khobar/sulaiman-habib-hospital-g8-al-khobar?utm_source=FB&utm_medium=Yext&y_source=1_MTU0Nzk2MTEtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966136678770""]",,meta
+eastern,80efe175-f159-4438-86cc-5e3779aed13a,ستاربوكس,local_stop,coffee_shop,0.85,50.212903,26.310672,"[""https://locations.starbucks.sa/directory/al-khobar/sulaiman-habib-hospital-g6-al-khobar?utm_source=ExtNet&utm_medium=Yext&y_source=1_MTU0Nzg4MjMtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678770""]",,Microsoft
+eastern,9e956b1d-99c0-495c-9c77-0e502a262505,COSMO,local_stop,cafe,0.9806354200839996,50.22345233,26.31084909,null,"[""+966920014024""]",,meta
+eastern,09b47bd9-1229-4723-b600-700caec2f929,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.20978876,26.30985408,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,4d89083a-0fdc-4ba0-b9d2-dca108da9c4d,Dunkin',local_stop,coffee_shop,0.9996117521941662,50.17678244,26.30875017,null,"[""+9668001288999""]",,meta
+eastern,d77de984-80f4-4055-a7ac-f16fd2d09ffa,تشكي تشيز | Chuck E Cheese,activity,arcade,0.9773614406585693,50.173317,26.309424,"[""https://chuckecheese.com.sa/""]","[""0559678560""]",,Microsoft
+eastern,2d3a58aa-4cf4-4741-841c-f1855913be01,Dunkin - دانكن,local_stop,coffee_shop,0.85,50.128802,26.30914,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,6c4d9ba5-5a6d-45d2-b09e-d55320b33b90,Tim Hortons,local_stop,coffee_shop,0.85,50.13665307513808,26.30998330676842,"[""https://timhortonsgcc.com/""]","[""0540657377""]",,Microsoft
+eastern,e6ea6db6-778e-4848-a013-7de56e2be107,كافيه ليوان,local_stop,cafe,0.8412517309188843,50.136729,26.310042,"[""http://cafeliwan.com""]",null,,meta
+eastern,614367f0-6fce-4154-bfc5-b66728c24d87,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.147613,26.313818,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,f3606210-3577-40e6-93a9-486f2bc9cc0d,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.14210892,26.31370926,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,c86e501d-c2a2-4127-9066-476ab5b0dd2f,ستاربكس,local_stop,coffee_shop,0.9208119630813598,50.206,26.31359,"[""https://locations.starbucks.sa/al-khobar/al-rashid-mall-khobar-ground-floor""]",null,,AllThePlaces
+eastern,d861fdda-8c89-44f6-9188-ad89fcd9d083,ستاربوكس,local_stop,coffee_shop,0.85,50.206,26.31359,"[""https://locations.starbucks.sa/directory/al-khobar/al-rashid-mall-khobar-ground-floor?utm_source=ExtNet&utm_medium=Yext&y_source=1_MTU0ODA3NTQtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0138064289""]",,Microsoft
+eastern,af9b34cc-efa5-4050-84e0-b76ad8252330,ستاربوكس,local_stop,coffee_shop,0.978830061852932,50.1778168,26.3122032,"[""https://locations.starbucks.sa/directory/dhahran/king-saud-bin-abdulaziz-rd-drive-thru?y_source=1_MTAwMDk2MjgwOS00ODMtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D""]","[""0138064234""]",,Microsoft
+eastern,33a8786d-6f6b-47cb-9e67-1df1d87dd601,The Blue,local_stop,coffee_shop,0.85,50.2236472,26.3118714,"[""https://restaurantsandbars.accor.com/fr/restaurant/B4L8_R002?utm_source=bing+maps&utm_medium=seo+maps&utm_campaign=seo+maps""]","[""0138984999""]",,Microsoft
+eastern,fd54efda-97ef-441e-8f75-ffd5534c7c06,Shrq Coffee Roasters (Alkurnaish ) | (مقهى ومحمصة شرق (الكورنيش,local_stop,coffee_shop,0.9781713795661926,50.22298967,26.31170222,"[""http://www.shrqcoffee.com/""]","[""+966506878881""]",,meta
+eastern,98726539-b387-4db3-ba4a-0eeceacd0275,شارك كافيه,local_stop,coffee_shop,0.9655095744132995,50.22275,26.31284,"[""https://g.page/r/CUvXaFX68itQEBA""]","[""+966531510700""]",,meta
+eastern,ee4f6832-c5d4-42e5-af89-62f9ecd6205c,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.2175527,26.3126989,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,3aa1e9a3-7e9a-48e1-a43b-d06d36df380e,Woods Specialty Cafe and Roastery,local_stop,coffee_shop,0.9900599795579911,50.22360796,26.3130209,"[""http://www.woodsksa.com/""]","[""+966550983699""]",,meta
+eastern,d270eb2a-3cbc-4560-bc24-ffc12bfbade6,كاڤو,local_stop,coffee_shop,0.9532888722419739,50.217217,26.314477,null,"[""+966560767608""]",,meta
+eastern,b7b93363-5906-4284-92d9-03f82a71d285,New York Coffee KSA,local_stop,coffee_shop,0.8432478904724121,50.22280664864087,26.31469524998464,"[""http://www.nycoffee.com/""]","[""+966138208320""]",,meta
+eastern,b7ea4fe0-5f68-44c4-ae32-cf068037e4d8,Rima Residence,culture,historic_site,0.934607207775116,50.2138433,26.3146853,"[""http://www.rimaresidence.com/""]","[""+966138144907""]",,meta
+eastern,b16aac4d-5c1e-4b49-91bc-6600b041d13d,Arabia Cafe,local_stop,coffee_shop,0.9821364396810531,50.21085783,26.31463116,null,"[""+966138892229""]",,meta
+eastern,5d919d33-6c94-4a54-93c7-e9206fda9ae4,ستاربوكس,local_stop,coffee_shop,0.85,50.2117265,26.3151033,"[""https://locations.starbucks.sa/directory/al-khobar/al-bandariyah-drive-thru?y_source=1_NzE0MjgzNDgtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0138928744""]",,Microsoft
+eastern,4b178f81-e53f-4fa2-80c7-c3e942771e39,Starbucks,local_stop,coffee_shop,0.994562315940857,50.21172493,26.31510867,"[""https://locations.starbucks.sa/directory/al-khobar/al-bandariyah-drive-thru?y_source=1_NzE0MjgzNDgtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966138928744""]",,meta
+eastern,bed35e7c-53f3-4ace-9704-f216c0133229,Olden,local_stop,coffee_shop,0.8877848386764526,50.21611126,26.31530417,null,null,,meta
+eastern,221460eb-0746-479e-a02a-e623551d6a0e,Starbucks,local_stop,coffee_shop,0.9916768074035645,50.22304575,26.31644016,"[""https://locations.starbucks.sa/directory/al-khobar/turki-street?utm_source=FB&utm_medium=Yext&y_source=1_MTU0ODAwMDMtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966138064291""]",,meta
+eastern,f50e6ff9-df85-4021-9631-53f054e0ce1a,ستاربوكس,local_stop,coffee_shop,0.9931,50.2231283,26.3164088,"[""https://locations.starbucks.sa/directory/al-khobar/turki-street?utm_source=ExtNet&utm_medium=Yext&y_source=1_MTU0ODAwMDMtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0138064291""]",,Microsoft
+eastern,d8d94076-4765-4991-98b6-d3c38a39eebd,كرافتر,local_stop,coffee_shop,0.9093319511413575,50.223040950132,26.317645793764,null,"[""+966554400443""]",,meta
+eastern,64136de0-dcd2-4079-b00a-04cab7781a03,"Karawan Towers, Al-Khobar",culture,historic_site,0.8187340497970581,50.21614552488585,26.318364034172223,null,null,,meta
+eastern,3ab0963f-0530-41e7-a13a-7ec71dab8f68,دوز,local_stop,coffee_shop,0.8062816858291626,50.203846,26.318013,null,null,,meta
+eastern,5a91fb99-262b-4c45-979c-fb884f681004,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.1517229,26.339898,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,ca21d683-f694-4a43-bbdc-2209fa473e2b,Starbucks,local_stop,coffee_shop,0.9988569378852844,50.15145741,26.34007595,"[""https://locations.starbucks.sa/directory/dhahran/al-tamimi-plaza-dhahran?utm_source=FB&utm_medium=Yext&y_source=1_MTU0ODExODctNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966136678716""]",,meta
+eastern,ec982f9d-de50-4d75-9169-6e5c2dde991a,Student Tainment Coffee Shop,local_stop,coffee_shop,0.95590147793293,50.14817258,26.3430713,"[""https://studenttainment.tryorder.online/app""]","[""+966553866680""]",,meta
+eastern,48d31ba9-6dd2-4bd4-b1d0-7e7a4edd6e77,مجلس كافيه,local_stop,coffee_shop,0.8623188734054565,50.14641105,26.34509712,null,"[""+966138484545""]",,meta
+eastern,796ea008-5789-4698-bc58-f5220142dcc4,Brewhemian Coffee,local_stop,coffee_shop,0.9869007384777069,50.14632289,26.34502434,null,"[""+966580369123""]",,meta
+eastern,34367198-4bfe-47a7-bfd9-e43cc5685367,Buzz Coffee,local_stop,coffee_shop,0.9769552481174469,50.14749976,26.34380939,null,"[""+966599831603""]",,meta
+eastern,84a51f87-f07f-41a7-b39f-1ea0988230dc,Starbucks,local_stop,coffee_shop,0.9996032129526138,50.18692697,26.34516468,"[""https://locations.starbucks.sa/directory/al-khobar/mouwasat-hospital?utm_source=FB&utm_medium=Yext&y_source=1_MTU0Nzk2ODktNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966136678605""]",,meta
+eastern,99aee84e-bc42-47eb-bd31-00feeb8ee3c5,ستاربوكس,local_stop,coffee_shop,0.85,50.186858,26.345293,"[""https://locations.starbucks.sa/directory/al-khobar/mouwasat-hospital?utm_source=ExtNet&utm_medium=Yext&y_source=1_MTU0Nzk2ODktNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678605""]",,Microsoft
+eastern,b6c3a61d-f5cf-4ee4-8463-0d5ed9e6e848,The Geeks Club Cafe,local_stop,coffee_shop,0.9479292708635331,50.20380772,26.34382823,null,"[""+966503966000""]",,meta
+eastern,be7bebe9-73e9-414f-8d86-b34b469c6afc,Trio Restaurant and Cafe,local_stop,cafe,0.9356385427713394,50.20324695,26.34350825,null,"[""+966558021330""]",,meta
+eastern,d45dd5dc-b35d-4690-b51c-c42dfc570cae,Dallat Alfaris,local_stop,cafe,0.968942379951477,50.18203419,26.34275228,"[""http://www.dallatalfaris.com/""]","[""+966535144406""]",,meta
+eastern,969f73ec-a816-42bb-b255-932926792526,Qaal,local_stop,cafe,0.9200412970781326,50.18235158,26.34279348,null,"[""+966138177787""]",,meta
+eastern,7c677b4e-f1d1-4615-ad89-126f1607f2c0,UnknownRoom,activity,escape_room,0.9277627468109131,50.207538,26.338373,"[""https://www.unknownroom.com/""]","[""+966503176761""]",,meta
+eastern,b892dc75-f3d8-403d-8b8e-9c9c3cc50ddf,Dhahran Tower,culture,historic_site,0.978077609539032,50.20056837,26.33761659,"[""http://dhtower.com""]","[""+966138077777""]",,meta
+eastern,5fd7d1c8-9e9b-4db6-8adf-c4020c672fa5,Script Speciality Coffee,local_stop,coffee_shop,0.9603442442417145,50.15256176,26.33819939,null,"[""+966591980212""]",,meta
+eastern,86f030d2-2500-48df-9730-94937791a9f5,كمباوند ماربيلا,culture,historic_site,0.9492930489778518,50.152989507959,26.338477958688,null,"[""+966568980003""]",,meta
+eastern,0bcdd7ed-366b-4202-bec6-0209e65c3a98,Childrens’ Museum,culture,museum,0.9707898688316345,50.119924694324,26.335516879499,"[""http://www.ithraa.com""]",null,,meta
+eastern,fcd7f6c2-1046-453e-b6bb-853b87502a9f,ستاربوكس,local_stop,coffee_shop,0.85,50.1311778,26.3354818,"[""https://locations.starbucks.sa/directory/dhahran/custodian-of-the-two-holy-mosques-rd?utm_source=ExtNet&utm_medium=Yext&y_source=1_MTgwNTMwNTEtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678702""]",,Microsoft
+eastern,b6806d49-e3a2-48b4-ad51-85b36fc36ecd,Ithra Theatre,activity,theatre_venue,0.9584749031066895,50.12030463,26.33576664,null,"[""+966138169799""]",,meta
+eastern,5edcb8c0-d1d9-4ee9-bf5c-38e43cad59de,Ithra Museum Galleries,culture,museum,0.8474593758583069,50.1206188,26.33592079,null,null,,meta
+eastern,405eea9a-df5f-4465-83e0-e56cc71c87f8,Sparky's,activity,amusement_park,0.8458591103553772,50.19723556,26.3364581,null,"[""+966920006699""]",,meta
+eastern,c0f2964f-7b7f-45a8-97bf-7073c9624af5,Vertical Village Garden,culture,historic_site,0.9016563892364502,50.20389533,26.33514525,null,"[""+966138100006""]",,meta
+eastern,9c7a4564-2ffd-46a7-ae57-a00d267ae9c9,motion_cafe_,local_stop,coffee_shop,0.9181763428449631,50.191506,26.334657,"[""http://motioncafe.business.site/""]","[""+966545545450""]",,meta
+eastern,7d50b880-93b6-43eb-a920-622411f821f9,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.1485639,26.333296,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,24d68785-306c-4f52-9c93-d0d10f3ff6bf,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.09005249702833,26.332969107069378,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,8819875a-906a-47de-8a13-003fb694dab9,Daar Cafe,local_stop,cafe,0.927959942817688,50.19054948,26.33234075,null,"[""+966548656509""]",,meta
+eastern,aefac870-9ca6-4954-80a4-ddbeb09588a2,Starbucks,local_stop,coffee_shop,0.9999634165287018,50.21249139,26.33411736,"[""https://locations.starbucks.sa/directory/al-khobar/king-faisal-road?utm_source=FB&utm_medium=Yext&y_source=1_MTU0Nzg4MDctNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966136678632""]",,meta
+eastern,ef826f7f-ae27-42b1-b8d9-dd542dc8c6cd,Joe & The Juice,local_stop,coffee_shop,0.8,50.225816,26.335065,null,null,,AllThePlaces
+eastern,eb294745-6e4a-4fc4-a82e-f90343b96a8a,Antar Cafe,local_stop,coffee_shop,0.9456822174787521,50.22782391,26.32539897,null,"[""+966138020404""]",,meta
+eastern,396fa50a-a310-49b5-9531-94150e6b459a,Camel Step,local_stop,coffee_shop,0.9854678392410279,50.21337346,26.32637122,"[""https://camelstep.com/""]","[""+966920000689""]",,meta
+eastern,3c823b91-bb78-4d67-bdf5-323f8638c3cf,Joe & The Juice,local_stop,coffee_shop,0.8,50.214381,26.3264659,null,null,,AllThePlaces
+eastern,e9b3c3be-b63b-4ccc-a4e6-eea40bf2d9f9,Wallflower,local_stop,coffee_shop,0.9632635492086411,50.18017133,26.32784559,null,"[""+966564118765""]",,meta
+eastern,ace68d47-a729-4383-9076-7b0c18bbeb75,Density Coffee Roasters | مقهى ومحمصة دينستي,local_stop,coffee_shop,0.9982184784710407,50.18033145,26.32879335,"[""http://www.densitycoffee.com""]","[""+966502809940""]",,meta
+eastern,0442b38d-68f5-43e7-8552-ff1d40f8a715,Rofana 1 Compound,culture,historic_site,0.9140365719795227,50.17710818,26.32858787,"[""http://www.rofana.com/Home.aspx""]",null,,meta
+eastern,01640999-6782-4f8c-8cc3-fd5fd40206ff,مطعم ومقهى دوق المزاج,local_stop,cafe,0.8773992949724198,50.188248272128,26.330022564367,null,"[""+966500508878""]",,meta
+eastern,9603f3db-a845-4aa7-bc33-57d5c9fb2247,Starbucks,local_stop,coffee_shop,0.9875797897577285,50.16268047,26.33048994,"[""https://locations.starbucks.sa/directory/dhahran/naaf-doha-farm5-dharan?utm_source=FB&utm_medium=Yext&y_source=1_MTU0Nzg3NzYtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966537915693""]",,meta
+eastern,a5b15a90-9634-43ff-b486-6a3fa84280f7,"Easten Cinemas, Al-Khobar",activity,movie_theater,0.8246868252754211,50.210705574673,26.331008663001,null,null,,meta
+eastern,d5e3d415-8f81-4575-9e60-019a3a3ed0b3,Al Rushaid Village,culture,historic_site,0.8373847603797913,50.19176824,26.33190165,"[""http://www.al-rushaid.com""]","[""+966138873678""]",,meta
+eastern,d957f5b0-1f8d-4fad-a82d-a22be6f92b11,Starbucks,local_stop,coffee_shop,0.9963008601665497,50.13212834,26.33136902,"[""https://locations.starbucks.sa/directory/dammam/ar-rabiyah-northern-rabiyah-st?utm_source=FB&utm_medium=Yext&y_source=1_Mjk0NjI3MDQtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966138064247""]",,meta
+eastern,7bb5b351-daa6-4db8-9d57-3bc0a2642ba9,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.20805,26.319848,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,1bb58bfb-f83f-44ec-a93c-2a4b5aa02933,Tim Hortons,local_stop,coffee_shop,0.9691901355981827,50.16498271855207,26.32348909095213,"[""https://timhortonsgcc.com/""]","[""0561743072""]",,Microsoft
+eastern,fac2f039-95a1-468c-a8d0-de691d8939b1,ستاربوكس,local_stop,coffee_shop,0.9816463759541512,50.1799484,26.3243359,"[""https://locations.starbucks.sa/directory/khobar/al-andalus-drive-thru?y_source=1_MTAwMDk2MjgwMy00ODMtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D""]","[""0138064208""]",,Microsoft
+eastern,de5792d5-8cd8-4c80-9a20-2b4bf1ac1b4a,Core Coffee and Roastery,local_stop,coffee_shop,0.9724363005161285,50.20759539,26.32504865,"[""http://corecoffee.co""]","[""+966596586320""]",,meta
+eastern,b448c9e2-66c6-4758-abb5-46c24b872251,Starbucks,local_stop,coffee_shop,0.9999308536529541,50.16411357,26.32337514,"[""https://locations.starbucks.sa/directory/dhahran/dhahran-dohastreet?utm_source=FB&utm_medium=Yext&y_source=1_MTU0Nzg1ODktNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966138064213""]",,meta
+eastern,bd5b3e44-503d-44da-841b-7c8a0152d6fd,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.164808,26.323306,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,03e2f153-2bbd-4c98-96de-a021daa533f3,وقت الكرك,local_stop,coffee_shop,0.8857830166816711,50.15825078,26.32254965,"[""https://www.instagram.com/waqtalkarak.sa""]","[""+966558562144""]",,meta
+eastern,8962dba5-06b6-49cc-98b6-03cf1dbf5e87,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.156917,26.3223505,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,bb0e0703-18f3-439f-9e0d-fc403aab1db3,قهوة عُمق 1.1 - UMQ Coffee 1.1‏,local_stop,coffee_shop,0.9551519894599915,50.21178828,26.32179219,"[""http://umqcoffee.com/""]","[""+966554485509""]",,meta
+eastern,f8ce39e0-56fd-4eaa-bb62-7481b9a5c6da,KOOB cafe,local_stop,coffee_shop,0.84715735912323,50.215065,26.32228,null,"[""+966580317682""]",,meta
+eastern,20aa8344-2a1e-4648-bae1-6755d3116e97,VARDØ Coffee House,local_stop,coffee_shop,0.915381669998169,50.219743,26.321546,"[""https://goo.gl/maps/bG8S8b4zijpB9JuP7""]","[""+966580086616""]",,meta
+eastern,906f3ccd-c310-4b9d-b9e0-15aef1659e16,Above Coffee Bar,local_stop,coffee_shop,0.8648192286491394,50.22191445,26.32087904,null,"[""+966563543765""]",,meta
+eastern,0dc83d1d-c8b1-4fc0-9681-61c1b51a66ce,Elephant Café,local_stop,coffee_shop,0.8720287680625916,50.222217244269,26.320658936064,null,null,,meta
+eastern,a46f363b-0a6c-4f14-af11-7175dca0c5d9,Üshk,local_stop,coffee_shop,0.8765930533409119,50.222533836387,26.31999492993,null,null,,meta
+eastern,98ea1d61-7290-4533-bafa-e844a503d48f,Scitech,culture,science_museum,0.9870884156227112,50.22774906,26.3192048,"[""http://scitech.sa/eng/""]","[""+966564286199""]",,meta
+eastern,a54d9fcf-6000-4fad-a427-5daf43f5493e,Tim Hortons,local_stop,coffee_shop,0.85,50.215864108700785,26.318927137623668,"[""https://timhortonsgcc.com/""]","[""0556751349""]",,Microsoft
+eastern,93b610df-5e5e-48fd-9a61-0d6e8a78ec21,Starbucks,local_stop,coffee_shop,0.9978461819887161,50.21616846,26.28827565,"[""https://locations.starbucks.sa/directory/al-khobar/10th-st-drive-thru?utm_source=FB&utm_medium=Yext&y_source=1_MzAxNjgzNjUtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966136678600""]",,meta
+eastern,68df67c2-6766-457d-b247-21a57cc336dd,ستاربوكس,local_stop,coffee_shop,0.85,50.2161335,26.2882713,"[""https://locations.starbucks.sa/directory/al-khobar/10th-st-drive-thru?utm_source=ExtNet&utm_medium=Yext&y_source=1_MzAxNjgzNjUtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678600""]",,Microsoft
+eastern,f9636572-9dcd-43e5-b661-07cbc6aba7b5,ستاربكس,local_stop,coffee_shop,0.9470289415121078,50.22066044,26.28854992,"[""http://www.starbucks.com""]","[""+966568820120""]",,meta
+eastern,a9fa99c1-839d-4b29-b534-421652ed8033,Three Seeds Coffee,local_stop,coffee_shop,0.980667142868042,50.21640208,26.28892839,"[""http://www.3seedscoffee.com/""]",null,,meta
+eastern,e33c555d-1bff-4b4d-a592-61b5349f092e,Oasis Coffee Club,local_stop,coffee_shop,0.8469507098197937,50.21619316,26.28916427,null,"[""+966567633169""]",,meta
+eastern,e907af3b-cd4c-40be-96d5-fba6b3b3f2e5,شوكونت لاونج,local_stop,cafe,0.9152075892686844,50.18081835,26.29130661,"[""http://www.cioconatlounge.com/""]","[""+966138690777""]",,meta
+eastern,7923b8fe-d657-4fce-a7af-48825cd604b3,7 Grams,local_stop,coffee_shop,0.9907670384645462,50.18103303,26.29122928,"[""http://7gm.sa/""]","[""+966540230376""]",,meta
+eastern,fbe5e002-c560-4ae2-96a4-c4f8cb47f550,Starbucks,local_stop,coffee_shop,0.9984978041648864,50.18071708,26.29099517,"[""https://locations.starbucks.sa/directory/al-khobar/al-rashid-mall-1st-flr-near-food-court?utm_source=FB&utm_medium=Yext""]","[""+966138891190""]",,meta
+eastern,a7a086f8-a654-436b-8056-4342bd0e490b,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.181264,26.29086,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,467778e4-f703-4c67-ab99-02144189ecdc,Molten,local_stop,cafe,0.8747482299804688,50.18091,26.290708,null,null,,meta
+eastern,c2eb5843-233a-44f3-921c-b88069ffe847,Tim Hortons,local_stop,coffee_shop,0.9990481108427047,50.18089718,26.29068355,"[""https://www.timhortons.com/""]","[""+966566918715""]",,meta
+eastern,ed5ceb60-c62c-4e01-b4e0-6b66a9a6ee9c,ستاربكس,local_stop,coffee_shop,0.8946516215801239,50.1873237,26.2903957,"[""https://locations.starbucks.sa/al-khobar/makkah-road-al-mukarramah""]",null,,AllThePlaces
+eastern,a314d75c-de5e-427e-8489-14fdd5cb325e,ستاربوكس,local_stop,coffee_shop,0.85,50.1873237,26.2903957,"[""https://locations.starbucks.sa/directory/al-khobar/makkah-road-al-mukarramah?y_source=1_OTM3NDA2ODMtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0138064211""]",,Microsoft
+eastern,7f8aa7e6-2601-4d39-b76c-a0cf7239f841,Rosalie Cafe,local_stop,cafe,0.9923042911291122,50.17809648,26.29051,"[""https://www.hyattrestaurants.com/en/dining/saudi-arabia/al-khobar/french-restaurant-in-grand-hyatt-al-khobar-rosalie?utm_source=Rosalie&utm_medium=Instagram&utm_campaign=BioLink&utm_id=SocialMedia""]","[""+966133311234""]",,meta
+eastern,69cb05d7-be6c-4dc0-8e36-8554e5fafb5f,Fun Oasis,activity,amusement_park,0.8554874658584595,50.18015716,26.29133544,null,"[""+966557133366""]",,meta
+eastern,b62dd7a7-7e6a-4762-893e-93d0ebc51738,Tamaya Coffee,local_stop,coffee_shop,0.8139939308166504,50.1940027,26.2865036,null,"[""+966509050441""]",,meta
+eastern,5927bc6c-1118-4871-87ed-7c9a3e906cfb,Mantorose Cafe شركة مانتو روز- المكتب الرئيسي,local_stop,cafe,0.85,50.1889797,26.2858642,"[""http://mantorose.com.sa/""]","[""920024123""]",,Microsoft
+eastern,bf685aa4-065e-4be4-a605-06e8653b07c1,Address Cafè,local_stop,cafe,0.961905556321144,50.2178683,26.2850805,null,"[""+966544667575""]",,meta
+eastern,9baafc6f-d2d2-499b-ad7b-a2ca2ab5d4d7,London Café,local_stop,cafe,0.8810652494430542,50.218094448163,26.286461482873,null,null,,meta
+eastern,f2272759-32e5-4146-a9cb-ba44b65f439f,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.2128685,26.2878207,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,f86f686e-47a4-4021-ab87-ca037321f304,"Spaces -  Al Khobar, Ajdan Walk",local_stop,coffee_shop,0.9861824035644531,50.219961582462,26.283987451405,"[""https://www.spacesworks.com/ar/alkhobar-ar/ajdan-walk?utm_source=yext_places_listings&utm_medium=places&utm_campaign=yext_traffic&utm_content=5712""]","[""+966138137333""]",,meta
+eastern,a3265b47-db45-44e1-aa39-50422ed71e12,Koffiqa,local_stop,coffee_shop,0.9904710733890534,50.220183849269,26.283784259742,"[""http://www.koffiqa.com/""]",null,,meta
+eastern,c96673c0-0201-40f3-8baa-8fecd9c5c377,ستاربوكس,local_stop,coffee_shop,0.9988630639195443,50.219667,26.283472,"[""https://locations.starbucks.sa/directory/al-khobar/ajdan-walk?utm_source=ExtNet&utm_medium=Yext&y_source=1_MTU0ODE2MjctNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0138064298""]",,Microsoft
+eastern,d907381d-6137-472c-8a68-7caa7cde9b2e,Café Bateel,local_stop,cafe,0.9711772185564042,50.222220345556,26.282138391065,"[""http://bateel.com""]","[""+966138021625""]",,meta
+eastern,9c7de081-8dae-4448-a446-1f6922661109,Cay,local_stop,coffee_shop,0.9291723316907883,50.22210601,26.28206093,"[""http://caycafe.sa""]","[""+966533350708""]",,meta
+eastern,245b5ebb-006a-4855-9ff9-a6737b8d40b9,Red Cafe,local_stop,cafe,0.8221844434738159,50.21512714,26.28013464,null,null,,meta
+eastern,9156f672-47a7-491c-a74a-e9b75c00a4ba,International Billiards and Snooker Club,activity,pool_billiards,0.9126565456390381,50.21057299,26.28023311,null,"[""+966138936527""]",,meta
+eastern,3bac5f7b-5469-42f3-afe3-b316f119123c,Caffee Bene,local_stop,cafe,0.9336942678689957,50.201688,26.28193,null,"[""+966114517300""]",,meta
+eastern,e8b33de0-5c21-4dbf-8b39-123401b25b92,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.09445953,26.43927765,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,5f751554-2cf2-4da9-ba88-4444c3975970,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.0836592,26.4500572,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,af99cf25-4b41-4d44-b0d2-c8f81a85132b,Soil Roasters,local_stop,coffee_shop,0.9471879118680954,50.08132806,26.45363157,"[""http://www.soilroasters.com/""]","[""+966138097788""]",,meta
+eastern,b6d10af5-7dda-4eca-9c0a-013adbdcc524,11 3 CAFE,local_stop,coffee_shop,0.8133543133735657,50.080802669319,26.452912149563,null,"[""+966546378378""]",,meta
+eastern,277ceb98-eed8-476b-8de3-33e8ca62aadc,Treepica,local_stop,coffee_shop,0.9008006453514099,50.08078706,26.45870591,null,null,,meta
+eastern,0ae2d235-216a-47d9-aef8-dd35bd99f221,Tim Hortons,local_stop,coffee_shop,0.85,50.08225979525375,26.45869528777691,"[""https://timhortonsgcc.com/""]","[""0510249934""]",,Microsoft
+eastern,3c26efdf-6e4e-4a52-a506-002bcfa7ac35,قهوة عُمق 2.2 - UMQ Coffee 2.2,local_stop,coffee_shop,0.9563054704666137,50.08523943,26.45868146,"[""https://umqcoffee.com""]","[""+966550444171""]",,meta
+eastern,903fbe3c-21a2-42de-97f4-8ea1c68e01db,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.084023,26.459612,"[""https://www.dunkinksa.com/""]","[""0547712982""]",,Microsoft
+eastern,15aff50a-dce6-411a-9c95-7aa66521ffbe,Jarir Bookstore مكتبة جرير,local_stop,bookstore,0.9405316114425659,50.0867132,26.4591084,"[""http://www.jarir.com/""]","[""+966920000089""]",,meta
+eastern,f5aab9e5-b510-40d1-bd1e-1ba16e71412f,Core Coffee & Roastery,local_stop,coffee_shop,0.9793257653713227,50.0926693,26.45874509,null,"[""+966581048392""]",,meta
+eastern,d5975143-1110-4e35-b920-929e7e9ddfb3,كاريبو كوفي - Caribou Coffee,local_stop,coffee_shop,0.9655,50.09284,26.45861,"[""https://cariboucoffee.safr.com.sa/""]","[""0581665077""]",,Microsoft
+eastern,eb76142a-c704-4d1b-9d6b-8916f8475c40,Dunkin' - دانكن,local_stop,coffee_shop,0.991514596015215,50.096894,26.452725,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,e4b504e7-0537-4289-99af-a24863673a70,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.0966991,26.45687,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,b3fb5c1c-fae1-4e96-b006-0d35e8d437be,"Salam Plaza, 18th Street, Al Salam | dr.CAFE COFFEE | V12 Station",local_stop,coffee_shop,0.8,50.0969314575195,26.4563007354736,null,null,,AllThePlaces
+eastern,6c83dc35-84cb-4ea2-bf61-106d50883609,"Dr. Cafe Coffee, V12 Station",local_stop,coffee_shop,0.9865554344654083,50.09682044,26.45617938,"[""http://www.dr-cafe.com/""]","[""+966593004214""]",,meta
+eastern,3503ce13-673e-4c45-8e8e-1f9cb6b5b0a9,Avior cafe & restaruant,local_stop,cafe,0.8937586545944214,50.101198090309,26.45661957604,null,null,,meta
+eastern,cfa04d56-deb2-47ba-b70d-acbd375d3aed,كاريبو كوفي - Caribou Coffee,local_stop,coffee_shop,0.9655,50.10632,26.455517,"[""https://cariboucoffee.safr.com.sa/""]","[""0581665077""]",,Microsoft
+eastern,b8fb0232-77c4-4254-a7a9-c678c08508c5,Fruity DIP,local_stop,coffee_shop,0.9387845820188523,50.10585308075,26.455090233915,"[""http://www.fruitydip.com/""]","[""+966583303032""]",,meta
+eastern,92743378-ac47-41ff-a1c8-f9dd36949372,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.104403,26.446329,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,c3a4fe43-3da2-48c0-b207-0532a901312a,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.096425,26.448743,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,7a2e582e-9017-4088-9485-1e93a9216b24,Islamic Cultural Center - Dammam,culture,cultural_center,0.9489313364028931,50.097978,26.442938,"[""http://www.binzaid.gov.qa/""]",null,,meta
+eastern,9ad51221-83b0-4c85-be48-f8efe8e487de,Khulood book Store,local_stop,bookstore,0.9536759752035141,50.10705177,26.43486236,"[""http://WWW.KHULOODBOOKSTORE.COM.SA/""]","[""+966571406213""]",,meta
+eastern,12b31a3d-05c2-4691-b27a-a4ef143741f5,Cineplois,activity,movie_theater,0.815936267375946,50.0974024,26.4274773,null,null,,meta
+eastern,37d10fce-9b4c-4347-b3a0-530de20a4ac8,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.10326004,26.43441963,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,de8f88ed-6132-4cc3-8e7d-6ec6947c88b1,Dunkin - دانكن,local_stop,coffee_shop,0.85,50.083785,26.434338,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,d01a7ffb-4334-4550-ace7-2d4bd89db4bd,Starbucks,local_stop,coffee_shop,0.9986566812992096,50.08410648,26.43109015,"[""https://locations.starbucks.sa/directory/dammam/dammam-medical-complex?utm_source=FB&utm_medium=Yext&y_source=1_NTI2MjE4MzEtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966136678590""]",,meta
+eastern,e65f2fa6-a75e-4d84-b1f6-ad320a91390e,ستاربوكس,local_stop,coffee_shop,0.85,50.0840775,26.4311979,"[""https://locations.starbucks.sa/directory/dammam/dammam-medical-complex?utm_source=ExtNet&utm_medium=Yext&y_source=1_NTI2MjE4MzEtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678590""]",,Microsoft
+eastern,56501693-858a-4d3d-85c4-d236c1c1f46b,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.08072,26.432116,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,38ef6671-7058-40dd-8e81-a5326072601c,Starbucks,local_stop,coffee_shop,0.9998887805223465,50.09160554,26.42274233,"[""https://locations.starbucks.sa/directory/dammam/al-badia?utm_source=FB&utm_medium=Yext&y_source=1_MTYwOTUxODgtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966136678599""]",,meta
+eastern,34ccbd37-1c6e-46a6-8d9d-e594750b42e7,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.08576637497713,26.418999703664056,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,a953b6bd-d1b1-4959-9aad-4088b5c714fd,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.084669,26.418588,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,2323371b-dd76-4073-bf87-ff801973b63b,ستاربكس,local_stop,coffee_shop,0.8,50.0887943,26.4206828,"[""https://locations.starbucks.sa/dammam/al-khafji-downtown""]",null,,AllThePlaces
+eastern,dbb7e60c-4786-4830-9d69-0d4ebcb4200c,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.088802,26.420731,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,f971dfd2-697b-4616-a4a7-a9e22e37446e,ديوانية زعفران,local_stop,coffee_shop,0.9644012373685836,50.1006279,26.42086554,null,"[""+966138464648""]",,meta
+eastern,b16f8aea-6d01-46d7-b9d5-889a24d70e51,Tim Hortons,local_stop,coffee_shop,0.85,50.0997193,26.4190025,"[""https://timhortonsgcc.com/""]","[""0590922244""]",,Microsoft
+eastern,1625f475-367c-43f4-9586-cbafc3bb9679,Dunkin’,local_stop,coffee_shop,0.87839674949646,50.11102953,26.41354571,null,null,,meta
+eastern,cbcbe7b6-7d7e-4f83-971f-05a16381302c,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.110776,26.411728,"[""https://www.dunkinksa.com/""]","[""0549159178""]",,Microsoft
+eastern,ed3ec9bc-6434-468e-9410-2f1597eaf42b,Starbucks,local_stop,coffee_shop,0.9993495293855668,50.10958035,26.41082454,"[""https://locations.starbucks.sa/directory/dammam/al-fares-plaza?utm_source=FB&utm_medium=Yext&y_source=1_MTU0Nzk1NzYtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966115102286""]",,meta
+eastern,8ff7738b-5d13-4757-ae0e-c3903e50af46,Dunkin' - دانكن,local_stop,coffee_shop,0.9931,50.109732,26.409476,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,5c2d87e9-5d6c-434f-a712-25b40a0cef21,ستاربوكس,local_stop,coffee_shop,0.85,50.1094408,26.4109085,"[""https://locations.starbucks.sa/directory/dammam/al-fares-plaza?utm_source=ExtNet&utm_medium=Yext&y_source=1_MTU0Nzk1NzYtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0115102286""]",,Microsoft
+eastern,82fb4510-309e-490a-bc27-acd16c64b947,ستاربوكس,local_stop,coffee_shop,0.85,50.1006328,26.4130006,"[""https://locations.starbucks.sa/directory/dammam/king-fahad-specialist-hospital?utm_source=ExtNet&utm_medium=Yext&y_source=1_MTU0Nzk4OTMtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678555""]",,Microsoft
+eastern,e6c59c67-4953-469c-81bc-c3047c8aa3d7,Starbucks,local_stop,coffee_shop,0.9995568132400513,50.10064832,26.41306925,"[""https://locations.starbucks.sa/directory/dammam/king-fahad-specialist-hospital?utm_source=FB&utm_medium=Yext&y_source=1_MTU0Nzk4OTMtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966136678555""]",,meta
+eastern,1a23ea6b-2cb6-48fb-9c31-33530d040065,La Panière,local_stop,cafe,0.9659116065502167,50.096924,26.412856,"[""https://lapaniere.mobi2go.com/#/""]","[""+966539377001""]",,meta
+eastern,f65af668-af6c-4063-b770-e8454007e61b,دار ابن الجوزي للنشر والتوزيع,local_stop,bookstore,0.9694350153207779,50.098033,26.409996,"[""https://Ibnaljawzi.com/""]","[""+966138428146""]",,meta
+eastern,af564536-d127-40fa-863c-602f89e9a3c8,Cisne Cisne,local_stop,cafe,0.8901841044425964,50.10251028617798,26.40477002840822,"[""http://www.cisnecafe.com/""]","[""+966534603000""]",,meta
+eastern,eceac41d-9f58-484a-a216-e3532f305be3,ستاربوكس,local_stop,coffee_shop,0.9931,50.1049798,26.3992743,"[""https://locations.starbucks.sa/directory/dammam/othman-ibn-affan-st-drive-thru?utm_source=ExtNet&utm_medium=Yext&y_source=1_NTI2MzQyMjgtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678558""]",,Microsoft
+eastern,fad34d16-89dc-40d8-80ae-b56584d15307,غوري كرك,local_stop,coffee_shop,0.9132049000263214,50.10478186369809,26.393570400391948,null,"[""+966557860581""]",,meta
+eastern,9f584da1-2eb4-4746-8e4d-8acd3c7aeeca,Coffee Warehouse-مستودع القهوة,local_stop,coffee_shop,0.9670881050825119,50.104782,26.39495,"[""https://salla.sa/coffee_warehouse""]","[""+966566433544""]",,meta
+eastern,eaaf15f7-ef2b-4bd7-8e08-958c4a487c1f,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.10556412,26.39660072,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,a61334a2-4aa2-4e9e-a9d6-ac6df2b644f7,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.100318,26.403043,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,8e5763f7-240e-42b0-bc58-eeb1b4e6a3db,Barn's | بارنز,local_stop,coffee_shop,0.85,50.0987774,26.4014414,"[""https://barns.com.sa/en""]","[""920006843""]",,Microsoft
+eastern,52fdfdc6-7bc3-4a83-b217-a57f1b524fe7,قهوة عُمق 2.1 - UMQ Coffee 2.1,local_stop,coffee_shop,0.9599328488111496,50.09244208,26.39787673,"[""http://umqcoffee.com""]","[""+966500919903""]",,meta
+eastern,14da06c4-9ea3-4e3c-92f4-63e816b837c6,كاسبن كوفي,local_stop,coffee_shop,0.877448558807373,50.092400707818,26.397703932404,null,"[""+966138444715""]",,meta
+eastern,ab232d3d-c5cd-47be-b3d2-7b65d1545af3,"Refad Square, Al Imam Ali Ibn Abi Talib | dr.CAFE COFFEE | V12 Station",local_stop,coffee_shop,0.954,50.085056,26.393972,null,null,,AllThePlaces
+eastern,a6e96144-1df4-45d2-8c4a-5c62e229f853,Tim Hortons,local_stop,coffee_shop,0.9939866572618484,50.09281299,26.41160481,null,"[""+966566970157""]",,meta
+eastern,7022cdc1-1574-4955-8f57-903fe1bd4d5e,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.093248,26.4116385,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,fd772dc4-9c8f-4cbb-846b-a80121688be5,ستاربوكس,local_stop,coffee_shop,0.9655,50.093601,26.411821,"[""https://locations.starbucks.sa/directory/dammam/18th-st-drive-thru?utm_source=ExtNet&utm_medium=Yext&y_source=1_NTI2MjE4MzQtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678547""]",,Microsoft
+eastern,4d8e086e-b06e-45e1-960e-c62fa9ea1a04,Starbucks,local_stop,coffee_shop,0.9904409646987915,50.09362954,26.41183486,"[""https://locations.starbucks.sa/directory/dammam/18th-st-drive-thru?utm_source=FB&utm_medium=Yext&y_source=1_NTI2MjE4MzQtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966136678547""]",,meta
+eastern,b5ab2edb-db68-46a4-898a-470d70564b20,Tim Hortons,local_stop,coffee_shop,0.85,50.076107829187414,26.414600815497916,"[""https://timhortonsgcc.com/""]","[""0559739603""]",,Microsoft
+eastern,582f35bb-ad4b-4826-95b9-e163b0406991,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.076228,26.414746,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,88a3e9f7-4361-4c84-a1b4-631f1d156af0,Dunkin' - دانكن,local_stop,coffee_shop,0.9655,50.0721632,26.411713,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,e606d6a4-7870-481b-8efe-30142c00f097,Barn's | بارنز,local_stop,coffee_shop,0.85,50.0737819,26.4134744,"[""https://barns.com.sa/en""]","[""920006843""]",,Microsoft
+eastern,118f14be-ef71-4992-b443-e7991f24bc6d,Starbucks,local_stop,coffee_shop,0.998828623175621,50.07332071,26.40072449,"[""https://locations.starbucks.sa/directory/dammam/dhahran-jubail-expy-drive-thru?utm_source=FB&utm_medium=Yext&y_source=1_NTI2MjE4MzUtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966136678739""]",,meta
+eastern,9bb36a5c-6c78-405c-878f-a27918995082,ستاربوكس,local_stop,coffee_shop,0.85,50.073292,26.400726,"[""https://locations.starbucks.sa/directory/dammam/dhahran-jubail-expy-drive-thru?utm_source=ExtNet&utm_medium=Yext&y_source=1_NTI2MjE4MzUtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678739""]",,Microsoft
+eastern,f4220c74-7849-4493-aeea-573bb76bfac7,Piccolo,local_stop,coffee_shop,0.9283365607261658,50.07351397,26.40034638,"[""http://www.dfjuice.com""]",null,,meta
+eastern,6afcd745-68c3-4a1d-8be0-0b10e024498e,ستاربوكس,local_stop,coffee_shop,0.85,50.078075,26.395542,"[""https://locations.starbucks.sa/directory/dammam/kady-dammam?utm_source=ExtNet&utm_medium=Yext&y_source=1_MTU0NzkyMDgtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678797""]",,Microsoft
+eastern,c6898c1b-fd1f-41cb-9895-e22f66700614,Starbucks,local_stop,coffee_shop,0.9991485270261764,50.07806887,26.39544999,"[""https://locations.starbucks.sa/directory/dammam/kady-dammam?utm_source=FB&utm_medium=Yext&y_source=1_MTU0NzkyMDgtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966136678797""]",,meta
+eastern,f350f25e-533d-47fe-8af1-381f742612e5,White Horse Café,local_stop,coffee_shop,0.841164231300354,50.07238,26.39374,null,null,,meta
+eastern,d6c8b316-fc81-4ea0-bdb5-7fceb06f931c,Akaduniya Rental Apartments,culture,historic_site,0.8138940930366516,50.07376708401143,26.428905021728582,null,"[""+966138132222""]",,meta
+eastern,b786a1ac-7662-45f5-9cf5-5a98a07752cb,كيان,local_stop,cafe,0.9695795500278472,50.0729474,26.3615241,null,"[""+966582228802""]",,meta
+eastern,13cf5e3d-ff20-4716-a365-70a0ed11d670,Al Karak,local_stop,coffee_shop,0.9614298242330551,50.07249463,26.36293556,null,"[""+966138353303""]",,meta
+eastern,df21eba9-abd4-40eb-92ed-0ddfba0c28e4,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.0702478,26.3657321,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,6d668671-1fe7-4f11-934e-8898e323cc9e,"Vox Cinema, Dammam",activity,movie_theater,0.9109345078468323,50.075377375518,26.386438874281,"[""https://ksa.voxcinemas.com/cinemas/west-avenue-mall-dammam""]",null,,meta
+eastern,ff409fa3-e045-42e6-a993-1f255cd4016b,Starbucks,local_stop,coffee_shop,0.9986815577745438,50.07503607,26.38721215,"[""https://locations.starbucks.sa/directory/dammam/west-avenue-mall?utm_source=FB&utm_medium=Yext&y_source=1_MTU0Nzk0ODQtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966138064274""]",,meta
+eastern,8d6e321c-84be-4e7b-9c19-4c0025a5368e,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.075138,26.387525,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,e9e0ac21-9be5-4491-9112-4626293b097f,Third Wave,local_stop,coffee_shop,0.9847440141439437,50.07261639,26.39163876,"[""https://thirdwave.sa""]","[""+966541969804""]",,meta
+eastern,7a1320bd-b0ea-4be3-ad16-2b0b84e2ae12,Lute,local_stop,coffee_shop,0.9718764221668243,50.07302606,26.39135981,null,"[""+966501193117""]",,meta
+eastern,c2af8c8d-5776-4829-a174-c926dd3bfa8a,Green Valley Village,culture,historic_site,0.8366464376449585,50.0770853359876,26.37983674624084,null,null,,meta
+eastern,bf29b21d-b2f8-4e5d-a6b7-eeb51a854557,Starbucks,local_stop,coffee_shop,0.9988421475887299,50.09576627,26.3714773,"[""https://locations.starbucks.sa/directory/dammam/prince-metib-road-hajar?utm_source=FB&utm_medium=Yext&y_source=1_MTY0NzIwMDktNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966136678701""]",,meta
+eastern,e1db69df-ca50-4a2d-8659-e475ccd758a0,Tim Hortons,local_stop,coffee_shop,0.9944836450219154,50.086741,26.379905,"[""https://timhortonsgcc.com/""]","[""0566908655""]",,Microsoft
+eastern,b22e3b42-b91b-4f3f-bf9e-f6bd84b92923,Park Coffee,local_stop,coffee_shop,0.8089286684989929,50.09748949,26.38256091,null,"[""+966551542105""]",,meta
+eastern,328bb488-1151-4280-8433-e23a4b226c7a,دانكن,local_stop,coffee_shop,0.97,50.09912800028848,26.372585258847234,"[""https://www.dunkinksa.com/""]","[""0569630521""]",,Microsoft
+eastern,9ed0355d-89d3-4c05-8ffe-9d967cf23b82,8oz Coffee,local_stop,coffee_shop,0.9795089048147202,50.09955015,26.37282673,"[""http://8ozcafe.com""]","[""+966551691123""]",,meta
+eastern,2fe09bde-6863-42fa-ba10-ece67b0719a4,CH.1 specialty coffee,local_stop,coffee_shop,0.8129768967628479,50.09381878,26.36674944,null,null,,meta
+eastern,e33b9239-f007-4e80-b003-449417604b4b,Dunkin - دانكن,local_stop,coffee_shop,0.85,50.14264275,26.3479311,"[""https://www.dunkinksa.com/""]","[""0547712982""]",,Microsoft
+eastern,65f95673-e3ac-4024-a9dc-31ba0f216edd,دانكن دوناتز,local_stop,coffee_shop,0.97,50.188468,26.359569,"[""https://www.dunkinksa.com/""]","[""0549159037""]",,Microsoft
+eastern,fc08c791-1d53-4148-8689-147bc2d6e74b,2B Cafe,local_stop,coffee_shop,0.858677864074707,50.195417404175,26.35035874644,null,null,,meta
+eastern,af7f430f-832d-4d24-959f-846ac6b43546,Starbucks,local_stop,coffee_shop,0.9999405053853989,50.1956007,26.34576888,"[""https://locations.starbucks.sa/directory/al-khobar/tamimi-markets-raka?utm_source=FB&utm_medium=Yext&y_source=1_MTU0Nzg5NTYtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966138064231""]",,meta
+eastern,76d584bc-73a8-41a6-8583-109904d6eef0,Starbucks,local_stop,coffee_shop,0.9825886487960815,50.20944598,26.35112672,"[""https://locations.starbucks.sa/directory/al-khobar/al-salam-hospital?utm_source=FB&utm_medium=Yext&y_source=1_NTM1ODUzMTYtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966138928741""]",,meta
+eastern,da0bb142-9458-423b-aef1-0fa6cf4501e5,| Zinnia Resto Cafe,local_stop,cafe,0.9050629138946533,50.21131972,26.35131333,"[""https://maps.app.goo.gl/iwb27P9XAmStmSSS8""]","[""+966551108825""]",,meta
+eastern,66888edf-cf12-4993-9c48-b415e34809ec,ستاربوكس,local_stop,coffee_shop,0.85,50.21101,26.351871,"[""""]","[""0138064267""]",,Microsoft
+eastern,d7707373-393d-4653-b39f-d2f7432b144d,كاريبو كوفي - Caribou Coffee,local_stop,coffee_shop,0.9953051177561283,50.20921261,26.35459165,"[""http://www.cariboucoffee.com/""]","[""+966594883187""]",,meta
+eastern,8b7753f7-e2d9-4ee1-9145-e15a8333317e,ستاربوكس,local_stop,coffee_shop,0.998708467578888,50.2069942,26.3602743,"[""https://locations.starbucks.sa/directory/al-khobar/king-faisal-ibn-abd-al-aziz-al-rakah-al-janubiyah-drive-thru?utm_source=ExtNet&utm_medium=Yext&y_source=1_MzAxNjgzNjQtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678706""]",,Microsoft
+eastern,82320737-8f3f-4ee4-a1f0-512c76852918,ستاربوكس,local_stop,coffee_shop,0.85,50.1997022,26.3633086,"[""https://locations.starbucks.sa/directory/khobar/al-rakah-plaza?y_source=1_MTAwMjIzNDU3MC00ODMtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D""]","[""0136678792""]",,Microsoft
+eastern,d133c983-6add-4cdf-8835-b3475dbbf768,Khobar oasis cafe,local_stop,cafe,0.9383086168766022,50.207141370323946,26.366417733728824,null,"[""+966500941860""]",,meta
+eastern,3c0b0130-7a1e-434d-9358-62fe52b4d7dd,Q9 Cue Nine Billiard,activity,pool_billiards,0.8584731221199036,50.20804274,26.3659032,"[""https://cue-nine-q9-billiard.business.site""]","[""+966563020069""]",,meta
+eastern,cb32a041-e900-4d78-8d25-ce99caf7952b,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.206708,26.365875,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,4ead6c92-be9f-4680-98f2-f4d796f3ae51,Ronda Residence Compound,culture,historic_site,0.9878696799278259,50.21555331,26.37199314,"[""http://rondaco.com/""]","[""+966559008802""]",,meta
+eastern,ddef5e72-88aa-4bc8-8563-5cfbb9551fdc,ستاربوكس,local_stop,coffee_shop,0.85,50.1786097,26.3727048,"[""https://locations.starbucks.sa/directory/dhahran/bright-future?utm_source=ExtNet&utm_medium=Yext&y_source=1_MTU0ODE1NDMtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0138064285""]",,Microsoft
+eastern,b6bce091-3018-4333-a49b-2f5b0f555f9d,Tim Hortons,local_stop,coffee_shop,0.9725964516401291,50.17479951534425,26.370908747934266,"[""https://timhortonsgcc.com/""]","[""0561460236""]",,Microsoft
+eastern,cc549c65-c8eb-4d73-af5f-6e5d9c52c7e9,Novotel Business Park,local_stop,coffee_shop,0.8,50.1830177307129,26.3669357299805,null,null,,AllThePlaces
+eastern,f1ab3086-bd8d-4fe4-b9a9-b95f03aab639,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.177781,26.362959,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,90458444-e28d-4cd2-912e-d7edd8fff3d6,ستاربوكس,local_stop,coffee_shop,0.9952788407623768,50.1481137,26.380989,"[""https://locations.starbucks.sa/directory/dammam/tamimi-al-nahda-drive-thru?utm_source=ExtNet&utm_medium=Yext&y_source=1_OTI3MTgyMzEtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678576""]",,Microsoft
+eastern,f94ee4df-525d-419e-94f0-e4393171fb67,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.17848485,26.37921615,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,f7775492-f580-46ec-99b9-7a75c4c5a0c0,Tim Hortons,local_stop,coffee_shop,0.9842295050621033,50.18189482,26.37964256,"[""https://www.timhortons.com/""]","[""+966566892529""]",,meta
+eastern,e00ef56e-96de-4777-8aed-150c655ef9f0,ستاربكس,local_stop,coffee_shop,0.8632263779640198,50.1960917,26.37925,"[""https://locations.starbucks.sa/dammam/orange-gas-station-al-seef-drive-thru""]",null,,AllThePlaces
+eastern,9da15ab8-2478-4dce-851b-b876eaf11be9,Four Squares Café,local_stop,cafe,0.9820641791820526,50.17821068,26.37995471,"[""http://www.4squarescafe.com/""]","[""+966138820937""]",,meta
+eastern,9dbe3499-37d9-4501-b583-7b4e0059a7ba,Dunkin' - دانكن,local_stop,coffee_shop,0.9722872644662857,50.186232,26.38492,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,a208d4aa-37b5-43c2-b1ca-e5ded30bafa6,مقهى بلاك سوان,local_stop,coffee_shop,0.9019871950149536,50.178340174978,26.388333382081,null,"[""+966561800823""]",,meta
+eastern,832f7137-46bd-4843-a05b-fa3102a28f9b,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.1782368,26.3888534,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,e6810786-3683-4449-a994-20f654aaa922,Olayan Kimberly Clark,culture,historic_site,0.8100284337997437,50.14837914,26.38963973,null,"[""+966138473133""]",,meta
+eastern,380f5b9c-f89c-407e-80ea-315bda2a4994,Dip N Dip,local_stop,cafe,0.9559701877832413,50.1152,26.40031,"[""http://dipndip.com""]",null,,meta
+eastern,24f507f6-ea12-4e33-ac23-94be4b072a25,Starbucks,local_stop,coffee_shop,0.9994395595788955,50.11721105,26.40022388,"[""https://locations.starbucks.sa/directory/dammam/al-othaim-mall-rb2-s049-sta?utm_source=FB&utm_medium=Yext&y_source=1_MTU0ODE1MTYtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966136678534""]",,meta
+eastern,cc72f2cb-aac3-417e-9fdf-86fc9600b861,Moka and More,local_stop,coffee_shop,0.8011655807495117,50.11695312,26.40015717,null,"[""+966550709009""]",,meta
+eastern,a4190319-d7e2-40ba-aef0-57c849ee6c75,Tim Hortons,local_stop,coffee_shop,0.9957353413105011,50.11688636,26.39997067,"[""https://www.timhortons.com/""]","[""+966566971767""]",,meta
+eastern,8ed01174-63d0-46d1-9535-d5e0a8b6b0ac,Safforiland,activity,amusement_park,0.9810842686891555,50.11760299,26.40001105,"[""http://www.othaimleisure.com/index.php/en/brands/saffori-land""]","[""+966920008331""]",,meta
+eastern,db2160a3-6fea-44c2-9c10-e2ed6dd12fe8,Oliver Brown,local_stop,cafe,0.8822852969169617,50.11739455,26.4003551,null,"[""+966112540000""]",,meta
+eastern,97bbd691-f836-4393-9f8b-60d38c87021a,Papparoti,local_stop,cafe,0.9180415868759155,50.116790875912,26.400845990914,"[""http://www.papparoti.com.my/""]",null,,meta
+eastern,7cf8797a-805b-4532-8eac-3464a83f3cd1,بيت الإباء,local_stop,cafe,0.8772033452987671,50.1450171,26.4006325,null,"[""+966920029007""]",,meta
+eastern,8c42bfc4-8a3a-449e-a474-cd5240169ff6,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.192593,26.395285,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,3e3d0727-cb1c-4b5c-b1e3-4c72d0c77969,Dunkin - دانكن,local_stop,coffee_shop,0.85,50.192296,26.394031,"[""https://www.dunkinksa.com/""]","[""0544732708""]",,Microsoft
+eastern,5b79be9b-d943-4782-9933-33b30bcd2cf3,رتال ريزيدنس | Retal Residence,culture,historic_site,0.9532167911529541,50.21772563,26.37683537,"[""http://www.retalresidence.com/""]","[""+9668003030888""]",,meta
+eastern,e6ca7daa-a5c9-4a66-a97a-0e43d4152f3e,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.1352826,26.4038002,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,c10231d5-90c8-4b2e-8ad9-7307377acfe0,ستاربوكس,local_stop,coffee_shop,0.85,50.138279,26.4069,"[""https://locations.starbucks.sa/directory/dammam/novotel-dammam-business-park-drive-thru?utm_source=ExtNet&utm_medium=Yext&y_source=1_MjU0NzIzNDQtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678560""]",,Microsoft
+eastern,1b85031c-cb4f-464f-9c23-6f10952cb2af,Starbucks,local_stop,coffee_shop,0.999568391919136,50.13831556,26.40691076,"[""https://locations.starbucks.sa/directory/dammam/novotel-dammam-business-park-drive-thru?utm_source=FB&utm_medium=Yext&y_source=1_MjU0NzIzNDQtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966136678560""]",,meta
+eastern,23f5ca15-0893-43b4-8f29-49fd923eb833,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.133361,26.409986,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,2b76845d-b816-404b-b204-fcba8ad79ba6,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.125961,26.410024,"[""https://www.dunkinksa.com/""]","[""0568537908""]",,Microsoft
+eastern,1ba86b98-ed22-4f8a-94ca-c8cccffe2c28,Ojair Specialty Coffee,local_stop,coffee_shop,0.9552154213190078,50.11466976,26.41111538,null,"[""+966562830630""]",,meta
+eastern,98e6ee50-5329-4a92-8231-3c556481ce7d,الكرك,local_stop,tea_room,0.9809957903623581,50.119532992049,26.41413927416,null,"[""+966559009843""]",,meta
+eastern,ef6c9cf9-a2cf-45ed-9b82-2a05da1cf651,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.114593,26.415166,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,ca54d049-6056-4d10-858e-da3703a35021,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.13397818315889,26.430367373650075,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,729d915c-b334-4424-b82f-e6dfc7df7f57,ستاربوكس,local_stop,coffee_shop,0.85,50.133247,26.430849,"[""https://locations.starbucks.sa/directory/dammam/king-faisal-ibn-abd-al-aziz-drive-thru?utm_source=ExtNet&utm_medium=Yext&y_source=1_NTI2MjE4MzItNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0138928739""]",,Microsoft
+eastern,950f274c-9536-45d2-abfe-4ad0c5284b50,Starbucks,local_stop,coffee_shop,0.9941173318624497,50.1332764,26.43087911,"[""https://locations.starbucks.sa/directory/dammam/king-faisal-ibn-abd-al-aziz-drive-thru?utm_source=FB&utm_medium=Yext&y_source=1_NTI2MjE4MzItNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966138928739""]",,meta
+eastern,5ff36e12-679d-4938-a745-df1f90522478,Al Bassam Group,culture,historic_site,0.8123936057090759,50.11773045,26.43093257,"[""http://www.albassamgroups.com/""]","[""+966138051313""]",,meta
+eastern,aa0faa22-b5ee-48cf-a6c4-ea0ddd8e2425,Adventure World,activity,amusement_park,0.9540470242500305,50.11387503,26.43190345,null,"[""+966565664712""]",,meta
+eastern,9e2f8d2c-282d-4c7a-8133-f59289abd0c6,ستاربوكس,local_stop,coffee_shop,0.97,50.1184296,26.4375893,"[""https://locations.starbucks.sa/directory/dammam/prince-mohammed-bin-fahd-road-drive-thru?utm_source=ExtNet&utm_medium=Yext&y_source=1_MjAxMzg1MTk5NS00ODMtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D""]","[""""]",,Microsoft
+eastern,6805dcb8-e41f-459d-9724-c187a8ee8ea6,أدبي المنطقة الشرقية,culture,cultural_center,0.8049506545066833,50.125186443329,26.440835007254,"[""http://aladabi.org/""]","[""+966138433737""]",,meta
+eastern,43759fed-f666-4342-8cec-0f7c98eadcd6,سينبون,local_stop,cafe,0.85,50.113852,26.45048,"[""https://cinnabon-ksa.com/""]","[""0556665786""]",,Microsoft
+eastern,e0848a37-15a6-40f0-8bcd-57976294180d,سبعة جرام للقهوة المختصة,local_stop,coffee_shop,0.9618797284364701,50.13119,26.451086,"[""http://7gm.sa""]","[""+966508855851""]",,meta
+eastern,a3112a23-6fea-489e-a557-cbc0903a711c,Native Coffee,local_stop,coffee_shop,0.9731947684288025,50.131466,26.451044,null,"[""+966554785444""]",,meta
+eastern,9c3d21ae-0351-4f1c-8ce6-c40e2bfb3a9f,Briar Cafe and Tea Room,local_stop,coffee_shop,0.903067946434021,50.13119291,26.45122623,"[""http://briar-tearoom.com/""]","[""+966508000289""]",,meta
+eastern,462ee1b2-744d-4615-9194-1f6db29a141e,براير,local_stop,cafe,0.8004696369171143,50.13121291994859,26.45121754966825,null,null,,meta
+eastern,45537371-0867-463d-9f4e-d06e226aa562,Kurtos Kalacs,local_stop,coffee_shop,0.8544890880584717,50.13071591,26.45128341,null,"[""+966577089425""]",,meta
+eastern,bbda8afe-c7ff-4c8a-8ef5-a161543a84f1,Starbucks,local_stop,coffee_shop,0.9882546323537826,50.12864307,26.45238872,"[""https://locations.starbucks.sa/directory/dammam/shatea-hokair-time?utm_source=FB&utm_medium=Yext&y_source=1_MTU0ODAyOTgtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966138064229""]",,meta
+eastern,65d5e92f-2389-4486-94a1-f4d6109fa6a9,Park Coffee,local_stop,cafe,0.806065022945404,50.12709634,26.4520379,null,"[""+966551542105""]",,meta
+eastern,2120fd6c-28a4-4fd4-8bd0-9bf0c78cc14e,View Cafe,local_stop,coffee_shop,0.982230127453804,50.12650348,26.45174561,null,"[""+966556813330""]",,meta
+eastern,304505e7-a506-44c6-a55b-0fa55969866a,باستيل,local_stop,cafe,0.8012381196022034,50.123497,26.452578,null,null,,meta
+eastern,00b36e68-7a6c-4132-b870-e3c9818ae3cc,Starbucks,local_stop,coffee_shop,0.9912586456537247,50.12050332,26.45408159,"[""https://locations.starbucks.sa/directory/dammam/shatie-mall?utm_source=FB&utm_medium=Yext&y_source=1_MTU0ODA3NzktNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966138091744""]",,meta
+eastern,47205753-99b6-46ba-b18c-4e94f0c00387,ستاربوكس,local_stop,coffee_shop,0.85,50.11407,26.45491,"[""https://locations.starbucks.sa/directory/dammam/corniche-dammam?utm_source=ExtNet&utm_medium=Yext&y_source=1_MTU0ODA1ODQtNDgzLWxvY2F0aW9uLndlYnNpdGU%3D""]","[""0136678571""]",,Microsoft
+eastern,4b31bf64-d924-4914-86d4-248be3dc761c,Starbucks,local_stop,coffee_shop,0.9974345836639404,50.11406753,26.45491848,"[""https://locations.starbucks.sa/directory/dammam/corniche-dammam?utm_source=FB&utm_medium=Yext&y_source=1_MTU0ODA1ODQtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D""]","[""+966136678571""]",,meta
+eastern,932ecfd5-72e0-426a-9f0f-063c89056eb8,Scar Face Lounge,local_stop,coffee_shop,0.8887004256248474,50.120297518951,26.454448397967,null,"[""+966500896800""]",,meta
+eastern,0bdff31f-aa5d-494b-9b29-6273e782ddc8,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.118892,26.45555,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,e91e657c-22d5-4192-a7f8-8e680876a420,PiANOLA,local_stop,coffee_shop,0.876545250415802,50.132672,26.45455,"[""http://www.pianolla.net""]",null,,meta
+eastern,da5d47a2-1e5f-4d42-add1-afe763446273,Tim Hortons,local_stop,coffee_shop,0.9984221994876862,50.12140679,26.45916434,"[""https://www.timhortons.com/""]","[""+966591291300""]",,meta
+eastern,2b690c5a-016a-48dc-b32b-ca2526e37082,Teabucks,local_stop,cafe,0.9762545776367187,50.12040909351934,26.458323915993155,"[""http://Www.teabucksksa.com/""]","[""+966590753000""]",,meta
+eastern,840a509b-b929-4b33-906d-06194a8e72e2,Marsa Cafe,local_stop,coffee_shop,0.8789960587024689,50.11278933,26.46007824,null,"[""+966501494446""]",,meta
+eastern,ae892d8c-570f-43ed-9e0e-321df75da7ad,قهوة أبو حيان,local_stop,coffee_shop,0.8178042769432068,50.132667,26.463633,null,null,,meta
+eastern,91ab01f2-28b0-41e3-a81e-475e8e22c388,Dunkin' - دانكن,local_stop,coffee_shop,0.85,50.1318531,26.4646836,"[""https://www.dunkinksa.com/""]","[""8001288999""]",,Microsoft
+eastern,c6e315f2-d0f8-4092-99e0-1475fb03420d,The Coffee Address | عنوان القهوة,local_stop,coffee_shop,0.994467072814703,50.121457,26.46422,"[""https://addresscafe.sa/""]","[""0590003100""]",,Microsoft
+eastern,b6002351-f6e5-469d-a926-f7dc8eb15bff,Toy Town Dammam- قرية الألعاب الدمام,activity,amusement_park,0.9932920843362808,50.11456835,26.46521786,"[""http://www.toytown.com.sa/""]","[""+966138091009""]",,meta

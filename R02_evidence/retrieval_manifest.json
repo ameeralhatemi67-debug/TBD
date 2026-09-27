@@ -1,0 +1,122 @@
+{
+  "release": "2026-09-23.1",
+  "started_utc": "2026-09-26T10:16:39.237138+00:00",
+  "areas": {
+    "eastern": {
+      "bbox": [
+        50.07,
+        26.28,
+        50.24,
+        26.47
+      ],
+      "rows": 10466,
+      "seconds": 14.39,
+      "columns": [
+        "id",
+        "geometry",
+        "confidence",
+        "websites",
+        "emails",
+        "socials",
+        "phones",
+        "brand",
+        "addresses",
+        "names",
+        "sources",
+        "operating_status",
+        "basic_category",
+        "taxonomy",
+        "version",
+        "bbox"
+      ],
+      "sha256": "b3eeb3d2c2ddce49b2c446d242a57b7a52b5a7f683207e5cf2c5cc00e02f98c8"
+    },
+    "diriyah": {
+      "bbox": [
+        46.55,
+        24.71,
+        46.585,
+        24.765
+      ],
+      "rows": 255,
+      "seconds": 9.95,
+      "columns": [
+        "id",
+        "geometry",
+        "confidence",
+        "websites",
+        "emails",
+        "socials",
+        "phones",
+        "brand",
+        "addresses",
+        "names",
+        "sources",
+        "operating_status",
+        "basic_category",
+        "taxonomy",
+        "version",
+        "bbox"
+      ],
+      "sha256": "a2be33f5c8c29717afdb406d098c02ed29b33db71e08ef269d9941073508ffe1"
+    },
+    "al_balad": {
+      "bbox": [
+        39.17,
+        21.475,
+        39.2,
+        21.505
+      ],
+      "rows": 1796,
+      "seconds": 22.74,
+      "columns": [
+        "id",
+        "geometry",
+        "confidence",
+        "websites",
+        "emails",
+        "socials",
+        "phones",
+        "brand",
+        "addresses",
+        "names",
+        "sources",
+        "operating_status",
+        "basic_category",
+        "taxonomy",
+        "version",
+        "bbox"
+      ],
+      "sha256": "250f29a7fa041c83db9b0b3768c1f33b32ab14db51d99e27305b3d86b8d70b20"
+    },
+    "boulevard": {
+      "bbox": [
+        46.585,
+        24.755,
+        46.635,
+        24.8
+      ],
+      "rows": 1247,
+      "seconds": 12.53,
+      "columns": [
+        "id",
+        "geometry",
+        "confidence",
+        "websites",
+        "emails",
+        "socials",
+        "phones",
+        "brand",
+        "addresses",
+        "names",
+        "sources",
+        "operating_status",
+        "basic_category",
+        "taxonomy",
+        "version",
+        "bbox"
+      ],
+      "sha256": "1dc45dd39df3f12dbd3f98701eed3dc5cea45456b1996bce1b3afc83bdb64e57"
+    }
+  }
+}

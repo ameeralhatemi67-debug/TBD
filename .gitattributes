@@ -1,0 +1,3 @@
+* text=auto
+# Keep retained evidence byte-identical to its recorded hashes on every OS.
+R02_evidence/** -text

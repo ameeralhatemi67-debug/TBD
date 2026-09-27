@@ -1,0 +1,4182 @@
+[
+  {
+    "area": "eastern",
+    "id": "1c88003a-789a-4935-babe-7b213ab5d7f7",
+    "geometry": "0101000000b846ba55c6174940d35eaf76354b3a40",
+    "confidence": 0.8693875074386597,
+    "websites": null,
+    "emails": [
+      "sparkle.fitness.sa@gmail.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/816120171911672"
+    ],
+    "phones": [
+      "+966563399388"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "Makkah Al Mukarramah St",
+        "locality": "الخبر",
+        "postcode": "34446",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Sparkle Fitness",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "816120171911672",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.8693875074386597,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "gym",
+    "taxonomy": {
+      "primary": "gym",
+      "hierarchy": [
+        "sports_and_recreation",
+        "sport_or_fitness_facility",
+        "gym"
+      ],
+      "alternates": null
+    },
+    "version": 8,
+    "bbox": {
+      "xmin": 50.185733795166016,
+      "xmax": 50.18574142456055,
+      "ymin": 26.293781280517578,
+      "ymax": 26.293785095214844
+    }
+  },
+  {
+    "area": "eastern",
+    "id": "93e0f816-e11c-4145-bc4a-d512670df025",
+    "geometry": "01010000007d3f355eba174940b16a10e6764b3a40",
+    "confidence": 0.77,
+    "websites": [
+      "http://enigma-sa.com"
+    ],
+    "emails": null,
+    "socials": [
+      "https://www.instagram.com/enigma.ksa"
+    ],
+    "phones": [
+      "054 328 9457"
+    ],
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": "Makkah Al Mukarramah St | شارع مكة المكرمة",
+        "locality": "Al Khubar, Al Ulaya | الخبر ، العليا",
+        "postcode": "34445",
+        "region": "Ash Sharqiyah",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Enigma | Escape Room",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "record_id": "5a3d42d1b0405637689fccbe",
+        "update_time": "2024-10-18T00:00:00.000",
+        "confidence": 0.77,
+        "between": null,
+        "provider": "foursquare",
+        "resource": "foursquare",
+        "version": "2026-04-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "gaming_venue",
+    "taxonomy": {
+      "primary": "escape_room",
+      "hierarchy": [
+        "arts_and_entertainment",
+        "gaming_venue",
+        "escape_room"
+      ],
+      "alternates": null
+    },
+    "version": 6,
+    "bbox": {
+      "xmin": 50.185367584228516,
+      "xmax": 50.18537521362305,
+      "ymin": 26.294782638549805,
+      "ymax": 26.29478645324707
+    }
+  },
+  {
+    "area": "eastern",
+    "id": "bf8b7ed0-7ff7-462c-8fa1-42d2e6ad3801",
+    "geometry": "0101000000653d52d0af154940d2727f79f14d3a40",
+    "confidence": 0.6666567921638489,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/674371245925350"
+    ],
+    "phones": [
+      "+966920006699"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "Mall of Dhahran",
+        "locality": "الظهران",
+        "postcode": "34457",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Sparky's",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "674371245925350",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.6666567921638489,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "arts_and_entertainment",
+    "taxonomy": {
+      "primary": "arts_and_entertainment",
+      "hierarchy": [
+        "arts_and_entertainment"
+      ],
+      "alternates": null
+    },
+    "version": 10,
+    "bbox": {
+      "xmin": 50.1694221496582,
+      "xmax": 50.169429779052734,
+      "ymin": 26.304462432861328,
+      "ymax": 26.304466247558594
+    }
+  },
+  {
+    "area": "eastern",
+    "id": "6b7af723-ccbb-4620-b580-246e05f3d0b9",
+    "geometry": "010100000057cd7344be174940efe4d3635b4e3a40",
+    "confidence": 0.77,
+    "websites": [
+      "http://enigma-sa.com"
+    ],
+    "emails": null,
+    "socials": null,
+    "phones": null,
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": "Makkah Al Mukaramah Street",
+        "locality": "Al Khubar",
+        "postcode": "34445",
+        "region": "Ash Sharqiyah",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Enigma Escape Room",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "record_id": "5b2ae6d5ccad6b0039541ac7",
+        "update_time": "2026-02-12T00:00:00.000",
+        "confidence": 0.77,
+        "between": null,
+        "provider": "foursquare",
+        "resource": "foursquare",
+        "version": "2026-04-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "gaming_venue",
+    "taxonomy": {
+      "primary": "escape_room",
+      "hierarchy": [
+        "arts_and_entertainment",
+        "gaming_venue",
+        "escape_room"
+      ],
+      "alternates": null
+    },
+    "version": 6,
+    "bbox": {
+      "xmin": 50.18549346923828,
+      "xmax": 50.18550109863281,
+      "ymin": 26.306081771850586,
+      "ymax": 26.30608558654785
+    }
+  },
+  {
+    "area": "eastern",
+    "id": "b4fdc657-c04d-44df-a47c-8edd7a87cc53",
+    "geometry": "01010000003727e5a4e6184940d35a664b354e3a40",
+    "confidence": 0.9916597181558608,
+    "websites": [
+      "http://www.escapetheroomsa.com/"
+    ],
+    "emails": [
+      "info@escapetheroomsa.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/203659866793654"
+    ],
+    "phones": [
+      "+966920031446"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "3857 Prince Faisal Bin Fahd Road",
+        "locality": "الخبر",
+        "postcode": "34436",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Escape the Room | سكيب روم الخبر",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "203659866793654",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.9637379050254822,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "gaming_venue",
+    "taxonomy": {
+      "primary": "escape_room",
+      "hierarchy": [
+        "arts_and_entertainment",
+        "gaming_venue",
+        "escape_room"
+      ],
+      "alternates": null
+    },
+    "version": 12,
+    "bbox": {
+      "xmin": 50.19453811645508,
+      "xmax": 50.19454574584961,
+      "ymin": 26.305500030517578,
+      "ymax": 26.305503845214844
+    }
+  },
+  {
+    "area": "eastern",
+    "id": "878714e3-899d-4d2c-8ea7-521174a11206",
+    "geometry": "01010000002bc69671951a4940b217448398563a40",
+    "confidence": 0.6531738042831421,
+    "websites": [
+      "https://unknownroom.com/ar/"
+    ],
+    "emails": [
+      "info@unknownroom.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/105086799343474"
+    ],
+    "phones": [
+      "+966920005367"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "Prince Sultan Road",
+        "locality": "الخبر",
+        "postcode": "34421",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Escape Game",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "105086799343474",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.6531738042831421,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "gaming_venue",
+    "taxonomy": {
+      "primary": "escape_room",
+      "hierarchy": [
+        "arts_and_entertainment",
+        "gaming_venue",
+        "escape_room"
+      ],
+      "alternates": null
+    },
+    "version": 3,
+    "bbox": {
+      "xmin": 50.207679748535156,
+      "xmax": 50.20768737792969,
+      "ymin": 26.33826446533203,
+      "ymax": 26.338268280029297
+    }
+  },
+  {
+    "area": "eastern",
+    "id": "d86bd1fc-eb83-4079-a4e8-476b6cc7b620",
+    "geometry": "0101000000f7730af2b30f4940e98024ecdb553a40",
+    "confidence": 0.77,
+    "websites": [
+      "https://www.ithra.com/ar/special-programs/ithra-downtown"
+    ],
+    "emails": null,
+    "socials": null,
+    "phones": null,
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": null,
+        "locality": "Dhahran",
+        "postcode": "34461",
+        "region": "Ash Sharqiyah",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Ithra Downtown",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "record_id": "5fec25796bbd8718baf037d6",
+        "update_time": "2026-04-09T00:00:00.000",
+        "confidence": 0.77,
+        "between": null,
+        "provider": "foursquare",
+        "resource": "foursquare",
+        "version": "2026-04-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "event_venue",
+    "taxonomy": {
+      "primary": "event_venue",
+      "hierarchy": [
+        "arts_and_entertainment",
+        "event_venue"
+      ],
+      "alternates": null
+    },
+    "version": 6,
+    "bbox": {
+      "xmin": 50.12267303466797,
+      "xmax": 50.1226806640625,
+      "ymin": 26.335386276245117,
+      "ymax": 26.335390090942383
+    }
+  },
+  {
+    "area": "eastern",
+    "id": "68408e2b-7186-45f6-b3e9-7967e4d69061",
+    "geometry": "0101000000ec2e5052600f4940a79196cadb553a40",
+    "confidence": 0.77,
+    "websites": [
+      "https://linktr.ee/legendof_chocolate"
+    ],
+    "emails": null,
+    "socials": [
+      "https://www.instagram.com/legendof_chocolate"
+    ],
+    "phones": null,
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": "Ithra Plaza",
+        "locality": "Dhahran",
+        "postcode": "34461",
+        "region": "Eastern Region",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Legend Ithra",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "record_id": "67200a60202568437da3eab9",
+        "update_time": "2025-05-12T00:00:00.000",
+        "confidence": 0.77,
+        "between": null,
+        "provider": "foursquare",
+        "resource": "foursquare",
+        "version": "2026-04-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "casual_eatery",
+    "taxonomy": {
+      "primary": "chocolatier",
+      "hierarchy": [
+        "food_and_drink",
+        "casual_eatery",
+        "candy_store",
+        "chocolatier"
+      ],
+      "alternates": null
+    },
+    "version": 7,
+    "bbox": {
+      "xmin": 50.120121002197266,
+      "xmax": 50.1201286315918,
+      "ymin": 26.335384368896484,
+      "ymax": 26.33538818359375
+    }
+  },
+  {
+    "area": "eastern",
+    "id": "b6806d49-e3a2-48b4-ad51-85b36fc36ecd",
+    "geometry": "010100000025b46124660f494047e371cdf4553a40",
+    "confidence": 0.9584749031066895,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/352795358620267"
+    ],
+    "phones": [
+      "+966138169799"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "8386 Ring Rd",
+        "locality": "الظهران",
+        "postcode": "34461",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Ithra Theatre",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "352795358620267",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.8194561004638672,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "theatre_venue",
+    "taxonomy": {
+      "primary": "theatre_venue",
+      "hierarchy": [
+        "arts_and_entertainment",
+        "performing_arts_venue",
+        "theatre_venue"
+      ],
+      "alternates": null
+    },
+    "version": 9,
+    "bbox": {
+      "xmin": 50.120304107666016,
+      "xmax": 50.12031173706055,
+      "ymin": 26.335765838623047,
+      "ymax": 26.335769653320312
+    }
+  },
+  {
+    "area": "eastern",
+    "id": "5edcb8c0-d1d9-4ee9-bf5c-38e43cad59de",
+    "geometry": "010100000032a4d46f700f4940b318a7e7fe553a40",
+    "confidence": 0.8474593758583069,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/290067528155636"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "",
+        "locality": "الظهران",
+        "postcode": "34461",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Ithra Museum Galleries",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "290067528155636",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.8474593758583069,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "museum",
+    "taxonomy": {
+      "primary": "museum",
+      "hierarchy": [
+        "arts_and_entertainment",
+        "museum"
+      ],
+      "alternates": null
+    },
+    "version": 9,
+    "bbox": {
+      "xmin": 50.1206169128418,
+      "xmax": 50.12062454223633,
+      "ymin": 26.335920333862305,
+      "ymax": 26.33592414855957
+    }
+  },
+  {
+    "area": "eastern",
+    "id": "405eea9a-df5f-4465-83e0-e56cc71c87f8",
+    "geometry": "010100000075e7cb033f1949406cf9371e22563a40",
+    "confidence": 0.8458591103553772,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/1967160860026136"
+    ],
+    "phones": [
+      "+966920006699"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": "Sparky's Egypt",
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "Prince Sultan Road",
+        "locality": "الخبر",
+        "postcode": "34235",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Sparky's",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "1967160860026136",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.8458591103553772,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "amusement_park",
+    "taxonomy": {
+      "primary": "amusement_park",
+      "hierarchy": [
+        "arts_and_entertainment",
+        "amusement_attraction",
+        "amusement_park"
+      ],
+      "alternates": null
+    },
+    "version": 11,
+    "bbox": {
+      "xmin": 50.197235107421875,
+      "xmax": 50.197242736816406,
+      "ymin": 26.336454391479492,
+      "ymax": 26.336458206176758
+    }
+  },
+  {
+    "area": "eastern",
+    "id": "2c564095-2b84-4df3-b147-2869169e956f",
+    "geometry": "0101000000c5707500c40f4940a2cf471971553a40",
+    "confidence": 0.670295000076294,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/333256677576848"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "",
+        "locality": "الظهران",
+        "postcode": "34461",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "مسجد إثراء",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "333256677576848",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.670295000076294,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "muslim_place_of_worship",
+    "taxonomy": {
+      "primary": "muslim_place_of_worship",
+      "hierarchy": [
+        "cultural_and_historic",
+        "place_of_worship",
+        "muslim_place_of_worship"
+      ],
+      "alternates": null
+    },
+    "version": 10,
+    "bbox": {
+      "xmin": 50.1231689453125,
+      "xmax": 50.12317657470703,
+      "ymin": 26.33375358581543,
+      "ymax": 26.333757400512695
+    }
+  },
+  {
+    "area": "eastern",
+    "id": "e36b945a-9547-4617-9c83-b39f8e310c77",
+    "geometry": "0101000000dff94509fa114940f5bbb0355b553a40",
+    "confidence": 0.6710519194602966,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/191286468443586"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "",
+        "locality": "الظهران",
+        "postcode": "",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Dunkin Donuts Corner - Aramco ithra Knowledge Program",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "191286468443586",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.6710519194602966,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "casual_eatery",
+    "taxonomy": {
+      "primary": "donut_shop",
+      "hierarchy": [
+        "food_and_drink",
+        "casual_eatery",
+        "dessert_shop",
+        "donut_shop"
+      ],
+      "alternates": null
+    },
+    "version": 8,
+    "bbox": {
+      "xmin": 50.14044189453125,
+      "xmax": 50.14044952392578,
+      "ymin": 26.333419799804688,
+      "ymax": 26.333423614501953
+    }
+  },
+  {
+    "area": "eastern",
+    "id": "98ea1d61-7290-4533-bafa-e844a503d48f",
+    "geometry": "0101000000873296e1261d4940eab9e067b7513a40",
+    "confidence": 0.9870884156227112,
+    "websites": [
+      "http://scitech.sa/eng/"
+    ],
+    "emails": [
+      "info@scitech.edu.sa"
+    ],
+    "socials": [
+      "https://www.facebook.com/192326294135982"
+    ],
+    "phones": [
+      "+966564286199"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "6418 3618 Corniche Rd",
+        "locality": "الخبر",
+        "postcode": "34412",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Scitech",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "192326294135982",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.9438626766204834,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "museum",
+    "taxonomy": {
+      "primary": "science_museum",
+      "hierarchy": [
+        "arts_and_entertainment",
+        "museum",
+        "science_museum"
+      ],
+      "alternates": null
+    },
+    "version": 13,
+    "bbox": {
+      "xmin": 50.22774887084961,
+      "xmax": 50.22775650024414,
+      "ymin": 26.319204330444336,
+      "ymax": 26.3192081451416
+    }
+  },
+  {
+    "area": "eastern",
+    "id": "8a251b82-db6d-467b-9a28-98eda645b656",
+    "geometry": "0101000000f3c7b4368d0d4940122f4fe78a4a3a40",
+    "confidence": 0.77,
+    "websites": [
+      "https://reach.link/escapetheroomsa"
+    ],
+    "emails": null,
+    "socials": null,
+    "phones": [
+      "055 452 4443"
+    ],
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": "Dhahran Hills",
+        "locality": "Dhahran",
+        "postcode": "31932",
+        "region": "DHAHRAN",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Escape The Room",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "record_id": "66cb0b444db2924b89b27c6e",
+        "update_time": "2025-08-02T00:00:00.000",
+        "confidence": 0.77,
+        "between": null,
+        "provider": "foursquare",
+        "resource": "foursquare",
+        "version": "2026-04-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "gaming_venue",
+    "taxonomy": {
+      "primary": "escape_room",
+      "hierarchy": [
+        "arts_and_entertainment",
+        "gaming_venue",
+        "escape_room"
+      ],
+      "alternates": null
+    },
+    "version": 6,
+    "bbox": {
+      "xmin": 50.105865478515625,
+      "xmax": 50.105873107910156,
+      "ymin": 26.291181564331055,
+      "ymax": 26.29118537902832
+    }
+  },
+  {
+    "area": "eastern",
+    "id": "7d6b761c-9008-4b92-80e2-fe008b3b9fdd",
+    "geometry": "0101000000de3b6a4c881149406ade718a8e583a40",
+    "confidence": 0.6787554025650024,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/814453198947077"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "",
+        "locality": "الظهران",
+        "postcode": "34257",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Sparkle Luxury Barber",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "814453198947077",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.6787554025650024,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "personal_or_beauty_service",
+    "taxonomy": {
+      "primary": "barber",
+      "hierarchy": [
+        "lifestyle_services",
+        "personal_or_beauty_service",
+        "barber"
+      ],
+      "alternates": null
+    },
+    "version": 11,
+    "bbox": {
+      "xmin": 50.13697052001953,
+      "xmax": 50.13697814941406,
+      "ymin": 26.345924377441406,
+      "ymax": 26.345928192138672
+    }
+  },
+  {
+    "area": "eastern",
+    "id": "c54ce572-9c72-4513-9cd2-6a2e83ffd2c7",
+    "geometry": "010100000044aff5fbb40e494024a7655a516f3a40",
+    "confidence": 0.24700166285037994,
+    "websites": [
+      "https://www.thetrio.sa/"
+    ],
+    "emails": [
+      "info@triomarketingsa.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/970219002832315"
+    ],
+    "phones": [
+      "+966530252722"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "محمد بن سعود",
+        "locality": "الدمام",
+        "postcode": null,
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Trio Spark Agency",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "970219002832315",
+        "update_time": "2026-08-24T00:00:00.000Z",
+        "confidence": 0.24700166285037994,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-08-24"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "professional_service",
+    "taxonomy": {
+      "primary": "marketing_agency",
+      "hierarchy": [
+        "services_and_business",
+        "professional_service",
+        "marketing_agency"
+      ],
+      "alternates": null
+    },
+    "version": 2,
+    "bbox": {
+      "xmin": 50.114891052246094,
+      "xmax": 50.114898681640625,
+      "ymin": 26.434831619262695,
+      "ymax": 26.43483543395996
+    }
+  },
+  {
+    "area": "eastern",
+    "id": "1265edd4-458b-4481-9b87-77a76ad4b76c",
+    "geometry": "01010000003a10d7276c104940d43f7d7dd6733a40",
+    "confidence": 0.77,
+    "websites": [
+      "http://www.sparkysme.com"
+    ],
+    "emails": null,
+    "socials": [
+      "https://www.twitter.com/sparkysme",
+      "https://www.facebook.com/221672257927642",
+      "https://www.instagram.com/sparkysme"
+    ],
+    "phones": [
+      "9200 06699"
+    ],
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": null,
+        "locality": "Dammam",
+        "postcode": "32414",
+        "region": "Ash Sharqiyah",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Sparky's",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "record_id": "59047c2728374e14909f8465",
+        "update_time": "2022-12-02T00:00:00.000",
+        "confidence": 0.77,
+        "between": null,
+        "provider": "foursquare",
+        "resource": "foursquare",
+        "version": "2026-04-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "sport_or_fitness_facility",
+    "taxonomy": {
+      "primary": "indoor_playcenter",
+      "hierarchy": [
+        "sports_and_recreation",
+        "sport_or_fitness_facility",
+        "indoor_playcenter"
+      ],
+      "alternates": null
+    },
+    "version": 6,
+    "bbox": {
+      "xmin": 50.128299713134766,
+      "xmax": 50.1283073425293,
+      "ymin": 26.45248794555664,
+      "ymax": 26.452491760253906
+    }
+  },
+  {
+    "area": "diriyah",
+    "id": "5fa21046-4717-49d4-ac9f-e99f033235a8",
+    "geometry": "0101000000fd2d01f8a74847409f8ec70c54be3840",
+    "confidence": 0.5125616192817688,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/102446314511651"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": null,
+        "locality": "الدرعية",
+        "postcode": null,
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "البجيري",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "102446314511651",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.5125616192817688,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "public_plaza",
+    "taxonomy": {
+      "primary": "public_plaza",
+      "hierarchy": [
+        "community_and_government",
+        "public_facility",
+        "public_plaza"
+      ],
+      "alternates": null
+    },
+    "version": 2,
+    "bbox": {
+      "xmin": 46.56761932373047,
+      "xmax": 46.567626953125,
+      "ymin": 24.74346923828125,
+      "ymax": 24.743473052978516
+    }
+  },
+  {
+    "area": "diriyah",
+    "id": "269cd654-6c5e-4a46-9d8c-cd90dbc39cc7",
+    "geometry": "0101000000b1299b992049474092c49d4eefbd3840",
+    "confidence": 0.7258266806602478,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/138945140045168"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "Diriyah, 7325 Al Imam Abdulaziz Ibn Mohammad Ibn Saud, Al Diriyah, Ad Diriyah 13711, Saudi Arabia",
+        "locality": "الدرعية",
+        "postcode": null,
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "منتزه البجيري التراثي",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "138945140045168",
+        "update_time": "2026-08-24T00:00:00.000Z",
+        "confidence": 0.7258266806602478,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-08-24"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "arts_and_entertainment",
+    "taxonomy": {
+      "primary": "arts_and_entertainment",
+      "hierarchy": [
+        "arts_and_entertainment"
+      ],
+      "alternates": null
+    },
+    "version": 3,
+    "bbox": {
+      "xmin": 46.5713005065918,
+      "xmax": 46.57130813598633,
+      "ymin": 24.741931915283203,
+      "ymax": 24.74193572998047
+    }
+  },
+  {
+    "area": "diriyah",
+    "id": "bbabefa5-f1cb-41c9-87b2-fa5db98dbead",
+    "geometry": "010100000099340cb3b94947408ef47914ffbb3840",
+    "confidence": 0.77,
+    "websites": [
+      "https://sauditourguide.com/%d8%a8%d9%8a%d8%b6-%d8%a7%d9%84%d8%b5%d8%b1%d8%a7%d8%b5%d9%8a%d8%b1/"
+    ],
+    "emails": null,
+    "socials": null,
+    "phones": null,
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": null,
+        "locality": "Riyadh",
+        "postcode": "13711",
+        "region": "Riyadh",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "At-Turaif Historical District",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "record_id": "5c1601411af852002c391307",
+        "update_time": "2026-04-13T00:00:00.000",
+        "confidence": 0.77,
+        "between": null,
+        "provider": "foursquare",
+        "resource": "foursquare",
+        "version": "2026-04-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "historic_site",
+    "taxonomy": {
+      "primary": "historic_site",
+      "hierarchy": [
+        "cultural_and_historic",
+        "historic_site"
+      ],
+      "alternates": null
+    },
+    "version": 4,
+    "bbox": {
+      "xmin": 46.57597351074219,
+      "xmax": 46.57598114013672,
+      "ymin": 24.734357833862305,
+      "ymax": 24.73436164855957
+    }
+  },
+  {
+    "area": "diriyah",
+    "id": "27220d59-65a2-4f5d-99e7-12b40c0d0393",
+    "geometry": "01010000000e358610c24947406617a983febb3840",
+    "confidence": 0.8293688297271729,
+    "websites": [
+      "http://whc.unesco.org/en/list/1329"
+    ],
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/932645610258699"
+    ],
+    "phones": [
+      "+966920002622"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "7123 Wadi Hanifah, 3420",
+        "locality": "الدرعية",
+        "postcode": "13711",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "At-Turaif Welcome Center",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "932645610258699",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.8293688297271729,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "museum",
+    "taxonomy": {
+      "primary": "museum",
+      "hierarchy": [
+        "arts_and_entertainment",
+        "museum"
+      ],
+      "alternates": null
+    },
+    "version": 9,
+    "bbox": {
+      "xmin": 46.576229095458984,
+      "xmax": 46.576236724853516,
+      "ymin": 24.734352111816406,
+      "ymax": 24.734355926513672
+    }
+  },
+  {
+    "area": "diriyah",
+    "id": "b46f4df5-c4c9-4874-ad97-66ae37803aca",
+    "geometry": "0101000000a32af0cdab4947401597bbbbbbbb3840",
+    "confidence": 0.8026628494262695,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/167110893654646"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": null,
+        "locality": "الدرعية",
+        "postcode": null,
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "حي الطريف",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "167110893654646",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.8026628494262695,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "historic_site",
+    "taxonomy": {
+      "primary": "historic_site",
+      "hierarchy": [
+        "cultural_and_historic",
+        "historic_site"
+      ],
+      "alternates": null
+    },
+    "version": 5,
+    "bbox": {
+      "xmin": 46.57555389404297,
+      "xmax": 46.5755615234375,
+      "ymin": 24.73332977294922,
+      "ymax": 24.733333587646484
+    }
+  },
+  {
+    "area": "diriyah",
+    "id": "90bc1c8f-80c4-4e22-b47f-0a523ee60185",
+    "geometry": "0101000000389ecf807a494740f085c954c1bc3840",
+    "confidence": 0.77,
+    "websites": [
+      "https://www.diriyah.sa/ar/dine"
+    ],
+    "emails": null,
+    "socials": [
+      "https://www.twitter.com/visitdiriyah"
+    ],
+    "phones": [
+      "9200 21727"
+    ],
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": "Diriyah الدرعية",
+        "locality": "Ad-Dirayah",
+        "postcode": "13711",
+        "region": "Riyadh",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "AlBujairi Square | ساحة البجيري",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "record_id": "55323915498e4134d6aebbc1",
+        "update_time": "2026-04-13T00:00:00.000",
+        "confidence": 0.77,
+        "between": null,
+        "provider": "foursquare",
+        "resource": "foursquare",
+        "version": "2026-04-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "historic_site",
+    "taxonomy": {
+      "primary": "historic_site",
+      "hierarchy": [
+        "cultural_and_historic",
+        "historic_site"
+      ],
+      "alternates": null
+    },
+    "version": 4,
+    "bbox": {
+      "xmin": 46.57405090332031,
+      "xmax": 46.57405471801758,
+      "ymin": 24.737321853637695,
+      "ymax": 24.73732566833496
+    }
+  },
+  {
+    "area": "diriyah",
+    "id": "e268a49d-22bc-4f8a-8aae-cdeb93d3ea9e",
+    "geometry": "0101000000f3ffff99044a47408df7df6899bc3840",
+    "confidence": 0.8656008839607239,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/104453659175837"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "⁧RRHA3205, 3205 شارع الإمام سعود بن فيصل",
+        "locality": "الرياض",
+        "postcode": "13516",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Bujairi Terrace",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "104453659175837",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.8656008839607239,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "shopping",
+    "taxonomy": {
+      "primary": "shopping",
+      "hierarchy": [
+        "shopping"
+      ],
+      "alternates": null
+    },
+    "version": 10,
+    "bbox": {
+      "xmin": 46.5782585144043,
+      "xmax": 46.57826614379883,
+      "ymin": 24.73671531677246,
+      "ymax": 24.736719131469727
+    }
+  },
+  {
+    "area": "diriyah",
+    "id": "196c0f45-a92f-40aa-a0c3-54c72802f097",
+    "geometry": "0101000000660832c87e494740fdd11ecc79bc3840",
+    "confidence": 0.9432129859924316,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/510916972431076"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "3134 Wadi Hanifah",
+        "locality": "الدرعية",
+        "postcode": "13711",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Al Bujairi Heritage Park",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "510916972431076",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.9432129859924316,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "national_park",
+    "taxonomy": {
+      "primary": "national_park",
+      "hierarchy": [
+        "sports_and_recreation",
+        "park",
+        "national_park"
+      ],
+      "alternates": null
+    },
+    "version": 3,
+    "bbox": {
+      "xmin": 46.574180603027344,
+      "xmax": 46.574188232421875,
+      "ymin": 24.73623275756836,
+      "ymax": 24.736236572265625
+    }
+  },
+  {
+    "area": "al_balad",
+    "id": "b996370f-9c18-4c3a-bf49-2f48a7996ccf",
+    "geometry": "0101000000989aebd1a796434000560572a27f3540",
+    "confidence": 0.6538318395614624,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/709051872516661"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "3901 المدارس، Al Baghdadiyah Al Gharbiyah 7316",
+        "locality": "جدة",
+        "postcode": "22231",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Red Sea Gateway Terminal Camp 1",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "709051872516661",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.6538318395614624,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "historic_site",
+    "taxonomy": {
+      "primary": "historic_site",
+      "hierarchy": [
+        "cultural_and_historic",
+        "historic_site"
+      ],
+      "alternates": null
+    },
+    "version": 10,
+    "bbox": {
+      "xmin": 39.1769905090332,
+      "xmax": 39.176998138427734,
+      "ymin": 21.49856948852539,
+      "ymax": 21.498573303222656
+    }
+  },
+  {
+    "area": "al_balad",
+    "id": "bb3b17f4-5c00-4053-84bf-c5ada603e1b3",
+    "geometry": "01010000000b5a2f23c897434085c4c93f2b7c3540",
+    "confidence": 0.762817919254303,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/581733688509988"
+    ],
+    "phones": [
+      "+966126491766"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "3020 Al Dhahab, 6934",
+        "locality": "جدة",
+        "postcode": "22233",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Al Nassr Royal Hotel",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "581733688509988",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.762817919254303,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "hotel",
+    "taxonomy": {
+      "primary": "hotel",
+      "hierarchy": [
+        "lodging",
+        "hotel"
+      ],
+      "alternates": null
+    },
+    "version": 10,
+    "bbox": {
+      "xmin": 39.185794830322266,
+      "xmax": 39.18579864501953,
+      "ymin": 21.48503303527832,
+      "ymax": 21.485034942626953
+    }
+  },
+  {
+    "area": "al_balad",
+    "id": "f33b84b7-db79-4db3-939e-48b16c2f273b",
+    "geometry": "010100000055af328594974340189bf3dfc57c3540",
+    "confidence": 0.7448220252990723,
+    "websites": [
+      "https://wa.me/message/YEEGOENEQGFCK1"
+    ],
+    "emails": [
+      "baeshenrestaurant@gmail.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/1162981086906514"
+    ],
+    "phones": [
+      "+966503674710"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "شارع الباشا",
+        "locality": "جدة",
+        "postcode": "22233",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "باعشن للاسماك",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "1162981086906514",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.7448220252990723,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "restaurant",
+    "taxonomy": {
+      "primary": "seafood_restaurant",
+      "hierarchy": [
+        "food_and_drink",
+        "restaurant",
+        "seafood_restaurant"
+      ],
+      "alternates": null
+    },
+    "version": 10,
+    "bbox": {
+      "xmin": 39.18421936035156,
+      "xmax": 39.18422317504883,
+      "ymin": 21.48739242553711,
+      "ymax": 21.487394332885742
+    }
+  },
+  {
+    "area": "al_balad",
+    "id": "e4e4912c-a868-47b6-a252-64e3526d13b1",
+    "geometry": "0101000000dbcecc3e829743409a9beae3f87c3540",
+    "confidence": 0.77,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.twitter.com/redseapalace"
+    ],
+    "phones": [
+      "26428555"
+    ],
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": "RedSea Palace Hotel Jeddah",
+        "locality": "Jeddah",
+        "postcode": null,
+        "region": "Arabian Kingdom",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Rm.425, Red Sea Palace Hotel",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "record_id": "5198513b498e4d7da762877a",
+        "update_time": "2026-03-10T00:00:00.000",
+        "confidence": 0.77,
+        "between": null,
+        "provider": "foursquare",
+        "resource": "foursquare",
+        "version": "2026-04-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "bed_and_breakfast",
+    "taxonomy": {
+      "primary": "bed_and_breakfast",
+      "hierarchy": [
+        "lodging",
+        "bed_and_breakfast"
+      ],
+      "alternates": null
+    },
+    "version": 3,
+    "bbox": {
+      "xmin": 39.183658599853516,
+      "xmax": 39.18366241455078,
+      "ymin": 21.48817253112793,
+      "ymax": 21.488174438476562
+    }
+  },
+  {
+    "area": "al_balad",
+    "id": "e7803308-ae1b-4a19-82c2-1fff5007b122",
+    "geometry": "0101000000c284d1ac6c9743400cc9c9c4ad7e3540",
+    "confidence": 0.77,
+    "websites": [
+      "https://teamlab-jeddah.com"
+    ],
+    "emails": null,
+    "socials": [
+      "https://www.instagram.com/teamlab_borderless_jeddah"
+    ],
+    "phones": null,
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": null,
+        "locality": "جدة",
+        "postcode": "21487",
+        "region": "Mecca",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "TeamLab Borderless Museum",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "record_id": "665dfc072260ad31c8ebdf93",
+        "update_time": "2026-04-12T00:00:00.000",
+        "confidence": 0.77,
+        "between": null,
+        "provider": "foursquare",
+        "resource": "foursquare",
+        "version": "2026-04-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "museum",
+    "taxonomy": {
+      "primary": "art_museum",
+      "hierarchy": [
+        "arts_and_entertainment",
+        "museum",
+        "art_museum"
+      ],
+      "alternates": null
+    },
+    "version": 6,
+    "bbox": {
+      "xmin": 39.18300247192383,
+      "xmax": 39.18301010131836,
+      "ymin": 21.49483871459961,
+      "ymax": 21.494840621948242
+    }
+  },
+  {
+    "area": "al_balad",
+    "id": "5829975a-1ed7-446f-9950-caae3035eedd",
+    "geometry": "0101000000e8b3548b3697434068c49ff3ce7c3540",
+    "confidence": 0.5572640895843506,
+    "websites": null,
+    "emails": [
+      "redsea@redsea-tte.com.sa"
+    ],
+    "socials": [
+      "https://www.facebook.com/102205205642272"
+    ],
+    "phones": [
+      "+966565588667"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "البلد - شارع الملك عبدالعزيز - مركز الفيحاء التجاري - الدور الثاني - شقة # 7",
+        "locality": "جدة",
+        "postcode": null,
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "كنوز البحر الأحمر",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "102205205642272",
+        "update_time": "2026-08-24T00:00:00.000Z",
+        "confidence": 0.5572640895843506,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-08-24"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "b2b_transportation_and_storage_service",
+    "taxonomy": {
+      "primary": "freight_and_cargo_service",
+      "hierarchy": [
+        "services_and_business",
+        "b2b_service",
+        "b2b_transportation_and_storage_service",
+        "freight_and_cargo_service"
+      ],
+      "alternates": null
+    },
+    "version": 2,
+    "bbox": {
+      "xmin": 39.18135070800781,
+      "xmax": 39.181358337402344,
+      "ymin": 21.487529754638672,
+      "ymax": 21.487533569335938
+    }
+  },
+  {
+    "area": "al_balad",
+    "id": "8d961a8f-fbc3-42b5-a5f7-e127cd483448",
+    "geometry": "01010000007fad010036974340c7bc0a00c07c3540",
+    "confidence": 0.85,
+    "websites": [
+      "https://www.chanel.com/sa-ar/storelocator/store/chanel-fragrance-and-beauty-boutique-red-sea-mall-112721/?y_source=1_Mjg2MzIxNDctNDgzLWxvY2F0aW9uLndlYnNpdGU%3D"
+    ],
+    "emails": null,
+    "socials": null,
+    "phones": [
+      "0122612155"
+    ],
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": "Red Sea Mall, Ground Floor",
+        "locality": "Jiddah",
+        "postcode": "",
+        "region": "Mecca",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "CHANEL Fragrance and Beauty Boutique Red Sea Mall",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "562949962460701",
+        "update_time": "2025-10-02T13:38:09.540Z",
+        "confidence": 0.85,
+        "between": null,
+        "provider": "microsoft",
+        "resource": "microsoft",
+        "version": "2025-10-20"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "supplier_or_distributor",
+    "taxonomy": {
+      "primary": "beauty_product_supplier",
+      "hierarchy": [
+        "services_and_business",
+        "b2b_service",
+        "supplier_or_distributor",
+        "beauty_product_supplier"
+      ],
+      "alternates": null
+    },
+    "version": 6,
+    "bbox": {
+      "xmin": 39.18133544921875,
+      "xmax": 39.181339263916016,
+      "ymin": 21.4873046875,
+      "ymax": 21.487306594848633
+    }
+  },
+  {
+    "area": "al_balad",
+    "id": "b56b8b6a-ebf9-4ac7-8587-2b22592f8787",
+    "geometry": "010100000048bf7d1d38974340789ca223b97c3540",
+    "confidence": 0.8,
+    "websites": null,
+    "emails": null,
+    "socials": null,
+    "phones": null,
+    "brand": {
+      "wikidata": "Q301301",
+      "names": {
+        "primary": "Nespresso",
+        "common": null,
+        "rules": []
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "Red Sea Mall Gate 3",
+        "locality": "Jeddah",
+        "postcode": null,
+        "region": "Makkah",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Red Sea Mall Boutique <i>Nespresso</i>",
+      "common": null,
+      "rules": []
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "AllThePlaces",
+        "license": "CC0-1.0",
+        "record_id": "jLFJTjVJ_7wxAHqAZ8meC42dEmQ=",
+        "update_time": "2026-09-09T08:16:19.000Z",
+        "confidence": 0.8,
+        "between": null,
+        "provider": "alltheplaces",
+        "resource": "alltheplaces",
+        "version": "2026-09-09"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "food_and_beverage_store",
+    "taxonomy": {
+      "primary": "coffee_and_tea_supplies",
+      "hierarchy": [
+        "shopping",
+        "food_and_beverage_store",
+        "coffee_and_tea_supplies"
+      ],
+      "alternates": null
+    },
+    "version": 1,
+    "bbox": {
+      "xmin": 39.181396484375,
+      "xmax": 39.181400299072266,
+      "ymin": 21.487199783325195,
+      "ymax": 21.487201690673828
+    }
+  },
+  {
+    "area": "al_balad",
+    "id": "a9c152dd-317d-4248-a36c-85b08812d08e",
+    "geometry": "0101000000107a36ab3e97434078b988efc47c3540",
+    "confidence": 0.5649870038032532,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/340001456652026"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "شارع حائل",
+        "locality": "جدة",
+        "postcode": null,
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Sen See -Red Sea Mall",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "340001456652026",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.5649870038032532,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "fashion_and_apparel_store",
+    "taxonomy": {
+      "primary": "womens_clothing_store",
+      "hierarchy": [
+        "shopping",
+        "fashion_and_apparel_store",
+        "clothing_store",
+        "womens_clothing_store"
+      ],
+      "alternates": null
+    },
+    "version": 9,
+    "bbox": {
+      "xmin": 39.18159866333008,
+      "xmax": 39.18160629272461,
+      "ymin": 21.48737907409668,
+      "ymax": 21.487382888793945
+    }
+  },
+  {
+    "area": "al_balad",
+    "id": "f85d2573-1be8-4208-b6dc-a42d04725f0f",
+    "geometry": "01010000006e83a0c4639743407c736658187d3540",
+    "confidence": 0.9924597519636155,
+    "websites": [
+      "http://www.menaredseapalace.com/"
+    ],
+    "emails": [
+      "info@redseapalace.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/248144535636255"
+    ],
+    "phones": [
+      "+966126428555"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "King Abdul Aziz St",
+        "locality": "جدة",
+        "postcode": "21421",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Red Sea Palace Hotel",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "248144535636255",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.9672163128852844,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "hotel",
+    "taxonomy": {
+      "primary": "hotel",
+      "hierarchy": [
+        "lodging",
+        "hotel"
+      ],
+      "alternates": null
+    },
+    "version": 6,
+    "bbox": {
+      "xmin": 39.18273162841797,
+      "xmax": 39.182735443115234,
+      "ymin": 21.488649368286133,
+      "ymax": 21.4886531829834
+    }
+  },
+  {
+    "area": "al_balad",
+    "id": "bb4bc78b-dbc3-4eee-b576-f4840a89c36d",
+    "geometry": "0101000000eaaf57587097434026732cefaa7b3540",
+    "confidence": 0.77,
+    "websites": [
+      "http://redseamuseum.moc.gov.sa"
+    ],
+    "emails": null,
+    "socials": null,
+    "phones": null,
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": null,
+        "locality": "جدة",
+        "postcode": "22233",
+        "region": "Mecca",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Red Sea Museum",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "record_id": "693ae5d5b0c1fc592149003a",
+        "update_time": "2026-03-30T00:00:00.000",
+        "confidence": 0.77,
+        "between": null,
+        "provider": "foursquare",
+        "resource": "foursquare",
+        "version": "2026-04-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "museum",
+    "taxonomy": {
+      "primary": "history_museum",
+      "hierarchy": [
+        "arts_and_entertainment",
+        "museum",
+        "history_museum"
+      ],
+      "alternates": null
+    },
+    "version": 4,
+    "bbox": {
+      "xmin": 39.18311309814453,
+      "xmax": 39.1831169128418,
+      "ymin": 21.483076095581055,
+      "ymax": 21.48307991027832
+    }
+  },
+  {
+    "area": "al_balad",
+    "id": "5a6695ba-f1a1-4374-a298-e705f024fba3",
+    "geometry": "01010000004b129557f8974340ec04ea831b7b3540",
+    "confidence": 0.5934624075889587,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/108918840609391"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": null,
+        "locality": "جدة",
+        "postcode": null,
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Nassif House Museum",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "108918840609391",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.5934624075889587,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "museum",
+    "taxonomy": {
+      "primary": "history_museum",
+      "hierarchy": [
+        "arts_and_entertainment",
+        "museum",
+        "history_museum"
+      ],
+      "alternates": null
+    },
+    "version": 7,
+    "bbox": {
+      "xmin": 39.18726348876953,
+      "xmax": 39.1872673034668,
+      "ymin": 21.48088836669922,
+      "ymax": 21.48089027404785
+    }
+  },
+  {
+    "area": "al_balad",
+    "id": "6b396d89-8ac5-4f8b-807f-b28b5984d167",
+    "geometry": "0101000000a80b676d09984340e7c182a0487a3540",
+    "confidence": 0.5216505527496338,
+    "websites": [
+      "http://www.rsc-sa.com/"
+    ],
+    "emails": [
+      "info@rsc-sa.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/660902920628272"
+    ],
+    "phones": [
+      "+966126434077"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": null,
+        "locality": "جدة",
+        "postcode": null,
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Red Sea Consultants",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "660902920628272",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.5216505527496338,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "b2b_service",
+    "taxonomy": {
+      "primary": "commercial_industrial",
+      "hierarchy": [
+        "services_and_business",
+        "b2b_service",
+        "commercial_industrial"
+      ],
+      "alternates": null
+    },
+    "version": 1,
+    "bbox": {
+      "xmin": 39.18778610229492,
+      "xmax": 39.18779373168945,
+      "ymin": 21.477670669555664,
+      "ymax": 21.477672576904297
+    }
+  },
+  {
+    "area": "al_balad",
+    "id": "fff00711-33af-46b1-bbf9-216200493280",
+    "geometry": "0101000000e8a948a00098434007d102d9f57b3540",
+    "confidence": 0.8404384851455688,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/1172991119523911"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "⁧JACC3256, 3256 شارع سوق العلوي",
+        "locality": "جدة",
+        "postcode": "22236",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "بيت آل نصيف",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "1172991119523911",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.8404384851455688,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "museum",
+    "taxonomy": {
+      "primary": "history_museum",
+      "hierarchy": [
+        "arts_and_entertainment",
+        "museum",
+        "history_museum"
+      ],
+      "alternates": null
+    },
+    "version": 4,
+    "bbox": {
+      "xmin": 39.18751907348633,
+      "xmax": 39.187522888183594,
+      "ymin": 21.484216690063477,
+      "ymax": 21.484220504760742
+    }
+  },
+  {
+    "area": "al_balad",
+    "id": "0f5dd241-fc90-4da9-9c74-74a18140220a",
+    "geometry": "01010000009a2f1928019843400dcae264f47b3540",
+    "confidence": 0.7935867309570312,
+    "websites": [
+      "http://www.cod.edu/middle/history/Naseef/House.htm"
+    ],
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/143351749011245"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": null,
+        "locality": "جدة",
+        "postcode": null,
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Nasseef House",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "143351749011245",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.7935867309570312,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "historic_site",
+    "taxonomy": {
+      "primary": "historic_site",
+      "hierarchy": [
+        "cultural_and_historic",
+        "historic_site"
+      ],
+      "alternates": null
+    },
+    "version": 7,
+    "bbox": {
+      "xmin": 39.18753433227539,
+      "xmax": 39.187538146972656,
+      "ymin": 21.48419761657715,
+      "ymax": 21.48419952392578
+    }
+  },
+  {
+    "area": "al_balad",
+    "id": "a6706491-6dca-4868-bb3d-630ff0842801",
+    "geometry": "01010000002f6fccba189843409f298dfb037c3540",
+    "confidence": 0.5401475429534912,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/607381926404961"
+    ],
+    "phones": [
+      "+966126472280"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "مركز المدينة القديمة Balad",
+        "locality": "جدة",
+        "postcode": "22238",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Biet Nassif",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "607381926404961",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.5401475429534912,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "travel_service",
+    "taxonomy": {
+      "primary": "travel_service",
+      "hierarchy": [
+        "travel_and_transportation",
+        "travel_service"
+      ],
+      "alternates": null
+    },
+    "version": 8,
+    "bbox": {
+      "xmin": 39.18825149536133,
+      "xmax": 39.188255310058594,
+      "ymin": 21.484434127807617,
+      "ymax": 21.48443603515625
+    }
+  },
+  {
+    "area": "boulevard",
+    "id": "d83410cc-003b-4eac-8357-355d14d1eb49",
+    "geometry": "010100000089d349b6ba4c4740c80c54c6bfc73840",
+    "confidence": 0.4643908739089966,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/101775305014463"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": null,
+        "locality": "الرياض",
+        "postcode": null,
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "مسرح فنان العرب محمد عبده at البوليفارد",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "101775305014463",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.4643908739089966,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "music_venue",
+    "taxonomy": {
+      "primary": "music_venue",
+      "hierarchy": [
+        "arts_and_entertainment",
+        "performing_arts_venue",
+        "music_venue"
+      ],
+      "alternates": null
+    },
+    "version": 8,
+    "bbox": {
+      "xmin": 46.59944152832031,
+      "xmax": 46.599449157714844,
+      "ymin": 24.780269622802734,
+      "ymax": 24.7802734375
+    }
+  },
+  {
+    "area": "boulevard",
+    "id": "b135a39a-ab63-49b6-9ac9-b1bf303bd57b",
+    "geometry": "0101000000f8aa9509bf4c4740e7fba9f1d2c53840",
+    "confidence": 0.6736913323402405,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/819190131284268"
+    ],
+    "phones": [
+      "+966561979241"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "Indian Pavilion – Boulevard World",
+        "locality": "الرياض",
+        "postcode": null,
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "India Pavilion Riyadh Boulevard World",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "819190131284268",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.6736913323402405,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "event_or_party_service",
+    "taxonomy": {
+      "primary": "party_and_event_planning",
+      "hierarchy": [
+        "services_and_business",
+        "event_or_party_service",
+        "party_and_event_planning"
+      ],
+      "alternates": null
+    },
+    "version": 4,
+    "bbox": {
+      "xmin": 46.599578857421875,
+      "xmax": 46.599586486816406,
+      "ymin": 24.772747039794922,
+      "ymax": 24.772750854492188
+    }
+  },
+  {
+    "area": "boulevard",
+    "id": "4bc7f882-b4fb-4b9b-bdcb-b20bef69c7cf",
+    "geometry": "0101000000ba30d28bda4d47403a57941282c53840",
+    "confidence": 0.77,
+    "websites": [
+      "http://airbnb.com/h/blvdview"
+    ],
+    "emails": null,
+    "socials": null,
+    "phones": null,
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": null,
+        "locality": "الرياض",
+        "postcode": "13516",
+        "region": "Riyadh",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Boulevard View Apartments",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "record_id": "68c71092c21ab661db44a11d",
+        "update_time": "2026-03-26T00:00:00.000",
+        "confidence": 0.77,
+        "between": null,
+        "provider": "foursquare",
+        "resource": "foursquare",
+        "version": "2026-04-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "hotel",
+    "taxonomy": {
+      "primary": "hotel",
+      "hierarchy": [
+        "lodging",
+        "hotel"
+      ],
+      "alternates": null
+    },
+    "version": 3,
+    "bbox": {
+      "xmin": 46.60823059082031,
+      "xmax": 46.608238220214844,
+      "ymin": 24.771512985229492,
+      "ymax": 24.771516799926758
+    }
+  },
+  {
+    "area": "boulevard",
+    "id": "5a638329-e593-44d7-b3f9-5b676a35420d",
+    "geometry": "0101000000728c648f504d4740834e081d74c53840",
+    "confidence": 0.45625337958335876,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/103755391163941"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "Riyadh Season",
+        "locality": "الرياض",
+        "postcode": "13516",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Eyescream and Friends - Boulevard Riyadh Season",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "103755391163941",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.45625337958335876,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "casual_eatery",
+    "taxonomy": {
+      "primary": "ice_cream_shop",
+      "hierarchy": [
+        "food_and_drink",
+        "casual_eatery",
+        "dessert_shop",
+        "ice_cream_shop"
+      ],
+      "alternates": null
+    },
+    "version": 7,
+    "bbox": {
+      "xmin": 46.60401916503906,
+      "xmax": 46.604026794433594,
+      "ymin": 24.771299362182617,
+      "ymax": 24.771303176879883
+    }
+  },
+  {
+    "area": "boulevard",
+    "id": "12103fee-9cf3-46b8-ab76-c32aca0a0648",
+    "geometry": "010100000000000090474d4740a980006052c43840",
+    "confidence": 0.77,
+    "websites": [
+      "http://www.kutlet.co"
+    ],
+    "emails": null,
+    "socials": [
+      "https://www.twitter.com/hikutlet",
+      "https://www.instagram.com/hikutlet"
+    ],
+    "phones": null,
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": "Boulevard Riyadh City",
+        "locality": "Riyadh",
+        "postcode": "13516",
+        "region": "1401",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Kutlet | كت لت البوليفارد",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "record_id": "61670ee19f0bb81bf17a1a05",
+        "update_time": "2025-05-26T00:00:00.000",
+        "confidence": 0.77,
+        "between": null,
+        "provider": "foursquare",
+        "resource": "foursquare",
+        "version": "2026-04-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "restaurant",
+    "taxonomy": {
+      "primary": "burger_restaurant",
+      "hierarchy": [
+        "food_and_drink",
+        "restaurant",
+        "meat_restaurant",
+        "burger_restaurant"
+      ],
+      "alternates": null
+    },
+    "version": 5,
+    "bbox": {
+      "xmin": 46.60374450683594,
+      "xmax": 46.60375213623047,
+      "ymin": 24.766881942749023,
+      "ymax": 24.76688575744629
+    }
+  },
+  {
+    "area": "boulevard",
+    "id": "ae23ae28-4886-4e1b-bf6c-827b1f1ef509",
+    "geometry": "0101000000c79fa86c584d47405950189469c43840",
+    "confidence": 0.77,
+    "websites": [
+      "https://l.instagram.com/?u=https://salla.sa/thecoffeeholics&e=AT24ik4bHJR78TJWKMeAsk8pSlT7HT5kmC-ELJsw6kXjzJ7DyuQM8TnuTWD0vORU1sbQCPpNkKkWXc3V-ADVIAPJPJL53BvDCyvXS2JyVbQUWR4i"
+    ],
+    "emails": null,
+    "socials": [
+      "https://www.twitter.com/coffeeholics_sa",
+      "https://www.instagram.com/the.coffeeholics"
+    ],
+    "phones": [
+      "054 816 3872"
+    ],
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": "Boulvard - Musical Area",
+        "locality": "Riyadh",
+        "postcode": "13516",
+        "region": "Riyadh",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "The Coffeeholics Boulevard",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "record_id": "618052b4d2127d5903e98dc2",
+        "update_time": "2026-04-09T00:00:00.000",
+        "confidence": 0.77,
+        "between": null,
+        "provider": "foursquare",
+        "resource": "foursquare",
+        "version": "2026-04-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "cafe",
+    "taxonomy": {
+      "primary": "cafe",
+      "hierarchy": [
+        "food_and_drink",
+        "casual_eatery",
+        "cafe"
+      ],
+      "alternates": null
+    },
+    "version": 5,
+    "bbox": {
+      "xmin": 46.6042594909668,
+      "xmax": 46.60426712036133,
+      "ymin": 24.76723289489746,
+      "ymax": 24.767236709594727
+    }
+  },
+  {
+    "area": "boulevard",
+    "id": "4d33c8f5-3b91-4fa4-b377-fb1aec747119",
+    "geometry": "0101000000293fa9f6e94c4740b45a608f89c43840",
+    "confidence": 0.6322131752967834,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/101734771368608"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": null,
+        "locality": "الرياض",
+        "postcode": null,
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "بوليفارد",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "101734771368608",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.6322131752967834,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "event_or_party_service",
+    "taxonomy": {
+      "primary": "party_and_event_planning",
+      "hierarchy": [
+        "services_and_business",
+        "event_or_party_service",
+        "party_and_event_planning"
+      ],
+      "alternates": null
+    },
+    "version": 3,
+    "bbox": {
+      "xmin": 46.60088348388672,
+      "xmax": 46.60089111328125,
+      "ymin": 24.767723083496094,
+      "ymax": 24.76772689819336
+    }
+  },
+  {
+    "area": "boulevard",
+    "id": "bc50f509-ae10-46d6-94f2-563adc677d14",
+    "geometry": "0101000000780ab952cf4c474026ac8db113c63840",
+    "confidence": 0.85,
+    "websites": [
+      "https://new.alromansiah.com/order-now"
+    ],
+    "emails": null,
+    "socials": null,
+    "phones": [
+      "920000144"
+    ],
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": "بوليفارد وورلد - المنطقة الشرقية",
+        "locality": "الرياض",
+        "postcode": "01222",
+        "region": "الرياض",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "الرومانسية | بوليفارد وورلد",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "844424935016655",
+        "update_time": "2025-04-11T13:16:09.947Z",
+        "confidence": 0.85,
+        "between": null,
+        "provider": "microsoft",
+        "resource": "microsoft",
+        "version": "2025-10-20"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "restaurant",
+    "taxonomy": {
+      "primary": "middle_eastern_restaurant",
+      "hierarchy": [
+        "food_and_drink",
+        "restaurant",
+        "middle_eastern_restaurant"
+      ],
+      "alternates": null
+    },
+    "version": 7,
+    "bbox": {
+      "xmin": 46.60007095336914,
+      "xmax": 46.60007858276367,
+      "ymin": 24.77373504638672,
+      "ymax": 24.773738861083984
+    }
+  },
+  {
+    "area": "boulevard",
+    "id": "5e43cb07-3b34-450c-9220-e5cd94c33402",
+    "geometry": "0101000000b03907cf844e4740ee08a7052fc63840",
+    "confidence": 0.77,
+    "websites": [
+      "https://ar.airbnb.com/users/show/444743729"
+    ],
+    "emails": null,
+    "socials": null,
+    "phones": null,
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": null,
+        "locality": "الرياض",
+        "postcode": "13516",
+        "region": "Riyadh Region",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Hometel Residence - Hittin Boulevard",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "record_id": "663660e04432180be41ce34f",
+        "update_time": "2026-01-31T00:00:00.000",
+        "confidence": 0.77,
+        "between": null,
+        "provider": "foursquare",
+        "resource": "foursquare",
+        "version": "2026-04-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "hotel",
+    "taxonomy": {
+      "primary": "hotel",
+      "hierarchy": [
+        "lodging",
+        "hotel"
+      ],
+      "alternates": null
+    },
+    "version": 5,
+    "bbox": {
+      "xmin": 46.613426208496094,
+      "xmax": 46.613433837890625,
+      "ymin": 24.774154663085938,
+      "ymax": 24.774158477783203
+    }
+  },
+  {
+    "area": "boulevard",
+    "id": "6c08ad20-6369-47a1-b7c4-1606b62cb068",
+    "geometry": "010100000007e3120d734c4740f756875063c23840",
+    "confidence": 0.9954510432481766,
+    "websites": [
+      "https://malahi.com/booking"
+    ],
+    "emails": [
+      "info@dooskarting.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/407125799699303"
+    ],
+    "phones": [
+      "+966552221394"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "⁧RRAA8438, 8438 طريق الأمير محمد بن سلمان",
+        "locality": "الرياض",
+        "postcode": "13511",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Doos Karting",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "407125799699303",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.9802219271659851,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "sport_or_recreation_club",
+    "taxonomy": {
+      "primary": "go_kart_club",
+      "hierarchy": [
+        "sports_and_recreation",
+        "sport_or_recreation_club",
+        "go_kart_club"
+      ],
+      "alternates": null
+    },
+    "version": 11,
+    "bbox": {
+      "xmin": 46.597259521484375,
+      "xmax": 46.597267150878906,
+      "ymin": 24.75932502746582,
+      "ymax": 24.759328842163086
+    }
+  },
+  {
+    "area": "boulevard",
+    "id": "d3221d77-d202-49f2-836a-df949f630e56",
+    "geometry": "01010000008fa50f5d504d474067ee21e17bc33840",
+    "confidence": 0.85,
+    "websites": [
+      "https://www.muvicinemas.com/"
+    ],
+    "emails": null,
+    "socials": null,
+    "phones": [
+      "0126539700"
+    ],
+    "brand": null,
+    "addresses": [
+      {
+        "freeform": "Riyadh Boulevard City, Prince Turki bin Abdulaziz I Road",
+        "locality": "الرياض",
+        "postcode": "00000",
+        "region": "الرياض",
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "muvi Cinemas | موڤي سينما",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "844424935072800",
+        "update_time": "2025-05-24T10:24:48.893Z",
+        "confidence": 0.85,
+        "between": null,
+        "provider": "microsoft",
+        "resource": "microsoft",
+        "version": "2025-10-20"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "shopping_mall",
+    "taxonomy": {
+      "primary": "shopping_mall",
+      "hierarchy": [
+        "shopping",
+        "shopping_mall"
+      ],
+      "alternates": null
+    },
+    "version": 6,
+    "bbox": {
+      "xmin": 46.604007720947266,
+      "xmax": 46.6040153503418,
+      "ymin": 24.763608932495117,
+      "ymax": 24.763612747192383
+    }
+  },
+  {
+    "area": "boulevard",
+    "id": "324ca3dd-823b-412b-8e38-e5dae5ae7682",
+    "geometry": "0101000000e620e868554d4740a3cedc43c2c33840",
+    "confidence": 0.755974292755127,
+    "websites": null,
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/104313294529392"
+    ],
+    "phones": null,
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": null,
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "Prince Mohammed Ibn Salman Ibn Abdulaziz Rd",
+        "locality": "الرياض",
+        "postcode": "13516",
+        "region": null,
+        "country": "SA"
+      }
+    ],
+    "names": {
+      "primary": "Boulevard Cafe",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "104313294529392",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.755974292755127,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "operating_status": null,
+    "basic_category": "cafe",
+    "taxonomy": {
+      "primary": "cafe",
+      "hierarchy": [
+        "food_and_drink",
+        "casual_eatery",
+        "cafe"
+      ],
+      "alternates": null
+    },
+    "version": 10,
+    "bbox": {
+      "xmin": 46.60416793823242,
+      "xmax": 46.60417556762695,
+      "ymin": 24.76468276977539,
+      "ymax": 24.764686584472656
+    }
+  }
+]

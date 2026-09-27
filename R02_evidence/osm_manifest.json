@@ -1,0 +1,30 @@
+{
+  "source": "https://overpass.private.coffee/api/interpreter",
+  "retrieved_utc": "2026-09-26T10:18:49.341535+00:00",
+  "license": "ODbL 1.0; copyright OpenStreetMap contributors",
+  "areas": {
+    "eastern": {
+      "query": "[out:json][timeout:60];(nwr[tourism~\"^(museum|gallery|attraction|theme_park|artwork)$\"](26.28,50.07,26.47,50.24);nwr[amenity~\"^(cafe|cinema|theatre|arts_centre)$\"](26.28,50.07,26.47,50.24);nwr[leisure~\"^(bowling_alley|escape_game|amusement_arcade|sports_centre|park)$\"](26.28,50.07,26.47,50.24);nwr[shop~\"^(books|art|craft|coffee|gift)$\"](26.28,50.07,26.47,50.24););out center tags;",
+      "count": 353,
+      "seconds": 43.56,
+      "remark": null,
+      "timestamp_osm_base": "2026-05-31T22:37:44Z",
+      "sha256": "d1602ae38a2b8bf180515ee44c8c57e2c43cb3100a6055ae587fb456fefb2a98"
+    },
+    "diriyah": {
+      "query": "[out:json][timeout:60];(nwr[tourism~\"^(museum|gallery|attraction|theme_park|artwork)$\"](24.71,46.55,24.765,46.585);nwr[amenity~\"^(cafe|cinema|theatre|arts_centre)$\"](24.71,46.55,24.765,46.585);nwr[leisure~\"^(bowling_alley|escape_game|amusement_arcade|sports_centre|park)$\"](24.71,46.55,24.765,46.585);nwr[shop~\"^(books|art|craft|coffee|gift)$\"](24.71,46.55,24.765,46.585););out center tags;",
+      "error": "HTTP Error 504: Gateway Timeout",
+      "seconds": 79.17
+    },
+    "al_balad": {
+      "query": "[out:json][timeout:60];(nwr[tourism~\"^(museum|gallery|attraction|theme_park|artwork)$\"](21.475,39.17,21.505,39.2);nwr[amenity~\"^(cafe|cinema|theatre|arts_centre)$\"](21.475,39.17,21.505,39.2);nwr[leisure~\"^(bowling_alley|escape_game|amusement_arcade|sports_centre|park)$\"](21.475,39.17,21.505,39.2);nwr[shop~\"^(books|art|craft|coffee|gift)$\"](21.475,39.17,21.505,39.2););out center tags;",
+      "error": "The read operation timed out",
+      "seconds": 90.2
+    },
+    "boulevard": {
+      "query": "[out:json][timeout:60];(nwr[tourism~\"^(museum|gallery|attraction|theme_park|artwork)$\"](24.755,46.585,24.8,46.635);nwr[amenity~\"^(cafe|cinema|theatre|arts_centre)$\"](24.755,46.585,24.8,46.635);nwr[leisure~\"^(bowling_alley|escape_game|amusement_arcade|sports_centre|park)$\"](24.755,46.585,24.8,46.635);nwr[shop~\"^(books|art|craft|coffee|gift)$\"](24.755,46.585,24.8,46.635););out center tags;",
+      "error": "The read operation timed out",
+      "seconds": 90.22
+    }
+  }
+}

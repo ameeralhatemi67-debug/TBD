@@ -1,0 +1,39 @@
+{
+  "culture": [
+    "art_gallery",
+    "art_museum",
+    "castle",
+    "cultural_center",
+    "historic_site",
+    "historic_tower",
+    "history_museum",
+    "monument",
+    "museum",
+    "palace",
+    "science_museum"
+  ],
+  "activity": [
+    "amusement_park",
+    "arcade",
+    "bowling_alley",
+    "escape_room",
+    "go_kart_club",
+    "indoor_playcenter",
+    "movie_theater",
+    "paintball",
+    "performing_arts_venue",
+    "pool_billiards",
+    "race_track",
+    "roller_skating_rink",
+    "theatre_venue"
+  ],
+  "local_stop": [
+    "art_supply_store",
+    "arts_and_crafts_store",
+    "bookstore",
+    "cafe",
+    "coffee_shop",
+    "gift_shop",
+    "tea_room"
+  ]
+}

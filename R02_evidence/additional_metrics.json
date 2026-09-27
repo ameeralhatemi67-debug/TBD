@@ -1,0 +1,60 @@
+{
+  "all_osm_elements": 353,
+  "fields": {
+    "name": 196,
+    "opening_hours": 26,
+    "website": 14,
+    "contact:website": 1,
+    "phone": 13,
+    "fee": 0,
+    "charge": 0,
+    "duration": 0,
+    "reservation": 0,
+    "wheelchair": 0,
+    "indoor": 0,
+    "check_date": 3
+  },
+  "opening_hours_categories": {
+    "cafe": 16,
+    "books": 3,
+    "park": 6,
+    "coffee": 1
+  },
+  "query_pools": {
+    "eastern": {
+      "museum": 19,
+      "active": 27,
+      "cafe": 818,
+      "heritage": 133
+    },
+    "diriyah": {
+      "museum": 2,
+      "active": 2,
+      "cafe": 28,
+      "heritage": 8
+    },
+    "al_balad": {
+      "museum": 8,
+      "active": 2,
+      "cafe": 36,
+      "heritage": 38
+    },
+    "boulevard": {
+      "museum": 3,
+      "active": 8,
+      "cafe": 161,
+      "heritage": 14
+    }
+  },
+  "missing_fields_in_overture": [
+    "opening_hours",
+    "price",
+    "duration",
+    "booking",
+    "occurrence_date",
+    "age_rule",
+    "availability",
+    "indoor"
+  ],
+  "unique_ids": 13764
+}
