@@ -1,0 +1,639 @@
+{
+ "method": "analyst judgment from record name and category only (no ground truth, no site visit); single annotator; Arabic names judged by a non-native annotator",
+ "counts": {
+  "implausible": 86,
+  "unclear": 9,
+  "plausible": 9
+ },
+ "historic_site": {
+  "implausible": 81,
+  "unclear": 3,
+  "plausible": 1
+ },
+ "labels": [
+  {
+   "id": "90af2957-309f-4cc3-aa08-608edd5362fc",
+   "name": "Dhahran, Saudi Aramco Camp",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "4acb743d-a91b-4e02-af67-28891eb01f52",
+   "name": "17th Street Al-Akrabiyah",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "a1c99740-e7bf-415d-aab7-2221a8269954",
+   "name": "Al Rushaid Villas, Al Khobar KSA",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "4afa23fe-26be-4352-ba55-f990b5c9862b",
+   "name": "Aqrabia",
+   "category": "historic_site",
+   "judgment": "unclear"
+  },
+  {
+   "id": "28303cc4-b835-465c-ab09-e980a152fdb2",
+   "name": "Site 2 KFHU Housing Compound",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "52fadfff-ab38-415f-b2cc-5c57e38a80f8",
+   "name": "Abdullah fouad building",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "76ab2b19-11f7-4171-9239-dc07e3fb2794",
+   "name": "Al-Jazeera Paints",
+   "category": "art_gallery",
+   "judgment": "implausible"
+  },
+  {
+   "id": "94bbb7c9-4c62-4bc8-8630-c85b83a9e52f",
+   "name": "الساعاتي للضيافة",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "a004b281-8e90-439c-a5a3-445c86e12220",
+   "name": "Eram company",
+   "category": "historic_tower",
+   "judgment": "implausible"
+  },
+  {
+   "id": "3d0aa6d5-86b7-41a2-8f3d-613837afc6e5",
+   "name": "الابواب الرائدة",
+   "category": "art_gallery",
+   "judgment": "implausible"
+  },
+  {
+   "id": "f9316079-dbcb-469f-8f48-5d3efcbd498c",
+   "name": "Al Fuad Building",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "9f15f2ee-7e59-4bab-80ef-7e694e5405b4",
+   "name": "Al-Aqrabia, Khobar",
+   "category": "historic_site",
+   "judgment": "unclear"
+  },
+  {
+   "id": "56f3f448-ea28-462f-bc88-601dffada31b",
+   "name": "Tapa Furnished Apartments",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "fea2ad23-990e-4261-b169-b4c0dfcbdf87",
+   "name": "دوحة الخبر للوحدات السكنية",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "b224aa8b-6675-4074-b2fb-c04fe5f85e0c",
+   "name": "Shally Residence 1",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "f7c3c761-9e0a-4e0a-bc8c-0539e04f2390",
+   "name": "Dawi Gallery - ضاوي غاليري",
+   "category": "art_gallery",
+   "judgment": "plausible"
+  },
+  {
+   "id": "30b9fe1e-5d4e-4476-9f69-6469f1da9528",
+   "name": "Mani VIP Suites",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "b35623bb-7358-45c3-8086-aea9e5a1134f",
+   "name": "Remas Suites شقق ريماس",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "2d346558-0db7-4186-b05d-9cfabcd5598e",
+   "name": "Royal Al-Khobar",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "070bd13c-8354-46c1-b431-81cd7a8d56ac",
+   "name": "DownTown Complex",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "66d7ab5c-96df-403b-addd-5dcdfead0f3b",
+   "name": "Al Dammam",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "7c63d5ca-b388-4edb-b9d4-5385b3b7c4f6",
+   "name": "Arab Heritage Gallery",
+   "category": "art_gallery",
+   "judgment": "unclear"
+  },
+  {
+   "id": "f5694c27-41ec-4c5b-9c67-a73109c24d6f",
+   "name": "Yamyaz Global",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "994e0197-51dc-4a88-bccd-5cfbec925d46",
+   "name": "Al-Ateeq Suits",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "b7ea4fe0-5f68-44c4-ae32-cf068037e4d8",
+   "name": "Rima Residence",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "1e33cae3-6ae7-4e96-b276-40ee43433c12",
+   "name": "Al-Andalusia Apartments",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "3a2828b9-6c2b-4b36-9d31-39b622eb5ea9",
+   "name": "شركة العنيزي",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "cc4396ab-d390-4abd-b03e-29e179d4ad46",
+   "name": "Al Shuwwayer Tower",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "0b6a5632-0b01-429d-9d24-3fcbb8faefa8",
+   "name": "الدلامي",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "17af3b2c-4b2e-412d-9656-c51e406b9d18",
+   "name": "الراكه",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "457ed483-4c3f-4767-b9d6-834707dff694",
+   "name": "اجنحة أروى للوحدات السكنية",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "63caa611-4b8f-4ee9-a311-4b375275ac67",
+   "name": "مارسين",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "fee46836-3cbf-48c7-979e-c6f12ba4eb03",
+   "name": "Makarrem raseel",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "f80f92ff-8b9a-4f7c-89ba-6645e62d97df",
+   "name": "Vitoria Furnished Apartments (ڤيتوريا للشقق المفروشة)",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "e94131b9-632f-41b0-9161-3f7bd6395fec",
+   "name": "AlRashid Residence Towers",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "b75fc6d9-6770-43d9-8343-c040f9555d77",
+   "name": "Faisal Gallery",
+   "category": "art_gallery",
+   "judgment": "unclear"
+  },
+  {
+   "id": "7a4627ba-7057-4735-851c-3ab71cfa4e65",
+   "name": "Awan Co",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "d218b031-6d1d-4412-b150-e32eda607d66",
+   "name": "Oasis Compound",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "0ad4febb-cd93-4bb3-91e0-0d726c2026e0",
+   "name": "King Abdul Aziz Center for National Dialogue",
+   "category": "cultural_center",
+   "judgment": "implausible"
+  },
+  {
+   "id": "64136de0-dcd2-4079-b00a-04cab7781a03",
+   "name": "Karawan Towers, Al-Khobar",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "376a2e10-94d9-46a8-806f-59c2096ece63",
+   "name": "Bin Sultan Complex",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "a1425ce9-298a-4d4a-a8c6-719ab3877149",
+   "name": "ريحانة الخبر للوحدات السكنية",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "ba8a14df-0173-4bb6-b693-294a6a6fc185",
+   "name": "Villa Hotel Apartments Al Khobar",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "5d7d8533-f841-433b-9045-3e14a779de8a",
+   "name": "Meadow Park Compound",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "aeaa98a8-3a42-4465-b7bd-a143c939eb1b",
+   "name": "Saraya Al Olaya",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "6f57eb8e-4491-444f-a6fe-cd24b438b340",
+   "name": "القصر الثقافي",
+   "category": "historic_site",
+   "judgment": "unclear"
+  },
+  {
+   "id": "64256a2f-b579-4251-badb-cbaf0bc63893",
+   "name": "Nouf Compound",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "740272c0-8244-4e53-99d8-36099a2c7f92",
+   "name": "University students rallying point, Prince Mohammed bin Fahd/نقطة تجمع طالبات جامعة الامير محمد بن فهد",
+   "category": "palace",
+   "judgment": "implausible"
+  },
+  {
+   "id": "f6541ae8-9b3e-4983-a1d4-148663e29725",
+   "name": "Al Nassim Building Apartments",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "43aebb4c-08b4-4473-8f74-e91a38df2f8a",
+   "name": "Roseville Compound",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "7c0f8e6b-1b2c-404e-af63-adca5b9c8905",
+   "name": "Las Dunas Compound",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "50f0de02-64dd-4aac-97b5-56923976d391",
+   "name": "Jeerah Residence Complex",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "9cf9b076-7f05-4341-a082-2235a3dda910",
+   "name": "Lotus 3 Private Compound",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "98ea1d61-7290-4533-bafa-e844a503d48f",
+   "name": "Scitech",
+   "category": "science_museum",
+   "judgment": "plausible"
+  },
+  {
+   "id": "831b224f-4645-4538-9a22-a0c947e18a68",
+   "name": "Bin Sultan Building B",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "837fc34d-88b1-4f3d-ad05-f00993bcb15c",
+   "name": "History Museum",
+   "category": "history_museum",
+   "judgment": "unclear"
+  },
+  {
+   "id": "5d360c51-b383-418a-99ee-6daf95f0ee94",
+   "name": "Al rawabi residence",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "d5e3d415-8f81-4575-9e60-019a3a3ed0b3",
+   "name": "Al Rushaid Village",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "f24e145a-3fe9-4ba8-a3c9-0594548cc7a3",
+   "name": "متحف الشاي",
+   "category": "museum",
+   "judgment": "plausible"
+  },
+  {
+   "id": "43148d22-ef02-494f-bd97-57c346d70773",
+   "name": "Rokoun Residence",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "84626868-ec0f-455c-84a7-3359241464c7",
+   "name": "Bustan Al Rawabi Residence",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "ba43fc49-5a3a-4737-b53d-70bb61fe1d75",
+   "name": "Jasmine Village",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "0442b38d-68f5-43e7-8552-ff1d40f8a715",
+   "name": "Rofana 1 Compound",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "c0f2964f-7b7f-45a8-97bf-7073c9624af5",
+   "name": "Vertical Village Garden",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "0837c3fb-6b78-48d2-a01d-6a0c903acdbf",
+   "name": "Radium 05",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "3071ac67-feaa-4516-8b64-9d85b37b0d4f",
+   "name": "Canvash كانفش",
+   "category": "art_gallery",
+   "judgment": "unclear"
+  },
+  {
+   "id": "b892dc75-f3d8-403d-8b8e-9c9c3cc50ddf",
+   "name": "Dhahran Tower",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "fa234458-7af2-4644-8e55-d71caa381770",
+   "name": "Suwaiket Tower",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "d998aa1b-895e-46b6-a41d-03bec1892db7",
+   "name": "Bella villas 1 compound",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "4d3d5eb3-2479-4fdb-ad9b-2846f7500e37",
+   "name": "Arabian Village Compound",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "9082d562-5d59-4a91-9843-67e2a37840fa",
+   "name": "Al Saeed compound 2",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "31cfecb2-ff68-49da-977e-632e98a09777",
+   "name": "Al-Ansari Compound",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "c216bc40-d270-4bc8-963e-98b231a89136",
+   "name": "Macro Gardens",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "8b0c2d1c-3a22-4d25-ab41-afbd413a0254",
+   "name": "Arabian Collections Gallery",
+   "category": "art_gallery",
+   "judgment": "unclear"
+  },
+  {
+   "id": "86988675-2801-40ae-852e-f0d23f222de7",
+   "name": "Roudha Villas",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "760f8b46-0c7f-485d-9046-a1c6b3ae9fb3",
+   "name": "Flowence Compound",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "b1631be6-6aa1-4aa2-8c1d-b2fc88a891b0",
+   "name": "Pearl Compound",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "a53592bd-2a66-4e72-b245-a3ff3df9dda4",
+   "name": "Shahad Tower برج شهد",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "646b7b01-0688-4aa2-823f-bd9039c6b3cf",
+   "name": "البقعة",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "1828ae68-45bf-4f18-ade4-4887039c4fc7",
+   "name": "غيابة الجب",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "05a888c0-8bbb-45c4-b4ee-1f981f210cb2",
+   "name": "Al Khobar Saudi Arabia",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "86f030d2-2500-48df-9730-94937791a9f5",
+   "name": "كمباوند ماربيلا",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "ce4ecabf-3d49-41eb-b75c-8b34e2f94da9",
+   "name": "達蘭",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "59350e93-4ed8-4308-93eb-0f15f327728b",
+   "name": "Apicorp",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "5c0ae06b-00ee-4ffe-9233-084ebff10a8f",
+   "name": "شرفات التلال",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "0f0c94e3-5e8d-49a7-8af9-8c5585215d83",
+   "name": "The View",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "a96905fc-2fa0-41fe-8066-b6f690c0b090",
+   "name": "Al Rakah",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "9f328c4f-bacd-4062-9836-5df3780301f2",
+   "name": "Transient Housing - building 2400",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "b5bf2ef0-260d-4193-a82f-dcfc9a238fd8",
+   "name": "Oil Well 7",
+   "category": "historic_site",
+   "judgment": "plausible"
+  },
+  {
+   "id": "317c9d71-62cb-411c-8016-a4d28e8c444d",
+   "name": "بيت الراكه",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "4be22376-5b5d-4c7f-b9e8-bbb17ad19d58",
+   "name": "Al Mutlaq Compound",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "7ba30cd2-589a-49d4-8e06-b23d294720bb",
+   "name": "عمارة 151",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "4ead6c92-be9f-4680-98f2-f4d796f3ae51",
+   "name": "Ronda Residence Compound",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "3d4a3716-4f06-4378-9d17-1cfd67d868c9",
+   "name": "Rakha Camp Zamil Shipyard",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "e945aa0b-b348-4d9c-9206-b6c03f0ce2cc",
+   "name": "Saudi Aramco Oil Exhibit",
+   "category": "history_museum",
+   "judgment": "plausible"
+  },
+  {
+   "id": "5b79be9b-d943-4782-9933-33b30bcd2cf3",
+   "name": "رتال ريزيدنس | Retal Residence",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "123a43a9-1269-4d4f-969f-52395540a36b",
+   "name": "King Abdulaziz Center for World Culture",
+   "category": "cultural_center",
+   "judgment": "plausible"
+  },
+  {
+   "id": "5edcb8c0-d1d9-4ee9-bf5c-38e43cad59de",
+   "name": "Ithra Museum Galleries",
+   "category": "museum",
+   "judgment": "plausible"
+  },
+  {
+   "id": "0bcdd7ed-366b-4202-bec6-0209e65c3a98",
+   "name": "Childrens’ Museum",
+   "category": "museum",
+   "judgment": "plausible"
+  },
+  {
+   "id": "6314793a-2b4c-4f51-af63-c539aa05c03e",
+   "name": "واحة الحيوان",
+   "category": "museum",
+   "judgment": "unclear"
+  },
+  {
+   "id": "d0dc60da-0fc5-4fd1-9229-30b09b2e7774",
+   "name": "as safa",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "26d3ca03-ee7f-4884-9da8-24ee68f107c5",
+   "name": "مركز الملك عبدالعزيز الثقافي العالمي KACWC",
+   "category": "science_museum",
+   "judgment": "plausible"
+  },
+  {
+   "id": "ae206178-16cc-4dfd-9e21-9b568bdff1ad",
+   "name": "Gulf Homes Compound",
+   "category": "historic_site",
+   "judgment": "implausible"
+  },
+  {
+   "id": "e6810786-3683-4449-a994-20f654aaa922",
+   "name": "Olayan Kimberly Clark",
+   "category": "historic_site",
+   "judgment": "implausible"
+  }
+ ]
+}

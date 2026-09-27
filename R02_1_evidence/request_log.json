@@ -1,0 +1,113 @@
+[
+ {
+  "t_utc": "2026-09-27T11:36:33Z",
+  "method": "curl via container proxy",
+  "url": "https://scitech.sa/robots.txt",
+  "outcome": "CONNECT tunnel failed, HTTP 403 (environment egress policy)"
+ },
+ {
+  "t_utc": "2026-09-27T11:36:33Z",
+  "method": "curl via container proxy",
+  "url": "https://escapetheroomsa.com/robots.txt",
+  "outcome": "CONNECT tunnel failed, HTTP 403 (environment egress policy)"
+ },
+ {
+  "t_utc": "2026-09-27T11:36:33Z",
+  "method": "curl via container proxy",
+  "url": "https://sa.sparkysme.com/robots.txt",
+  "outcome": "CONNECT tunnel failed, HTTP 403 (environment egress policy)"
+ },
+ {
+  "t_utc": "2026-09-27T11:36:33Z",
+  "method": "curl via container proxy",
+  "url": "https://www.ithra.com/robots.txt",
+  "outcome": "CONNECT tunnel failed, HTTP 403 (environment egress policy)"
+ },
+ {
+  "t_utc": "2026-09-27T11:37Z (approx.)",
+  "method": "WebFetch research tool",
+  "url": "https://scitech.sa/robots.txt",
+  "outcome": "EGRESS_BLOCKED by network egress proxy"
+ },
+ {
+  "t_utc": "2026-09-27T11:37Z (approx.)",
+  "method": "WebFetch research tool",
+  "url": "https://escapetheroomsa.com/robots.txt",
+  "outcome": "EGRESS_BLOCKED by network egress proxy"
+ },
+ {
+  "t_utc": "2026-09-27T11:37Z (approx.)",
+  "method": "WebFetch research tool",
+  "url": "https://scitech.sa/working-hours",
+  "outcome": "EGRESS_BLOCKED by network egress proxy"
+ },
+ {
+  "t_utc": "2026-09-27T11:37Z (approx.)",
+  "method": "WebFetch research tool",
+  "url": "https://escapetheroomsa.com/rooms/the-prison/",
+  "outcome": "EGRESS_BLOCKED by network egress proxy"
+ },
+ {
+  "t_utc": "2026-09-27T11:37Z-11:39Z (approx.)",
+  "method": "WebSearch (search-index summary, domain-restricted)",
+  "domain": "scitech.sa",
+  "query": "Scitech Khobar working hours ticket prices ...",
+  "outcome": "returned result links and a model-generated summary of indexed text; index date unknown"
+ },
+ {
+  "t_utc": "2026-09-27T11:37Z-11:39Z (approx.)",
+  "method": "WebSearch (search-index summary, domain-restricted)",
+  "domain": "escapetheroomsa.com",
+  "query": "Escape The Room Khobar rooms players duration price booking",
+  "outcome": "returned result links and a model-generated summary of indexed text; index date unknown"
+ },
+ {
+  "t_utc": "2026-09-27T11:37Z-11:39Z (approx.)",
+  "method": "WebSearch (search-index summary, domain-restricted)",
+  "domain": "escapetheroomsa.com",
+  "query": "... price per person SAR age limit minimum age",
+  "outcome": "returned result links and a model-generated summary of indexed text; index date unknown"
+ },
+ {
+  "t_utc": "2026-09-27T11:37Z-11:39Z (approx.)",
+  "method": "WebSearch (search-index summary, domain-restricted)",
+  "domain": "scitech.sa",
+  "query": "IMAX show times schedule films",
+  "outcome": "returned result links and a model-generated summary of indexed text; index date unknown"
+ },
+ {
+  "t_utc": "2026-09-27T11:37Z-11:39Z (approx.)",
+  "method": "WebSearch (search-index summary, domain-restricted)",
+  "domain": "escapetheroomsa.com",
+  "query": "terms and conditions booking cancellation policy",
+  "outcome": "returned result links and a model-generated summary of indexed text; index date unknown"
+ },
+ {
+  "t_utc": "2026-09-27T11:37Z-11:39Z (approx.)",
+  "method": "WebSearch (search-index summary, domain-restricted)",
+  "domain": "scitech.sa",
+  "query": "terms of use privacy policy",
+  "outcome": "returned result links and a model-generated summary of indexed text; index date unknown"
+ },
+ {
+  "t_utc": "2026-09-27T11:37Z-11:39Z (approx.)",
+  "method": "WebSearch (search-index summary, domain-restricted)",
+  "domain": "escapetheroomsa.com",
+  "query": "Khobar opening hours working hours",
+  "outcome": "returned result links and a model-generated summary of indexed text; index date unknown"
+ },
+ {
+  "t_utc": "2026-09-27T11:37Z-11:39Z (approx.)",
+  "method": "WebSearch (search-index summary, domain-restricted)",
+  "domain": "ithra.com",
+  "query": "exhibitions October 2026 Dhahran programme dates",
+  "outcome": "returned result links and a model-generated summary of indexed text; index date unknown"
+ },
+ {
+  "t_utc": "2026-09-27T11:37Z-11:39Z (approx.)",
+  "method": "WebSearch (search-index summary, domain-restricted)",
+  "domain": "ithra.com",
+  "query": "visitor information accessibility wheelchair opening hours museum",
+  "outcome": "returned result links and a model-generated summary of indexed text; index date unknown"
+ }
+]

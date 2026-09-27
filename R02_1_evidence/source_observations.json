@@ -1,0 +1,106 @@
+{
+ "_provenance_note": "Short factual research observations, not copied page content. Every value below came through search-index summary (WebSearch, 27 Sep 2026); underlying page and index date not established; not a live retrieval unless marked R02.",
+ "scitech": {
+  "hours_regular": {
+   "value": "Sat-Thu 09:00-12:00 and 16:00-22:00; Fri 16:00-22:00",
+   "state": "supported_weak",
+   "pages_cited": [
+    "https://scitech.sa/en/p/22",
+    "http://www.scitech.sa/en/page/About/81/Visitition+Times (legacy URL also in results)"
+   ]
+  },
+  "hours_exception": {
+   "value": "National Day 23-24 Sep 2026 exception (R02, observed page 26 Sep); no exception covering 27 Sep-3 Oct observed",
+   "state": "unknown_for_test_dates"
+  },
+  "last_entry": {
+   "state": "unknown"
+  },
+  "price": {
+   "value": "Halls adult 23.00, child/group(5+) 17.25 SAR incl. VAT; dome and IMAX prices differ between two summaries (IMAX adult 46.00 vs 28.75)",
+   "state": "halls_supported_weak; imax_conflict",
+   "pages_cited": [
+    "https://scitech.sa/en/p/24"
+   ]
+  },
+  "child_price_age_definition": {
+   "state": "unknown"
+  },
+  "booking_rule": {
+   "value": "no prior reservation required for visits",
+   "state": "supported_weak (also R02 observed Arabic statement 26 Sep)"
+  },
+  "sessions": {
+   "value": "a showtimes page exists (https://scitech.sa/en/showtimes); no session times obtained",
+   "state": "unknown"
+  },
+  "duration": {
+   "state": "unknown"
+  },
+  "wheelchair": {
+   "state": "unknown"
+  },
+  "rights": {
+   "value": "privacy policy found (updated 22/10/2024); no terms-of-use page found; robots.txt unreadable from this environment; no feed/API found",
+   "state": "unknown"
+  }
+ },
+ "escape_the_room_khobar": {
+  "branch_identity": {
+   "value": "branch-specific room URLs (e.g. /rooms/the-prison-khobar/) and a Khobar subdomain exist; address Prince Faisal Bin Fahd Rd, Al Hizam Al Akhdar",
+   "state": "supported_weak",
+   "note": "R02 read /rooms/the-prison/ (Riyadh variant); branch pages resolve that ambiguity at URL level"
+  },
+  "group_size": {
+   "value": "2-6 players for most rooms; 4-6 for one room; one summary says 2-7 across rooms",
+   "state": "supported_weak_with_room_variation"
+  },
+  "duration": {
+   "value": "60 or 75 minutes by room; arrive 15 min early",
+   "state": "supported_weak"
+  },
+  "age": {
+   "value": "recommended 12+; 11 and under must be accompanied by an adult",
+   "state": "supported_weak"
+  },
+  "booking_rule": {
+   "value": "book online, by phone, or in person at the location",
+   "state": "supported_weak; does NOT establish walk-in availability"
+  },
+  "price": {
+   "state": "unknown (not in index); one summary mentions cash payment at location"
+  },
+  "hours": {
+   "state": "unknown"
+  },
+  "sessions_availability": {
+   "value": "an /appointments page exists",
+   "state": "unknown"
+  },
+  "rights": {
+   "value": "privacy page found; terms/cancellation not found; robots.txt unreadable",
+   "state": "unknown"
+  }
+ },
+ "ithra": {
+  "wheelchair": {
+   "value": "wheelchair access arranged by registering at information desks or by phone; volunteers assist",
+   "state": "supported_weak (centre level, not per gallery)",
+   "pages_cited": [
+    "https://www.ithra.com/en/visit-ithra/accessibility"
+   ]
+  },
+  "hours": {
+   "value": "Children's Museum and Energy Exhibit close two hours before general closing; general hours not obtained",
+   "state": "unknown"
+  },
+  "occurrences": {
+   "value": "2026 programme page exists; no dated exhibition for 2-3 Oct obtained",
+   "state": "unknown"
+  },
+  "rights": {
+   "value": "site terms bar reproduction except personal non-commercial use (R01 s14)",
+   "state": "restricted"
+  }
+ }
+}

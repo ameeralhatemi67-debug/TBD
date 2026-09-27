@@ -1,0 +1,211 @@
+{
+ "anchors": {
+  "D0": "2026-09-27 (Sunday, Asia/Riyadh)",
+  "tonight": "2026-09-27 18:00-23:00",
+  "weekend": "2026-10-02/03 (Fri-Sat)",
+  "thursday": "2026-10-01",
+  "origin_lonlat": [
+   50.2,
+   26.3
+  ]
+ },
+ "states": "per hard constraint: supported | supported_weak (search-index provenance) | contradicted | unknown | conflict",
+ "classes": [
+  "supported_qualified_shortlist",
+  "missing_facts",
+  "missing_user_context",
+  "source_access_failure",
+  "rights_uncertainty",
+  "no_candidates",
+  "constraint_violation"
+ ],
+ "cases": [
+  {
+   "id": "C01",
+   "primary_class": "supported_qualified_shortlist",
+   "secondary": [
+    "rights_uncertainty"
+   ],
+   "best_candidate": "Scitech",
+   "constraints": {
+    "museum": "supported",
+    "open_tonight_18_23": "supported_weak (Sun 16:00-22:00; no exception observed)",
+    "price_le_50_each": "supported_weak (halls 23.00 adult)"
+   },
+   "other_candidates": "Ithra Museum Galleries, Tea Museum, Dawi Gallery: hours/price unknown",
+   "user_still_checks": [
+    "special-hours notice for tonight",
+    "last entry",
+    "travel"
+   ]
+  },
+  {
+   "id": "C02",
+   "primary_class": "missing_facts",
+   "secondary": [
+    "rights_uncertainty"
+   ],
+   "best_candidate": "Escape the Room Khobar",
+   "constraints": {
+    "group_4": "supported_weak (2-6)",
+    "indoor": "supported (category inference, disclosed)",
+    "open_tonight": "unknown",
+    "price_le_150_each": "unknown"
+   },
+   "other_candidates": "Enigma, Gosaibi Bowling, SENSAS, cinemas: hours/price/group unknown",
+   "user_still_checks": [
+    "price",
+    "hours",
+    "session for 4"
+   ]
+  },
+  {
+   "id": "C03",
+   "primary_class": "missing_facts",
+   "secondary": [
+    "identity_conflict"
+   ],
+   "best_candidate": "Scitech",
+   "constraints": {
+    "open_18_1930": "supported_weak",
+    "visit_duration": "unknown",
+    "travel_both_legs": "unknown (no routing; Scitech records 0.8-4.0 km apart)"
+   },
+   "user_still_checks": [
+    "how long a visit takes",
+    "travel",
+    "which entrance/location"
+   ]
+  },
+  {
+   "id": "C04",
+   "primary_class": "missing_facts",
+   "secondary": [],
+   "best_candidate": "Escape the Room Khobar",
+   "constraints": {
+    "escape_room": "supported",
+    "group_4": "supported_weak",
+    "no_advance_booking": "unknown (in-person booking offered; walk-in availability not established)",
+    "open_tonight": "unknown"
+   },
+   "user_still_checks": [
+    "call for a same-night slot"
+   ]
+  },
+  {
+   "id": "C05",
+   "primary_class": "missing_user_context",
+   "secondary": [
+    "missing_facts"
+   ],
+   "best_candidate": "Scitech",
+   "constraints": {
+    "indoor": "supported",
+    "open_weekend": "supported_weak",
+    "ages_6_9_permitted": "unknown (no age rule found; child price age band undefined)",
+    "total_le_300": "unknown (number of adults not stated)"
+   },
+   "other_candidates": "Escape the Room: recommended 12+, under-12 accompanied: soft conflict, not a prohibition",
+   "user_still_checks": [
+    "child price age band"
+   ],
+   "ask_user": "how many adults"
+  },
+  {
+   "id": "C06",
+   "primary_class": "missing_facts",
+   "secondary": [],
+   "best_candidate": "Scitech",
+   "constraints": {
+    "not_food": "supported (category)",
+    "not_mall": "unknown (no containment relation in data)",
+    "open_weekend": "supported_weak"
+   },
+   "user_still_checks": [
+    "whether venue is inside a mall (analyst believes Scitech is not; not evidenced)"
+   ]
+  },
+  {
+   "id": "C07",
+   "primary_class": "source_access_failure",
+   "secondary": [
+    "rights_uncertainty",
+    "no_candidates"
+   ],
+   "best_candidate": null,
+   "constraints": {
+    "exhibition_running_weekend": "unknown (no occurrence inventory; Ithra programme not retrievable; site terms restrictive)"
+   },
+   "user_still_checks": [
+    "Ithra programme page"
+   ]
+  },
+  {
+   "id": "C08",
+   "primary_class": "missing_facts",
+   "secondary": [],
+   "best_candidate": "Scitech",
+   "constraints": {
+    "open_after_21_for_1h": "unknown (closes 22:00 per weak source; last entry unknown)",
+    "indoor_cultural": "supported"
+   },
+   "user_still_checks": [
+    "last entry"
+   ]
+  },
+  {
+   "id": "C09",
+   "primary_class": "no_candidates",
+   "secondary": [
+    "source_access_failure"
+   ],
+   "best_candidate": null,
+   "constraints": {
+    "workshop_thursday_evening": "unknown (no occurrence inventory)"
+   },
+   "user_still_checks": [
+    "organiser pages"
+   ]
+  },
+  {
+   "id": "C10",
+   "primary_class": "missing_user_context",
+   "secondary": [],
+   "best_candidate": "any non-cafe candidate",
+   "constraints": {
+    "not_cafe": "supported (category)",
+    "new_to_user": "unknown (no visit history; must not be inferred)"
+   },
+   "ask_user": "places already visited"
+  },
+  {
+   "id": "C11",
+   "primary_class": "missing_facts",
+   "secondary": [],
+   "best_candidate": "Ithra Museum Galleries",
+   "constraints": {
+    "wheelchair": "supported_weak (centre-level provision via information desk)",
+    "open_saturday": "unknown"
+   },
+   "note": "no single candidate supports both hard constraints",
+   "user_still_checks": [
+    "Ithra Saturday hours",
+    "or Scitech accessibility"
+   ],
+   "other_candidates": "Scitech: open Saturday supported_weak, wheelchair unknown"
+  },
+  {
+   "id": "C12",
+   "primary_class": "missing_facts",
+   "secondary": [],
+   "best_candidate": null,
+   "constraints": {
+    "drive_le_15min": "unknown for all candidates (no routing source)",
+    "finish_by_2000": "unknown (durations mostly unknown)"
+   },
+   "user_still_checks": [
+    "travel time"
+   ]
+  }
+ ]
+}

@@ -34,8 +34,8 @@ Estimates use Opus 5.5 list prices and approximate token counts: about 20 model 
 | Phase | Allocation | Observed spend | Estimated spend | Source of number | Cumulative (estimate) | Remaining initial-work budget | Reserve |
 |---|---:|---:|---:|---|---:|---:|---:|
 | 0. Billing Q&A (turn 1) | — | $0.35 | — | Session `cost_usd` (list-price estimate by Claude Code) | $0.35 | $79.65 | $20 |
-| A. Intake and focused evidence review (this turn) | $10 | not yet reported | $2–4 | Token estimate at list price | $2.5–4.5 | $75.5–77.5 | $20 |
-| B. Practical-data feasibility | $25 | — | proposed $6–15 | Plan (§9) | — | — | $20 |
+| A. Intake and focused evidence review (turn 2) | $10 | $3.03 (reported cumulative $3.38 minus turn 1) | — | Session `cost_usd`, read at start of turn 3 | $3.38 | $76.62 | $20 |
+| B. Practical-data feasibility (turn 3) | $25 | not yet reported | $1.5–2.5 | Token estimate at list price plus 9 searches | $4.9–5.9 | $74.1–75.1 | $20 |
 | C. R03/R04/R05 provisional artifacts | $25 | — | proposed $8–15 | Plan | — | — | $20 |
 | D. Stress tests and corrections | $10 | — | proposed $2–5 | Plan | — | — | $20 |
 | E. Synthesis, validation, and handoff | $10 | — | proposed $2–5 | Plan | — | — | $20 |
@@ -157,6 +157,7 @@ This sits between R02's claim levels: a **qualified discovery shortlist** with f
 **What would falsify the shortlist promise:**
 
 - **(a)** Across the locked cases (§9), fewer than about half of surfaced candidates have *any* case-relevant hard constraint supported by a lawful source. Every card would say "check everything". The threshold is proposed here and is not yet a decision.
+  - *Correction (27 Sep, after Phase B):* this test is too weak, because category-level constraints are trivially supported. Count practical hard constraints only. See [R02.1 §8](R02_1_Practical_Data_Feasibility_Followup.md#8-consequences).
 - **(b)** In observed sessions, remaining checks per chosen outing and time to decision are no better than the participant's usual method.
 - **(c)** Independent checks find supported-but-contradicted facts at a rate users will not tolerate.
 - **(d)** Google Maps or Search answers the same cases with the same or fewer remaining checks.

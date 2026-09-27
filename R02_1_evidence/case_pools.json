@@ -1,0 +1,1325 @@
+{
+ "origin": [
+  50.2,
+  26.3
+ ],
+ "radius_km_straight_line": 12.0,
+ "counts": {
+  "activity": 38,
+  "culture": 104,
+  "local_stop": 545
+ },
+ "category_counts": {
+  "activity": {
+   "bowling_alley": 5,
+   "movie_theater": 10,
+   "race_track": 2,
+   "pool_billiards": 4,
+   "escape_room": 6,
+   "amusement_park": 5,
+   "arcade": 3,
+   "theatre_venue": 1,
+   "paintball": 1,
+   "performing_arts_venue": 1
+  },
+  "culture": {
+   "historic_site": 85,
+   "art_gallery": 7,
+   "cultural_center": 2,
+   "historic_tower": 1,
+   "palace": 1,
+   "museum": 4,
+   "history_museum": 2,
+   "science_museum": 2
+  },
+  "local_stop": {
+   "coffee_shop": 364,
+   "cafe": 142,
+   "gift_shop": 7,
+   "tea_room": 27,
+   "bookstore": 5
+  }
+ },
+ "culture": [
+  {
+   "id": "90af2957-309f-4cc3-aa08-608edd5362fc",
+   "name": "Dhahran, Saudi Aramco Camp",
+   "category": "historic_site",
+   "km_straight": 0.44,
+   "confidence": 0.71,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "4acb743d-a91b-4e02-af67-28891eb01f52",
+   "name": "17th Street Al-Akrabiyah",
+   "category": "historic_site",
+   "km_straight": 0.44,
+   "confidence": 0.72,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "a1c99740-e7bf-415d-aab7-2221a8269954",
+   "name": "Al Rushaid Villas, Al Khobar KSA",
+   "category": "historic_site",
+   "km_straight": 0.66,
+   "confidence": 0.78,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "4afa23fe-26be-4352-ba55-f990b5c9862b",
+   "name": "Aqrabia",
+   "category": "historic_site",
+   "km_straight": 0.67,
+   "confidence": 0.76,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "28303cc4-b835-465c-ab09-e980a152fdb2",
+   "name": "Site 2 KFHU Housing Compound",
+   "category": "historic_site",
+   "km_straight": 0.83,
+   "confidence": 0.46,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "52fadfff-ab38-415f-b2cc-5c57e38a80f8",
+   "name": "Abdullah fouad building",
+   "category": "historic_site",
+   "km_straight": 0.9,
+   "confidence": 0.66,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "76ab2b19-11f7-4171-9239-dc07e3fb2794",
+   "name": "Al-Jazeera Paints",
+   "category": "art_gallery",
+   "km_straight": 1.26,
+   "confidence": 0.65,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "94bbb7c9-4c62-4bc8-8630-c85b83a9e52f",
+   "name": "الساعاتي للضيافة",
+   "category": "historic_site",
+   "km_straight": 1.38,
+   "confidence": 0.38,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "a004b281-8e90-439c-a5a3-445c86e12220",
+   "name": "Eram company",
+   "category": "historic_tower",
+   "km_straight": 1.42,
+   "confidence": 0.77,
+   "source": "Foursquare",
+   "has_website": true
+  },
+  {
+   "id": "3d0aa6d5-86b7-41a2-8f3d-613837afc6e5",
+   "name": "الابواب الرائدة",
+   "category": "art_gallery",
+   "km_straight": 1.51,
+   "confidence": 0.72,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "f9316079-dbcb-469f-8f48-5d3efcbd498c",
+   "name": "Al Fuad Building",
+   "category": "historic_site",
+   "km_straight": 1.56,
+   "confidence": 0.44,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "9f15f2ee-7e59-4bab-80ef-7e694e5405b4",
+   "name": "Al-Aqrabia, Khobar",
+   "category": "historic_site",
+   "km_straight": 1.63,
+   "confidence": 0.76,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "56f3f448-ea28-462f-bc88-601dffada31b",
+   "name": "Tapa Furnished Apartments",
+   "category": "historic_site",
+   "km_straight": 1.66,
+   "confidence": 0.47,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "fea2ad23-990e-4261-b169-b4c0dfcbdf87",
+   "name": "دوحة الخبر للوحدات السكنية",
+   "category": "historic_site",
+   "km_straight": 1.69,
+   "confidence": 0.71,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "b224aa8b-6675-4074-b2fb-c04fe5f85e0c",
+   "name": "Shally Residence 1",
+   "category": "historic_site",
+   "km_straight": 1.8,
+   "confidence": 0.36,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "f7c3c761-9e0a-4e0a-bc8c-0539e04f2390",
+   "name": "Dawi Gallery - ضاوي غاليري",
+   "category": "art_gallery",
+   "km_straight": 1.81,
+   "confidence": 0.77,
+   "source": "Foursquare",
+   "has_website": true
+  },
+  {
+   "id": "30b9fe1e-5d4e-4476-9f69-6469f1da9528",
+   "name": "Mani VIP Suites",
+   "category": "historic_site",
+   "km_straight": 1.93,
+   "confidence": 0.61,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "b35623bb-7358-45c3-8086-aea9e5a1134f",
+   "name": "Remas Suites شقق ريماس",
+   "category": "historic_site",
+   "km_straight": 1.93,
+   "confidence": 0.71,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "2d346558-0db7-4186-b05d-9cfabcd5598e",
+   "name": "Royal Al-Khobar",
+   "category": "historic_site",
+   "km_straight": 1.94,
+   "confidence": 0.76,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "070bd13c-8354-46c1-b431-81cd7a8d56ac",
+   "name": "DownTown Complex",
+   "category": "historic_site",
+   "km_straight": 1.97,
+   "confidence": 0.92,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "66d7ab5c-96df-403b-addd-5dcdfead0f3b",
+   "name": "Al Dammam",
+   "category": "historic_site",
+   "km_straight": 1.98,
+   "confidence": 0.71,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "7c63d5ca-b388-4edb-b9d4-5385b3b7c4f6",
+   "name": "Arab Heritage Gallery",
+   "category": "art_gallery",
+   "km_straight": 2.0,
+   "confidence": 0.59,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "f5694c27-41ec-4c5b-9c67-a73109c24d6f",
+   "name": "Yamyaz Global",
+   "category": "historic_site",
+   "km_straight": 2.07,
+   "confidence": 0.26,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "994e0197-51dc-4a88-bccd-5cfbec925d46",
+   "name": "Al-Ateeq Suits",
+   "category": "historic_site",
+   "km_straight": 2.11,
+   "confidence": 0.52,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "b7ea4fe0-5f68-44c4-ae32-cf068037e4d8",
+   "name": "Rima Residence",
+   "category": "historic_site",
+   "km_straight": 2.14,
+   "confidence": 0.93,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "1e33cae3-6ae7-4e96-b276-40ee43433c12",
+   "name": "Al-Andalusia Apartments",
+   "category": "historic_site",
+   "km_straight": 2.18,
+   "confidence": 0.7,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "3a2828b9-6c2b-4b36-9d31-39b622eb5ea9",
+   "name": "شركة العنيزي",
+   "category": "historic_site",
+   "km_straight": 2.18,
+   "confidence": 0.35,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "cc4396ab-d390-4abd-b03e-29e179d4ad46",
+   "name": "Al Shuwwayer Tower",
+   "category": "historic_site",
+   "km_straight": 2.2,
+   "confidence": 0.75,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "0b6a5632-0b01-429d-9d24-3fcbb8faefa8",
+   "name": "الدلامي",
+   "category": "historic_site",
+   "km_straight": 2.2,
+   "confidence": 0.58,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "17af3b2c-4b2e-412d-9656-c51e406b9d18",
+   "name": "الراكه",
+   "category": "historic_site",
+   "km_straight": 2.21,
+   "confidence": 0.56,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "457ed483-4c3f-4767-b9d6-834707dff694",
+   "name": "اجنحة أروى للوحدات السكنية",
+   "category": "historic_site",
+   "km_straight": 2.22,
+   "confidence": 0.69,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "63caa611-4b8f-4ee9-a311-4b375275ac67",
+   "name": "مارسين",
+   "category": "historic_site",
+   "km_straight": 2.25,
+   "confidence": 0.5,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "fee46836-3cbf-48c7-979e-c6f12ba4eb03",
+   "name": "Makarrem raseel",
+   "category": "historic_site",
+   "km_straight": 2.28,
+   "confidence": 0.53,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "f80f92ff-8b9a-4f7c-89ba-6645e62d97df",
+   "name": "Vitoria Furnished Apartments (ڤيتوريا للشقق المفروشة)",
+   "category": "historic_site",
+   "km_straight": 2.32,
+   "confidence": 0.51,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "e94131b9-632f-41b0-9161-3f7bd6395fec",
+   "name": "AlRashid Residence Towers",
+   "category": "historic_site",
+   "km_straight": 2.4,
+   "confidence": 0.92,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "b75fc6d9-6770-43d9-8343-c040f9555d77",
+   "name": "Faisal Gallery",
+   "category": "art_gallery",
+   "km_straight": 2.44,
+   "confidence": 0.54,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "7a4627ba-7057-4735-851c-3ab71cfa4e65",
+   "name": "Awan Co",
+   "category": "historic_site",
+   "km_straight": 2.45,
+   "confidence": 0.82,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "d218b031-6d1d-4412-b150-e32eda607d66",
+   "name": "Oasis Compound",
+   "category": "historic_site",
+   "km_straight": 2.54,
+   "confidence": 0.76,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "0ad4febb-cd93-4bb3-91e0-0d726c2026e0",
+   "name": "King Abdul Aziz Center for National Dialogue",
+   "category": "cultural_center",
+   "km_straight": 2.59,
+   "confidence": 0.6,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "64136de0-dcd2-4079-b00a-04cab7781a03",
+   "name": "Karawan Towers, Al-Khobar",
+   "category": "historic_site",
+   "km_straight": 2.6,
+   "confidence": 0.82,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "376a2e10-94d9-46a8-806f-59c2096ece63",
+   "name": "Bin Sultan Complex",
+   "category": "historic_site",
+   "km_straight": 2.66,
+   "confidence": 0.77,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "a1425ce9-298a-4d4a-a8c6-719ab3877149",
+   "name": "ريحانة الخبر للوحدات السكنية",
+   "category": "historic_site",
+   "km_straight": 2.71,
+   "confidence": 0.3,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "ba8a14df-0173-4bb6-b693-294a6a6fc185",
+   "name": "Villa Hotel Apartments Al Khobar",
+   "category": "historic_site",
+   "km_straight": 2.87,
+   "confidence": 0.86,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "5d7d8533-f841-433b-9045-3e14a779de8a",
+   "name": "Meadow Park Compound",
+   "category": "historic_site",
+   "km_straight": 2.87,
+   "confidence": 0.36,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "aeaa98a8-3a42-4465-b7bd-a143c939eb1b",
+   "name": "Saraya Al Olaya",
+   "category": "historic_site",
+   "km_straight": 2.9,
+   "confidence": 0.92,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "6f57eb8e-4491-444f-a6fe-cd24b438b340",
+   "name": "القصر الثقافي",
+   "category": "historic_site",
+   "km_straight": 2.92,
+   "confidence": 0.47,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "64256a2f-b579-4251-badb-cbaf0bc63893",
+   "name": "Nouf Compound",
+   "category": "historic_site",
+   "km_straight": 3.12,
+   "confidence": 0.2,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "740272c0-8244-4e53-99d8-36099a2c7f92",
+   "name": "University students rallying point, Prince Mohammed bin Fahd/نقطة تجمع طالبات جامعة الامير محمد بن فهد",
+   "category": "palace",
+   "km_straight": 3.19,
+   "confidence": 0.55,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "f6541ae8-9b3e-4983-a1d4-148663e29725",
+   "name": "Al Nassim Building Apartments",
+   "category": "historic_site",
+   "km_straight": 3.27,
+   "confidence": 0.75,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "43aebb4c-08b4-4473-8f74-e91a38df2f8a",
+   "name": "Roseville Compound",
+   "category": "historic_site",
+   "km_straight": 3.31,
+   "confidence": 0.78,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "7c0f8e6b-1b2c-404e-af63-adca5b9c8905",
+   "name": "Las Dunas Compound",
+   "category": "historic_site",
+   "km_straight": 3.31,
+   "confidence": 0.75,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "50f0de02-64dd-4aac-97b5-56923976d391",
+   "name": "Jeerah Residence Complex",
+   "category": "historic_site",
+   "km_straight": 3.44,
+   "confidence": 0.72,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "9cf9b076-7f05-4341-a082-2235a3dda910",
+   "name": "Lotus 3 Private Compound",
+   "category": "historic_site",
+   "km_straight": 3.46,
+   "confidence": 0.57,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "98ea1d61-7290-4533-bafa-e844a503d48f",
+   "name": "Scitech",
+   "category": "science_museum",
+   "km_straight": 3.5,
+   "confidence": 0.99,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "831b224f-4645-4538-9a22-a0c947e18a68",
+   "name": "Bin Sultan Building B",
+   "category": "historic_site",
+   "km_straight": 3.52,
+   "confidence": 0.34,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "837fc34d-88b1-4f3d-ad05-f00993bcb15c",
+   "name": "History Museum",
+   "category": "history_museum",
+   "km_straight": 3.53,
+   "confidence": 0.78,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "5d360c51-b383-418a-99ee-6daf95f0ee94",
+   "name": "Al rawabi residence",
+   "category": "historic_site",
+   "km_straight": 3.54,
+   "confidence": 0.65,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "d5e3d415-8f81-4575-9e60-019a3a3ed0b3",
+   "name": "Al Rushaid Village",
+   "category": "historic_site",
+   "km_straight": 3.65,
+   "confidence": 0.84,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "f24e145a-3fe9-4ba8-a3c9-0594548cc7a3",
+   "name": "متحف الشاي",
+   "category": "museum",
+   "km_straight": 3.74,
+   "confidence": 0.77,
+   "source": "Foursquare",
+   "has_website": true
+  },
+  {
+   "id": "43148d22-ef02-494f-bd97-57c346d70773",
+   "name": "Rokoun Residence",
+   "category": "historic_site",
+   "km_straight": 3.79,
+   "confidence": 0.72,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "84626868-ec0f-455c-84a7-3359241464c7",
+   "name": "Bustan Al Rawabi Residence",
+   "category": "historic_site",
+   "km_straight": 3.88,
+   "confidence": 0.65,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "ba43fc49-5a3a-4737-b53d-70bb61fe1d75",
+   "name": "Jasmine Village",
+   "category": "historic_site",
+   "km_straight": 3.9,
+   "confidence": 0.77,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "0442b38d-68f5-43e7-8552-ff1d40f8a715",
+   "name": "Rofana 1 Compound",
+   "category": "historic_site",
+   "km_straight": 3.92,
+   "confidence": 0.91,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "c0f2964f-7b7f-45a8-97bf-7073c9624af5",
+   "name": "Vertical Village Garden",
+   "category": "historic_site",
+   "km_straight": 3.93,
+   "confidence": 0.9,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "0837c3fb-6b78-48d2-a01d-6a0c903acdbf",
+   "name": "Radium 05",
+   "category": "historic_site",
+   "km_straight": 3.94,
+   "confidence": 0.35,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "3071ac67-feaa-4516-8b64-9d85b37b0d4f",
+   "name": "Canvash كانفش",
+   "category": "art_gallery",
+   "km_straight": 3.98,
+   "confidence": 0.59,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "b892dc75-f3d8-403d-8b8e-9c9c3cc50ddf",
+   "name": "Dhahran Tower",
+   "category": "historic_site",
+   "km_straight": 4.19,
+   "confidence": 0.98,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "fa234458-7af2-4644-8e55-d71caa381770",
+   "name": "Suwaiket Tower",
+   "category": "historic_site",
+   "km_straight": 4.19,
+   "confidence": 0.72,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "d998aa1b-895e-46b6-a41d-03bec1892db7",
+   "name": "Bella villas 1 compound",
+   "category": "historic_site",
+   "km_straight": 4.29,
+   "confidence": 0.62,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "4d3d5eb3-2479-4fdb-ad9b-2846f7500e37",
+   "name": "Arabian Village Compound",
+   "category": "historic_site",
+   "km_straight": 4.44,
+   "confidence": 0.66,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "9082d562-5d59-4a91-9843-67e2a37840fa",
+   "name": "Al Saeed compound 2",
+   "category": "historic_site",
+   "km_straight": 4.56,
+   "confidence": 0.6,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "31cfecb2-ff68-49da-977e-632e98a09777",
+   "name": "Al-Ansari Compound",
+   "category": "historic_site",
+   "km_straight": 4.7,
+   "confidence": 0.62,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "c216bc40-d270-4bc8-963e-98b231a89136",
+   "name": "Macro Gardens",
+   "category": "historic_site",
+   "km_straight": 4.91,
+   "confidence": 0.4,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "8b0c2d1c-3a22-4d25-ab41-afbd413a0254",
+   "name": "Arabian Collections Gallery",
+   "category": "art_gallery",
+   "km_straight": 4.91,
+   "confidence": 0.19,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "86988675-2801-40ae-852e-f0d23f222de7",
+   "name": "Roudha Villas",
+   "category": "historic_site",
+   "km_straight": 5.03,
+   "confidence": 0.45,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "760f8b46-0c7f-485d-9046-a1c6b3ae9fb3",
+   "name": "Flowence Compound",
+   "category": "historic_site",
+   "km_straight": 5.14,
+   "confidence": 0.58,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "b1631be6-6aa1-4aa2-8c1d-b2fc88a891b0",
+   "name": "Pearl Compound",
+   "category": "historic_site",
+   "km_straight": 5.22,
+   "confidence": 0.62,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "a53592bd-2a66-4e72-b245-a3ff3df9dda4",
+   "name": "Shahad Tower برج شهد",
+   "category": "historic_site",
+   "km_straight": 5.25,
+   "confidence": 0.75,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "646b7b01-0688-4aa2-823f-bd9039c6b3cf",
+   "name": "البقعة",
+   "category": "historic_site",
+   "km_straight": 5.43,
+   "confidence": 0.47,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "1828ae68-45bf-4f18-ade4-4887039c4fc7",
+   "name": "غيابة الجب",
+   "category": "historic_site",
+   "km_straight": 5.62,
+   "confidence": 0.54,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "05a888c0-8bbb-45c4-b4ee-1f981f210cb2",
+   "name": "Al Khobar Saudi Arabia",
+   "category": "historic_site",
+   "km_straight": 5.97,
+   "confidence": 0.75,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "86f030d2-2500-48df-9730-94937791a9f5",
+   "name": "كمباوند ماربيلا",
+   "category": "historic_site",
+   "km_straight": 6.35,
+   "confidence": 0.95,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "ce4ecabf-3d49-41eb-b75c-8b34e2f94da9",
+   "name": "達蘭",
+   "category": "historic_site",
+   "km_straight": 6.7,
+   "confidence": 0.77,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "59350e93-4ed8-4308-93eb-0f15f327728b",
+   "name": "Apicorp",
+   "category": "historic_site",
+   "km_straight": 6.73,
+   "confidence": 0.64,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "5c0ae06b-00ee-4ffe-9233-084ebff10a8f",
+   "name": "شرفات التلال",
+   "category": "historic_site",
+   "km_straight": 6.98,
+   "confidence": 0.55,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "0f0c94e3-5e8d-49a7-8af9-8c5585215d83",
+   "name": "The View",
+   "category": "historic_site",
+   "km_straight": 7.47,
+   "confidence": 0.61,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "a96905fc-2fa0-41fe-8066-b6f690c0b090",
+   "name": "Al Rakah",
+   "category": "historic_site",
+   "km_straight": 7.47,
+   "confidence": 0.61,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "9f328c4f-bacd-4062-9836-5df3780301f2",
+   "name": "Transient Housing - building 2400",
+   "category": "historic_site",
+   "km_straight": 7.51,
+   "confidence": 0.45,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "b5bf2ef0-260d-4193-a82f-dcfc9a238fd8",
+   "name": "Oil Well 7",
+   "category": "historic_site",
+   "km_straight": 7.58,
+   "confidence": 0.6,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "317c9d71-62cb-411c-8016-a4d28e8c444d",
+   "name": "بيت الراكه",
+   "category": "historic_site",
+   "km_straight": 7.92,
+   "confidence": 0.4,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "4be22376-5b5d-4c7f-b9e8-bbb17ad19d58",
+   "name": "Al Mutlaq Compound",
+   "category": "historic_site",
+   "km_straight": 8.05,
+   "confidence": 0.66,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "7ba30cd2-589a-49d4-8e06-b23d294720bb",
+   "name": "عمارة 151",
+   "category": "historic_site",
+   "km_straight": 8.11,
+   "confidence": 0.58,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "4ead6c92-be9f-4680-98f2-f4d796f3ae51",
+   "name": "Ronda Residence Compound",
+   "category": "historic_site",
+   "km_straight": 8.16,
+   "confidence": 0.99,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "3d4a3716-4f06-4378-9d17-1cfd67d868c9",
+   "name": "Rakha Camp Zamil Shipyard",
+   "category": "historic_site",
+   "km_straight": 8.24,
+   "confidence": 0.62,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "e945aa0b-b348-4d9c-9206-b6c03f0ce2cc",
+   "name": "Saudi Aramco Oil Exhibit",
+   "category": "history_museum",
+   "km_straight": 8.63,
+   "confidence": 0.42,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "5b79be9b-d943-4782-9933-33b30bcd2cf3",
+   "name": "رتال ريزيدنس | Retal Residence",
+   "category": "historic_site",
+   "km_straight": 8.73,
+   "confidence": 0.95,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "123a43a9-1269-4d4f-969f-52395540a36b",
+   "name": "King Abdulaziz Center for World Culture",
+   "category": "cultural_center",
+   "km_straight": 8.83,
+   "confidence": 0.71,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "5edcb8c0-d1d9-4ee9-bf5c-38e43cad59de",
+   "name": "Ithra Museum Galleries",
+   "category": "museum",
+   "km_straight": 8.87,
+   "confidence": 0.85,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "0bcdd7ed-366b-4202-bec6-0209e65c3a98",
+   "name": "Childrens’ Museum",
+   "category": "museum",
+   "km_straight": 8.91,
+   "confidence": 0.97,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "6314793a-2b4c-4f51-af63-c539aa05c03e",
+   "name": "واحة الحيوان",
+   "category": "museum",
+   "km_straight": 8.94,
+   "confidence": 0.44,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "d0dc60da-0fc5-4fd1-9229-30b09b2e7774",
+   "name": "as safa",
+   "category": "historic_site",
+   "km_straight": 9.04,
+   "confidence": 0.37,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "26d3ca03-ee7f-4884-9da8-24ee68f107c5",
+   "name": "مركز الملك عبدالعزيز الثقافي العالمي KACWC",
+   "category": "science_museum",
+   "km_straight": 9.06,
+   "confidence": 0.77,
+   "source": "Foursquare",
+   "has_website": true
+  },
+  {
+   "id": "ae206178-16cc-4dfd-9e21-9b568bdff1ad",
+   "name": "Gulf Homes Compound",
+   "category": "historic_site",
+   "km_straight": 11.11,
+   "confidence": 0.68,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "e6810786-3683-4449-a994-20f654aaa922",
+   "name": "Olayan Kimberly Clark",
+   "category": "historic_site",
+   "km_straight": 11.23,
+   "confidence": 0.81,
+   "source": "meta",
+   "has_website": false
+  }
+ ],
+ "activity": [
+  {
+   "id": "315e6b2b-2c02-4e28-b8ca-621c78010f80",
+   "name": "Science Dome, Sultan Bin Abdulaziz Science & Technology Center",
+   "category": "movie_theater",
+   "km_straight": 0.81,
+   "confidence": 0.65,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "b4fdc657-c04d-44df-a47c-8edd7a87cc53",
+   "name": "Escape the Room | سكيب روم الخبر",
+   "category": "escape_room",
+   "km_straight": 0.82,
+   "confidence": 0.99,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "235a330d-8804-422b-aeba-d2ff6a7f4c32",
+   "name": "SENSAS Khobar",
+   "category": "amusement_park",
+   "km_straight": 0.9,
+   "confidence": 0.72,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "6905a4b4-bb43-41d4-b7cf-6b29d316bf9b",
+   "name": "القبة العلمية",
+   "category": "movie_theater",
+   "km_straight": 1.03,
+   "confidence": 0.44,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "93e0f816-e11c-4145-bc4a-d512670df025",
+   "name": "Enigma | Escape Room",
+   "category": "escape_room",
+   "km_straight": 1.57,
+   "confidence": 0.77,
+   "source": "Foursquare",
+   "has_website": true
+  },
+  {
+   "id": "6b7af723-ccbb-4620-b580-246e05f3d0b9",
+   "name": "Enigma Escape Room",
+   "category": "escape_room",
+   "km_straight": 1.6,
+   "confidence": 0.77,
+   "source": "Foursquare",
+   "has_website": true
+  },
+  {
+   "id": "7c1eebbf-28ba-4a98-aaed-fafe816dbf42",
+   "name": "Adas Cafe & Billiards",
+   "category": "pool_billiards",
+   "km_straight": 1.69,
+   "confidence": 0.38,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "c0d7016f-5f8b-4bbe-b581-3f794accead6",
+   "name": "مضمار الجري",
+   "category": "race_track",
+   "km_straight": 1.7,
+   "confidence": 0.64,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "66bc3089-8618-40e3-ae27-9631bc256a8b",
+   "name": "Empire Premiere",
+   "category": "movie_theater",
+   "km_straight": 2.03,
+   "confidence": 0.8,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "57837b5b-89f0-4ad2-90f9-f193ae7af049",
+   "name": "امباير سينما",
+   "category": "movie_theater",
+   "km_straight": 2.05,
+   "confidence": 0.96,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "f483fbdd-0826-4bde-97b1-d3b5df431e11",
+   "name": "تنسيق حدائق الدمام الخبر الظهران",
+   "category": "amusement_park",
+   "km_straight": 2.07,
+   "confidence": 0.52,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "d702486d-b886-47c5-820e-d528dc6d0b53",
+   "name": "Gosaibi Bowling",
+   "category": "bowling_alley",
+   "km_straight": 2.13,
+   "confidence": 0.68,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "6a97b78d-0f78-498c-bcb7-8c30890e5cff",
+   "name": "مسرح الراشد",
+   "category": "movie_theater",
+   "km_straight": 2.15,
+   "confidence": 0.49,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "59864918-764c-4e04-9925-4d01796b7542",
+   "name": "Bells billards cafe",
+   "category": "bowling_alley",
+   "km_straight": 2.17,
+   "confidence": 0.66,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "9be92ebf-00cb-4895-9bdb-9b6ba41d952e",
+   "name": "Traffic Safety Village",
+   "category": "race_track",
+   "km_straight": 2.19,
+   "confidence": 0.44,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "69cb05d7-be6c-4dc0-8e36-8554e5fafb5f",
+   "name": "Fun Oasis",
+   "category": "amusement_park",
+   "km_straight": 2.2,
+   "confidence": 0.86,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "345954f3-8329-404f-8c66-0e6a1c3b3512",
+   "name": "واحة المرح",
+   "category": "amusement_park",
+   "km_straight": 2.21,
+   "confidence": 0.74,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "4cb13cdb-f6a0-4635-a5fb-23e67849ecbc",
+   "name": "Khobar Legend Center for Billiards and Snooker",
+   "category": "pool_billiards",
+   "km_straight": 2.21,
+   "confidence": 0.4,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "9156f672-47a7-491c-a74a-e9b75c00a4ba",
+   "name": "International Billiards and Snooker Club",
+   "category": "pool_billiards",
+   "km_straight": 2.44,
+   "confidence": 0.91,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "394c2600-6b4d-4b74-914f-bc763a185ccd",
+   "name": "اي ام سي سينما",
+   "category": "movie_theater",
+   "km_straight": 2.81,
+   "confidence": 0.77,
+   "source": "Foursquare",
+   "has_website": true
+  },
+  {
+   "id": "d77de984-80f4-4055-a7ac-f16fd2d09ffa",
+   "name": "تشكي تشيز | Chuck E Cheese",
+   "category": "arcade",
+   "km_straight": 2.86,
+   "confidence": 0.98,
+   "source": "Microsoft",
+   "has_website": true
+  },
+  {
+   "id": "2e6eb8e8-039a-4531-baad-9fdc9d1ce0e1",
+   "name": "Muvi Suites",
+   "category": "movie_theater",
+   "km_straight": 2.97,
+   "confidence": 0.85,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "140e7744-3ecc-46f0-9165-640c03b0d517",
+   "name": "موڤي سينما",
+   "category": "movie_theater",
+   "km_straight": 3.03,
+   "confidence": 1.0,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "a5b15a90-9634-43ff-b486-6a3fa84280f7",
+   "name": "Easten Cinemas, Al-Khobar",
+   "category": "movie_theater",
+   "km_straight": 3.61,
+   "confidence": 0.82,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "405eea9a-df5f-4465-83e0-e56cc71c87f8",
+   "name": "Sparky's",
+   "category": "amusement_park",
+   "km_straight": 4.07,
+   "confidence": 0.85,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "878714e3-899d-4d2c-8ea7-521174a11206",
+   "name": "Escape Game",
+   "category": "escape_room",
+   "km_straight": 4.33,
+   "confidence": 0.65,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "7c677b4e-f1d1-4615-ad89-126f1607f2c0",
+   "name": "UnknownRoom",
+   "category": "escape_room",
+   "km_straight": 4.34,
+   "confidence": 0.93,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "c7afc951-3928-4bb6-9f26-23e98cb998b8",
+   "name": "Laith Bowling Alley",
+   "category": "bowling_alley",
+   "km_straight": 4.39,
+   "confidence": 0.76,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "cc450e47-5104-4a86-95cf-879bf6b076fb",
+   "name": "Bowling house - Saudi Aramco",
+   "category": "bowling_alley",
+   "km_straight": 5.51,
+   "confidence": 0.61,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "da006490-721a-48a1-9c44-bf75d0de987f",
+   "name": "KFUPM Movie Theater",
+   "category": "movie_theater",
+   "km_straight": 5.81,
+   "confidence": 0.59,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "de9af0df-a94e-4e44-85d5-cc430b623207",
+   "name": "نادي الأتفاق",
+   "category": "arcade",
+   "km_straight": 5.95,
+   "confidence": 0.79,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "8ba41e63-a6ec-414e-acc5-1f615b92a0e3",
+   "name": "Chuck E Cheese's Rakah Al-Khobar",
+   "category": "arcade",
+   "km_straight": 6.29,
+   "confidence": 0.73,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "f2635e15-7a91-4293-9af9-302c8cc784b1",
+   "name": "Dhahran Bowling Alley",
+   "category": "bowling_alley",
+   "km_straight": 7.0,
+   "confidence": 0.78,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "3c0b0130-7a1e-434d-9358-62fe52b4d7dd",
+   "name": "Q9 Cue Nine Billiard",
+   "category": "pool_billiards",
+   "km_straight": 7.38,
+   "confidence": 0.86,
+   "source": "meta",
+   "has_website": true
+  },
+  {
+   "id": "b6806d49-e3a2-48b4-ad51-85b36fc36ecd",
+   "name": "Ithra Theatre",
+   "category": "theatre_venue",
+   "km_straight": 8.89,
+   "confidence": 0.96,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "3649a463-687f-4d43-b697-79dba98aafde",
+   "name": "المملكة العربية السعودية",
+   "category": "performing_arts_venue",
+   "km_straight": 9.07,
+   "confidence": 0.59,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "6decd012-bece-4b69-b1d6-515a7fd0eb1d",
+   "name": "Paint Ball",
+   "category": "paintball",
+   "km_straight": 9.4,
+   "confidence": 0.58,
+   "source": "meta",
+   "has_website": false
+  },
+  {
+   "id": "8a251b82-db6d-467b-9a28-98eda645b656",
+   "name": "Escape The Room",
+   "category": "escape_room",
+   "km_straight": 9.45,
+   "confidence": 0.77,
+   "source": "Foursquare",
+   "has_website": true
+  }
+ ]
+}
