@@ -4,7 +4,7 @@ Prepared by Sol on 27 September 2026, after Opus commit `0201e31`.
 
 ## Current state
 
-The collector is ready and the collection heartbeat is active. **Zero of six scheduled passes have run.** At preparation time it was after 23:00 on 27 September in Riyadh. The fixed D1 window starts on 28 September and calls for a morning full pass, so tonight cannot count as D1.
+The collector is ready and the collection heartbeat is active. **One of six scheduled passes has run:** D1 full, on the morning of 28 September. See [the run note](RUN_2026-09-28_full.md). The D1 slots pass and both later dates remain pending.
 
 One separate transport diagnostic succeeded at **2026-09-27 23:17:38 +03:00**. A single GET to `https://api.escapetheroomsa.com/api/branches` returned HTTP 200 and a structurally valid JSON response, 1,015 bytes. See [diagnostic record](diagnostics/2026-09-27_access.json). This confirms access to that endpoint from this environment at that time. It does not establish access to every source, repeated reliability, reuse rights, or practical feasibility. It does not choose or pin rooms.
 
@@ -16,7 +16,7 @@ The Codex thread heartbeat `tbd-r02-3-collection` is active. The local system ti
 
 | Observation | Date in Riyadh | Full pass | Slots pass | Status at handoff |
 |---|---|---|---|---|
-| D1 | Monday 28 September 2026 | 09:00 | 15:00 | Scheduled, not collected |
+| D1 | Monday 28 September 2026 | Ran around 09:53 | 15:00 | Full pass complete; slots pass pending |
 | D2 | Friday 2 October 2026 | 09:00 | 15:00 | Scheduled, not collected |
 | D3 | Monday 5 October 2026 | 09:00 | 15:00 | Scheduled, not collected |
 
