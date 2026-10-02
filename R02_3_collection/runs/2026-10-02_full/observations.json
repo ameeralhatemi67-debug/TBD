@@ -1,0 +1,1944 @@
+{
+ "label": "FACTUAL PROJECTIONS of operator/provider responses; research only; rights unresolved",
+ "escape_branches": [
+  {
+   "id": 1,
+   "name": "Al Khobar 1",
+   "area": "Al Hizam Al Akhdar – Pepsi street",
+   "mapUrl": "https://www.google.com/maps?q=26.3055142,50.1945561"
+  },
+  {
+   "id": 2,
+   "name": "Al Riyadh",
+   "area": "Riyadh – Al Aqiq",
+   "mapUrl": "https://www.google.com/maps?q=24.7589698,46.6269246"
+  },
+  {
+   "id": 3,
+   "name": "Al Khobar 2 (Escape The Room+)",
+   "area": "Turki street- Korniash  – Khobar",
+   "mapUrl": "https://maps.app.goo.gl/oV3hwnSwo5yjH7Ag9"
+  }
+ ],
+ "escape_rooms_b1": [
+  {
+   "id": 1,
+   "name": "THE PRISON",
+   "slug": "the-prison-khobar",
+   "branchId": 1,
+   "minPlayers": 2,
+   "maxPlayers": 8,
+   "duration": 60,
+   "ageRestrictionFrom": 8,
+   "ageRestrictionTo": 80,
+   "priceDisplayText": null
+  },
+  {
+   "id": 2,
+   "name": "NIGHTMARE",
+   "slug": "nightmare-khobar",
+   "branchId": 1,
+   "minPlayers": 2,
+   "maxPlayers": 8,
+   "duration": 60,
+   "ageRestrictionFrom": null,
+   "ageRestrictionTo": null,
+   "priceDisplayText": null
+  },
+  {
+   "id": 3,
+   "name": "MAFIA KINGDOM",
+   "slug": "mafia-kingdom-khobar",
+   "branchId": 1,
+   "minPlayers": 2,
+   "maxPlayers": 8,
+   "duration": 60,
+   "ageRestrictionFrom": 8,
+   "ageRestrictionTo": 80,
+   "priceDisplayText": null
+  },
+  {
+   "id": 4,
+   "name": "Seven I",
+   "slug": "seven-I-khobar",
+   "branchId": 1,
+   "minPlayers": 3,
+   "maxPlayers": 8,
+   "duration": 60,
+   "ageRestrictionFrom": 8,
+   "ageRestrictionTo": 80,
+   "priceDisplayText": null
+  },
+  {
+   "id": 5,
+   "name": "THE BANK JOB",
+   "slug": "the-bank-job-khobar",
+   "branchId": 1,
+   "minPlayers": 2,
+   "maxPlayers": 8,
+   "duration": 60,
+   "ageRestrictionFrom": 8,
+   "ageRestrictionTo": 80,
+   "priceDisplayText": null
+  },
+  {
+   "id": 6,
+   "name": "BLACK & WHITE",
+   "slug": "black-and-white-khobar",
+   "branchId": 1,
+   "minPlayers": 2,
+   "maxPlayers": 8,
+   "duration": 60,
+   "ageRestrictionFrom": 8,
+   "ageRestrictionTo": 80,
+   "priceDisplayText": null
+  },
+  {
+   "id": 7,
+   "name": "Z-VIRUS",
+   "slug": "z-virus-khobar",
+   "branchId": 1,
+   "minPlayers": 2,
+   "maxPlayers": 8,
+   "duration": 60,
+   "ageRestrictionFrom": 8,
+   "ageRestrictionTo": 80,
+   "priceDisplayText": null
+  }
+ ],
+ "escape_rooms_b3": [
+  {
+   "id": 14,
+   "name": "The Clown",
+   "slug": "the-clown-khobar2",
+   "branchId": 3,
+   "minPlayers": 2,
+   "maxPlayers": 8,
+   "duration": 60,
+   "ageRestrictionFrom": 8,
+   "ageRestrictionTo": 80,
+   "priceDisplayText": null
+  },
+  {
+   "id": 16,
+   "name": "Tomb",
+   "slug": "tomb-khobar2",
+   "branchId": 3,
+   "minPlayers": 2,
+   "maxPlayers": 8,
+   "duration": 60,
+   "ageRestrictionFrom": 8,
+   "ageRestrictionTo": 80,
+   "priceDisplayText": null
+  },
+  {
+   "id": 17,
+   "name": "S.W.A.T.",
+   "slug": "s.w.a.t-khobar2",
+   "branchId": 3,
+   "minPlayers": 2,
+   "maxPlayers": 8,
+   "duration": 60,
+   "ageRestrictionFrom": 8,
+   "ageRestrictionTo": 80,
+   "priceDisplayText": null
+  },
+  {
+   "id": 18,
+   "name": "Mad House",
+   "slug": "the-mad-house-khobar2",
+   "branchId": 3,
+   "minPlayers": 2,
+   "maxPlayers": 8,
+   "duration": 60,
+   "ageRestrictionFrom": 8,
+   "ageRestrictionTo": 80,
+   "priceDisplayText": null
+  }
+ ],
+ "scitech_hours_ar": {
+  "time_bearing_lines": [
+   "9:00 صباحًا – 12:00 ظهرًا",
+   "4:00 مساءً – 9:00 مساءً",
+   "4:00 مساءً – 9:00 مساءً"
+  ],
+  "meta_description": null,
+  "note": "short factual lines only; full page kept local"
+ },
+ "scitech_hours_en": {
+  "time_bearing_lines": [
+   "9:00 AM – 12:00 PM",
+   "4:00 PM – 9:00 PM",
+   "4:00 PM – 9:00 PM"
+  ],
+  "meta_description": null,
+  "note": "short factual lines only; full page kept local"
+ },
+ "scitech_price_ar": {
+  "time_bearing_lines": [
+   "20.00",
+   "25.00",
+   "45.00",
+   "10.00",
+   "25.00",
+   "35.00"
+  ],
+  "meta_description": "النوع\t\t\tقاعة المعروضات\t\t\tالقبة العلمية IMAX\t\t\tالتذكرة الشاملة (قاعة المعروضات + القبة العلمية)\t\t\t\t\t\t\tالكبار\t\t\t23.00 ريال\t\t\t28.75 ريال\t\t\t46.00 ريال\t\t\t\t\t\t\tالصغار\t\t\t17.25 ريال\t\t\t23.00 ريال\t\t\t34.50 ريال\t\t\t\t\t\t\tالمجموعات 5 أشخاص وأكثر\t\t\t17.25 ريال\t\t\t23.00 ريال\t\t\t34.50 ريال\t\t\tملاحظة: الأسعار شاملة ضريبة ال",
+  "note": "short factual lines only; full page kept local"
+ },
+ "sparky_locations": {
+  "time_bearing_lines": [
+   "}, { threshold: 0.08, rootMargin: '0px 0px -20px 0px' });",
+   "map.fitBounds(group.getBounds().pad(0.15));"
+  ],
+  "meta_description": "Sparkysme is a premium indoor family entertainment center in Saudi Arabia offering safe, fun, and educational play zones",
+  "note": "short factual lines only; full page kept local"
+ },
+ "slots_r1_p4_2026-10-02": {
+  "observed_utc": "2026-10-02T06:03:43.099095+00:00",
+  "completeness": "unknown",
+  "completeness_basis": "no documented completeness guarantee; no pagination keys observed; empty or short lists are not proof of no sessions",
+  "slots": [
+   {
+    "startTime": "2026-10-02T09:30:00.0000000+03:00",
+    "endTime": "2026-10-02T10:30:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "287",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-02T10:45:00.0000000+03:00",
+    "endTime": "2026-10-02T11:45:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "288",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-02T12:00:00.0000000+03:00",
+    "endTime": "2026-10-02T13:00:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "289",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-02T13:15:00.0000000+03:00",
+    "endTime": "2026-10-02T14:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "290",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-02T14:30:00.0000000+03:00",
+    "endTime": "2026-10-02T15:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "291",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-02T15:45:00.0000000+03:00",
+    "endTime": "2026-10-02T16:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "292",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-02T17:00:00.0000000+03:00",
+    "endTime": "2026-10-02T18:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "293",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-02T18:15:00.0000000+03:00",
+    "endTime": "2026-10-02T19:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "294",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-02T19:30:00.0000000+03:00",
+    "endTime": "2026-10-02T20:30:00.0000000+03:00",
+    "status": "Booked",
+    "slot_id": "295",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-02T20:45:00.0000000+03:00",
+    "endTime": "2026-10-02T21:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "296",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-02T22:00:00.0000000+03:00",
+    "endTime": "2026-10-02T23:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "297",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-02T23:15:00.0000000+03:00",
+    "endTime": "2026-10-03T00:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "298",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-03T00:30:00.0000000+03:00",
+    "endTime": "2026-10-03T01:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "299",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-03T01:45:00.0000000+03:00",
+    "endTime": "2026-10-03T02:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "300",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-03T03:00:00.0000000+03:00",
+    "endTime": "2026-10-03T04:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "1670",
+    "amount": "580.00",
+    "currency": "SAR"
+   }
+  ]
+ },
+ "slots_r1_p2_2026-10-15": {
+  "observed_utc": "2026-10-02T06:03:45.404877+00:00",
+  "completeness": "unknown",
+  "completeness_basis": "no documented completeness guarantee; no pagination keys observed; empty or short lists are not proof of no sessions",
+  "slots": [
+   {
+    "startTime": "2026-10-15T08:15:00.0000000+03:00",
+    "endTime": "2026-10-15T09:15:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "481",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T09:30:00.0000000+03:00",
+    "endTime": "2026-10-15T10:30:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "482",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T10:45:00.0000000+03:00",
+    "endTime": "2026-10-15T11:45:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "483",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T12:00:00.0000000+03:00",
+    "endTime": "2026-10-15T13:00:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "484",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T13:15:00.0000000+03:00",
+    "endTime": "2026-10-15T14:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "485",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T14:30:00.0000000+03:00",
+    "endTime": "2026-10-15T15:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "486",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T15:45:00.0000000+03:00",
+    "endTime": "2026-10-15T16:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "487",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T17:00:00.0000000+03:00",
+    "endTime": "2026-10-15T18:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "488",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T18:15:00.0000000+03:00",
+    "endTime": "2026-10-15T19:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "489",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T19:30:00.0000000+03:00",
+    "endTime": "2026-10-15T20:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "490",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T20:45:00.0000000+03:00",
+    "endTime": "2026-10-15T21:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "491",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T22:00:00.0000000+03:00",
+    "endTime": "2026-10-15T23:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "492",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T23:15:00.0000000+03:00",
+    "endTime": "2026-10-16T00:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "493",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T00:30:00.0000000+03:00",
+    "endTime": "2026-10-16T01:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "494",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T01:45:00.0000000+03:00",
+    "endTime": "2026-10-16T02:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "495",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T03:00:00.0000000+03:00",
+    "endTime": "2026-10-16T04:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "1683",
+    "amount": "390.00",
+    "currency": "SAR"
+   }
+  ]
+ },
+ "slots_r1_p4_2026-10-15": {
+  "observed_utc": "2026-10-02T06:03:47.734032+00:00",
+  "completeness": "unknown",
+  "completeness_basis": "no documented completeness guarantee; no pagination keys observed; empty or short lists are not proof of no sessions",
+  "slots": [
+   {
+    "startTime": "2026-10-15T08:15:00.0000000+03:00",
+    "endTime": "2026-10-15T09:15:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "481",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T09:30:00.0000000+03:00",
+    "endTime": "2026-10-15T10:30:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "482",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T10:45:00.0000000+03:00",
+    "endTime": "2026-10-15T11:45:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "483",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T12:00:00.0000000+03:00",
+    "endTime": "2026-10-15T13:00:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "484",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T13:15:00.0000000+03:00",
+    "endTime": "2026-10-15T14:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "485",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T14:30:00.0000000+03:00",
+    "endTime": "2026-10-15T15:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "486",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T15:45:00.0000000+03:00",
+    "endTime": "2026-10-15T16:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "487",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T17:00:00.0000000+03:00",
+    "endTime": "2026-10-15T18:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "488",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T18:15:00.0000000+03:00",
+    "endTime": "2026-10-15T19:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "489",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T19:30:00.0000000+03:00",
+    "endTime": "2026-10-15T20:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "490",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T20:45:00.0000000+03:00",
+    "endTime": "2026-10-15T21:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "491",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T22:00:00.0000000+03:00",
+    "endTime": "2026-10-15T23:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "492",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T23:15:00.0000000+03:00",
+    "endTime": "2026-10-16T00:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "493",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T00:30:00.0000000+03:00",
+    "endTime": "2026-10-16T01:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "494",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T01:45:00.0000000+03:00",
+    "endTime": "2026-10-16T02:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "495",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T03:00:00.0000000+03:00",
+    "endTime": "2026-10-16T04:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "1683",
+    "amount": "580.00",
+    "currency": "SAR"
+   }
+  ]
+ },
+ "slots_r1_p2_2026-10-17": {
+  "observed_utc": "2026-10-02T06:03:50.045036+00:00",
+  "completeness": "unknown",
+  "completeness_basis": "no documented completeness guarantee; no pagination keys observed; empty or short lists are not proof of no sessions",
+  "slots": [
+   {
+    "startTime": "2026-10-17T08:15:00.0000000+03:00",
+    "endTime": "2026-10-17T09:15:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "511",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T09:30:00.0000000+03:00",
+    "endTime": "2026-10-17T10:30:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "512",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T10:45:00.0000000+03:00",
+    "endTime": "2026-10-17T11:45:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "513",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T12:00:00.0000000+03:00",
+    "endTime": "2026-10-17T13:00:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "514",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T13:15:00.0000000+03:00",
+    "endTime": "2026-10-17T14:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "515",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T14:30:00.0000000+03:00",
+    "endTime": "2026-10-17T15:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "516",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T15:45:00.0000000+03:00",
+    "endTime": "2026-10-17T16:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "517",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T17:00:00.0000000+03:00",
+    "endTime": "2026-10-17T18:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "518",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T18:15:00.0000000+03:00",
+    "endTime": "2026-10-17T19:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "519",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T19:30:00.0000000+03:00",
+    "endTime": "2026-10-17T20:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "520",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T20:45:00.0000000+03:00",
+    "endTime": "2026-10-17T21:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "521",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T22:00:00.0000000+03:00",
+    "endTime": "2026-10-17T23:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "522",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T23:15:00.0000000+03:00",
+    "endTime": "2026-10-18T00:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "523",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T00:30:00.0000000+03:00",
+    "endTime": "2026-10-18T01:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "524",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T01:45:00.0000000+03:00",
+    "endTime": "2026-10-18T02:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "525",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T03:00:00.0000000+03:00",
+    "endTime": "2026-10-18T04:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "1685",
+    "amount": "390.00",
+    "currency": "SAR"
+   }
+  ]
+ },
+ "slots_r1_p4_2026-10-17": {
+  "observed_utc": "2026-10-02T06:03:52.381794+00:00",
+  "completeness": "unknown",
+  "completeness_basis": "no documented completeness guarantee; no pagination keys observed; empty or short lists are not proof of no sessions",
+  "slots": [
+   {
+    "startTime": "2026-10-17T08:15:00.0000000+03:00",
+    "endTime": "2026-10-17T09:15:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "511",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T09:30:00.0000000+03:00",
+    "endTime": "2026-10-17T10:30:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "512",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T10:45:00.0000000+03:00",
+    "endTime": "2026-10-17T11:45:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "513",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T12:00:00.0000000+03:00",
+    "endTime": "2026-10-17T13:00:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "514",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T13:15:00.0000000+03:00",
+    "endTime": "2026-10-17T14:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "515",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T14:30:00.0000000+03:00",
+    "endTime": "2026-10-17T15:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "516",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T15:45:00.0000000+03:00",
+    "endTime": "2026-10-17T16:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "517",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T17:00:00.0000000+03:00",
+    "endTime": "2026-10-17T18:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "518",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T18:15:00.0000000+03:00",
+    "endTime": "2026-10-17T19:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "519",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T19:30:00.0000000+03:00",
+    "endTime": "2026-10-17T20:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "520",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T20:45:00.0000000+03:00",
+    "endTime": "2026-10-17T21:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "521",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T22:00:00.0000000+03:00",
+    "endTime": "2026-10-17T23:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "522",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T23:15:00.0000000+03:00",
+    "endTime": "2026-10-18T00:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "523",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T00:30:00.0000000+03:00",
+    "endTime": "2026-10-18T01:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "524",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T01:45:00.0000000+03:00",
+    "endTime": "2026-10-18T02:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "525",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T03:00:00.0000000+03:00",
+    "endTime": "2026-10-18T04:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "1685",
+    "amount": "580.00",
+    "currency": "SAR"
+   }
+  ]
+ },
+ "slots_r2_p2_2026-10-15": {
+  "observed_utc": "2026-10-02T06:03:54.705900+00:00",
+  "completeness": "unknown",
+  "completeness_basis": "no documented completeness guarantee; no pagination keys observed; empty or short lists are not proof of no sessions",
+  "slots": [
+   {
+    "startTime": "2026-10-15T08:00:00.0000000+03:00",
+    "endTime": "2026-10-15T09:00:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "2241",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T09:15:00.0000000+03:00",
+    "endTime": "2026-10-15T10:15:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "2242",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T10:30:00.0000000+03:00",
+    "endTime": "2026-10-15T11:30:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "2243",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T11:45:00.0000000+03:00",
+    "endTime": "2026-10-15T12:45:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "2244",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T13:00:00.0000000+03:00",
+    "endTime": "2026-10-15T14:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2245",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T14:15:00.0000000+03:00",
+    "endTime": "2026-10-15T15:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2246",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T15:30:00.0000000+03:00",
+    "endTime": "2026-10-15T16:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2247",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T16:45:00.0000000+03:00",
+    "endTime": "2026-10-15T17:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2248",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T18:00:00.0000000+03:00",
+    "endTime": "2026-10-15T19:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2249",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T19:15:00.0000000+03:00",
+    "endTime": "2026-10-15T20:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2250",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T20:30:00.0000000+03:00",
+    "endTime": "2026-10-15T21:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2251",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T21:45:00.0000000+03:00",
+    "endTime": "2026-10-15T22:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2252",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T23:00:00.0000000+03:00",
+    "endTime": "2026-10-16T00:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2253",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T00:15:00.0000000+03:00",
+    "endTime": "2026-10-16T01:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2254",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T01:30:00.0000000+03:00",
+    "endTime": "2026-10-16T02:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2255",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T02:45:00.0000000+03:00",
+    "endTime": "2026-10-16T03:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "3443",
+    "amount": "390.00",
+    "currency": "SAR"
+   }
+  ]
+ },
+ "slots_r2_p4_2026-10-15": {
+  "observed_utc": "2026-10-02T06:03:57.075162+00:00",
+  "completeness": "unknown",
+  "completeness_basis": "no documented completeness guarantee; no pagination keys observed; empty or short lists are not proof of no sessions",
+  "slots": [
+   {
+    "startTime": "2026-10-15T08:00:00.0000000+03:00",
+    "endTime": "2026-10-15T09:00:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "2241",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T09:15:00.0000000+03:00",
+    "endTime": "2026-10-15T10:15:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "2242",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T10:30:00.0000000+03:00",
+    "endTime": "2026-10-15T11:30:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "2243",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T11:45:00.0000000+03:00",
+    "endTime": "2026-10-15T12:45:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "2244",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T13:00:00.0000000+03:00",
+    "endTime": "2026-10-15T14:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2245",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T14:15:00.0000000+03:00",
+    "endTime": "2026-10-15T15:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2246",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T15:30:00.0000000+03:00",
+    "endTime": "2026-10-15T16:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2247",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T16:45:00.0000000+03:00",
+    "endTime": "2026-10-15T17:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2248",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T18:00:00.0000000+03:00",
+    "endTime": "2026-10-15T19:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2249",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T19:15:00.0000000+03:00",
+    "endTime": "2026-10-15T20:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2250",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T20:30:00.0000000+03:00",
+    "endTime": "2026-10-15T21:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2251",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T21:45:00.0000000+03:00",
+    "endTime": "2026-10-15T22:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2252",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T23:00:00.0000000+03:00",
+    "endTime": "2026-10-16T00:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2253",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T00:15:00.0000000+03:00",
+    "endTime": "2026-10-16T01:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2254",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T01:30:00.0000000+03:00",
+    "endTime": "2026-10-16T02:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2255",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T02:45:00.0000000+03:00",
+    "endTime": "2026-10-16T03:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "3443",
+    "amount": "580.00",
+    "currency": "SAR"
+   }
+  ]
+ },
+ "slots_r2_p2_2026-10-17": {
+  "observed_utc": "2026-10-02T06:03:59.427511+00:00",
+  "completeness": "unknown",
+  "completeness_basis": "no documented completeness guarantee; no pagination keys observed; empty or short lists are not proof of no sessions",
+  "slots": [
+   {
+    "startTime": "2026-10-17T08:00:00.0000000+03:00",
+    "endTime": "2026-10-17T09:00:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "2271",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T09:15:00.0000000+03:00",
+    "endTime": "2026-10-17T10:15:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "2272",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T10:30:00.0000000+03:00",
+    "endTime": "2026-10-17T11:30:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "2273",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T11:45:00.0000000+03:00",
+    "endTime": "2026-10-17T12:45:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "2274",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T13:00:00.0000000+03:00",
+    "endTime": "2026-10-17T14:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2275",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T14:15:00.0000000+03:00",
+    "endTime": "2026-10-17T15:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2276",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T15:30:00.0000000+03:00",
+    "endTime": "2026-10-17T16:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2277",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T16:45:00.0000000+03:00",
+    "endTime": "2026-10-17T17:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2278",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T18:00:00.0000000+03:00",
+    "endTime": "2026-10-17T19:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2279",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T19:15:00.0000000+03:00",
+    "endTime": "2026-10-17T20:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2280",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T20:30:00.0000000+03:00",
+    "endTime": "2026-10-17T21:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2281",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T21:45:00.0000000+03:00",
+    "endTime": "2026-10-17T22:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2282",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T23:00:00.0000000+03:00",
+    "endTime": "2026-10-18T00:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2283",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T00:15:00.0000000+03:00",
+    "endTime": "2026-10-18T01:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2284",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T01:30:00.0000000+03:00",
+    "endTime": "2026-10-18T02:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2285",
+    "amount": "390.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T02:45:00.0000000+03:00",
+    "endTime": "2026-10-18T03:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "3445",
+    "amount": "390.00",
+    "currency": "SAR"
+   }
+  ]
+ },
+ "slots_r2_p4_2026-10-17": {
+  "observed_utc": "2026-10-02T06:04:01.760871+00:00",
+  "completeness": "unknown",
+  "completeness_basis": "no documented completeness guarantee; no pagination keys observed; empty or short lists are not proof of no sessions",
+  "slots": [
+   {
+    "startTime": "2026-10-17T08:00:00.0000000+03:00",
+    "endTime": "2026-10-17T09:00:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "2271",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T09:15:00.0000000+03:00",
+    "endTime": "2026-10-17T10:15:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "2272",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T10:30:00.0000000+03:00",
+    "endTime": "2026-10-17T11:30:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "2273",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T11:45:00.0000000+03:00",
+    "endTime": "2026-10-17T12:45:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "2274",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T13:00:00.0000000+03:00",
+    "endTime": "2026-10-17T14:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2275",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T14:15:00.0000000+03:00",
+    "endTime": "2026-10-17T15:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2276",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T15:30:00.0000000+03:00",
+    "endTime": "2026-10-17T16:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2277",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T16:45:00.0000000+03:00",
+    "endTime": "2026-10-17T17:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2278",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T18:00:00.0000000+03:00",
+    "endTime": "2026-10-17T19:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2279",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T19:15:00.0000000+03:00",
+    "endTime": "2026-10-17T20:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2280",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T20:30:00.0000000+03:00",
+    "endTime": "2026-10-17T21:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2281",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T21:45:00.0000000+03:00",
+    "endTime": "2026-10-17T22:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2282",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T23:00:00.0000000+03:00",
+    "endTime": "2026-10-18T00:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2283",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T00:15:00.0000000+03:00",
+    "endTime": "2026-10-18T01:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2284",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T01:30:00.0000000+03:00",
+    "endTime": "2026-10-18T02:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "2285",
+    "amount": "580.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T02:45:00.0000000+03:00",
+    "endTime": "2026-10-18T03:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "3445",
+    "amount": "580.00",
+    "currency": "SAR"
+   }
+  ]
+ },
+ "slots_r14_p2_2026-10-15": {
+  "observed_utc": "2026-10-02T06:04:04.067690+00:00",
+  "completeness": "unknown",
+  "completeness_basis": "no documented completeness guarantee; no pagination keys observed; empty or short lists are not proof of no sessions",
+  "slots": [
+   {
+    "startTime": "2026-10-15T08:15:00.0000000+03:00",
+    "endTime": "2026-10-15T09:15:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "25153",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T09:30:00.0000000+03:00",
+    "endTime": "2026-10-15T10:30:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "25154",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T10:45:00.0000000+03:00",
+    "endTime": "2026-10-15T11:45:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "25155",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T12:00:00.0000000+03:00",
+    "endTime": "2026-10-15T13:00:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "25156",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T13:15:00.0000000+03:00",
+    "endTime": "2026-10-15T14:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25157",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T14:30:00.0000000+03:00",
+    "endTime": "2026-10-15T15:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25158",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T15:45:00.0000000+03:00",
+    "endTime": "2026-10-15T16:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25159",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T17:00:00.0000000+03:00",
+    "endTime": "2026-10-15T18:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25160",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T18:15:00.0000000+03:00",
+    "endTime": "2026-10-15T19:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25161",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T19:30:00.0000000+03:00",
+    "endTime": "2026-10-15T20:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25162",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T20:45:00.0000000+03:00",
+    "endTime": "2026-10-15T21:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25163",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T22:00:00.0000000+03:00",
+    "endTime": "2026-10-15T23:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25164",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T23:15:00.0000000+03:00",
+    "endTime": "2026-10-16T00:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25165",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T00:30:00.0000000+03:00",
+    "endTime": "2026-10-16T01:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25166",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T01:45:00.0000000+03:00",
+    "endTime": "2026-10-16T02:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25167",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T03:00:00.0000000+03:00",
+    "endTime": "2026-10-16T04:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25168",
+    "amount": "400.00",
+    "currency": "SAR"
+   }
+  ]
+ },
+ "slots_r14_p4_2026-10-15": {
+  "observed_utc": "2026-10-02T06:04:06.413132+00:00",
+  "completeness": "unknown",
+  "completeness_basis": "no documented completeness guarantee; no pagination keys observed; empty or short lists are not proof of no sessions",
+  "slots": [
+   {
+    "startTime": "2026-10-15T08:15:00.0000000+03:00",
+    "endTime": "2026-10-15T09:15:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "25153",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T09:30:00.0000000+03:00",
+    "endTime": "2026-10-15T10:30:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "25154",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T10:45:00.0000000+03:00",
+    "endTime": "2026-10-15T11:45:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "25155",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T12:00:00.0000000+03:00",
+    "endTime": "2026-10-15T13:00:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "25156",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-15T13:15:00.0000000+03:00",
+    "endTime": "2026-10-15T14:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25157",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T14:30:00.0000000+03:00",
+    "endTime": "2026-10-15T15:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25158",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T15:45:00.0000000+03:00",
+    "endTime": "2026-10-15T16:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25159",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T17:00:00.0000000+03:00",
+    "endTime": "2026-10-15T18:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25160",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T18:15:00.0000000+03:00",
+    "endTime": "2026-10-15T19:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25161",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T19:30:00.0000000+03:00",
+    "endTime": "2026-10-15T20:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25162",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T20:45:00.0000000+03:00",
+    "endTime": "2026-10-15T21:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25163",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T22:00:00.0000000+03:00",
+    "endTime": "2026-10-15T23:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25164",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-15T23:15:00.0000000+03:00",
+    "endTime": "2026-10-16T00:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25165",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T00:30:00.0000000+03:00",
+    "endTime": "2026-10-16T01:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25166",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T01:45:00.0000000+03:00",
+    "endTime": "2026-10-16T02:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25167",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-16T03:00:00.0000000+03:00",
+    "endTime": "2026-10-16T04:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25168",
+    "amount": "640.00",
+    "currency": "SAR"
+   }
+  ]
+ },
+ "slots_r14_p2_2026-10-17": {
+  "observed_utc": "2026-10-02T06:04:08.764593+00:00",
+  "completeness": "unknown",
+  "completeness_basis": "no documented completeness guarantee; no pagination keys observed; empty or short lists are not proof of no sessions",
+  "slots": [
+   {
+    "startTime": "2026-10-17T08:15:00.0000000+03:00",
+    "endTime": "2026-10-17T09:15:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "25185",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T09:30:00.0000000+03:00",
+    "endTime": "2026-10-17T10:30:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "25186",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T10:45:00.0000000+03:00",
+    "endTime": "2026-10-17T11:45:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "25187",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T12:00:00.0000000+03:00",
+    "endTime": "2026-10-17T13:00:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "25188",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T13:15:00.0000000+03:00",
+    "endTime": "2026-10-17T14:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25189",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T14:30:00.0000000+03:00",
+    "endTime": "2026-10-17T15:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25190",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T15:45:00.0000000+03:00",
+    "endTime": "2026-10-17T16:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25191",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T17:00:00.0000000+03:00",
+    "endTime": "2026-10-17T18:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25192",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T18:15:00.0000000+03:00",
+    "endTime": "2026-10-17T19:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25193",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T19:30:00.0000000+03:00",
+    "endTime": "2026-10-17T20:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25194",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T20:45:00.0000000+03:00",
+    "endTime": "2026-10-17T21:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25195",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T22:00:00.0000000+03:00",
+    "endTime": "2026-10-17T23:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25196",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T23:15:00.0000000+03:00",
+    "endTime": "2026-10-18T00:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25197",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T00:30:00.0000000+03:00",
+    "endTime": "2026-10-18T01:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25198",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T01:45:00.0000000+03:00",
+    "endTime": "2026-10-18T02:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25199",
+    "amount": "400.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T03:00:00.0000000+03:00",
+    "endTime": "2026-10-18T04:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25200",
+    "amount": "400.00",
+    "currency": "SAR"
+   }
+  ]
+ },
+ "slots_r14_p4_2026-10-17": {
+  "observed_utc": "2026-10-02T06:04:11.126181+00:00",
+  "completeness": "unknown",
+  "completeness_basis": "no documented completeness guarantee; no pagination keys observed; empty or short lists are not proof of no sessions",
+  "slots": [
+   {
+    "startTime": "2026-10-17T08:15:00.0000000+03:00",
+    "endTime": "2026-10-17T09:15:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "25185",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T09:30:00.0000000+03:00",
+    "endTime": "2026-10-17T10:30:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "25186",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T10:45:00.0000000+03:00",
+    "endTime": "2026-10-17T11:45:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "25187",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T12:00:00.0000000+03:00",
+    "endTime": "2026-10-17T13:00:00.0000000+03:00",
+    "status": "BeforeOpen",
+    "slot_id": "25188",
+    "amount": null,
+    "currency": null
+   },
+   {
+    "startTime": "2026-10-17T13:15:00.0000000+03:00",
+    "endTime": "2026-10-17T14:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25189",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T14:30:00.0000000+03:00",
+    "endTime": "2026-10-17T15:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25190",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T15:45:00.0000000+03:00",
+    "endTime": "2026-10-17T16:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25191",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T17:00:00.0000000+03:00",
+    "endTime": "2026-10-17T18:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25192",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T18:15:00.0000000+03:00",
+    "endTime": "2026-10-17T19:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25193",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T19:30:00.0000000+03:00",
+    "endTime": "2026-10-17T20:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25194",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T20:45:00.0000000+03:00",
+    "endTime": "2026-10-17T21:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25195",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T22:00:00.0000000+03:00",
+    "endTime": "2026-10-17T23:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25196",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-17T23:15:00.0000000+03:00",
+    "endTime": "2026-10-18T00:15:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25197",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T00:30:00.0000000+03:00",
+    "endTime": "2026-10-18T01:30:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25198",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T01:45:00.0000000+03:00",
+    "endTime": "2026-10-18T02:45:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25199",
+    "amount": "640.00",
+    "currency": "SAR"
+   },
+   {
+    "startTime": "2026-10-18T03:00:00.0000000+03:00",
+    "endTime": "2026-10-18T04:00:00.0000000+03:00",
+    "status": "Available",
+    "slot_id": "25200",
+    "amount": "640.00",
+    "currency": "SAR"
+   }
+  ]
+ }
+}
