@@ -19,7 +19,7 @@ The project is in concept development. There is no application yet. Research uti
 11. [R05: query intent and evaluation seed](R05_Query_Intent_and_Evaluation_Seed.md) (provisional)
 12. [R02.2: source-access recovery (Sol)](R02_2_Source_Access_Recovery_and_Review.md)
 13. [R06: retrieval and feasibility design](R06_Retrieval_and_Feasibility_Design.md) (bounded, with an [offline research harness](R06_research_harness/check_harness.py))
-14. [R02.3 collection plan and collector](R02_3_collection/plan.json), with [Sol's execution handoff](R02_3_collection/SOL_HANDOFF.md) ([D1 full](R02_3_collection/RUN_2026-09-28_full.md), [D1 repeat](R02_3_collection/RUN_2026-09-28_slots.md), and [D2 full](R02_3_collection/RUN_2026-10-02_full.md) completed; three passes pending)
+14. [R02.3 collection plan and collector](R02_3_collection/plan.json), with [Sol's execution handoff](R02_3_collection/SOL_HANDOFF.md) ([D1 full](R02_3_collection/RUN_2026-09-28_full.md), [D1 repeat](R02_3_collection/RUN_2026-09-28_slots.md), [D2 full](R02_3_collection/RUN_2026-10-02_full.md) and [D2 repeat](R02_3_collection/RUN_2026-10-02_slots.md) completed; final date pending)
 15. [R00 pilot execution kit](R00_Pilot_Execution_Kit.md) (8-person directional pilot; not yet run)
 
 R01.2 corrects the operating-model assumptions in R01. R02 supplies bounded measurements, not proof that the product or launch geography is validated. Follow the revised research numbering in the later reports rather than v0.1's original numbering.
