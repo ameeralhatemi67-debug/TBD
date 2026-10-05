@@ -4,7 +4,7 @@ Prepared by Sol on 27 September 2026, after Opus commit `0201e31`.
 
 ## Current state
 
-The collector is ready and the collection heartbeat is active. **Five of six planned passes have run:** both D1 passes, both D2 passes, and the [D3 morning pass](RUN_2026-10-05_full.md). The D3 repeat remains pending. The D3 price-page check found a material Scitech table change that needs human review.
+**All six planned passes are complete.** The collection heartbeat was paused on 5 October 2026. See the [three-date findings](R02_3_Three_Date_Findings.md), the [D3 morning pass](RUN_2026-10-05_full.md), and the [D3 repeat](RUN_2026-10-05_slots.md). The D3 price-page check found a material Scitech table change that needs human review.
 
 One separate transport diagnostic succeeded at **2026-09-27 23:17:38 +03:00**. A single GET to `https://api.escapetheroomsa.com/api/branches` returned HTTP 200 and a structurally valid JSON response, 1,015 bytes. See [diagnostic record](diagnostics/2026-09-27_access.json). This confirms access to that endpoint from this environment at that time. It does not establish access to every source, repeated reliability, reuse rights, or practical feasibility. It does not choose or pin rooms.
 
@@ -12,13 +12,13 @@ The diagnostic's response body stays in the ignored `.local_source_checks/R02_3/
 
 ## Scheduled observations
 
-The Codex thread heartbeat `tbd-r02-3-collection` is active. Its recurrence uses UTC. After the early D1 repeat, it was corrected to **06:00 and 12:00 UTC**, corresponding to 09:00 and 15:00 Riyadh. The local system timezone was checked as UTC+03:00, Kuwait/Riyadh.
+The Codex thread heartbeat `tbd-r02-3-collection` is paused. Its recurrence used UTC. After the early D1 repeat, it was corrected to **06:00 and 12:00 UTC**, corresponding to 09:00 and 15:00 Riyadh. The local system timezone was checked as UTC+03:00, Kuwait/Riyadh.
 
 | Observation | Date in Riyadh | Full pass | Slots pass | Status at handoff |
 |---|---|---|---|---|
 | D1 | Monday 28 September 2026 | Ran around 09:53 | Ran around 12:01 | Both passes complete; repeat occurred earlier than intended |
 | D2 | Friday 2 October 2026 | Ran around 09:01-09:04 | Ran around 15:01 | Both passes complete |
-| D3 | Monday 5 October 2026 | Ran around 09:01-09:03 | 15:00 | Full pass complete; slots pass pending |
+| D3 | Monday 5 October 2026 | Ran around 09:01-09:03 | Ran around 15:01 | Both passes complete |
 
 D2 is a weekend date. D3 is seven days after D1. Both session dates, 15 and 17 October, remain in the future. The schedule ends after the final slots pass.
 
